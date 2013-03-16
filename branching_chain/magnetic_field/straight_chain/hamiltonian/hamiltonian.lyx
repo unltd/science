@@ -60,40 +60,20 @@
 \begin_body
 
 \begin_layout Standard
-As we said the rings contact points must satisfy delta-coupling condition.
- For (j-1)-th to j-th ring contact coupling conditions are following:
-\end_layout
 
-\begin_layout Standard
-\begin_inset Formula $\psi_{j-1}(\pi)=\psi_{j}(0)=\psi$
-\end_inset
-
-
-\begin_inset CommandInset label
-LatexCommand label
-name "(delta-1)"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $-i\hat{p}\psi_{j-1}(\pi)-i\hat{p}\phi_{j-1}(\pi)+i\hat{p}\psi_{j}(0)+i\hat{p}\phi_{j}(0)=\alpha\psi$
-\end_inset
-
-
-\begin_inset CommandInset label
-LatexCommand label
-name "(delta-2)"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Presented wavefunction components have following values at the contact point:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+In remark about impulse operator on ring in magnetic field we have already
+ obtained following representation of it:
 \end_layout
 
 \begin_layout Standard
@@ -109,26 +89,80 @@ Presented wavefunction components have following values at the contact point:
 \uwave off
 \noun off
 \color none
-\begin_inset Formula $\psi_{j-1}(\pi)=C_{j-1}^{+}e^{ik\pi}+C_{j-1}^{-}e^{-ik\pi}$
+\begin_inset Formula 
+\[
+\hat{p}=\frac{1}{i}\frac{d}{dx}\pm\Phi
+\]
+
 \end_inset
 
-,
+wher '+' used for clockwise directed arcs and '-' for counter-clockwise
+ directed arcs.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\psi_{j}(0)=C_{j}^{+}+C_{j}^{-}$
+Since the magnetic field is not patential the partcle's energy can be computed
+ as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E=\frac{p^{2}}{2m}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $p$
+\end_inset
+
+ and 
+\begin_inset Formula $m$
+\end_inset
+
+ is partcle's impulse and mass respectively.
+ In order to compute the particle's Hamiltonian we should just rewrite this
+ relation for corresponding operators:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{H}=\frac{\hat{p}^{2}}{2m}=\frac{1}{2m}(\frac{1}{i}\frac{d}{dx}+\Phi)^{2}=\frac{1}{2m}(-\frac{d^{2}}{dx^{2}}+\frac{2\Phi}{i}\frac{d}{dx}+\Phi^{2})$
 \end_inset
 
 .
+ Remembering that we have put 
+\begin_inset Formula $2m=1$
+\end_inset
+
+ we obtain the final view of particle's energy operator:
 \end_layout
 
 \begin_layout Standard
-Let now take a look at the second condition.
- The operator 
-\begin_inset Formula $i\hat{p}$
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\hat{H}=-\frac{d^{2}}{dx^{2}}+\frac{2\Phi}{i}\frac{d}{dx}+\Phi^{2}.
+\]
+
 \end_inset
 
- acts following way:
+
 \end_layout
 
 \end_body

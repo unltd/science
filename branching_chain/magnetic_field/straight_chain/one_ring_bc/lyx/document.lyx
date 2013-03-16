@@ -70,7 +70,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../прямая цепочка колец.png
+	filename /home/pavel/Документы/science/svn/branching_chain/magnetic_field/straight_chain/one_ring_bc/images/straight_chain.png
 
 \end_inset
 
@@ -442,6 +442,30 @@ right).
 
 $$
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It can be rewriten in matrix form:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(\begin{array}{c}
+D_{j}^{+}\\
+D_{j}^{-}
+\end{array}\right)=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(\begin{array}{cc}
+e^{i(k-\Phi)\pi}-e^{-i(k-\Phi)\pi} & e^{-ik\pi}(e^{-ik\Phi}-e^{ik\Phi})\\
+e^{ik\pi}(e^{-ik\Phi}-e^{ik\Phi}) & e^{-i(k+\Phi)\pi}-e^{i(k+\Phi)\pi}
+\end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)
+\]
 
 \end_inset
 

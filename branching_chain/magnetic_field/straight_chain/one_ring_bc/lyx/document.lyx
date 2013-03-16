@@ -94,17 +94,10 @@ Let now consider the straight semi-infinite chain of rings with delta-coupling
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$
-\backslash
-psi_j(x) = (C^+_j e^{i k x} + C^-_j e^{- i k x}) e^{- i 
-\backslash
-Phi x}$$
-\end_layout
+\begin_inset Formula 
+\[
+\psi_{j}(x)=(C_{j}^{+}e^{ikx}+C_{j}^{-}e^{-ikx})e^{-i\Phi x}
+\]
 
 \end_inset
 
@@ -112,17 +105,10 @@ Phi x}$$
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$
-\backslash
-phi_j(x) = (D^+_j e^{i k x} + D^-_j e^{- i k x}) e^{i 
-\backslash
-Phi x}$$
-\end_layout
+\begin_inset Formula 
+\[
+\phi_{j}(x)=(D_{j}^{+}e^{ikx}+D_{j}^{-}e^{-ikx})e^{i\Phi x}
+\]
 
 \end_inset
 
@@ -135,58 +121,21 @@ At the boundary points those components have following values
 
 \begin_layout Standard
 for 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$
-\backslash
-psi_j$
-\end_layout
-
+\begin_inset Formula $\psi_{j}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$
-\backslash
-psi_j(0) = C^+_j + C^-_j,$$
-\end_layout
-
+\begin_inset Formula $\psi_{j}(0)=C_{j}^{+}+C_{j}^{-},$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$
-\backslash
-psi_j(
-\backslash
-pi) = (C^+_j e^{i k 
-\backslash
-pi} + C^-_j e^{- i k 
-\backslash
-pi}) e^{- i 
-\backslash
-Phi 
-\backslash
-pi},$$
-\end_layout
-
+\begin_inset Formula $\psi_{j}(\pi)=(C_{j}^{+}e^{ik\pi}+C_{j}^{-}e^{-ik\pi})e^{-i\Phi\pi},$
 \end_inset
 
 
@@ -194,58 +143,21 @@ pi},$$
 
 \begin_layout Standard
 and for 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$
-\backslash
-phi_j$
-\end_layout
-
+\begin_inset Formula $\phi_{j}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$
-\backslash
-phi_j(0) = C^+_j + C^-_j,$$
-\end_layout
-
+\begin_inset Formula $\phi_{j}(0)=C_{j}^{+}+C_{j}^{-}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$
-\backslash
-phi_j(
-\backslash
-pi) = (C^+_j e^{i k 
-\backslash
-pi} + C^-_j e^{- i k 
-\backslash
-pi}) e^{- i 
-\backslash
-Phi 
-\backslash
-pi}.$$
-\end_layout
-
+\begin_inset Formula $\phi_{j}(\pi)=(D_{j}^{+}e^{ik\pi}+D_{j}^{-}e^{-ik\pi})e^{-i\Phi\pi}$
 \end_inset
 
 
@@ -257,40 +169,14 @@ As delta-copling demands the components values at the contact poins of the
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$
-\backslash
-psi_j(0) = 
-\backslash
-phi_j(0)$$
-\end_layout
-
+\begin_inset Formula $\psi_{j}(0)=\phi_{j}(0)$
 \end_inset
 
 and
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$
-\backslash
-psi_j(
-\backslash
-pi) = 
-\backslash
-phi_j(
-\backslash
-pi).$$
-\end_layout
-
+\begin_inset Formula $\psi_{j}(\pi)=\phi_{j}(\pi).$
 \end_inset
 
 
@@ -301,73 +187,10 @@ Solving this pair of equations we arrive at the relation between coeffitients:
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$
-\end_layout
-
-\begin_layout Plain Layout
-
-D^+_j = (e^{i k 
-\backslash
-pi} - e^{-i k 
-\backslash
-pi})^{-1} e^{-i 
-\backslash
-Phi 
-\backslash
-pi}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-left(
-\end_layout
-
-\begin_layout Plain Layout
-
-C^+_j (e^{i (k - 
-\backslash
-Phi) 
-\backslash
-pi} - e^{-i (k - 
-\backslash
-Phi) 
-\backslash
-pi}) +
-\end_layout
-
-\begin_layout Plain Layout
-
-C^-_j e^{-i k 
-\backslash
-pi} (e^{-i 
-\backslash
-Phi 
-\backslash
-pi} - e^{i 
-\backslash
-Phi 
-\backslash
-pi}))
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-right),
-\end_layout
-
-\begin_layout Plain Layout
-
-$$
-\end_layout
+\begin_inset Formula 
+\[
+D_{j}^{+}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}(e^{i(k-\Phi)\pi}-e^{-i(k-\Phi)\pi})+C_{j}^{-}e^{-ik\pi}(e^{-i\Phi\pi}-e^{i\Phi\pi}))\right),
+\]
 
 \end_inset
 
@@ -375,73 +198,10 @@ $$
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-$$
-\end_layout
-
-\begin_layout Plain Layout
-
-D^-_j = (e^{i k 
-\backslash
-pi} - e^{-i k 
-\backslash
-pi})^{-1} e^{-i 
-\backslash
-Phi 
-\backslash
-pi}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-left(
-\end_layout
-
-\begin_layout Plain Layout
-
-C^+_j e^{i k 
-\backslash
-pi} (e^{-i 
-\backslash
-Phi 
-\backslash
-pi} - e^{i 
-\backslash
-Phi 
-\backslash
-pi}) +
-\end_layout
-
-\begin_layout Plain Layout
-
-C^-_j (e^{-i (k + 
-\backslash
-Phi) 
-\backslash
-pi} - e^{i (k + 
-\backslash
-Phi) 
-\backslash
-pi})
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-right).
-\end_layout
-
-\begin_layout Plain Layout
-
-$$
-\end_layout
+\begin_inset Formula 
+\[
+D_{j}^{-}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}e^{ik\pi}(e^{-i\Phi\pi}-e^{i\Phi\pi})+C_{j}^{-}(e^{-i(k+\Phi)\pi}-e^{i(k+\Phi)\pi})\right).
+\]
 
 \end_inset
 

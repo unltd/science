@@ -1,0 +1,153 @@
+% This file was created with JabRef 2.7b.
+% Encoding: UTF-8
+
+@ARTICLE{E.Korotyaev2000,
+  author = {E.Korotyaev},
+  journal = {Commun. Math.Phys.},
+  year = {2000},
+  volume = {213},
+  pages = {471},
+  owner = {pavel},
+  timestamp = {2012.06.09}
+}
+
+@ARTICLE{E.S.Trifanova2009,
+  author = {E.S.Trifanova},
+  journal = {Tech. Fyz.},
+  year = {2009},
+  volume = {35},
+  pages = {60},
+  owner = {pavel},
+  timestamp = {2012.06.09}
+}
+
+@ARTICLE{I.Yu.Popov2000,
+  author = {I.Yu.Popov},
+  journal = {Phys. Lett. A},
+  year = {2000},
+  volume = {296},
+  pages = {148},
+  owner = {pavel},
+  timestamp = {2012.06.09}
+}
+
+@ARTICLE{J.Bruning2005,
+  author = {J.Bruning, V.A.Geyler, I.S.Lobanov},
+  journal = {Math. Notes},
+  year = {2005},
+  volume = {77},
+  pages = {932},
+  owner = {pavel},
+  timestamp = {2012.06.09}
+}
+
+@ARTICLE{M.Aizenman2000,
+  author = {M.Aizenman, J.H.Schenker},
+  journal = {Lett. Math. Phys.},
+  year = {2000},
+  volume = {53},
+  pages = {253},
+  owner = {pavel},
+  timestamp = {2012.06.09}
+}
+
+@BOOK{M.S.Birman1986,
+  title = {Spectral Theory of Self-Adjoint Operators in Hilbert Space},
+  publisher = {D. Reidel Publishing Company, Dordrecht},
+  year = {1986},
+  author = {M.S.Birman, M.Z.Solomjak},
+  owner = {pavel},
+  timestamp = {2012.06.11}
+}
+
+@ARTICLE{N.Bagraev2011,
+  author = {N.Bagraev, G.Martin, B.Pavlov, A.Yafyasov},
+  title = {Landau-Zener effect for a quasi-2D periodic sandwich},
+  journal = {Nanosystems: Phys., Chem., Math.},
+  year = {2011},
+  volume = {2},
+  pages = {32},
+  owner = {pavel},
+  timestamp = {2012.06.11}
+}
+
+@ARTICLE{N.I.Gerasimenko1988,
+  author = {N.I.Gerasimenko, B.S.Pavlov},
+  journal = {Teor. Mat. Fiz.},
+  year = {1988},
+  volume = {74},
+  owner = {pavel},
+  timestamp = {2012.06.09}
+}
+
+@ARTICLE{P.Duclos1995,
+  author = {P.Duclos, P.Exner.},
+  journal = {Rev. Math. Phys.},
+  year = {1995},
+  volume = {7},
+  pages = {73},
+  owner = {pavel},
+  timestamp = {2012.06.09}
+}
+
+@ARTICLE{P.Duclos2008,
+  author = {P.Duclos, P.Exner and O.Turek},
+  title = {On the spectrum of a bent chain graph},
+  journal = {J. Physics A: Math. Theor.},
+  year = {2008},
+  volume = {41},
+  pages = {4152006},
+  owner = {pavel},
+  timestamp = {2012.06.09}
+}
+
+@ARTICLE{P.Exner2008,
+  author = {P.Exner, J.P.Keating, P.Kuchment, T.Sunada, A.Teplyaev},
+  title = {On Graphs and Its Applications},
+  journal = {AMS, Providence, RI},
+  year = {2008},
+  owner = {pavel},
+  timestamp = {2012.06.09}
+}
+
+@ARTICLE{P.Kuchment2005,
+  author = {P.Kuchment},
+  journal = {J. Phys. A: Math. Gen.},
+  year = {2005},
+  volume = {38},
+  pages = {4887},
+  owner = {pavel},
+  timestamp = {2012.06.09}
+}
+
+@ARTICLE{P.Kurasov2007,
+  author = {P.Kurasov, J.Larsen},
+  journal = {J.Math.Anal.Appl.},
+  year = {2007},
+  volume = {213},
+  pages = {471},
+  owner = {pavel},
+  timestamp = {2012.06.09}
+}
+
+@BOOK{S.Albeverio1988,
+  title = {Solvable models in quantum mecganics},
+  publisher = {Springer, Berlin},
+  year = {1988},
+  author = {S.Albeverio, F.Gesztesy, R.Hoegh-Krohn and H.Holden},
+  owner = {pavel},
+  timestamp = {2012.06.11}
+}
+
+@comment{jabref-meta: selector_review:}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_number:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_keywords:}
+

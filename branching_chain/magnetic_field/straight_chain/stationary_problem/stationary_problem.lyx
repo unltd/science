@@ -84,7 +84,7 @@ in order to describe system's behaviour.
 \begin_layout Standard
 \begin_inset Formula 
 \[
-(-\frac{d^{2}}{dx^{2}}+\frac{2\Phi}{i}\frac{d}{dx}+\Phi^{2})\psi=E\psi.
+(-\frac{d^{2}}{dx^{2}}\pm\frac{2\Phi}{i}\frac{d}{dx}+\Phi^{2})\psi=E\psi.
 \]
 
 \end_inset
@@ -99,7 +99,7 @@ In order to obtain eigenfunctions we can employ the characteristic polynomial:
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\chi(\lambda)=-\lambda^{2}-i2\Phi\lambda+\Phi^{2}-E.
+\chi(\lambda)=-\lambda^{2}\mp i2\Phi\lambda+\Phi^{2}-E.
 \]
 
 \end_inset
@@ -112,15 +112,15 @@ Let us now find roots of this polynomial:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $-\lambda^{2}-i2\Phi\lambda+(\Phi^{2}-E)=0$
+\begin_inset Formula $-\lambda^{2}\mp i2\Phi\lambda+(\Phi^{2}-E)=0$
 \end_inset
 
 , 
-\begin_inset Formula $\lambda^{2}+i2\Phi\lambda-\Phi^{2}+E=0$
+\begin_inset Formula $\lambda^{2}\pm i2\Phi\lambda-\Phi^{2}+E=0$
 \end_inset
 
 , 
-\begin_inset Formula $(\lambda+i\Phi)^{2}=-E$
+\begin_inset Formula $(\lambda\pm i\Phi)^{2}=-E$
 \end_inset
 
 .
@@ -130,7 +130,7 @@ Let us now find roots of this polynomial:
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\lambda_{1,2}=-i\Phi\pm ik
+\lambda_{1,2}=\mp i\Phi\pm ik
 \]
 
 \end_inset
@@ -144,11 +144,41 @@ where
 \end_inset
 
 .
- So the solution sholud have the following view:
+ The sign '-' before 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $i\Phi$
+\end_inset
+
+corresponds to clockwise directed arcs and '+' to counter-clockwise directed
+ arcs.
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ Thus the solution sholud have the following view:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\psi(x)=e^{-i\Phi x}(C^{+}e^{ikx}+C^{-}e^{-ikx})$
+\begin_inset Formula $\psi(x)=e^{\mp i\Phi x}(C^{+}e^{ikx}+C^{-}e^{-ikx})$
 \end_inset
 
 .

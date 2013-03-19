@@ -131,7 +131,7 @@ where
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\hat{H}=\frac{\hat{p}^{2}}{2m}=\frac{1}{2m}(\frac{1}{i}\frac{d}{dx}+\Phi)^{2}=\frac{1}{2m}(-\frac{d^{2}}{dx^{2}}+\frac{2\Phi}{i}\frac{d}{dx}+\Phi^{2})$
+\begin_inset Formula $\hat{H}=\frac{\hat{p}^{2}}{2m}=\frac{1}{2m}(\frac{1}{i}\frac{d}{dx}\pm\Phi)^{2}=\frac{1}{2m}(-\frac{d^{2}}{dx^{2}}\pm\frac{2\Phi}{i}\frac{d}{dx}+\Phi^{2})$
 \end_inset
 
 .
@@ -157,12 +157,28 @@ where
 \color none
 \begin_inset Formula 
 \[
-\hat{H}=-\frac{d^{2}}{dx^{2}}+\frac{2\Phi}{i}\frac{d}{dx}+\Phi^{2}.
+\hat{H}=-\frac{d^{2}}{dx^{2}}\pm\frac{2\Phi}{i}\frac{d}{dx}+\Phi^{2},
 \]
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+where '+' in the right hand side of the equation corresponds to
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ clockwise directed arcs and '-' to counter-clockwise directed arcs.
 \end_layout
 
 \end_body

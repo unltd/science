@@ -103,7 +103,7 @@ Let now consider the following operator
 \begin_inset Formula $i\hat{p}$
 \end_inset
 
-:
+ on clockwise directed arc:
 \end_layout
 
 \begin_layout Standard
@@ -129,10 +129,49 @@ one can obtain some useful results:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $i\hat{p}\psi(x)=\frac{d}{dx}\psi(x)+i\Phi\psi(x)=ie^{-i\Phi x}(C^{+}(k-\Phi)e^{ikx}-C^{-}(k+\Phi)e^{-ikx})+i\Phi e^{-i\Phi x}(C^{+}e^{ikx}+C^{-}e^{-ikx})$
+\begin_inset Formula $i\hat{p}\psi(x)=\frac{d}{dx}\psi(x)+i\Phi\psi(x)=ie^{-i\Phi x}(C^{+}(k-\Phi)e^{ikx}-C^{-}(k+\Phi)e^{-ikx})+i\Phi e^{-i\Phi x}(C^{+}e^{ikx}+C^{-}e^{-ikx})=ike^{-i\Phi x}(C^{+}e^{ikx}-C^{-}e^{-ikx})$
 \end_inset
 
+.
+\end_layout
 
+\begin_layout Standard
+We can do something analogous for counter-clockwise directed arc:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $i\hat{p}\psi(x)=i(\frac{1}{i}\frac{d}{dx}-\Phi)\psi(x)=(\frac{d}{dx}-i\Phi)\psi(x)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+Wavefunction component on this arc is 
+\begin_inset Formula $\psi(x)=e^{i\Phi x}(C^{+}e^{ikx}+C^{-}e^{-ikx})$
+\end_inset
+
+.
+ And it's derivative is
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{d}{dx}\psi(x)=\frac{d}{dx}((C^{+}e^{ikx}+C^{-}e^{-ikx})e^{i\Phi x})=\frac{d}{dx}(C^{+}e^{i(k+\Phi)x}+C^{-}e^{-i(k-\Phi)x})=ie^{i\Phi x}(C^{+}(k+\Phi)e^{ikx}-C^{-}(k-\Phi)e^{-ikx})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+So the impulse operator on the counter-clockwise directed arc acts the following
+ way:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $i\hat{p}\psi(x)=\frac{d}{dx}\psi(x)-i\Phi\psi(x)=ie^{i\Phi x}(C^{+}(k+\Phi)e^{ikx}-C^{-}(k-\Phi)e^{-ikx})-i\Phi e^{i\Phi x}(C^{+}e^{ikx}+C^{-}e^{-ikx})=ike^{i\Phi x}(C^{+}e^{ikx}-C^{-}e^{-ikx})$
+\end_inset
+
+.
 \end_layout
 
 \end_body

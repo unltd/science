@@ -107,7 +107,7 @@ Let now consider the straight semi-infinite chain of rings with delta-coupling
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\phi_{j}(x)=(D_{j}^{+}e^{ikx}+D_{j}^{-}e^{-ikx})e^{i\Phi x}
+\varphi_{j}(x)=(D_{j}^{+}e^{ikx}+D_{j}^{-}e^{-ikx})e^{i\Phi x}
 \]
 
 \end_inset
@@ -150,14 +150,14 @@ and for
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\phi_{j}(0)=C_{j}^{+}+C_{j}^{-}$
+\begin_inset Formula $\varphi_{j}(0)=C_{j}^{+}+C_{j}^{-}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\phi_{j}(\pi)=(D_{j}^{+}e^{ik\pi}+D_{j}^{-}e^{-ik\pi})e^{-i\Phi\pi}$
+\begin_inset Formula $\varphi_{j}(\pi)=(D_{j}^{+}e^{ik\pi}+D_{j}^{-}e^{-ik\pi})e^{-i\Phi\pi}$
 \end_inset
 
 
@@ -169,14 +169,14 @@ As delta-copling demands the components values at the contact poins of the
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\psi_{j}(0)=\phi_{j}(0)$
+\begin_inset Formula $\psi_{j}(0)=\varphi_{j}(0)$
 \end_inset
 
 and
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\psi_{j}(\pi)=\phi_{j}(\pi).$
+\begin_inset Formula $\psi_{j}(\pi)=\varphi_{j}(\pi).$
 \end_inset
 
 

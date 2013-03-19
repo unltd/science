@@ -79,7 +79,7 @@ name "(delta-1)"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $-i\hat{p}\psi_{j-1}(\pi)-i\hat{p}\phi_{j-1}(\pi)+i\hat{p}\psi_{j}(0)+i\hat{p}\phi_{j}(0)=\alpha\psi$
+\begin_inset Formula $-i\hat{p}\psi_{j-1}(\pi)-i\hat{p}\varphi_{j-1}(\pi)+i\hat{p}\psi_{j}(0)+i\hat{p}\varphi_{j}(0)=\alpha\psi$
 \end_inset
 
 
@@ -93,7 +93,15 @@ name "(delta-2)"
 \end_layout
 
 \begin_layout Standard
-Presented wavefunction components have following values at the contact point:
+Taking into account how impulse operator acts on arcs we can rewrite the
+ equations:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C_{j-1}^{+}e^{ik\pi}+C_{j-1}^{-}e^{-ik\pi}=C_{j}^{+}e^{ik\pi}+C_{j}^{-}e^{-ik\pi}$
+\end_inset
+
+,
 \end_layout
 
 \begin_layout Standard
@@ -109,26 +117,15 @@ Presented wavefunction components have following values at the contact point:
 \uwave off
 \noun off
 \color none
-\begin_inset Formula $\psi_{j-1}(\pi)=C_{j-1}^{+}e^{ik\pi}+C_{j-1}^{-}e^{-ik\pi}$
-\end_inset
-
-,
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\psi_{j}(0)=C_{j}^{+}+C_{j}^{-}$
+\begin_inset Formula $-ike^{-i\Phi\pi}(C_{j-1}^{+}e^{ik\pi}-C_{j-1}^{-}e^{-ik\pi})-ike^{i\Phi\pi}(D_{j-1}^{+}e^{ik\pi}-D_{j-1}^{-}e^{-ik\pi})+ik(C_{j}^{+}-C_{j}^{-})+ik(D_{j}^{+}-D_{j}^{-})=C_{j-1}^{+}e^{ik\pi}+C_{j-1}^{-}e^{-ik\pi}$
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-Let now take a look at the second condition.
- The operator 
-\begin_inset Formula $i\hat{p}$
-\end_inset
-
- acts following way:
+Also we should remember how solution components on both arcs of ring are
+ related:
 \end_layout
 
 \end_body

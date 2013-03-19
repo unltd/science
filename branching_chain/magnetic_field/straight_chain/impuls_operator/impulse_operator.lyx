@@ -148,7 +148,7 @@ We can do something analogous for counter-clockwise directed arc:
 
 \begin_layout Standard
 Wavefunction component on this arc is 
-\begin_inset Formula $\psi(x)=e^{i\Phi x}(C^{+}e^{ikx}+C^{-}e^{-ikx})$
+\begin_inset Formula $\phi(x)=e^{i\Phi x}(D^{+}e^{ikx}+D^{-}e^{-ikx})$
 \end_inset
 
 .
@@ -156,7 +156,7 @@ Wavefunction component on this arc is
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\frac{d}{dx}\psi(x)=\frac{d}{dx}((C^{+}e^{ikx}+C^{-}e^{-ikx})e^{i\Phi x})=\frac{d}{dx}(C^{+}e^{i(k+\Phi)x}+C^{-}e^{-i(k-\Phi)x})=ie^{i\Phi x}(C^{+}(k+\Phi)e^{ikx}-C^{-}(k-\Phi)e^{-ikx})$
+\begin_inset Formula $\frac{d}{dx}\varphi(x)=\frac{d}{dx}((D^{+}e^{ikx}+D^{-}e^{-ikx})e^{i\Phi x})=\frac{d}{dx}(D^{+}e^{i(k+\Phi)x}+D^{-}e^{-i(k-\Phi)x})=ie^{i\Phi x}(D^{+}(k+\Phi)e^{ikx}-D^{-}(k-\Phi)e^{-ikx})$
 \end_inset
 
 .
@@ -168,10 +168,15 @@ So the impulse operator on the counter-clockwise directed arc acts the following
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $i\hat{p}\psi(x)=\frac{d}{dx}\psi(x)-i\Phi\psi(x)=ie^{i\Phi x}(C^{+}(k+\Phi)e^{ikx}-C^{-}(k-\Phi)e^{-ikx})-i\Phi e^{i\Phi x}(C^{+}e^{ikx}+C^{-}e^{-ikx})=ike^{i\Phi x}(C^{+}e^{ikx}-C^{-}e^{-ikx})$
+\begin_inset Formula $i\hat{p}\varphi(x)=\frac{d}{dx}\varphi(x)-i\Phi\varphi(x)=ie^{i\Phi x}(D^{+}(k+\Phi)e^{ikx}-D^{-}(k-\Phi)e^{-ikx})-i\Phi e^{i\Phi x}(D^{+}e^{ikx}+D^{-}e^{-ikx})=ike^{i\Phi x}(D^{+}e^{ikx}-D^{-}e^{-ikx})$
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+Thus we can see that impulse operator acts the similar way on both directions
+ of arcs.
 \end_layout
 
 \end_body

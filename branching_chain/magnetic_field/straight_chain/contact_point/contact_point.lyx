@@ -93,6 +93,44 @@ name "(delta-2)"
 \end_layout
 
 \begin_layout Standard
+We can represent 
+\begin_inset Formula $\varphi_{j}(x)$
+\end_inset
+
+ using relation obtatined in 
+\begin_inset Quotes eld
+\end_inset
+
+one_ring_bc
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D_{j}^{+}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}(e^{i(k-\Phi)\pi}-e^{-i(k-\Phi)\pi})+C_{j}^{-}e^{-ik\pi}(e^{-i\Phi\pi}-e^{i\Phi\pi}))\right),
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D_{j}^{-}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}e^{ik\pi}(e^{-i\Phi\pi}-e^{i\Phi\pi})+C_{j}^{-}(e^{-i(k+\Phi)\pi}-e^{i(k+\Phi)\pi})\right).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Taking into account how impulse operator acts on arcs we can rewrite the
  equations:
 \end_layout

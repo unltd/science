@@ -155,7 +155,7 @@ Taking into account how impulse operator acts on arcs we can rewrite the
 \uwave off
 \noun off
 \color none
-\begin_inset Formula $-ike^{-i\Phi\pi}(C_{j-1}^{+}e^{ik\pi}-C_{j-1}^{-}e^{-ik\pi})-ike^{i\Phi\pi}(D_{j-1}^{+}e^{ik\pi}-D_{j-1}^{-}e^{-ik\pi})+ik(C_{j}^{+}-C_{j}^{-})+ik(D_{j}^{+}-D_{j}^{-})=C_{j-1}^{+}e^{ik\pi}+C_{j-1}^{-}e^{-ik\pi}$
+\begin_inset Formula $-ike^{-i\Phi\pi}(C_{j-1}^{+}e^{ik\pi}-C_{j-1}^{-}e^{-ik\pi})-ike^{i\Phi\pi}(D_{j-1}^{+}e^{ik\pi}-D_{j-1}^{-}e^{-ik\pi})+ik(C_{j}^{+}-C_{j}^{-})+ik(D_{j}^{+}-D_{j}^{-})=\alpha\left(C_{j-1}^{+}e^{ik\pi}+C_{j-1}^{-}e^{-ik\pi}\right)$
 \end_inset
 
 .

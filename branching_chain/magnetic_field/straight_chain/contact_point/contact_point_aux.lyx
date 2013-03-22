@@ -86,6 +86,34 @@
 \end_layout
 
 \begin_layout Standard
+Using results from one_ring_bc_calc:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-ike^{-i\Phi\pi}(C_{j-1}^{+}e^{ik\pi}-C_{j-1}^{-}e^{-ik\pi})-ike^{i\Phi\pi}(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i2\Phi\pi}\left[C_{j-1}^{+}\left\{ e^{i2k\pi}-2e^{i2\Phi\pi}+1\right\} +C_{j-1}^{-}\left\{ e^{-i2k\pi}-2e^{i2\Phi\pi}+1\right\} \right]+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+ik(C_{j}^{+}-C_{j}^{-})+ik(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left[C_{j}^{+}\left\{ 2e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} +C_{j}^{-}\left\{ 2e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \right]=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ik\left[-C_{j-1}^{+}\left\{ e^{-i\Phi\pi}e^{ik\pi}+e^{-i\Phi\pi}(e^{ik\pi}-e^{-ik\pi})^{-1}\left(e^{i2k\pi}-2e^{i2\Phi\pi}+1\right)\right\} +C_{j-1}^{-}\left\{ e^{-i\Phi\pi}e^{-ik\pi}-e^{-i\Phi\pi}(e^{ik\pi}-e^{-ik\pi})^{-1}\left(e^{-i2k\pi}-2e^{i2\Phi\pi}+1\right)\right\} \right]+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+ik\left[C_{j}^{+}\left\{ 1+(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(2e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)\right\} +C_{j}^{-}\left\{ -1+(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(2e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)\right\} \right]=$
+\end_inset
+
 
 \end_layout
 

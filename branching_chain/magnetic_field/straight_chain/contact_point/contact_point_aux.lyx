@@ -90,28 +90,69 @@ Using results from one_ring_bc_calc:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=-ike^{-i\Phi\pi}(C_{j-1}^{+}e^{ik\pi}-C_{j-1}^{-}e^{-ik\pi})-ike^{i\Phi\pi}(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i2\Phi\pi}\left[C_{j-1}^{+}\left\{ e^{i2k\pi}-2e^{i2\Phi\pi}+1\right\} +C_{j-1}^{-}\left\{ e^{-i2k\pi}-2e^{i2\Phi\pi}+1\right\} \right]+$
+1)
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $C_{j}^{+}-C_{j}^{-}+D_{j}^{+}-D_{j}^{-}=$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $+ik(C_{j}^{+}-C_{j}^{-})+ik(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left[C_{j}^{+}\left\{ 2e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} +C_{j}^{-}\left\{ 2e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \right]=$
+\begin_inset Formula $=C_{j}^{+}-C_{j}^{-}+(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left[C_{j}^{+}\left\{ 2e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} +C_{j}^{-}\left\{ 2e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \right]=$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=ik\left[-C_{j-1}^{+}\left\{ e^{-i\Phi\pi}e^{ik\pi}+e^{-i\Phi\pi}(e^{ik\pi}-e^{-ik\pi})^{-1}\left(e^{i2k\pi}-2e^{i2\Phi\pi}+1\right)\right\} +C_{j-1}^{-}\left\{ e^{-i\Phi\pi}e^{-ik\pi}-e^{-i\Phi\pi}(e^{ik\pi}-e^{-ik\pi})^{-1}\left(e^{-i2k\pi}-2e^{i2\Phi\pi}+1\right)\right\} \right]+$
+\begin_inset Formula $=C_{j}^{+}\left[(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left\{ 2e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} +1\right]+C_{j}^{-}\left[(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left\{ 2e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} -1\right]=$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $+ik\left[C_{j}^{+}\left\{ 1+(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(2e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)\right\} +C_{j}^{-}\left\{ -1+(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(2e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)\right\} \right]=$
+\begin_inset Formula $=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left[C_{j}^{+}\left\{ \left(2e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)+(e^{ik\pi}-e^{-ik\pi})e^{i\Phi\pi}\right\} +C_{j}^{-}\left\{ \left(2e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)-(e^{ik\pi}-e^{-ik\pi})e^{i\Phi\pi}\right\} \right]=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left[C_{j}^{+}\left\{ 2e^{ik\pi}e^{-i\Phi\pi}-2e^{-ik\pi}e^{i\Phi\pi}\right\} +C_{j}^{-}\left\{ 2e^{-ik\pi}e^{-i\Phi\pi}-2e^{ik\pi}e^{i\Phi\pi}\right\} \right]=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left[C_{j}^{+}\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} +C_{j}^{-}\left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e^{-i\Phi\pi}(C_{j-1}^{+}e^{ik\pi}-C_{j-1}^{-}e^{-ik\pi})+e^{i\Phi\pi}(D_{j-1}^{+}e^{ik\pi}-D_{j-1}^{-}e^{-ik\pi})=$
 \end_inset
 
 

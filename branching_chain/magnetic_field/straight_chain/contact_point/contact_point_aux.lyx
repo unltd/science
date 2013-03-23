@@ -86,6 +86,32 @@
 \end_layout
 
 \begin_layout Standard
+Coefficient relation obtained in one_ring:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D_{j}^{+}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}(e^{i(k-\Phi)\pi}-e^{-i(k-\Phi)\pi})+C_{j}^{-}e^{-ik\pi}(e^{-i\Phi\pi}-e^{i\Phi\pi}))\right),
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D_{j}^{-}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}e^{ik\pi}(e^{-i\Phi\pi}-e^{i\Phi\pi})+C_{j}^{-}(e^{-i(k+\Phi)\pi}-e^{i(k+\Phi)\pi})\right).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Using results from one_ring_bc_calc:
 \end_layout
 

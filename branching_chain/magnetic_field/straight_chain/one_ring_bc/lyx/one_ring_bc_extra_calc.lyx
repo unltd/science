@@ -60,34 +60,38 @@
 \begin_body
 
 \begin_layout Standard
-\begin_inset Formula $\left(\begin{array}{c}
-D_{j}^{-}\\
-D_{j}^{-}
-\end{array}\right)=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(\begin{array}{cc}
-(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}) & (e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi})\\
--(e^{ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}) & -(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi})
-\end{array}\right)\left(\begin{array}{c}
-C_{j}^{+}\\
-C_{j}^{-}
-\end{array}\right)$
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{j}(0)=C_{j}^{+}+C_{j}^{-}$
 \end_inset
 
+, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
 
-\end_layout
-
-\begin_layout Standard
-1) 
-\begin_inset Formula $D_{j}^{+}-D_{j}^{-}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(\begin{array}{cc}
-1 & -1\end{array}\right)\left(\begin{array}{cc}
-(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}) & (e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi})\\
--(e^{ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}) & -(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi})
-\end{array}\right)\left(\begin{array}{c}
-C_{j}^{+}\\
-C_{j}^{-}
-\end{array}\right)$
+\begin_inset Formula $\varphi_{j}(0)=D_{j}^{+}+D_{j}^{-}$
 \end_inset
 
-
+,
 \end_layout
 
 \begin_layout Standard
@@ -103,35 +107,238 @@ C_{j}^{-}
 \uwave off
 \noun off
 \color none
+\begin_inset Formula $\psi_{j}(\pi)=(C_{j}^{+}e^{ik\pi}+C_{j}^{-}e^{-ik\pi})e^{-i\Phi\pi}$
+\end_inset
+
+, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\varphi_{j}(\pi)=(D_{j}^{+}e^{ik\pi}+D_{j}^{-}e^{-ik\pi})e^{i\Phi\pi}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+Point 
+\begin_inset Formula $0$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi_{j}(0)=\varphi_{j}(0)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $D_{j}^{+}+D_{j}^{-}=C_{j}^{+}+C_{j}^{-}$
+\end_inset
+
+(1.1).
+\end_layout
+
+\begin_layout Standard
+Point 
+\begin_inset Formula $\pi$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{j}(\pi)=\varphi_{j}(\pi)$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $(D_{j}^{+}e^{ik\pi}+D_{j}^{-}e^{-ik\pi})e^{i\Phi\pi}=(C_{j}^{+}e^{ik\pi}+C_{j}^{-}e^{-ik\pi})e^{-i\Phi\pi}$
+\end_inset
+
+(1.2).
+\end_layout
+
+\begin_layout Standard
+(1.2) - (1.1)*
+\begin_inset Formula $e^{-ik\pi}e^{i\Phi\pi}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $D_{j}^{+}e^{i\Phi\pi}(e^{ik\pi}-e^{-ik\pi})=(C_{j}^{+}e^{ik\pi}+C_{j}^{-}e^{-ik\pi})e^{-i\Phi\pi}-(C_{j}^{+}+C_{j}^{-})e^{-ik\pi}e^{i\Phi\pi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=C_{j}^{+}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)+C_{j}^{-}(e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi})$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $D_{j}^{+}=e^{-i\Phi\pi}(e^{ik\pi}-e^{-ik\pi})^{-1}$
+\end_inset
+
+
 \begin_inset Formula $\left(\begin{array}{cc}
-1 & -1\end{array}\right)\left(\begin{array}{cc}
-(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}) & (e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi})\\
--(e^{ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}) & -(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi})
-\end{array}\right)=$
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+(1.2) - (1.1)*
+\begin_inset Formula $e^{ik\pi}e^{i\Phi\pi}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $-D_{j}^{-}e^{i\Phi\pi}(e^{ik\pi}-e^{-ik\pi})=(C_{j}^{+}e^{ik\pi}+C_{j}^{-}e^{-ik\pi})e^{-i\Phi\pi}-(C_{j}^{+}+C_{j}^{-})e^{ik\pi}e^{i\Phi\pi}=$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=\left(\begin{array}{cc}
-\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}+e^{ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}+e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)=$
+\begin_inset Formula $=C_{j}^{+}(e^{ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi})+C_{j}^{-}(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi})$
 \end_inset
 
-
+,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=\left(\begin{array}{cc}
-\left\{ 2e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\}  & \left\{ 2e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)$
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $D_{j}^{-}=-e^{i\Phi\pi}(e^{ik\pi}-e^{-ik\pi})\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $D_{j}^{+}-D_{j}^{-}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(\begin{array}{cc}
-\left\{ 2e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\}  & \left\{ 2e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+Matrix form:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{c}
+D_{j}^{+}\\
+D_{j}^{-}
+\end{array}\right)=e^{i\Phi\pi}(e^{ik\pi}-e^{-ik\pi})\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} \\
+\left\{ e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right\} 
+\end{array}\right)\left(\begin{array}{c}
 C_{j}^{+}\\
 C_{j}^{-}
 \end{array}\right)$

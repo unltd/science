@@ -187,25 +187,53 @@ Solving this pair of equations we arrive at the relation between coeffitients:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\[
-D_{j}^{+}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}(e^{i(k-\Phi)\pi}-e^{-i(k-\Phi)\pi})+C_{j}^{-}e^{-ik\pi}(e^{-i\Phi\pi}-e^{i\Phi\pi}))\right),
-\]
 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $D_{j}^{+}=e^{-i\Phi\pi}(e^{ik\pi}-e^{-ik\pi})^{-1}$
 \end_inset
 
 
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
+\end_inset
+
+,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\[
-D_{j}^{-}=-(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}e^{ik\pi}(e^{-i\Phi\pi}-e^{i\Phi\pi})+C_{j}^{-}(e^{-i(k+\Phi)\pi}-e^{i(k+\Phi)\pi})\right).
-\]
 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $D_{j}^{-}=-e^{i\Phi\pi}(e^{ik\pi}-e^{-ik\pi})\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -214,18 +242,18 @@ It can be rewriten in matrix form:
 
 \begin_layout Standard
 \begin_inset Formula $\left(\begin{array}{c}
-D_{j}^{-}\\
+D_{j}^{+}\\
 D_{j}^{-}
-\end{array}\right)=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(\begin{array}{cc}
-(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}) & (e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi})\\
--(e^{ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}) & -(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi})
+\end{array}\right)=e^{i\Phi\pi}(e^{ik\pi}-e^{-ik\pi})\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} \\
+\left\{ e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right\} 
 \end{array}\right)\left(\begin{array}{c}
 C_{j}^{+}\\
 C_{j}^{-}
 \end{array}\right)$
 \end_inset
 
-
+.
 \end_layout
 
 \end_body

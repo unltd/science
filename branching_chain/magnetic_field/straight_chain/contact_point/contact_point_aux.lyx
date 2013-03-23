@@ -158,5 +158,12 @@ Using results from one_ring_bc_calc:
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $=e^{-i\Phi\pi}(C_{j-1}^{+}e^{ik\pi}-C_{j-1}^{-}e^{-ik\pi})+e^{i\Phi\pi}(D_{j-1}^{+}e^{ik\pi}-D_{j-1}^{-}e^{-ik\pi})$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

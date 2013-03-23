@@ -200,7 +200,7 @@ D_{j}^{+}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}(e^{i(k-\Phi)\p
 \begin_layout Standard
 \begin_inset Formula 
 \[
-D_{j}^{-}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}e^{ik\pi}(e^{-i\Phi\pi}-e^{i\Phi\pi})+C_{j}^{-}(e^{-i(k+\Phi)\pi}-e^{i(k+\Phi)\pi})\right).
+D_{j}^{-}=-(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}e^{ik\pi}(e^{-i\Phi\pi}-e^{i\Phi\pi})+C_{j}^{-}(e^{-i(k+\Phi)\pi}-e^{i(k+\Phi)\pi})\right).
 \]
 
 \end_inset

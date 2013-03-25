@@ -132,7 +132,11 @@ one can obtain some useful results:
 \begin_inset Formula $i\hat{p}\psi(x)=\frac{d}{dx}\psi(x)+i\Phi\psi(x)=ie^{-i\Phi x}(C^{+}(k-\Phi)e^{ikx}-C^{-}(k+\Phi)e^{-ikx})+i\Phi e^{-i\Phi x}(C^{+}e^{ikx}+C^{-}e^{-ikx})=ike^{-i\Phi x}(C^{+}e^{ikx}-C^{-}e^{-ikx})$
 \end_inset
 
-.
+,
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Standard
@@ -140,7 +144,7 @@ We can do something analogous for counter-clockwise directed arc:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $i\hat{p}\psi(x)=i(\frac{1}{i}\frac{d}{dx}-\Phi)\psi(x)=(\frac{d}{dx}-i\Phi)\psi(x)$
+\begin_inset Formula $i\hat{p}\varphi(x)=i(\frac{1}{i}\frac{d}{dx}-\Phi)\varphi(x)=(\frac{d}{dx}-i\Phi)\varphi(x)$
 \end_inset
 
 ,

@@ -184,5 +184,69 @@ corresponds to clockwise directed arcs and '+' to counter-clockwise directed
 .
 \end_layout
 
+\begin_layout Standard
+Matrix form:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi(x)=e^{\mp i\Phi x}$
+\end_inset
+
+
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)$
+\end_inset
+
+
+\begin_inset Formula $\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Derivative:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{d}{dx}\psi(x)=\frac{d}{dx}\left\{ \psi(x)=e^{\mp i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\mp i\Phi e^{\mp i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)+e^{\mp i\Phi x}\left(\begin{array}{cc}
+\left\{ ike^{ikx}\right\}  & \left\{ -ike^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{\mp i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}(ik\mp i\Phi)\right\}  & \left\{ e^{-ikx}(-ik\mp i\Phi)\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

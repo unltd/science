@@ -190,5 +190,168 @@ C^{-}
 
 \end_layout
 
+\begin_layout Standard
+2.
+ Counter-clockwise direction: 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\varphi(x)=e^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+D^{+}\\
+D^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.1.
+ Impulse operator for counter-clockwise direction (
+\begin_inset Formula $\varphi(x)$
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\hat{p}\varphi(x)=(\frac{1}{i}\frac{d}{dx}-\Phi)\varphi(x)=(-i\frac{d}{dx}-\Phi)\varphi(x)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.2.
+ Derivative for counter-clockwise direction:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{d}{dx}\varphi(x)=e^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}(ik+i\Phi)\right\}  & \left\{ e^{-ikx}(-ik+i\Phi)\right\} \end{array}\right)\left(\begin{array}{c}
+D^{+}\\
+D^{-}
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.3.
+ Derivation of Matrix form of impulse operator for counter-clockwise direction:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\hat{p}\varphi(x)=(\frac{1}{i}\frac{d}{dx}-\Phi)\varphi(x)=-i\frac{d}{dx}\varphi(x)-\Phi\varphi(x)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-ie^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}(ik+i\Phi)\right\}  & \left\{ e^{-ikx}(-ik+i\Phi)\right\} \end{array}\right)\left(\begin{array}{c}
+D^{+}\\
+D^{-}
+\end{array}\right)-\Phi e^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+D^{+}\\
+D^{-}
+\end{array}\right)=$
+\end_inset
+
+...
+ denoting that -i*i=1...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}(k+\Phi)\right\}  & \left\{ e^{-ikx}(-k+\Phi)\right\} \end{array}\right)\left(\begin{array}{c}
+D^{+}\\
+D^{-}
+\end{array}\right)-\Phi e^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+D^{+}\\
+D^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ke^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ -e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+D^{+}\\
+D^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.4.
+ Resulting matrix form of impulse operator for counter-clockwise direction:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\hat{p}\varphi(x)=ke^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ -e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+D^{+}\\
+D^{-}
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

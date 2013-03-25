@@ -60,40 +60,13 @@
 \begin_body
 
 \begin_layout Standard
-\begin_inset Formula $-i\hat{p}\psi_{j-1}(\pi)-i\hat{p}\varphi_{j-1}(\pi)+i\hat{p}\psi_{j}(0)+i\hat{p}\varphi_{j}(0)=$
+\begin_inset Formula $\psi_{j-1}(\pi)=\psi_{j}(0)=\psi$
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $=-ike^{-i\Phi\pi}(C_{j-1}^{+}e^{ik\pi}-C_{j-1}^{-}e^{-ik\pi})-ike^{i\Phi\pi}(D_{j-1}^{+}e^{ik\pi}-D_{j-1}^{-}e^{-ik\pi})+ik(C_{j}^{+}-C_{j}^{-})+ik(D_{j}^{+}-D_{j}^{-})=$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Coefficient relation obtained in one_ring:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-D_{j}^{+}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}(e^{i(k-\Phi)\pi}-e^{-i(k-\Phi)\pi})+C_{j}^{-}e^{-ik\pi}(e^{-i\Phi\pi}-e^{i\Phi\pi}))\right),
-\]
+\begin_inset CommandInset label
+LatexCommand label
+name "(delta-1)"
 
 \end_inset
 
@@ -101,10 +74,13 @@ D_{j}^{+}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}(e^{i(k-\Phi)\p
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\[
-D_{j}^{-}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}e^{ik\pi}(e^{-i\Phi\pi}-e^{i\Phi\pi})+C_{j}^{-}(e^{-i(k+\Phi)\pi}-e^{i(k+\Phi)\pi})\right).
-\]
+\begin_inset Formula $-i\hat{p}\psi_{j-1}(\pi)-i\hat{p}\varphi_{j-1}(\pi)+i\hat{p}\psi_{j}(0)+i\hat{p}\varphi_{j}(0)=\alpha\psi$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "(delta-2)"
 
 \end_inset
 
@@ -112,82 +88,10 @@ D_{j}^{-}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}e^{ik\pi}(e^{-i
 \end_layout
 
 \begin_layout Standard
-Using results from one_ring_bc_calc:
+Matrix form
 \end_layout
 
 \begin_layout Standard
-1)
-\end_layout
-
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $C_{j}^{+}-C_{j}^{-}+D_{j}^{+}-D_{j}^{-}=$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=C_{j}^{+}-C_{j}^{-}+(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left[C_{j}^{+}\left\{ 2e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} +C_{j}^{-}\left\{ 2e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \right]=$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=C_{j}^{+}\left[(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left\{ 2e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} +1\right]+C_{j}^{-}\left[(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left\{ 2e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} -1\right]=$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left[C_{j}^{+}\left\{ \left(2e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)+(e^{ik\pi}-e^{-ik\pi})e^{i\Phi\pi}\right\} +C_{j}^{-}\left\{ \left(2e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)-(e^{ik\pi}-e^{-ik\pi})e^{i\Phi\pi}\right\} \right]=$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left[C_{j}^{+}\left\{ 2e^{ik\pi}e^{-i\Phi\pi}-2e^{-ik\pi}e^{i\Phi\pi}\right\} +C_{j}^{-}\left\{ 2e^{-ik\pi}e^{-i\Phi\pi}-2e^{ik\pi}e^{i\Phi\pi}\right\} \right]=$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=2(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left[C_{j}^{+}\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} +C_{j}^{-}\left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \right]$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-2)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $e^{-i\Phi\pi}(C_{j-1}^{+}e^{ik\pi}-C_{j-1}^{-}e^{-ik\pi})+e^{i\Phi\pi}(D_{j-1}^{+}e^{ik\pi}-D_{j-1}^{-}e^{-ik\pi})=$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=e^{-i\Phi\pi}(C_{j-1}^{+}e^{ik\pi}-C_{j-1}^{-}e^{-ik\pi})+e^{i\Phi\pi}(D_{j-1}^{+}e^{ik\pi}-D_{j-1}^{-}e^{-ik\pi})$
-\end_inset
-
 
 \end_layout
 

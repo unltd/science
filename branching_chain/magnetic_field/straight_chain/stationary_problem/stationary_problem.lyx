@@ -189,21 +189,17 @@ Matrix form:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\psi(x)=e^{\mp i\Phi x}$
-\end_inset
-
-
-\begin_inset Formula $\left(\begin{array}{cc}
-\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)$
-\end_inset
-
-
-\begin_inset Formula $\left(\begin{array}{c}
+\begin_inset Formula $\psi(x)=e^{\mp i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
 C^{+}\\
 C^{-}
 \end{array}\right)$
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 .
 \end_layout
 

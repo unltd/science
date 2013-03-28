@@ -1,0 +1,499 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+As we now how impulse operator acts in followin way:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\hat{p}\psi(x)=ke^{-i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ -e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+for the clockwise arcs and
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\hat{p}\varphi(x)=ke^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ -e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+D^{+}\\
+D^{-}
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+for the counter-clockwise arcs.
+\end_layout
+
+\begin_layout Standard
+From one ring bc we now followin relation:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\left(\begin{array}{c}
+D_{j}^{+}\\
+D_{j}^{-}
+\end{array}\right)=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} \\
+\left\{ e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right\} 
+\end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Let us use it for impulse on counter-clockwise arc:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\hat{p}\varphi(x)=ke^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ -e^{-ikx}\right\} \end{array}\right)e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} \\
+\left\{ e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right\} 
+\end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ke^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}e^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ -e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} \\
+\left\{ e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right\} 
+\end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ke^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}e^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ikx}\left(e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)\right\}  & \left\{ e^{ikx}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ikx}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and for followin summary:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\psi(x)+\hat{p}\varphi(x)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ke^{-i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ -e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)+ke^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}e^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ikx}\left(e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)\right\}  & \left\{ e^{ikx}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ikx}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ke^{-i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ -e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)+ke^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}e^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ikx}\left(e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)\right\}  & \left\{ e^{ikx}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ikx}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ke^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left[e^{i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)e^{-i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ -e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)+e^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ikx}\left(e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)\right\}  & \left\{ e^{ikx}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ikx}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)\right]=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ke^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{ikx}e^{i\Phi x}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ikx}e^{i\Phi x}\left(e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)+e^{ikx}e^{-i\Phi x}e^{i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\}  & \left\{ e^{ikx}e^{i\Phi x}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ikx}e^{i\Phi x}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)-e^{-ikx}e^{-i\Phi x}e^{i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ke^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{ikx}e^{i\Phi x}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ikx}e^{i\Phi x}\left(e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)+e^{ikx}e^{-i\Phi x}e^{i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\}  & \left\{ e^{ikx}e^{i\Phi x}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ikx}e^{i\Phi x}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)-e^{-ikx}e^{-i\Phi x}e^{i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In point 
+\begin_inset Formula $\pi$
+\end_inset
+
+it gets following look:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\hat{p}\psi(\pi)+\hat{p}\varphi(\pi)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ke^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{i\Phi\pi}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ik\pi}e^{i\Phi\pi}\left(e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)+e^{ik\pi}e^{-i\Phi\pi}e^{i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\}  & \left\{ e^{ik\pi}e^{i\Phi\pi}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ik\pi}e^{i\Phi\pi}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)-e^{-ik\pi}e^{-i\Phi\pi}e^{i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=k\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ik\pi}\left(e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)+e^{ik\pi}e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\}  & \left\{ e^{ik\pi}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ik\pi}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)-e^{-ik\pi}e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Take a look to the first component:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $e^{ik\pi}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ik\pi}\left(e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)+e^{ik\pi}e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $=\left(e^{i2k\pi}e^{-i\Phi\pi}-e^{i\Phi\pi}\right)-\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)+e^{-i\Phi\pi}\left(e^{i2k\pi}-1\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $=2e^{i2k\pi}e^{-i\Phi\pi}-2e^{i\Phi\pi}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+and to the second component:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $e^{ik\pi}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-e^{-ik\pi}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)-e^{-ik\pi}e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $=\left(e^{-i\Phi\pi}-e^{i\Phi\pi}\right)-\left(e^{i\Phi\pi}-e^{-i2k\pi}e^{-i\Phi\pi}\right)-e^{-i\Phi\pi}\left(1-e^{-i2k\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $=2e^{-i2k\pi}e^{-i\Phi\pi}-2e^{i\Phi\pi}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+So we can rewrite 
+\begin_inset Formula $\hat{p}\psi(\pi)+\hat{p}\varphi(\pi)$
+\end_inset
+
+ as
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\hat{p}\psi(\pi)+\hat{p}\varphi(\pi)=k\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ 2e^{i2k\pi}e^{-i\Phi\pi}-2e^{i\Phi\pi}\right\}  & \left\{ 2e^{-i2k\pi}e^{-i\Phi\pi}-2e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and in conclusion
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\hat{p}\psi(\pi)+\hat{p}\varphi(\pi)=2k\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{i2k\pi}e^{-i\Phi\pi}-e^{i\Phi\pi}\right\}  & \left\{ e^{-i2k\pi}e^{-i\Phi\pi}-e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

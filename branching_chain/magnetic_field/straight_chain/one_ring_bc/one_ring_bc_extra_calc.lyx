@@ -256,7 +256,7 @@ Point
 \uwave off
 \noun off
 \color none
-\begin_inset Formula $D_{j}^{+}=e^{-i\Phi\pi}(e^{ik\pi}-e^{-ik\pi})^{-1}$
+\begin_inset Formula $D_{j}^{+}=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}$
 \end_inset
 
 
@@ -317,7 +317,7 @@ C_{j}^{-}
 \uwave off
 \noun off
 \color none
-\begin_inset Formula $D_{j}^{-}=-e^{i\Phi\pi}(e^{ik\pi}-e^{-ik\pi})\left(\begin{array}{cc}
+\begin_inset Formula $D_{j}^{-}=-e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
 \left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
 C_{j}^{+}\\
 C_{j}^{-}
@@ -335,7 +335,7 @@ Matrix form:
 \begin_inset Formula $\left(\begin{array}{c}
 D_{j}^{+}\\
 D_{j}^{-}
-\end{array}\right)=e^{i\Phi\pi}(e^{ik\pi}-e^{-ik\pi})\left(\begin{array}{cc}
+\end{array}\right)=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
 \left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} \\
 \left\{ e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right\} 
 \end{array}\right)\left(\begin{array}{c}
@@ -344,7 +344,7 @@ C_{j}^{-}
 \end{array}\right)$
 \end_inset
 
-
+.
 \end_layout
 
 \end_body

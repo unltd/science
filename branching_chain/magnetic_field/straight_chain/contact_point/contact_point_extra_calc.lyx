@@ -189,7 +189,7 @@ C^{-}
 \end_layout
 
 \begin_layout Standard
-and for followin summary:
+and for followin sum:
 \end_layout
 
 \begin_layout Standard
@@ -267,7 +267,8 @@ C^{-}
 \end_layout
 
 \begin_layout Standard
-In point 
+1.
+ In point 
 \begin_inset Formula $\pi$
 \end_inset
 
@@ -316,7 +317,8 @@ C^{-}
 \end_layout
 
 \begin_layout Standard
-Take a look to the first component:
+1.1.
+ Take a look to the first component:
 \end_layout
 
 \begin_layout Standard
@@ -377,7 +379,8 @@ Take a look to the first component:
 \end_layout
 
 \begin_layout Standard
-and to the second component:
+1.2.
+ and to the second component:
 \end_layout
 
 \begin_layout Standard
@@ -438,7 +441,8 @@ and to the second component:
 \end_layout
 
 \begin_layout Standard
-So we can rewrite 
+1.3.
+ So we can rewrite 
 \begin_inset Formula $\hat{p}\psi(\pi)+\hat{p}\varphi(\pi)$
 \end_inset
 
@@ -469,7 +473,8 @@ C^{-}
 \end_layout
 
 \begin_layout Standard
-and in conclusion
+1.4.
+ and in conclusion
 \end_layout
 
 \begin_layout Standard
@@ -487,6 +492,173 @@ and in conclusion
 \color none
 \begin_inset Formula $\hat{p}\psi(\pi)+\hat{p}\varphi(\pi)=2k\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
 \left\{ e^{i2k\pi}e^{-i\Phi\pi}-e^{i\Phi\pi}\right\}  & \left\{ e^{-i2k\pi}e^{-i\Phi\pi}-e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+2.
+ In point 
+\begin_inset Formula $0$
+\end_inset
+
+sum 
+\begin_inset Formula $\hat{p}\psi(x)+\hat{p}\varphi(x)$
+\end_inset
+
+ gets following look:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\hat{p}\psi(0)+\hat{p}\varphi(0)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $=ke^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ \left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-\left(e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)+e^{i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\}  & \left\{ \left(e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)-e^{i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+2.1.
+ Take a look to the first component:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-\left(e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)+e^{i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}+e^{ik\pi}e^{-i\Phi\pi}+e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2e^{ik\pi}e^{-i\Phi\pi}-2e^{-ik\pi}e^{i\Phi\pi}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+2.2.
+ and to the second component:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)-\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)-e^{i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}+e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2e^{-ik\pi}e^{-i\Phi\pi}-2e^{ik\pi}e^{i\Phi\pi}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+2.3.
+ So we can rewrite 
+\begin_inset Formula $\hat{p}\psi(0)+\hat{p}\varphi(0)$
+\end_inset
+
+ as
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\hat{p}\psi(0)+\hat{p}\varphi(0)=ke^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ 2e^{ik\pi}e^{-i\Phi\pi}-2e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ 2e^{-ik\pi}e^{-i\Phi\pi}-2e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.4.
+ and in conclusion
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\hat{p}\psi(0)+\hat{p}\varphi(0)=2ke^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
 C^{+}\\
 C^{-}
 \end{array}\right)$

@@ -93,25 +93,17 @@ name "(delta-2)"
 \end_layout
 
 \begin_layout Standard
-We can represent 
-\begin_inset Formula $\varphi_{j}(x)$
-\end_inset
-
- using relation obtatined in 
-\begin_inset Quotes eld
-\end_inset
-
-one_ring_bc
-\begin_inset Quotes erd
-\end_inset
-
-.
+As we now impulse operator acts in followin way:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-D_{j}^{+}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}(e^{i(k-\Phi)\pi}-e^{-i(k-\Phi)\pi})+C_{j}^{-}e^{-ik\pi}(e^{-i\Phi\pi}-e^{i\Phi\pi}))\right),
+\hat{p}\psi(x)=ke^{-i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ -e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)
 \]
 
 \end_inset
@@ -120,9 +112,17 @@ D_{j}^{+}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}(e^{i(k-\Phi)\p
 \end_layout
 
 \begin_layout Standard
+for the clockwise arcs and
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula 
 \[
-D_{j}^{-}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}e^{ik\pi}(e^{-i\Phi\pi}-e^{i\Phi\pi})+C_{j}^{-}(e^{-i(k+\Phi)\pi}-e^{i(k+\Phi)\pi})\right).
+\hat{p}\varphi(x)=ke^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ -e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+D^{+}\\
+D^{-}
+\end{array}\right)
 \]
 
 \end_inset
@@ -131,12 +131,35 @@ D_{j}^{-}=(e^{ik\pi}-e^{-ik\pi})^{-1}e^{-i\Phi\pi}\left(C_{j}^{+}e^{ik\pi}(e^{-i
 \end_layout
 
 \begin_layout Standard
-Taking into account how impulse operator acts on arcs we can rewrite the
- equations:
+for the counter-clockwise arcs.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $C_{j-1}^{+}e^{ik\pi}+C_{j-1}^{-}e^{-ik\pi}=C_{j}^{+}e^{ik\pi}+C_{j}^{-}e^{-ik\pi}$
+1.
+ First condition 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "(delta-1)"
+
+\end_inset
+
+ can be rewriten:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{j-1}(\pi)=\psi_{j}(0)$
 \end_inset
 
 ,
@@ -155,15 +178,185 @@ Taking into account how impulse operator acts on arcs we can rewrite the
 \uwave off
 \noun off
 \color none
-\begin_inset Formula $-ike^{-i\Phi\pi}(C_{j-1}^{+}e^{ik\pi}-C_{j-1}^{-}e^{-ik\pi})-ike^{i\Phi\pi}(D_{j-1}^{+}e^{ik\pi}-D_{j-1}^{-}e^{-ik\pi})+ik(C_{j}^{+}-C_{j}^{-})+ik(D_{j}^{+}-D_{j}^{-})=\alpha\left(C_{j-1}^{+}e^{ik\pi}+C_{j-1}^{-}e^{-ik\pi}\right)$
+\begin_inset Formula $e^{-i\Phi\pi}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)=\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-Also we should remember how solution components on both arcs of ring are
- related:
+And finally
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=e^{-i\Phi\pi}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+2.
+ Let us now rewrite the second condition 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "(delta-2)"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\psi_{j-1}(\pi)+\hat{p}\varphi_{j-1}(\pi)-\hat{p}\psi_{j}(0)-\hat{p}\varphi_{j}(0)=i\alpha\psi$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\psi_{j-1}(\pi)+\hat{p}\varphi_{j-1}(\pi)=i\alpha\psi+\hat{p}\psi_{j}(0)+\hat{p}\varphi_{j}(0)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\psi_{j}(0)+\hat{p}\varphi_{j}(0)=\hat{p}\psi_{j-1}(\pi)+\hat{p}\varphi_{j-1}(\pi)-i\alpha\psi_{j-1}(\pi)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Using contact_point_extra_calc here:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2ke^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=2k\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{i2k\pi}e^{-i\Phi\pi}-e^{i\Phi\pi}\right\}  & \left\{ e^{-i2k\pi}e^{-i\Phi\pi}-e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)-i\alpha e^{-i\Phi\pi}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+devide by 
+\begin_inset Formula $2k$
+\end_inset
+
+ and multiply by 
+\begin_inset Formula $\left(e^{ik\pi}-e^{-ik\pi}\right)e^{i\Phi\pi}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=e^{i\Phi\pi}\left(\begin{array}{cc}
+\left\{ e^{i2k\pi}e^{-i\Phi\pi}-e^{i\Phi\pi}\right\}  & \left\{ e^{-i2k\pi}e^{-i\Phi\pi}-e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)-\frac{i\alpha}{2k}\left(e^{ik\pi}-e^{-ik\pi}\right)\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+rewrite right hand side,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=\left(\begin{array}{cc}
+\left\{ e^{i2k\pi}-e^{i2\Phi\pi}\right\}  & \left\{ e^{-i2k\pi}-e^{i2\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)-\frac{i\alpha}{2k}\left(e^{ik\pi}-e^{-ik\pi}\right)\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=\left(\begin{array}{cc}
+\left\{ e^{i2k\pi}-e^{i2\Phi\pi}\right\}  & \left\{ e^{-i2k\pi}-e^{i2\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)-\frac{i\alpha}{2k}\left(\begin{array}{cc}
+\left\{ e^{i2k\pi}-1\right\}  & \left\{ 1-e^{-i2k\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+compose right hand side,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=\left(\begin{array}{cc}
+\left\{ e^{i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ e^{-i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+.
 \end_layout
 
 \end_body

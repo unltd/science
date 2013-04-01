@@ -253,11 +253,25 @@ Using contact_point_extra_calc here:
 \left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
 C_{j}^{+}\\
 C_{j}^{-}
-\end{array}\right)=2ke^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2ke^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
 \left\{ e^{i2k\pi}-e^{i2\Phi\pi}\right\}  & \left\{ e^{-i2k\pi}-e^{i2\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
 C_{j-1}^{+}\\
 C_{j-1}^{-}
-\end{array}\right)-i\alpha e^{-i\Phi\pi}\left(\begin{array}{cc}
+\end{array}\right)-$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-i\alpha e^{-i\Phi\pi}\left(\begin{array}{cc}
 \left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
 C_{j-1}^{+}\\
 C_{j-1}^{-}
@@ -284,18 +298,32 @@ devide by
 \left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
 C_{j}^{+}\\
 C_{j}^{-}
-\end{array}\right)=\left(\begin{array}{cc}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\begin{array}{cc}
 \left\{ e^{i2k\pi}-e^{i2\Phi\pi}\right\}  & \left\{ e^{-i2k\pi}-e^{i2\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
 C_{j-1}^{+}\\
 C_{j-1}^{-}
-\end{array}\right)-\frac{i\alpha}{2k}\left(e^{ik\pi}-e^{-ik\pi}\right)\left(\begin{array}{cc}
+\end{array}\right)-$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-\frac{i\alpha}{2k}\left(e^{ik\pi}-e^{-ik\pi}\right)\left(\begin{array}{cc}
 \left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
 C_{j-1}^{+}\\
 C_{j-1}^{-}
 \end{array}\right)$
 \end_inset
 
-,
+
 \end_layout
 
 \begin_layout Standard
@@ -307,18 +335,32 @@ rewrite right hand side,
 \left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
 C_{j}^{+}\\
 C_{j}^{-}
-\end{array}\right)=\left(\begin{array}{cc}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\begin{array}{cc}
 \left\{ e^{i2k\pi}-e^{i2\Phi\pi}\right\}  & \left\{ e^{-i2k\pi}-e^{i2\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
 C_{j-1}^{+}\\
 C_{j-1}^{-}
-\end{array}\right)-\frac{i\alpha}{2k}\left(\begin{array}{cc}
+\end{array}\right)-$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-\frac{i\alpha}{2k}\left(\begin{array}{cc}
 \left\{ e^{i2k\pi}-1\right\}  & \left\{ 1-e^{-i2k\pi}\right\} \end{array}\right)\left(\begin{array}{c}
 C_{j-1}^{+}\\
 C_{j-1}^{-}
 \end{array}\right)$
 \end_inset
 
-,
+
 \end_layout
 
 \begin_layout Standard
@@ -330,7 +372,14 @@ compose right hand side,
 \left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
 C_{j}^{+}\\
 C_{j}^{-}
-\end{array}\right)=\left(\begin{array}{cc}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\begin{array}{cc}
 \left\{ e^{i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ e^{-i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\right\} \end{array}\right)\left(\begin{array}{c}
 C_{j-1}^{+}\\
 C_{j-1}^{-}
@@ -351,7 +400,14 @@ Composing both rewriten conditions we obtain the following system:
 \end{array}\right)\left(\begin{array}{c}
 C_{j}^{+}\\
 C_{j}^{-}
-\end{array}\right)=\left(\begin{array}{cc}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\begin{array}{cc}
 \left\{ e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}\right\} \\
 \left\{ e^{i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ e^{-i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\right\} 
 \end{array}\right)\left(\begin{array}{c}
@@ -360,6 +416,10 @@ C_{j-1}^{-}
 \end{array}\right)$
 \end_inset
 
+.
+\end_layout
+
+\begin_layout Standard
 .
 \begin_inset CommandInset label
 LatexCommand label
@@ -540,7 +600,26 @@ b & -1\\
 \begin_inset Formula $L^{-1}=\left(\begin{array}{cc}
 \{1\} & \{1\}\\
 \left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} 
-\end{array}\right)^{-1}=\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}\right)^{-1}\left(\begin{array}{cc}
+\end{array}\right)^{-1}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $=\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}\right)^{-1}\left(\begin{array}{cc}
 \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\}  & \left\{ -1\right\} \\
 \left\{ e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ 1\right\} 
 \end{array}\right)$
@@ -564,7 +643,14 @@ Thus
 \begin_inset Formula $=\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}\right)^{-1}\left(\begin{array}{cc}
 \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\}  & \left\{ -1\right\} \\
 \left\{ e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ 1\right\} 
-\end{array}\right)\left(\begin{array}{cc}
+\end{array}\right)\cdot$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\cdot\left(\begin{array}{cc}
 \left\{ e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}\right\} \\
 \left\{ e^{i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ e^{-i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\right\} 
 \end{array}\right)$
@@ -590,16 +676,23 @@ Some preliminary calculation:
 \uwave off
 \noun off
 \color none
-\begin_inset Formula $\left(\begin{array}{cc}
+\begin_inset Formula $\tilde{M}=\left(\begin{array}{cc}
 \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\}  & \left\{ -1\right\} \\
 \left\{ e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ 1\right\} 
-\end{array}\right)\left(\begin{array}{cc}
-\left\{ e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}\right\} \\
-\left\{ e^{i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ e^{-i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\right\} 
-\end{array}\right)=\tilde{M}$
+\end{array}\right)\cdot$
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\cdot\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}\right\} \\
+\left\{ e^{i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ e^{-i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\right\} 
+\end{array}\right)$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -644,7 +737,7 @@ Some preliminary calculation:
 \begin_inset Formula $=e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2e^{i2k\pi}+\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -690,7 +783,7 @@ Some preliminary calculation:
 \begin_inset Formula $=e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}+\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -729,7 +822,7 @@ Some preliminary calculation:
 \begin_inset Formula $=1-e^{i2k\pi}e^{-i2\Phi\pi}+e^{i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -768,15 +861,15 @@ Some preliminary calculation:
 \begin_inset Formula $=2e^{-i2k\pi}-e^{-i2\Phi\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
 5.
  
 \begin_inset Formula $\tilde{M}=\left(\begin{array}{cc}
-\left\{ e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2e^{i2k\pi}+\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}+\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\right\} \\
-\left\{ 1-e^{i2k\pi}e^{-i2\Phi\pi}+e^{i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ 2e^{-i2k\pi}-e^{-i2\Phi\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\right\} 
+\left\{ e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2e^{i2k\pi}+\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ .\right\} \\
+\left\{ 1-e^{i2k\pi}e^{-i2\Phi\pi}+e^{i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ .\right\} 
 \end{array}\right)$
 \end_inset
 
@@ -784,7 +877,17 @@ Some preliminary calculation:
 \end_layout
 
 \begin_layout Standard
-Finally let us derive the simple view of transfer matrix 
+\begin_inset Formula $\tilde{M}=\left(\begin{array}{cc}
+\left\{ .\right\}  & \left\{ e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}+\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\right\} \\
+\left\{ .\right\}  & \left\{ 2e^{-i2k\pi}-e^{-i2\Phi\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\right\} 
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Finally arrive at a simple view of transfer matrix 
 \begin_inset Formula $M$
 \end_inset
 
@@ -792,20 +895,10 @@ Finally let us derive the simple view of transfer matrix
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $M=\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}\right)^{-1}\tilde{M}=$
+\begin_inset Formula $M=\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}\right)^{-1}\tilde{M}$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}\right)^{-1}\left(\begin{array}{cc}
-\left\{ e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2e^{i2k\pi}+\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}+\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\right\} \\
-\left\{ 1-e^{i2k\pi}e^{-i2\Phi\pi}+e^{i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ 2e^{-i2k\pi}-e^{-i2\Phi\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\right\} 
-\end{array}\right)$
-\end_inset
-
-
+.
 \end_layout
 
 \end_body

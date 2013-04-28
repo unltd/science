@@ -340,21 +340,5 @@ Compare:
 .
 \end_layout
 
-\begin_layout Standard
-3.
- General conclusion for columns of 
-\begin_inset Formula $M$
-\end_inset
-
-:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $M^{\left\langle 2\right\rangle }(k,\Phi)=-M^{\left\langle 1\right\rangle }(-k,\Phi)$
-\end_inset
-
-.
-\end_layout
-
 \end_body
 \end_document

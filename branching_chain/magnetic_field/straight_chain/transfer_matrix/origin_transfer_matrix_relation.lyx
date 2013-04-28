@@ -145,7 +145,7 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=2\left(\frac{1}{2}\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}\right)-1\right)+2e^{ik\pi}\left(e^{-ik\pi}-e^{ik\pi}\right)\left(1+\frac{\alpha}{4ik}\right)$
+\begin_inset Formula $=\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right)+2e^{ik\pi}\left(e^{-ik\pi}-e^{ik\pi}\right)\left(1+\frac{\alpha}{4ik}\right)$
 \end_inset
 
 
@@ -161,14 +161,14 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=-2\left(\frac{1}{2}\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}\right)-1\right)-2e^{-ik\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)\left(1-\frac{\alpha}{4ik}\right)=$
+\begin_inset Formula $=-\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right)-2e^{-ik\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)\left(1-\frac{\alpha}{4ik}\right)=$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=-2\left(\frac{1}{2}\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}\right)-1\right)+2e^{-ik\pi}\left(e^{-ik\pi}-e^{ik\pi}\right)\left(1-\frac{\alpha}{4ik}\right)$
+\begin_inset Formula $=-\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right)+2e^{-ik\pi}\left(e^{-ik\pi}-e^{ik\pi}\right)\left(1-\frac{\alpha}{4ik}\right)$
 \end_inset
 
 

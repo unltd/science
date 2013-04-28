@@ -157,7 +157,33 @@ f(k,\Phi)=\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi
 
 \end_inset
 
- 
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $f(k,\Phi)=\left(e^{-ik\pi}\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)-e^{ik\pi}\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)\right)^{-1}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(e^{-ik\pi}-e^{ik\pi}\right)^{-1}\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)^{-1}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -338,6 +364,111 @@ Compare:
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+3.
+ Property of 
+\begin_inset Formula $f(k,\Phi)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $f(k,\Phi)=\left(e^{-ik\pi}-e^{ik\pi}\right)^{-1}\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)^{-1}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $f(-k,\Phi)=\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)^{-1}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-\left(e^{-ik\pi}-e^{ik\pi}\right)^{-1}\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)^{-1}=-f(-k,\Phi)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+4.
+ Conclusion for whole transfer matrix:
+\end_layout
+
+\begin_layout Standard
+4.1.
+ 
+\begin_inset Formula $m_{2,2}(k,\Phi)=f(k,\Phi)\cdot m_{2,2}(k,\Phi)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-f(-k,\Phi)\cdot\left(-\tilde{m}_{1,1}(-k,\Phi)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=f(-k,\Phi)\cdot\tilde{m}_{1,1}(-k,\Phi)=m_{1,1}(-k,\Phi)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+4.2.
+ 
+\begin_inset Formula $m_{2,1}(k,\Phi)=f(k,\Phi)\tilde{m}_{2,1}(k,\Phi)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-f(-k,\Phi)\left(-\tilde{m}_{1,2}(-k,\Phi)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=f(-k,\Phi)\tilde{m}_{1,2}(-k,\Phi)=m_{1,2}(-k,\Phi)$
+\end_inset
+
+
 \end_layout
 
 \end_body

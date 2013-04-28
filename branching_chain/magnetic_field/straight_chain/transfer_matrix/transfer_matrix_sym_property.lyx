@@ -414,7 +414,7 @@ Compare:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=-\left(e^{-ik\pi}-e^{ik\pi}\right)^{-1}\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)^{-1}=-f(-k,\Phi)$
+\begin_inset Formula $=-\left(e^{-ik\pi}-e^{ik\pi}\right)^{-1}\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)^{-1}=-f(k,\Phi)$
 \end_inset
 
 .

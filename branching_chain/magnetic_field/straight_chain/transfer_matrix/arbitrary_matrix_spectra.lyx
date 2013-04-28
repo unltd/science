@@ -148,20 +148,17 @@ a_{2,1} & \left\{ a_{2,2}-\lambda\right\}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $D=tr(A)^{2}-4det(A)$
+Thus one can easily get two eigenvalues of 
+\begin_inset Formula $A$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-Thus
+:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\lambda_{1,2}=\frac{tr(A)\pm\sqrt{tr(A)^{2}-4det(A)}}{2}
+\lambda_{1,2}=\frac{tr(A)\pm\sqrt{D}}{2}
 \]
 
 \end_inset
@@ -170,7 +167,23 @@ Thus
 \end_layout
 
 \begin_layout Standard
-are eigenvalues of matrxi A.
+with discriminant 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $D=tr(A)^{2}-4det(A)$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard

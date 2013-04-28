@@ -92,7 +92,7 @@ Transfer matrix
 \uwave default
 \noun default
 \color inherit
- can be composed drom 
+ can be writen as follows
 \family roman
 \series medium
 \shape up
@@ -104,50 +104,100 @@ Transfer matrix
 \uwave off
 \noun off
 \color none
+:
+\end_layout
 
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M=f(k,\Phi)\cdot\tilde{M}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f:\: C\otimes C\mapsto C$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ is function
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+f(k,\Phi)=\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}\right)^{-1}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+and 
 \begin_inset Formula $\tilde{M}$
 \end_inset
 
- multiplied by 
-\begin_inset Formula $\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}\right)$
-\end_inset
-
-:
+ is 2x2 complex matrix:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\tilde{M}=\left(\begin{array}{cc}
+\begin_inset Formula 
+\[
+\tilde{M}=\left(\begin{array}{cc}
 \left\{ e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2e^{i2k\pi}+\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ .\right\} \\
 \left\{ 1-e^{i2k\pi}e^{-i2\Phi\pi}+e^{i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ .\right\} 
-\end{array}\right)$
+\end{array}\right)
+\]
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\tilde{M}=\left(\begin{array}{cc}
+\begin_inset Formula 
+\[
+\tilde{M}=\left(\begin{array}{cc}
 \left\{ .\right\}  & \left\{ e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}+\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\right\} \\
 \left\{ .\right\}  & \left\{ 2e^{-i2k\pi}-e^{-i2\Phi\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\right\} 
-\end{array}\right)$
+\end{array}\right)
+\]
+
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Finally arrive at a simple view of transfer matrix 
-\begin_inset Formula $M$
-\end_inset
-
-:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $M=\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}\right)^{-1}\tilde{M}$
-\end_inset
-
-.
 \end_layout
 
 \end_body

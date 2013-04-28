@@ -65,7 +65,7 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\tilde{M}=\left(\begin{array}{cc}
+\begin_inset Formula $\tilde{M}(k,\Phi)=\left(\begin{array}{cc}
 \left\{ e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2e^{i2k\pi}+\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ .\right\} \\
 \left\{ 1-e^{i2k\pi}e^{-i2\Phi\pi}+e^{i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ .\right\} 
 \end{array}\right)$
@@ -75,7 +75,7 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\tilde{M}=\left(\begin{array}{cc}
+\begin_inset Formula $\tilde{M}(k,\Phi)=\left(\begin{array}{cc}
 \left\{ .\right\}  & \left\{ e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}+\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\right\} \\
 \left\{ .\right\}  & \left\{ 2e^{-i2k\pi}-e^{-i2\Phi\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\right\} 
 \end{array}\right)$
@@ -85,7 +85,7 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $M=\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}\right)^{-1}\tilde{M}$
+\begin_inset Formula $M(k,\Phi)=\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}\right)^{-1}\tilde{M}(k,\Phi)$
 \end_inset
 
 .
@@ -239,7 +239,7 @@
 \noun default
 \color inherit
 
-\begin_inset Formula $M|_{\Phi=0}=\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}\right)^{-1}|_{\Phi=0}\cdot\tilde{M}|_{\Phi=0}=$
+\begin_inset Formula $M(k,0)=\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}\right)^{-1}|_{\Phi=0}\cdot\tilde{M}(k,0)=$
 \end_inset
 
 

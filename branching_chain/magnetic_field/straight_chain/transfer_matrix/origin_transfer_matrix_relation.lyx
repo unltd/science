@@ -145,7 +145,14 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right)+2e^{ik\pi}\left(e^{-ik\pi}-e^{ik\pi}\right)\left(1+\frac{\alpha}{4ik}\right)$
+\begin_inset Formula $=\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right)+2e^{ik\pi}\left(e^{-ik\pi}-e^{ik\pi}\right)\left(1+\frac{\alpha}{4ik}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right)+2\left(e^{-ik\pi}-e^{ik\pi}\right)M(k,0)_{1,1}$
 \end_inset
 
 
@@ -168,9 +175,152 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=-\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right)+2e^{-ik\pi}\left(e^{-ik\pi}-e^{ik\pi}\right)\left(1-\frac{\alpha}{4ik}\right)$
+\begin_inset Formula $=-\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right)+2e^{-ik\pi}\left(e^{-ik\pi}-e^{ik\pi}\right)\left(1-\frac{\alpha}{4ik}\right)=$
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right)+2\left(e^{-ik\pi}-e^{ik\pi}\right)M(k,0)_{2,2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3.
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\tilde{m}_{1,2}(k,\Phi)=e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}+\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-ik\pi}\left\{ e^{-ik\pi}e^{-i2\Phi\pi}-e^{ik\pi}-e^{-ik\pi}+e^{ik\pi}e^{i2\Phi\pi}+\frac{i\alpha}{2k}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $=e^{-ik\pi}\left\{ e^{-ik\pi}\left(e^{-i2\Phi\pi}-1\right)+e^{ik\pi}\left(e^{i2\Phi\pi}-1\right)+\frac{i\alpha}{2k}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $=e^{-ik\pi}\left\{ e^{-ik\pi}e^{-i\Phi\pi}\left(e^{-i\Phi\pi}-e^{i\Phi\pi}\right)+e^{ik\pi}e^{i\Phi\pi}\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)+\frac{i\alpha}{2k}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $=e^{-ik\pi}\left\{ \left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)+\frac{i\alpha}{2k}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $=e^{-ik\pi}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)-e^{-ik\pi}\frac{i\alpha}{2k}\left(e^{-ik\pi}-e^{ik\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $=e^{-ik\pi}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)-2\left(e^{-ik\pi}-e^{+ik\pi}\right)M(k,0)_{1,2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+4.
+ 
+\begin_inset Formula $\tilde{m}_{2,1}(k,\Phi)=-\tilde{m}_{1,2}(2k,\Phi)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 

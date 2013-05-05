@@ -1,0 +1,373 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Пусть 
+\begin_inset Formula $C=A+B$
+\end_inset
+
+ - квадратная матрица 2x2.
+\end_layout
+
+\begin_layout Standard
+1.
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $D(C)=(c_{1,1}-c_{2,2})^{2}+4c_{1,2}c_{2,1}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\left(a_{1,1}+b_{1,1}\right)-\left(a_{2,2}+b_{2,2}\right)\right)^{2}+4\left(a_{1,2}+b_{1,2}\right)\left(a_{2,1}+b_{2,1}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\left(a_{1,1}-a_{2,2}\right)+\left(b_{1,1}-b_{2,2}\right)\right)^{2}+4\left(a_{1,2}a_{2,1}+a_{1,2}b_{2,1}+b_{1,2}a_{2,1}+b_{1,2}b_{2,1}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(a_{1,1}-a_{2,2}\right)^{2}+2\left(a_{1,1}-a_{2,2}\right)\left(b_{1,1}-b_{2,2}\right)+\left(b_{1,1}-b_{2,2}\right)^{2}+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+4\left(a_{1,2}a_{2,1}+a_{1,2}b_{2,1}+b_{1,2}a_{2,1}+b_{1,2}b_{2,1}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(a_{1,1}-a_{2,2}\right)^{2}+4a_{1,2}a_{2,1}+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+2\left(a_{1,1}-a_{2,2}\right)\left(b_{1,1}-b_{2,2}\right)+4a_{1,2}b_{2,1}+4b_{1,2}a_{2,1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+\left(b_{1,1}-b_{2,2}\right)^{2}+4b_{1,2}b_{2,1}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=D(A)+D(B)+2\left(a_{1,1}-a_{2,2}\right)\left(b_{1,1}-b_{2,2}\right)+4a_{1,2}b_{2,1}+4b_{1,2}a_{2,1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.
+ Введем обозначение:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $d(A,B)=\left(a_{1,1}-a_{2,2}\right)\left(b_{1,1}-b_{2,2}\right)+2a_{1,2}b_{2,1}+2b_{1,2}a_{2,1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3.
+ Таким образом
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D(C)=D(A)+D(B)+2d(A,B)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+4.
+ Свойства функции 
+\begin_inset Formula $D(C)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D:\mathbb{C}_{2x2}\rightarrow\mathbb{C}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D(C)=(c_{1,1}-c_{2,2})^{2}+4c_{1,2}c_{2,1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+4.1.
+ Пусть 
+\begin_inset Formula $\alpha\in\mathbb{C}$
+\end_inset
+
+ - комплексная константа.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D(\alpha C)=(\alpha c_{1,1}-\alpha c_{2,2})^{2}+4\alpha c_{1,2}\alpha c_{2,1}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\alpha^{2}c_{1,1}-c_{2,2})^{2}+4\alpha^{2}c_{1,2}c_{2,1}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\alpha^{2}D(C)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+5.
+ Свойства функции 
+\begin_inset Formula $d(A,B)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $d:\mathbb{C}_{2x2}\otimes\mathbb{C}_{2x2}\rightarrow\mathbb{C}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $d(A,B)=\left(a_{1,1}-a_{2,2}\right)\left(b_{1,1}-b_{2,2}\right)+2a_{1,2}b_{2,1}+2b_{1,2}a_{2,1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+5.1.
+ Билинейность:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u,v\in\mathbb{C},$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $P,Q\in\mathbb{C}_{2x2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+5.1.1.
+ Линейность по первому аргументу:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $d(uP+vQ,B)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(uP_{1,1}+vQ_{1,1}-uP_{2,2}-vQ_{2,2}\right)\left(b_{1,1}-b_{2,2}\right)+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+2\left(uP_{1,2}+vQ_{1,2}\right)b_{2,1}+2b_{1,2}\left(uP_{2,1}+vQ_{2,1}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=u\left(P_{1,1}-P_{2,2}\right)\left(b_{1,1}-b_{2,2}\right)+2uP_{1,2}b_{2,1}+2b_{1,2}uP_{2,1}+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+v\left(Q_{1,1}-Q_{2,2}\right)\left(b_{1,1}-b_{2,2}\right)+2vQ_{1,2}b_{2,1}+2b_{1,2}vQ_{2,1}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ud(P,B)+vd(Q,B)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+5.1.2.
+ Линейность по второму аргументу:
+\end_layout
+
+\begin_layout Standard
+доказывается аналогично.
+\end_layout
+
+\begin_layout Standard
+5.2.
+ Симметричность.
+\end_layout
+
+\begin_layout Standard
+5.3.
+ Таким образом 
+\begin_inset Formula $g(A,B)$
+\end_inset
+
+ - билинейная симметричная квадратичная форма.
+\end_layout
+
+\begin_layout Standard
+6.
+ Заметим так же, что дискриминант 
+\begin_inset Formula $D(C)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+вырвжается через квадратичную квадратичную форму:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D(C)=d(C,C)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+7.
+ Выражение для дискриминанта суммы теперь можно переписать:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D(A+B)=d(A,A)+2d(A,B)+d(B,B)$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

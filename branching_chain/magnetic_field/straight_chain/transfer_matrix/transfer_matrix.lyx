@@ -123,7 +123,7 @@ where
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $f:\: C\otimes C\mapsto C$
+\begin_inset Formula $f:\:\mathbb{C}\otimes\mathbb{C}\mapsto\mathbb{C}$
 \end_inset
 
 

@@ -60,6 +60,91 @@
 \begin_body
 
 \begin_layout Standard
+Первым делом напомним, как выглядит трансферная матрица системы
+\end_layout
+
+\begin_layout Standard
+в отсутствии магнитного поля:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M(k,0)=\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)\right\}  & \left\{ e^{-ik\pi}\frac{\alpha}{4ik}\right\} \\
+\left\{ -e^{ik\pi}\frac{\alpha}{4ik}\right\}  & \left\{ e^{-ik\pi}\left(1-\frac{\alpha}{4ik}\right)\right\} 
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Учитывая магнитное поле мы можем записать матрицу 
+\begin_inset Formula $M$
+\end_inset
+
+ в виде:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M=f(k,\Phi)\cdot\tilde{M}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+где 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula 
+\[
+f(k,\Phi)=\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}\right)^{-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- функция 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $f:\:\mathbb{C}\otimes\mathbb{C}\mapsto\mathbb{C}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula $\tilde{M}=\left(\begin{array}{cc}
 \left\{ e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2e^{i2k\pi}+\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ .\right\} \\
 \left\{ 1-e^{i2k\pi}e^{-i2\Phi\pi}+e^{i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ .\right\} 
@@ -80,109 +165,81 @@
 \end_layout
 
 \begin_layout Standard
+- вспомогательная матрица,
+\end_layout
+
+\begin_layout Standard
+зависящая от аргументов
+\begin_inset Formula $k,\Phi$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
 1.
- 
-\begin_inset Formula $\tilde{m}_{1,1}(k,\Phi)=e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2e^{i2k\pi}+\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)=$
+ Перепишем, отправляя мнимую единицу в знаминатель:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tilde{M}=\left(\begin{array}{cc}
+\left\{ e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2e^{i2k\pi}-\frac{\alpha}{2\text{i}k}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ .\right\} \\
+\left\{ 1-e^{i2k\pi}e^{-i2\Phi\pi}+e^{i2k\pi}-e^{i2\Phi\pi}+\frac{\alpha}{2ik}\left(e^{i2k\pi}-1\right)\right\}  & \left\{ .\right\} 
+\end{array}\right)$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-\frac{i\alpha}{2k}\right)-2e^{i2k\pi}\left(1-\frac{i\alpha}{4k}\right)=$
+\begin_inset Formula $\tilde{M}=\left(\begin{array}{cc}
+\left\{ .\right\}  & \left\{ e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}-\frac{\alpha}{2ik}\left(1-e^{-i2k\pi}\right)\right\} \\
+\left\{ .\right\}  & \left\{ 2e^{-i2k\pi}-e^{-i2\Phi\pi}-e^{i2\Phi\pi}+\frac{\alpha}{2ik}\left(1-e^{-i2k\pi}\right)\right\} 
+\end{array}\right)$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=2\left(\frac{1}{2}\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}\right)-\frac{i\alpha}{4k}\right)-2e^{i2k\pi}\left(1-\frac{i\alpha}{4k}\right)=$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=2\left\{ \left(\frac{1}{2}\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}\right)-\frac{i\alpha}{4k}\right)-e^{i2k\pi}\left(1-\frac{i\alpha}{4k}\right)\right\} =$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=2\left\{ \left(\frac{1}{2}\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}\right)+\frac{\alpha}{4ik}\right)-e^{i2k\pi}\left(1+\frac{\alpha}{4ik}\right)\right\} =$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=2e^{ik\pi}\left\{ e^{-ik\pi}\left(\frac{1}{2}\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}\right)+\frac{\alpha}{4ik}\right)-e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)\right\} =$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=2e^{ik\pi}\left\{ e^{-ik\pi}\left(\frac{1}{2}\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}\right)-1+\left(1+\frac{\alpha}{4ik}\right)\right)-e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)\right\} =$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=2e^{ik\pi}\left\{ e^{-ik\pi}\left(\frac{1}{2}\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}\right)-1\right)+e^{-ik\pi}\left(1+\frac{\alpha}{4ik}\right)-e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)\right\} =$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=2e^{ik\pi}\left\{ e^{-ik\pi}\left(\frac{1}{2}\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}\right)-1\right)+\left(e^{-ik\pi}-e^{ik\pi}\right)\left(1+\frac{\alpha}{4ik}\right)\right\} =$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right)+2e^{ik\pi}\left(e^{-ik\pi}-e^{ik\pi}\right)\left(1+\frac{\alpha}{4ik}\right)=$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right)+2\left(e^{-ik\pi}-e^{ik\pi}\right)M(k,0)_{1,1}$
-\end_inset
-
-
+.
 \end_layout
 
 \begin_layout Standard
 2.
- 
-\begin_inset Formula $\tilde{m}_{2,2}(k,\Phi)=-\tilde{m}_{1,1}(-k,\Phi)=$
+ Перепишем 
+\begin_inset Formula $\tilde{m}_{1,1}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2+2-2e^{i2k\pi}-\frac{\alpha}{2\text{i}k}\left(e^{i2k\pi}-1\right)=$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=-\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right)-2e^{-ik\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)\left(1-\frac{\alpha}{4ik}\right)=$
+\begin_inset Formula $=e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2-2\left(e^{i2k\pi}-1\right)-\frac{\alpha}{2\text{i}k}\left(e^{i2k\pi}-1\right)=$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=-\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right)+2e^{-ik\pi}\left(e^{-ik\pi}-e^{ik\pi}\right)\left(1-\frac{\alpha}{4ik}\right)=$
+\begin_inset Formula $=e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2-2\left(e^{i2k\pi}-1\right)\left(1+\frac{\alpha}{4\text{i}k}\right)=$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=-\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right)+2\left(e^{-ik\pi}-e^{ik\pi}\right)M(k,0)_{2,2}$
+\begin_inset Formula $=e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2-2\left(e^{ik\pi}-e^{-ik\pi}\right)e^{ik\pi}\left(1+\frac{\alpha}{4\text{i}k}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2+2\left(e^{-ik\pi}-e^{ik\pi}\right)M_{1,1}(k,0)$
 \end_inset
 
 
@@ -190,137 +247,403 @@
 
 \begin_layout Standard
 3.
- 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+ Матричный элемент 
+\begin_inset Formula $m_{1,1}$
+\end_inset
 
-\begin_inset Formula $\tilde{m}_{1,2}(k,\Phi)=e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}+\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)=$
+ трансферной матрицы
+\end_layout
+
+\begin_layout Standard
+получит следующий вид:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,1}(k,\Phi)=f(k,\Phi)\cdot\tilde{m}_{1,1}(k,\Phi)=$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=e^{-ik\pi}\left\{ e^{-ik\pi}e^{-i2\Phi\pi}-e^{ik\pi}-e^{-ik\pi}+e^{ik\pi}e^{i2\Phi\pi}+\frac{i\alpha}{2k}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\} =$
+\begin_inset Formula $=f(k,\Phi)\cdot\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2+2\left(e^{-ik\pi}-e^{ik\pi}\right)M_{1,1}(k,0)\right)$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $=e^{-ik\pi}\left\{ e^{-ik\pi}\left(e^{-i2\Phi\pi}-1\right)+e^{ik\pi}\left(e^{i2\Phi\pi}-1\right)+\frac{i\alpha}{2k}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\} =$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $=e^{-ik\pi}\left\{ e^{-ik\pi}e^{-i\Phi\pi}\left(e^{-i\Phi\pi}-e^{i\Phi\pi}\right)+e^{ik\pi}e^{i\Phi\pi}\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)+\frac{i\alpha}{2k}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\} =$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $=e^{-ik\pi}\left\{ \left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)+\frac{i\alpha}{2k}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\} =$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $=e^{-ik\pi}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)-e^{-ik\pi}\frac{i\alpha}{2k}\left(e^{-ik\pi}-e^{ik\pi}\right)=$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $=e^{-ik\pi}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)-2\left(e^{-ik\pi}-e^{+ik\pi}\right)M(k,0)_{1,2}$
-\end_inset
-
-
+.
 \end_layout
 
 \begin_layout Standard
 4.
- 
-\begin_inset Formula $\tilde{m}_{2,1}(k,\Phi)=-\tilde{m}_{1,2}(2k,\Phi)=$
+ Используем свойства трансферной матрицы,
+\end_layout
+
+\begin_layout Standard
+полученные в transfer_matrix_sym_property.lyx:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{2,2}(k,\Phi)=m_{1,1}(-k,\Phi)=m_{1,1}(-k,\Phi)=$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula $=f(-k,\Phi)\cdot\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2+2\left(e^{ik\pi}-e^{-ik\pi}\right)M_{1,1}(-k,0)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-f(k,\Phi)\cdot\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2-2\left(e^{-ik\pi}-e^{ik\pi}\right)M_{2,2}(k,0)\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+5.
+ Теперь перепишем
+\begin_inset Formula $\tilde{m}_{1,2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tilde{m}_{1,2}=e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}-\frac{\alpha}{2ik}\left(1-e^{-i2k\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}-\frac{\alpha}{2ik}\left(1-e^{-i2k\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}-e^{-ik\pi}\frac{\alpha}{2ik}\left(e^{ik\pi}-e^{-ik\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}+2\left(e^{-ik\pi}-e^{ik\pi}\right)e^{-ik\pi}\frac{\alpha}{4ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}+2\left(e^{-ik\pi}-e^{ik\pi}\right)M_{1,2}\left(k,0\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+6.
+ Уделим немного внемания следующему выражению:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-i2k\pi}e^{-i2\Phi\pi}-e^{-i2k\pi}+e^{i2\Phi\pi}-1=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-i2k\pi}\left(e^{-i2\Phi\pi}-1\right)+e^{i2\Phi\pi}-1=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-i2k\pi}e^{-i\Phi\pi}\left(e^{-i\Phi\pi}-e^{i\Phi\pi}\right)+e^{i\Phi\pi}\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(e^{-i2k\pi}e^{-i\Phi\pi}-e^{i\Phi\pi}\right)\left(e^{-i\Phi\pi}-e^{i\Phi\pi}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+7.
+ Запишем тепер матричный элмент трансферной матрицы:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,2}(k,\Phi)=f(k,\Phi)\tilde{m}_{1,2}(k,\Phi)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=f(k,\Phi)\left(e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}+2\left(e^{-ik\pi}-e^{ik\pi}\right)M_{1,2}\left(k,0\right)\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+8.
+ И накрест противоположный ему элемент:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{2,1}(k,\Phi)=m_{1,2}(-k,\Phi)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=f(-k,\Phi)\left(e^{i2k\pi}e^{-i2\Phi\pi}-1-e^{i2k\pi}+e^{i2\Phi\pi}-2\left(e^{-ik\pi}-e^{ik\pi}\right)M_{1,2}\left(-k,0\right)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-f(k,\Phi)\left(e^{i2k\pi}e^{-i2\Phi\pi}-1-e^{i2k\pi}+e^{i2\Phi\pi}-2\left(e^{-ik\pi}-e^{ik\pi}\right)M_{2,1}\left(k,0\right)\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+9.1.
+ Отметим теперь, что трансферную матрицу
+\end_layout
+
+\begin_layout Standard
+можно представить в виде суммы двух матриц:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M=f(k,\Phi)\left(\begin{array}{cc}
+\left\{ e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right\}  & \left\{ e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}\right\} \\
+\left\{ -\left(e^{i2k\pi}e^{-i2\Phi\pi}-1-e^{i2k\pi}+e^{i2\Phi\pi}\right)\right\}  & \left\{ -\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right)\right\} 
+\end{array}\right)+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+f(k,\Phi)2\left(e^{-ik\pi}-e^{ik\pi}\right)M(k,0)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+вторая из которых пропорцианальна трансферной матрице
+\end_layout
+
+\begin_layout Standard
+системы в отсутствии магнитного поля
+\end_layout
+
+\begin_layout Standard
+9.2.
+ Обозначим
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T=\left(\begin{array}{cc}
+\left\{ e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right\}  & \left\{ e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}\right\} \\
+\left\{ -\left(e^{i2k\pi}e^{-i2\Phi\pi}-1-e^{i2k\pi}+e^{i2\Phi\pi}\right)\right\}  & \left\{ -\left(e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2\right)\right\} 
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+9.3.
+ Перепишем
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M=f(k,\Phi)T(k,\Phi)+f(k,\Phi)2\left(e^{-ik\pi}-e^{ik\pi}\right)M(k,0)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+10.
+ Проведем группировку
+\end_layout
+
+\begin_layout Standard
+10.1.
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-i2k\pi}\left(e^{-i2\Phi\pi}-1\right)+e^{i2\Phi\pi}-1=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-i2k\pi}e^{-i\Phi\pi}\left(e^{-i\Phi\pi}-e^{i\Phi\pi}\right)-e^{i\Phi\pi}\left(e^{-i\Phi\pi}-e^{i\Phi\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-ik\pi}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+10.2.
+ 
+\begin_inset Formula $e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2=\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+10.3.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(k,\Phi)=\left(\begin{array}{cc}
+\left\{ \left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\right\}  & \left\{ .\right\} \\
+\left\{ -e^{ik\pi}\left(e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)\right\}  & \left\{ .\right\} 
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(k,\Phi)=\left(\begin{array}{cc}
+\left\{ .\right\}  & \left\{ e^{-ik\pi}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)\right\} \\
+\left\{ .\right\}  & \left\{ -\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\right\} 
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+10.4.
+ Вынесем множитель 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(k,\Phi)=\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ \frac{e^{-ik\pi}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)}{\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)}\right\} \\
+\left\{ -\frac{e^{ik\pi}\left(e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)}{\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)}\right\}  & \left\{ -1\right\} 
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+10.4.
+ Введем обозначение 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g(k,\Phi)=\frac{e^{-ik\pi}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)}{\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+10.5.
+ Подставим обозначение 
+\begin_inset Formula $g(k,\Phi)$
+\end_inset
+
+ в выражение для матрицы 
+\begin_inset Formula $T$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T(k,\Phi)=\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ g(k,\Phi)\right\} \\
+\left\{ -g(-k,\Phi)\right\}  & \left\{ -1\right\} 
+\end{array}\right)
+\]
+
+\end_inset
+
 
 \end_layout
 

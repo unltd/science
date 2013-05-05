@@ -119,7 +119,7 @@ where
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $f:\: C\otimes C\mapsto C$
+\begin_inset Formula $f:\:\mathbb{C}\otimes\mathbb{C}\mapsto\mathbb{C}$
 \end_inset
 
 
@@ -210,81 +210,69 @@ and
 \uwave off
 \noun off
 \color none
- Simplify:
-\begin_inset Formula $\tilde{m}_{2,1}(k,\Phi)=1-e^{i2k\pi}e^{-i2\Phi\pi}+e^{i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)=$
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Упростим вид функции 
+\begin_inset Formula $f$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f(k,\Phi)=\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}\right)^{-1}=$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=e^{-i2\Phi\pi}\left(e^{i2\Phi\pi}-e^{i2k\pi}\right)-\left(e^{i2\Phi\pi}-e^{i2k\pi}\right)-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)=$
+\begin_inset Formula $=\left(e^{-ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)^{-1}=$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=\left(e^{-i2\Phi\pi}-1\right)\left(e^{i2\Phi\pi}-e^{i2k\pi}\right)-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)$
+\begin_inset Formula $=\left(e^{-ik\pi}\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)-e^{ik\pi}\left(e^{i\Phi\pi}+e^{-i\Phi\pi}\right)\right)^{-1}=$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-1.2.
- Denote: 
-\begin_inset Formula 
-\[
-u(k,\Phi)=\left(e^{-i2\Phi\pi}-1\right)\left(e^{i2\Phi\pi}-e^{i2k\pi}\right)
-\]
-
+\begin_inset Formula $=\left(\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)\left(e^{-ik\pi}-e^{ik\pi}\right)\right)^{-1}=$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\[
-v(k,\Phi)=\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-1.3.
- Rewrite: 
-\begin_inset Formula $\tilde{m}_{2,1}(k,\Phi)=u(k,\Phi)-v(k,\Phi)$
+\begin_inset Formula $=\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)^{-1}\left(e^{-ik\pi}-e^{ik\pi}\right)^{-1}$
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-2.
- Simplify: 
-\begin_inset Formula $\tilde{m}_{1,2}(k,\Phi)=e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}+\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)=$
-\end_inset
-
-
+Таким образом
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=e^{-i2\Phi\pi}\left(e^{-i2k\pi}-e^{i2\Phi\pi}\right)-\left(e^{-i2k\pi}-e^{i2\Phi\pi}\right)+v(-k)=$
+\begin_inset Formula $f(k,\Phi)=\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)^{-1}\left(e^{-ik\pi}-e^{ik\pi}\right)^{-1}$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=\left(e^{-i2\Phi\pi}-1\right)\left(e^{-i2k\pi}-e^{i2\Phi\pi}\right)+v(-k)$
-\end_inset
-
-
+.
 \end_layout
 
 \end_body

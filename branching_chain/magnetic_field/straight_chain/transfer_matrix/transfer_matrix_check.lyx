@@ -249,15 +249,15 @@
 \begin_inset Formula $=\left(\begin{array}{cc}
 \left\{ e^{ik\pi}\left(1-\frac{i\alpha}{4k}\right)\right\}  & \left\{ -e^{-ik\pi}\frac{i\alpha}{4k}\right\} \\
 \left\{ e^{ik\pi}\frac{i\alpha}{4k}\right\}  & \left\{ e^{-ik\pi}\left(1+\frac{\alpha}{4ik}\right)\right\} 
-\end{array}\right)$
+\end{array}\right)=$
 \end_inset
 
-=
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula $=\left(\begin{array}{cc}
-\left\{ e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)\right\}  & \left\{ e^{-ik\pi}\frac{i\alpha}{4k}\right\} \\
+\left\{ e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)\right\}  & \left\{ e^{-ik\pi}\frac{\alpha}{4ik}\right\} \\
 \left\{ -e^{ik\pi}\frac{\alpha}{4ik}\right\}  & \left\{ e^{-ik\pi}\left(1-\frac{\alpha}{4ik}\right)\right\} 
 \end{array}\right)$
 \end_inset

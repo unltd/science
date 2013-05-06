@@ -908,6 +908,43 @@ D\left(T(k,\Phi)\right)=4\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot\left(e
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{c}
+d\left(T(k,\Phi),\, M(k,0)\right)=2\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot\\
+\cdot\left\{ \left(\left(e^{ik\pi}-e^{-ik\pi}\right)+\frac{\alpha}{4ik}\left(e^{ik\pi}+e^{-ik\pi}\right)\right)+\frac{\alpha}{4ik}\frac{\left(e^{-ik\pi}-e^{ik\pi}\right)\left(e^{i\Phi\pi}+e^{-i\Phi\pi}\right)}{\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)}\right\} 
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 4.
  Получаем выражение для 
@@ -1099,8 +1136,27 @@ D\left(T(k,\Phi)\right)=4\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot\left(e
 \end_layout
 
 \begin_layout Standard
+\begin_inset Box ovalbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
 Учитываем 
 \begin_inset Formula $f(k,\Phi)=\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)^{-1}\left(e^{-ik\pi}-e^{ik\pi}\right)^{-1}$
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -1154,7 +1210,7 @@ D\left(T(k,\Phi)\right)=4\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot\left(e
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=\frac{4}{\cos^{2}(\Phi\pi)}\left\{ \left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1\right\} +$
+\begin_inset Formula $=\frac{4}{\cos^{2}(\Phi\pi)}\left\{ \left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1\right\} $
 \end_inset
 
 
@@ -1168,7 +1224,7 @@ D\left(T(k,\Phi)\right)=4\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot\left(e
 \end_layout
 
 \begin_layout Standard
-\begin_inset Box Boxed
+\begin_inset Box ovalbox
 position "t"
 hor_pos "c"
 has_inner_box 1
@@ -1213,6 +1269,43 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{c}
+D(M(k,\Phi))=\frac{4}{\cos^{2}(\Phi\pi)}\left\{ \left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1\right\} -\\
+-4\tan^{2}(\Phi\pi)\left\{ 3-2\frac{\alpha}{4k}\cot(k\pi)-2\frac{\alpha}{4k}\cot(\Phi\pi)\right\} 
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 6.
  След трансферной матрицы: 
@@ -1231,6 +1324,324 @@ status open
 
 \begin_layout Standard
 \begin_inset Formula $=f(k,\Phi)\left\{ tr\left(T(k,\Phi)\right)+2\left(e^{-ik\pi}-e^{ik\pi}\right)tr\left(M(k,0)\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+6.1.
+ След матрицы 
+\begin_inset Formula $T$
+\end_inset
+
+: 
+\begin_inset Formula $tr(T)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $tr(T(k,\Phi))=tr\left\{ \left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\tilde{T}(k,\Phi)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}tr\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ g(k,\Phi)\right\} \\
+\left\{ -g(-k,\Phi)\right\}  & \left\{ -1\right\} 
+\end{array}\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+tr(T(k,\Phi))=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+6.2.
+ След матрицы
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $M(k,0)$
+\end_inset
+
+:
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ 
+\begin_inset Formula $tr\left(M(k,0)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $tr\left(M(k,0)\right)=tr\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)\right\}  & \left\{ e^{-ik\pi}\frac{\alpha}{4ik}\right\} \\
+\left\{ -e^{ik\pi}\frac{\alpha}{4ik}\right\}  & \left\{ e^{-ik\pi}\left(1-\frac{\alpha}{4ik}\right)\right\} 
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)+e^{-ik\pi}\left(1-\frac{\alpha}{4ik}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(e^{ik\pi}+e^{-ik\pi}\right)+\frac{\alpha}{4ik}\left(e^{ik\pi}-e^{-ik\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2\cos(k\pi)+\frac{\alpha}{4k}2\sin(k\pi)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого: 
+\begin_inset Formula 
+\[
+tr\left(M(k,0)\right)=2\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+6.3.
+ След трансферной матрицы: 
+\begin_inset Formula $tr(M)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $tr(M(k,\Phi))=tr\left(f(k,\Phi)T(k,\Phi)+f(k,\Phi)2\left(e^{-ik\pi}-e^{ik\pi}\right)M(k,0)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=f(k,\Phi)\left\{ tr\left(T(k,\Phi)\right)+2\left(e^{-ik\pi}-e^{ik\pi}\right)tr\left(M(k,0)\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)^{-1}\left(e^{-ik\pi}-e^{ik\pi}\right)^{-1}\left\{ tr\left(T(k,\Phi)\right)+2\left(e^{-ik\pi}-e^{ik\pi}\right)tr\left(M(k,0)\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box ovalbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Учитываем 
+\begin_inset Formula $tr(T(k,\Phi))=0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)^{-1}\left(e^{-ik\pi}-e^{ik\pi}\right)^{-1}2\left(e^{-ik\pi}-e^{ik\pi}\right)tr\left(M(k,0)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)^{-1}tr\left(M(k,0)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box ovalbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Учитываем 
+\begin_inset Formula $tr\left(M(k,0)\right)=2\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)^{-1}2\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{2}{\cos(\Phi\pi)}\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого: 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula 
+\[
+tr(M(k,\Phi))=\frac{2}{\cos(\Phi\pi)}\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 

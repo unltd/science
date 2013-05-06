@@ -59,6 +59,10 @@
 
 \begin_body
 
+\begin_layout Title
+Спектр трансферной матрицы
+\end_layout
+
 \begin_layout Standard
 Трансферная матрица 
 \begin_inset Formula $M(k,\Phi)$
@@ -282,6 +286,10 @@ D(A+B)=D(A)+D(B)+2d(A,B)
 - билиненая симметричная квадратичеая форма.
 \end_layout
 
+\begin_layout Section*
+Вычисление дискриминанта трансферной матрицы
+\end_layout
+
 \begin_layout Standard
 Будем постепенно вычислять слогаемые в составе
 \end_layout
@@ -351,7 +359,7 @@ D(A+B)=D(A)+D(B)+2d(A,B)
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 1.
  Вычисляем 
 \begin_inset Formula $D\left(T(k,\Phi)\right)$
@@ -544,7 +552,7 @@ D\left(T(k,\Phi)\right)=4\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot\left(e
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 2.
  Вычислим 
 \family roman
@@ -565,7 +573,7 @@ D\left(T(k,\Phi)\right)=4\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot\left(e
 :
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 
 \family roman
 \series medium
@@ -651,7 +659,7 @@ D\left(T(k,\Phi)\right)=4\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot\left(e
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 3.
  Вычислим 
 \family roman
@@ -900,9 +908,35 @@ D\left(T(k,\Phi)\right)=4\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot\left(e
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 4.
- 
+ Получаем выражение для 
+\begin_inset Formula $D(M)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Напомним
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D(M(k,\Phi))=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=f(k,\Phi)^{2}\left\{ D\left(T(k,\Phi)\right)+4\left(e^{-ik\pi}-e^{ik\pi}\right)^{2}D\left(M(k,0)\right)+4\left(e^{-ik\pi}-e^{ik\pi}\right)d\left(T(k,\Phi),\, M(k,0)\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
 \family roman
 \series medium
 \shape up
@@ -914,8 +948,40 @@ D\left(T(k,\Phi)\right)=4\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot\left(e
 \uwave off
 \noun off
 \color none
+4.1.
+ Предварительные вычисления
+\end_layout
 
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
 \begin_inset Formula $D\left(T(k,\Phi)\right)+4\left(e^{-ik\pi}-e^{ik\pi}\right)^{2}D\left(M(k,0)\right)+4\left(e^{-ik\pi}-e^{ik\pi}\right)d\left(T(k,\Phi),\, M(k,0)\right)=$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset VSpace defskip
 \end_inset
 
 
@@ -936,7 +1002,126 @@ D\left(T(k,\Phi)\right)=4\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot\left(e
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $+4\left(e^{-ik\pi}-e^{ik\pi}\right)2\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\left\{ \left(\left(e^{ik\pi}-e^{-ik\pi}\right)+\frac{\alpha}{4ik}\left(e^{ik\pi}+e^{-ik\pi}\right)\right)+\frac{\alpha}{4ik}\frac{\left(e^{-ik\pi}-e^{ik\pi}\right)\left(e^{i\Phi\pi}+e^{-i\Phi\pi}\right)}{\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)}\right\} =$
+\begin_inset Formula $+4\left(e^{-ik\pi}-e^{ik\pi}\right)2\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\cdot\left\{ \left(\left(e^{ik\pi}-e^{-ik\pi}\right)+\frac{\alpha}{4ik}\left(e^{ik\pi}+e^{-ik\pi}\right)\right)+\frac{\alpha}{4ik}\frac{\left(e^{-ik\pi}-e^{ik\pi}\right)\left(e^{i\Phi\pi}+e^{-i\Phi\pi}\right)}{\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)}\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=4\left(e^{ik\pi}-e^{-ik\pi}\right)^{2}\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+4\left(e^{-ik\pi}-e^{ik\pi}\right)^{2}\left\{ \left(\left(e^{ik\pi}+e^{-ik\pi}\right)+\frac{\alpha}{4ik}\left(e^{ik\pi}-e^{-ik\pi}\right)\right)^{2}-4\right\} +$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+4\left(e^{-ik\pi}-e^{ik\pi}\right)^{2}2\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\left\{ 1+\frac{\alpha}{4ik}\frac{e^{ik\pi}+e^{-ik\pi}}{e^{-ik\pi}-e^{ik\pi}}+\frac{\alpha}{4ik}\frac{e^{i\Phi\pi}+e^{-i\Phi\pi}}{e^{i\Phi\pi}-e^{-i\Phi\pi}}\right\} =$
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=4\left(e^{-ik\pi}-e^{ik\pi}\right)^{2}\left\{ \left(\left(e^{ik\pi}+e^{-ik\pi}\right)+\frac{\alpha}{4ik}\left(e^{ik\pi}-e^{-ik\pi}\right)\right)^{2}-4\right\} +$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+4\left(e^{-ik\pi}-e^{ik\pi}\right)^{2}\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\left\{ 3+2\frac{\alpha}{4ik}\frac{e^{ik\pi}+e^{-ik\pi}}{e^{-ik\pi}-e^{ik\pi}}+2\frac{\alpha}{4ik}\frac{e^{i\Phi\pi}+e^{-i\Phi\pi}}{e^{i\Phi\pi}-e^{-i\Phi\pi}}\right\} $
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+4.2.
+ Заключительные вычисления
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D(M(k,\Phi))=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=f(k,\Phi)^{2}\left\{ D\left(T(k,\Phi)\right)+4\left(e^{-ik\pi}-e^{ik\pi}\right)^{2}D\left(M(k,0)\right)+4\left(e^{-ik\pi}-e^{ik\pi}\right)d\left(T(k,\Phi),\, M(k,0)\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=4f(k,\Phi)^{2}\left(e^{-ik\pi}-e^{ik\pi}\right)^{2}\left\{ \left(\left(e^{ik\pi}+e^{-ik\pi}\right)+\frac{\alpha}{4ik}\left(e^{ik\pi}-e^{-ik\pi}\right)\right)^{2}-4\right\} +$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+4f(k,\Phi)^{2}\left(e^{-ik\pi}-e^{ik\pi}\right)^{2}\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\left\{ 3+2\frac{\alpha}{4ik}\frac{e^{ik\pi}+e^{-ik\pi}}{e^{-ik\pi}-e^{ik\pi}}+2\frac{\alpha}{4ik}\frac{e^{i\Phi\pi}+e^{-i\Phi\pi}}{e^{i\Phi\pi}-e^{-i\Phi\pi}}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Учитываем 
+\begin_inset Formula $f(k,\Phi)=\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)^{-1}\left(e^{-ik\pi}-e^{ik\pi}\right)^{-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D(M(k,\Phi))=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{4}{\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)^{2}}\left\{ \left(\left(e^{ik\pi}+e^{-ik\pi}\right)+\frac{\alpha}{4ik}\left(e^{ik\pi}-e^{-ik\pi}\right)\right)^{2}-4\right\} +$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+4\left(\frac{e^{i\Phi\pi}-e^{-i\Phi\pi}}{e^{i\Phi\pi}+e^{-i\Phi\pi}}\right)^{2}\left\{ 3+2\frac{\alpha}{4ik}\frac{e^{ik\pi}+e^{-ik\pi}}{e^{-ik\pi}-e^{ik\pi}}+2\frac{\alpha}{4ik}\frac{e^{i\Phi\pi}+e^{-i\Phi\pi}}{e^{i\Phi\pi}-e^{-i\Phi\pi}}\right\} $
 \end_inset
 
 

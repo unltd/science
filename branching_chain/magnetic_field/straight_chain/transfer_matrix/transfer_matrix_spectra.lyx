@@ -1848,7 +1848,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\lambda_{1}\cdot\lambda_{2}=\frac{1}{\cos^{2}(\Phi\pi)}\left\{ \left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)-\right\} $
+\begin_inset Formula $\lambda_{1}\cdot\lambda_{2}=\frac{1}{\cos^{2}(\Phi\pi)}\left\{ 1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \right\} $
 \end_inset
 
 

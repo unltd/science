@@ -1127,5 +1127,114 @@ D\left(T(k,\Phi)\right)=4\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot\left(e
 
 \end_layout
 
+\begin_layout Section*
+5.
+ Тригонометрический вид дискриминанта
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D(M(k,\Phi))=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{1}{\cos^{2}(\Phi\pi)}\left\{ \left(2\cos(k\pi)+\frac{\alpha}{4k}2\sin(k\pi)\right)^{2}-4\right\} +$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+4\left(i\cdot\tan(\Phi\pi)\right)^{2}\left\{ 3-2\frac{\alpha}{4k}\cot(k\pi)-2\frac{\alpha}{4k}\cot(\Phi\pi)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{4}{\cos^{2}(\Phi\pi)}\left\{ \left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1\right\} +$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-4\tan^{2}(\Phi\pi)\left\{ 3-2\frac{\alpha}{4k}\cot(k\pi)-2\frac{\alpha}{4k}\cot(\Phi\pi)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Отметим, что 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\cot(k\pi)+\cot(k\Phi)=\frac{\cos(k\pi)}{\sin(k\pi)}+\frac{\cos(k\Phi)}{\sin(k\Phi)}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $=\frac{\cos(k\pi)\sin(k\Phi)+\sin(k\pi)\cos(k\Phi)}{\sin(k\pi)\sin(k\Phi)}=\frac{\sin\left(\left(k+\Phi\right)\pi\right)}{\sin(k\pi)\sin(\Phi\pi)}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+6.
+ След трансферной матрицы: 
+\begin_inset Formula $tr(M)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $tr(M(k,\Phi))=tr\left(f(k,\Phi)T(k,\Phi)+f(k,\Phi)2\left(e^{-ik\pi}-e^{ik\pi}\right)M(k,0)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=f(k,\Phi)\left\{ tr\left(T(k,\Phi)\right)+2\left(e^{-ik\pi}-e^{ik\pi}\right)tr\left(M(k,0)\right)\right\} $
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

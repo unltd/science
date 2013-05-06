@@ -353,7 +353,38 @@ D(A+B)=D(A)+D(B)+2d(A,B)
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace defskip
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+D(M(k,\Phi))=f(k,\Phi)^{2}\cdot\left\{ \begin{array}{c}
+D\left(T(k,\Phi)\right)+\\
++4\left(e^{-ik\pi}-e^{ik\pi}\right)^{2}D\left(M(k,0)\right)+\\
++4\left(e^{-ik\pi}-e^{ik\pi}\right)d\left(T(k,\Phi),\, M(k,0)\right)
+\end{array}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -534,18 +565,33 @@ D(A+B)=D(A)+D(B)+2d(A,B)
 \end_layout
 
 \begin_layout Standard
-Таким образом имеем выражение для 
-\begin_inset Formula $D\left(T(k,\Phi)\right)$
-\end_inset
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
 
-:
+\begin_layout Plain Layout
+Итого:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Formula 
 \[
 D\left(T(k,\Phi)\right)=4\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot\left(e^{ik\pi}-e^{-ik\pi}\right)^{2}
 \]
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -586,7 +632,7 @@ D\left(T(k,\Phi)\right)=4\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot\left(e
 \uwave off
 \noun off
 \color none
-\begin_inset Formula $D\left(M(k,0)\right)=tr\left(M(k,\Phi)\right)^{2}-4det\left(M(k,\Phi)\right)$
+\begin_inset Formula $D\left(M(k,0)\right)=tr\left(M(k,0)\right)^{2}-4det\left(M(k,0)\right)$
 \end_inset
 
 ;
@@ -607,7 +653,7 @@ D\left(T(k,\Phi)\right)=4\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot\left(e
 \noun off
 \color none
 
-\begin_inset Formula $tr\left(M(k,\Phi)\right)=e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)+e^{-ik\pi}\left(1-\frac{\alpha}{4ik}\right)=$
+\begin_inset Formula $tr\left(M(k,0)\right)=e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)+e^{-ik\pi}\left(1-\frac{\alpha}{4ik}\right)=$
 \end_inset
 
 
@@ -623,7 +669,7 @@ D\left(T(k,\Phi)\right)=4\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot\left(e
 \begin_layout Standard
 2.2.
  
-\begin_inset Formula $det\left(M(k,\Phi)\right)=e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)e^{-ik\pi}\left(1-\frac{\alpha}{4ik}\right)-$
+\begin_inset Formula $det\left(M(k,0)\right)=e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)e^{-ik\pi}\left(1-\frac{\alpha}{4ik}\right)-$
 \end_inset
 
 
@@ -654,6 +700,40 @@ D\left(T(k,\Phi)\right)=4\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\cdot\left(e
 
 \begin_layout Standard
 \begin_inset Formula $=\left(\left(e^{ik\pi}+e^{-ik\pi}\right)+\frac{\alpha}{4ik}\left(e^{ik\pi}-e^{-ik\pi}\right)\right)^{2}-4$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+D\left(M(k,0)\right)=\left(\left(e^{ik\pi}+e^{-ik\pi}\right)+\frac{\alpha}{4ik}\left(e^{ik\pi}-e^{-ik\pi}\right)\right)^{2}-4
+\]
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -1178,6 +1258,39 @@ status open
 
 \begin_layout Standard
 \begin_inset Formula $+4\left(\frac{e^{i\Phi\pi}-e^{-i\Phi\pi}}{e^{i\Phi\pi}+e^{-i\Phi\pi}}\right)^{2}\left\{ 3+2\frac{\alpha}{4ik}\frac{e^{ik\pi}+e^{-ik\pi}}{e^{-ik\pi}-e^{ik\pi}}+2\frac{\alpha}{4ik}\frac{e^{i\Phi\pi}+e^{-i\Phi\pi}}{e^{i\Phi\pi}-e^{-i\Phi\pi}}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $D(M(k,\Phi))=\begin{array}{c}
+\frac{4}{\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)^{2}}\left\{ \left(\left(e^{ik\pi}+e^{-ik\pi}\right)+\frac{\alpha}{4ik}\left(e^{ik\pi}-e^{-ik\pi}\right)\right)^{2}-4\right\} +\\
++4\left(\frac{e^{i\Phi\pi}-e^{-i\Phi\pi}}{e^{i\Phi\pi}+e^{-i\Phi\pi}}\right)^{2}\left\{ 3+2\frac{\alpha}{4ik}\frac{e^{ik\pi}+e^{-ik\pi}}{e^{-ik\pi}-e^{ik\pi}}+2\frac{\alpha}{4ik}\frac{e^{i\Phi\pi}+e^{-i\Phi\pi}}{e^{i\Phi\pi}-e^{-i\Phi\pi}}\right\} 
+\end{array}$
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 

@@ -1403,8 +1403,8 @@ status open
 \begin_layout Plain Layout
 \begin_inset Formula 
 \[
-\begin{array}{c}
-D(M(k,\Phi))=\frac{4}{\cos^{2}(\Phi\pi)}\left\{ \left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1\right\} -\\
+D(M(k,\Phi))=\begin{array}{c}
+\frac{4}{\cos^{2}(\Phi\pi)}\left\{ \left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1\right\} -\\
 -4\tan^{2}(\Phi\pi)\left\{ 3-2\frac{\alpha}{4k}\cot(k\pi)-2\frac{\alpha}{4k}\cot(\Phi\pi)\right\} 
 \end{array}
 \]
@@ -1755,6 +1755,100 @@ tr(M(k,\Phi))=\frac{2}{\cos(\Phi\pi)}\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+7.
+ Собственные числа трансферной матрицы
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda_{1,2}=\frac{tr(M)\pm\sqrt{D(M)}}{2}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{1}{2}\left\{ \frac{2}{\cos(\Phi\pi)}\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\pm\sqrt{\begin{array}{c}
+\frac{4}{\cos^{2}(\Phi\pi)}\left\{ \left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1\right\} -\\
+-4\tan^{2}(\Phi\pi)\left\{ 3-2\frac{\alpha}{4k}\cot(k\pi)-2\frac{\alpha}{4k}\cot(\Phi\pi)\right\} 
+\end{array}}\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left\{ \frac{1}{\cos(\Phi\pi)}\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\pm\sqrt{\begin{array}{c}
+\frac{1}{\cos^{2}(\Phi\pi)}\left\{ \left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1\right\} -\\
+-\tan^{2}(\Phi\pi)\left\{ 3-2\frac{\alpha}{4k}\cot(k\pi)-2\frac{\alpha}{4k}\cot(\Phi\pi)\right\} 
+\end{array}}\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{1}{\cos(\Phi\pi)}\left\{ \left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\pm\sqrt{\begin{array}{c}
+\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1-\\
+-\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} 
+\end{array}}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{c}
+\lambda_{1,2}=\frac{1}{\cos(\Phi\pi)}\cdot\\
+\cdot\left\{ \left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\pm\sqrt{\begin{array}{c}
+\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1-\\
+-\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} 
+\end{array}}\right\} 
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+8.
+ Произведение собственныx чисел трансферной матрицы
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda_{1}\cdot\lambda_{2}=\frac{1}{\cos^{2}(\Phi\pi)}\left\{ \left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)-\right\} $
 \end_inset
 
 

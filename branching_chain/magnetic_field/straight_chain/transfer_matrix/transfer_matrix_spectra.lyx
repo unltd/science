@@ -1842,8 +1842,8 @@ status open
 
 \end_layout
 
-\begin_layout Section*
-8.
+\begin_layout Subsection*
+7.1.
  Произведение собственныx чисел трансферной матрицы
 \end_layout
 
@@ -1852,6 +1852,81 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection*
+7.2.
+ Исследование модулей собственных чисел
+\end_layout
+
+\begin_layout Standard
+Возможные варианты:
+\end_layout
+
+\begin_layout Paragraph*
+7.2.1.
+ Оба собственных числа вещественны: 
+\begin_inset Formula $\lambda_{1,2}\in\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Критерий: 
+\begin_inset Formula $D(M)\geq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+//TODO
+\end_layout
+
+\begin_layout Paragraph*
+7.2.2.
+ Оба собственных числа комплексные: 
+\begin_inset Formula $\lambda_{1,2}\in\mathbb{C}$
+\end_inset
+
+, 
+\begin_inset Formula $Im(\lambda_{1,2})\neq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Критерий: 
+\begin_inset Formula $D(M)<0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Особенности: 
+\end_layout
+
+\begin_layout Standard
+a) 
+\begin_inset Formula $\lambda_{2}=\overline{\lambda_{1}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+b) 
+\begin_inset Formula $\left|\lambda_{1}\right|=\left|\lambda_{2}\right|=\lambda_{1}\cdot\lambda_{2}=\frac{1}{\cos^{2}(\Phi\pi)}\left\{ 1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+// TODO
 \end_layout
 
 \end_body

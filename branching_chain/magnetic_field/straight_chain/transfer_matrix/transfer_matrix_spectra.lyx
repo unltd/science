@@ -1860,11 +1860,29 @@ status open
 \end_layout
 
 \begin_layout Standard
-Возможные варианты:
+Возмжные варианты:
 \end_layout
 
 \begin_layout Paragraph*
 7.2.1.
+ Вырожденный случай: 
+\begin_inset Formula $\sin\left(\Phi\pi\right)=0$
+\end_inset
+
+, 
+\begin_inset Formula $\cos\left(\Phi\pi\right)=\pm1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Матрица системы эквивалентна матрице сестемы в отсутствии магнитного поля
+ с точностью до знака.
+\end_layout
+
+\begin_layout Paragraph*
+7.2.2.
  Оба собственных числа вещественны: 
 \begin_inset Formula $\lambda_{1,2}\in\mathbb{R}$
 \end_inset
@@ -1881,11 +1899,23 @@ status open
 \end_layout
 
 \begin_layout Standard
+Ограничения:
+\end_layout
+
+\begin_layout Standard
+a)
+\begin_inset Formula $\sin\left(\Phi\pi\right)\ne0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 //TODO
 \end_layout
 
 \begin_layout Paragraph*
-7.2.2.
+7.2.3.
  Оба собственных числа комплексные: 
 \begin_inset Formula $\lambda_{1,2}\in\mathbb{C}$
 \end_inset
@@ -1906,6 +1936,18 @@ status open
 \end_layout
 
 \begin_layout Standard
+Ограничения:
+\end_layout
+
+\begin_layout Standard
+a)
+\begin_inset Formula $\sin\left(\Phi\pi\right)\ne0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Особенности: 
 \end_layout
 
@@ -1919,14 +1961,90 @@ a)
 
 \begin_layout Standard
 b) 
-\begin_inset Formula $\left|\lambda_{1}\right|=\left|\lambda_{2}\right|=\lambda_{1}\cdot\lambda_{2}=\frac{1}{\cos^{2}(\Phi\pi)}\left\{ 1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \right\} $
+\begin_inset Formula $\left|\lambda_{1}\right|^{2}=\left|\lambda_{2}\right|^{2}=\lambda_{1}\cdot\lambda_{2}=\frac{1}{\cos^{2}(\Phi\pi)}\left\{ 1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \right\} $
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-// TODO
+Условие непрерывного спектра:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda_{1}\right|=\left|\lambda_{2}\right|=1$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda_{1}\right|^{2}=\left|\lambda_{2}\right|^{2}=1$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\frac{1}{\cos^{2}(\Phi\pi)}\left\{ 1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \right\} =1$
+\end_inset
+
+, пусть 
+\begin_inset Formula $\cos\left(\Phi\right)\neq0$
+\end_inset
+
+, тогда
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =\cos^{2}\left(\Phi\pi\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sin^{2}(\Phi\pi)+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sin^{2}(\Phi\pi)\left\{ 4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\end_inset
+
+, поскольку 
+\begin_inset Formula $\sin\left(\Phi\pi\right)\ne0$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)=0$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(1-\frac{\alpha}{4k}\cot(k\pi)\right)+\left(1-\frac{\alpha}{4k}\cot(\Phi\pi)\right)=0$
+\end_inset
+
+,
 \end_layout
 
 \end_body

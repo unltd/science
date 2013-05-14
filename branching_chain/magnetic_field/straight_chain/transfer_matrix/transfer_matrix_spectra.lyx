@@ -2016,35 +2016,92 @@ b)
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\sin^{2}(\Phi\pi)+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\begin_inset Formula $\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =-\sin^{2}\left(\Phi\pi\right)$
 \end_inset
 
-,
+, 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\sin^{2}(\Phi\pi)\left\{ 4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+учтем этот результат в дискриминанте 
+\begin_inset Formula $D(M)$
 \end_inset
 
-, поскольку 
-\begin_inset Formula $\sin\left(\Phi\pi\right)\ne0$
-\end_inset
-
-,
+:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)=0$
+\begin_inset Formula $D(M)=\begin{array}{c}
+\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1-\\
+-\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} 
+\end{array}=$
 \end_inset
 
-,
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\left(1-\frac{\alpha}{4k}\cot(k\pi)\right)+\left(1-\frac{\alpha}{4k}\cot(\Phi\pi)\right)=0$
+\begin_inset Formula $=\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1+\sin^{2}\left(\Phi\pi\right)=$
 \end_inset
 
-,
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-\cos^{2}\left(\Phi\pi\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого: значения энергии 
+\begin_inset Formula $E=k^{2}\in\mathbb{R\setminus}\{0\}$
+\end_inset
+
+, где 
+\begin_inset Formula $k\notin\mathbb{N}$
+\end_inset
+
+ принадлежат непрерывному спектру
+\end_layout
+
+\begin_layout Plain Layout
+тогда и только тогда, когда
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-\cos^{2}\left(\Phi\pi\right)<0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+при заданном 
+\begin_inset Formula $\Phi$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body

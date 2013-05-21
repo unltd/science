@@ -1,0 +1,2690 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{array}{c}
+\lambda_{1,2}=\frac{1}{\cos(\Phi\pi)}\cdot\\
+\cdot\left\{ \left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\pm\sqrt{\begin{array}{c}
+\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1-\\
+-\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} 
+\end{array}}\right\} 
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\lambda_{1}\cdot\lambda_{2}=\frac{1}{\cos^{2}(\Phi\pi)}\left\{ 1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \right\} $
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Критерий непрерывного спектра: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|\lambda_{1}\right|=\left|\lambda_{2}\right|=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Ограничения
+\end_layout
+
+\begin_layout Standard
+Пусть 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sin(\Phi\pi)\neq0$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\cos(\Phi\pi)\neq0$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Phi\in\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Критерий
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda_{1}\right|=\left|\lambda_{2}\right|=1$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow\left|\lambda_{1}\right|\left|\lambda_{2}\right|=1\,\wedge\,\left|\lambda_{1}\right|=\left|\lambda_{2}\right|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Пронумеруем уравнения системы:
+\end_layout
+
+\begin_layout Standard
+1) 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left|\lambda_{1}\right|\left|\lambda_{2}\right|=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2) 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left|\lambda_{1}\right|=\left|\lambda_{2}\right|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Решение уравнения (1)
+\end_layout
+
+\begin_layout Standard
+1.
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left|\lambda_{1}\right|\left|\lambda_{2}\right|=1$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left|\lambda_{1}\lambda_{2}\right|=1$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left|\frac{1}{\cos^{2}(\Phi\pi)}\left\{ 1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \right\} \right|=1$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =\pm\cos^{2}(\Phi\pi)$
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1.1.
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =+\cos^{2}(\Phi\pi)$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $1-\cos^{2}(\Phi\pi)+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\sin^{2}(\Phi\pi)+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\sin^{2}(\Phi\pi)\left\{ 4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+учитываем, что 
+\begin_inset Formula $\sin(\Phi\pi)\neq0$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\frac{\alpha}{2k}\cot(k\pi)+\frac{\alpha}{2k}\cot(\Phi\pi)=4$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1.2.
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =-\cos^{2}(\Phi\pi)$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $1+\cos^{2}(\Phi\pi)+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $1+\cos^{2}(\Phi\pi)+\sin^{2}(\Phi\pi)+\sin^{2}(\Phi\pi)\left\{ 2-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $1+1+\sin^{2}(\Phi\pi)\left\{ 2-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $2+\sin^{2}(\Phi\pi)\left\{ 2-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+t
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $2-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)=-\frac{2}{\sin^{2}(\Phi\pi)}$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\frac{\alpha}{2k}\cot(k\pi)+\frac{\alpha}{2k}\cot(\Phi\pi)=2+\frac{2}{\sin^{2}(\Phi\pi)}$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\left|\lambda_{1}\right|\left|\lambda_{2}\right|=1\Leftrightarrow1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =\pm\cos^{2}(\Phi\pi)
+\]
+
+\end_inset
+
+ или
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\left|\lambda_{1}\right|\left|\lambda_{2}\right|=1\Leftrightarrow\left[\begin{array}{c}
+\frac{\alpha}{2k}\cot(k\pi)+\frac{\alpha}{2k}\cot(\Phi\pi)=4\\
+\vee\\
+\frac{\alpha}{2k}\cot(k\pi)+\frac{\alpha}{2k}\cot(\Phi\pi)=2+\frac{2}{\sin^{2}(\Phi\pi)}
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Ветвление
+\end_layout
+
+\begin_layout Standard
+Возможные варианты
+\end_layout
+
+\begin_layout Standard
+1.
+ 
+\begin_inset Formula $D(M)>0$
+\end_inset
+
+ - вещественные собственные числа.
+\end_layout
+
+\begin_layout Standard
+2.
+ 
+\begin_inset Formula $D(M)\leq0$
+\end_inset
+
+ - мнимые собственные числа собственные числа.
+\end_layout
+
+\begin_layout Subsection*
+Случай положительного дискриминанта: 
+\begin_inset Formula $D(M)>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D(M)>0$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1-\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} >0$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} <\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Решим уравнение (2) в случае 
+\begin_inset Formula $D(M)>0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\left|\lambda_{1}\right|=\left|\lambda_{2}\right|$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\lambda_{1}^{2}=\lambda_{2}^{2}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}+2\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\sqrt{D(M)}+D(M)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-2\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\sqrt{D(M)}+D(M)$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $4\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\sqrt{D(M)}=0$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+Рассматриваем критерий в случаи 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $D(M)>0$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda_{1}\right|=\left|\lambda_{2}\right|=1$
+\end_inset
+
+
+\begin_inset Formula $\wedge$
+\end_inset
+
+
+\begin_inset Formula $D(M)>0$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{c}
+\left|\lambda_{1}\right|\left|\lambda_{2}\right|=1\\
+\left|\lambda_{1}\right|=\left|\lambda_{2}\right|
+\end{array}\right\} $
+\end_inset
+
+
+\begin_inset Formula $\wedge$
+\end_inset
+
+
+\begin_inset Formula $D(M)>0$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{c}
+1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =\pm\cos^{2}(\Phi\pi)\\
+\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)=0\\
+D(M)>0
+\end{array}\right\} $
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{c}
+1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =\pm\cos^{2}(\Phi\pi)\\
+\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)=0\\
+1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} <\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}
+\end{array}\right\} $
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{c}
+1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =\pm\cos^{2}(\Phi\pi)\\
+\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)=0\\
+1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} <0
+\end{array}\right\} $
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{c}
+1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =-\cos^{2}(\Phi\pi)\\
+\cot(k\pi)=-\frac{\alpha}{4k}
+\end{array}\right\} $
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{c}
+1+\sin^{2}(\Phi\pi)\left\{ 3+\frac{1}{2}\left(\frac{\alpha}{2k}\right)^{2}-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =-\cos^{2}(\Phi\pi)\\
+\cot(k\pi)=-\frac{\alpha}{4k}
+\end{array}\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Рассмотрим первое уравнение:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $1+\sin^{2}(\Phi\pi)\left\{ 3+\frac{1}{2}\left(\frac{\alpha}{2k}\right)^{2}-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =-\cos^{2}(\Phi\pi)$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $1+\cos^{2}(\Phi\pi)+\sin^{2}(\Phi\pi)\left\{ 2+\frac{1}{2}\left(\frac{\alpha}{2k}\right)^{2}-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $1+\cos^{2}(\Phi\pi)+\sin^{2}(\Phi\pi)+\sin^{2}(\Phi\pi)\left\{ 2+\frac{1}{2}\left(\frac{\alpha}{2k}\right)^{2}-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $1+1+\sin^{2}(\Phi\pi)\left\{ 2+\frac{1}{2}\left(\frac{\alpha}{2k}\right)^{2}-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $2+\sin^{2}(\Phi\pi)\left\{ 2+\frac{1}{2}\left(\frac{\alpha}{2k}\right)^{2}-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\frac{2}{\sin^{2}(\Phi\pi)}+2+\frac{1}{2}\left(\frac{\alpha}{2k}\right)^{2}-\frac{\alpha}{2k}\cot(\Phi\pi)=0$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+умножим на 2:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\frac{4}{\sin^{2}(\Phi\pi)}+4+\left(\frac{\alpha}{2k}\right)^{2}-2\frac{\alpha}{2k}\cot(\Phi\pi)=0$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left(\frac{\alpha}{2k}\right)^{2}-2\frac{\alpha}{2k}\cot(\Phi\pi)+\cot^{2}(\Phi\pi)+\frac{4}{\sin^{2}(\Phi\pi)}+4-\cot^{2}(\Phi\pi)=0$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left(\frac{\alpha}{2k}-\cot(\Phi\pi)\right)^{2}+\frac{4}{\sin^{2}(\Phi\pi)}+4-\cot^{2}(\Phi\pi)=0$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left(\frac{\alpha}{2k}-\cot(\Phi\pi)\right)^{2}+\frac{4+4\sin^{2}(\Phi\pi)-\cos^{2}(\Phi\pi)}{\sin^{2}(\Phi\pi)}=0$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left(\frac{\alpha}{2k}-\cot(\Phi\pi)\right)^{2}+\frac{3+5\sin^{2}(\Phi\pi)}{\sin^{2}(\Phi\pi)}=0$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+это может выполнятся только при чисто мнимых значениях 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\frac{\alpha}{2k}-\cot(\Phi\pi)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\alpha}{2k}-\cot(\Phi\pi)=i\Theta$
+\end_inset
+
+, 
+\begin_inset Formula $\Theta\in\mathbb{R}\setminus\{0\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Получим выражение для 
+\begin_inset Formula $k$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\alpha}{2k}-\cot(\Phi\pi)=i\Theta$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\frac{\alpha}{2k}=i\Theta+\cot(\Phi\pi)$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\frac{2k}{\alpha}=\frac{1}{i\Theta+\cot(\Phi\pi)}$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $k=\frac{\alpha/2}{i\Theta+\cot(\Phi\pi)}$
+\end_inset
+
+, 
+\begin_inset Formula $\Theta\in\mathbb{R}\setminus\{0\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Найдем 
+\begin_inset Formula $\Theta$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\left(\frac{\alpha}{2k}-\cot(\Phi\pi)\right)^{2}+\frac{3+5\sin^{2}(\Phi\pi)}{\sin^{2}(\Phi\pi)}=0$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left(i\Theta\right)^{2}+\frac{3+5\sin^{2}(\Phi\pi)}{\sin^{2}(\Phi\pi)}=0$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $-\Theta^{2}+\frac{3+5\sin^{2}(\Phi\pi)}{\sin^{2}(\Phi\pi)}=0$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\Theta^{2}=\frac{3+5\sin^{2}(\Phi\pi)}{\sin^{2}(\Phi\pi)}$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\Theta=\sqrt{\frac{3+5\sin^{2}(\Phi\pi)}{\sin^{2}(\Phi\pi)}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Вернемся к сиситеме:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda_{1}\right|=\left|\lambda_{2}\right|=1$
+\end_inset
+
+
+\begin_inset Formula $\wedge$
+\end_inset
+
+
+\begin_inset Formula $D(M)>0$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{c}
+k=\frac{\alpha/2}{i\Theta+\cot(\Phi\pi)},\Theta=\sqrt{\frac{3+5\sin^{2}(\Phi\pi)}{\sin^{2}(\Phi\pi)}}\\
+\cot(k\pi)=-\frac{\alpha}{4k}
+\end{array}\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого: 
+\begin_inset Formula $\left|\lambda_{1}\right|=\left|\lambda_{2}\right|=1$
+\end_inset
+
+
+\begin_inset Formula $\wedge$
+\end_inset
+
+
+\begin_inset Formula $D(M)>0$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\left\{ \begin{array}{c}
+k=\frac{\alpha/2}{i\Theta+\cot(\Phi\pi)},\Theta=\sqrt{\frac{3+5\sin^{2}(\Phi\pi)}{\sin^{2}(\Phi\pi)}}\\
+\cot(k\pi)=-\frac{\alpha}{4k}
+\end{array}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Случай не положительного дискриминанта: 
+\begin_inset Formula $D(M)\leq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D(M)\leq0$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1-\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \leq0$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \geq\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Решим уравнение (2) в случае 
+\begin_inset Formula $D(M)\leq0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\left|\lambda_{1}\right|=\left|\lambda_{2}\right|$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left|\lambda_{1}\right|^{2}=\left|\lambda_{2}\right|^{2}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\lambda_{1}\overline{\lambda_{1}}=\lambda_{2}\overline{\lambda_{2}}$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\lambda_{1}\lambda_{2}=\lambda_{2}\lambda_{1}$
+\end_inset
+
+- верно для любых 
+\begin_inset Formula $\lambda_{1},\lambda_{2}\in\mathbb{C}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+Рассматриваем критерий в случаи 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $D(M)>0$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda_{1}\right|=\left|\lambda_{2}\right|=1$
+\end_inset
+
+
+\begin_inset Formula $\wedge$
+\end_inset
+
+
+\begin_inset Formula $D(M)\leq0$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{c}
+\left|\lambda_{1}\right|\left|\lambda_{2}\right|=1\\
+\left|\lambda_{1}\right|=\left|\lambda_{2}\right|
+\end{array}\right\} $
+\end_inset
+
+
+\begin_inset Formula $\wedge$
+\end_inset
+
+
+\begin_inset Formula $D(M)\leq0$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{c}
+\left|\lambda_{1}\right|\left|\lambda_{2}\right|=1\\
+\left|\lambda_{1}\right|=\left|\lambda_{2}\right|\\
+D(M)\leq0
+\end{array}\right\} $
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{c}
+\left|\lambda_{1}\right|\left|\lambda_{2}\right|=1\\
+D(M)\leq0
+\end{array}\right\} $
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{c}
+1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =\pm\cos^{2}(\Phi\pi)\\
+1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \geq\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}
+\end{array}\right\} $
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+учитываем
+\begin_inset Formula $\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}>0$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{c}
+1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =+\cos^{2}(\Phi\pi)\\
+1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \geq\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}
+\end{array}\right\} $
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{c}
+1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =\cos^{2}(\Phi\pi)\\
+\cos^{2}(\Phi\pi)\geq\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}
+\end{array}\right\} $
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{c}
+1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =\cos^{2}(\Phi\pi)\\
+\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}\leq\cos^{2}(\Phi\pi)
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Рассмотрим первое уравнение:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =\cos^{2}(\Phi\pi)$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $1-\cos^{2}(\Phi\pi)+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\sin^{2}(\Phi\pi)+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\sin^{2}(\Phi\pi)\left\{ 4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+учитываем, что 
+\begin_inset Formula $\sin(\Phi\pi)\neq0$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\frac{\alpha}{2k}\cot(k\pi)+\frac{\alpha}{2k}\cot(\Phi\pi)=4$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Вернемся к системе:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda_{1}\right|=\left|\lambda_{2}\right|=1$
+\end_inset
+
+
+\begin_inset Formula $\wedge$
+\end_inset
+
+
+\begin_inset Formula $D(M)\leq0$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{c}
+\frac{\alpha}{2k}\cot(k\pi)+\frac{\alpha}{2k}\cot(\Phi\pi)=4\\
+\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}\leq\cos^{2}(\Phi\pi)
+\end{array}\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого: 
+\begin_inset Formula $\left|\lambda_{1}\right|=\left|\lambda_{2}\right|=1$
+\end_inset
+
+
+\begin_inset Formula $\wedge$
+\end_inset
+
+
+\begin_inset Formula $D(M)\leq0$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\left\{ \begin{array}{c}
+\frac{\alpha}{2k}\cot(k\pi)+\frac{\alpha}{2k}\cot(\Phi\pi)=4\\
+\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}\leq\cos^{2}(\Phi\pi)
+\end{array}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

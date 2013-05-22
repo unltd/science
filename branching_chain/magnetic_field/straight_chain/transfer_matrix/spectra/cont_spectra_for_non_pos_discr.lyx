@@ -82,22 +82,9 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
 \begin_inset Formula 
 \[
-\begin{array}{c}
-\lambda_{1,2}=\frac{\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\pm\sqrt{\widetilde{D}}}{\cos(\Phi\pi)}\end{array}
+\lambda_{1,2}=\frac{\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\pm\sqrt{\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1}}{\cos(\Phi\pi)}
 \]
 
 \end_inset
@@ -106,14 +93,11 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula $\widetilde{D}=\cos^{2}\left(\Phi\pi\right)\cdot D(M(k,\Phi))=\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1-\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} $
-\end_inset
+\begin_inset Formula 
+\[
+\widetilde{D}=\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1
+\]
 
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $\lambda_{1}\cdot\lambda_{2}=\frac{1}{\cos^{2}(\Phi\pi)}\left\{ 1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \right\} $
 \end_inset
 
 
@@ -196,37 +180,9 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\Leftrightarrow$
+\begin_inset Formula $\Leftrightarrow\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1\leq0$
 \end_inset
 
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1-\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \leq0$
-\end_inset
-
-
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
 
 \begin_inset Formula $\Leftrightarrow$
 \end_inset
@@ -235,39 +191,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \geq\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}$
-\end_inset
-
-
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-
-\begin_inset VSpace defskip
+\begin_inset Formula $\Leftrightarrow\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}\leq1$
 \end_inset
 
 
@@ -314,14 +238,35 @@ status open
 \begin_layout Standard
 3.
  
-\begin_inset Formula $\left|\lambda_{1}\right|=\left|\lambda_{2}\right|=\lambda_{1}\overline{\lambda_{1}}=$
+\begin_inset Formula $\left|\lambda_{1}\right|^{2}=\left|\lambda_{2}\right|^{2}=\lambda_{1}\overline{\lambda_{1}}=\lambda_{1}\lambda_{2}=$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $=\lambda_{1}\lambda_{2}=\frac{1}{\cos^{2}(\Phi\pi)}\left\{ 1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \right\} $
+\begin_inset Formula $=\frac{\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)+\sqrt{\widetilde{D}}}{\cos(\Phi\pi)}\cdot\frac{\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)-\sqrt{\widetilde{D}}}{\cos(\Phi\pi)}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-\widetilde{D}}{\cos^{2}(\Phi\pi)}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-\left(\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1\right)}{\cos^{2}(\Phi\pi)}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{1}{\cos^{2}(\Phi\pi)}$
 \end_inset
 
 
@@ -340,6 +285,24 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left|\lambda_{1,2}\right|^{2}=1$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset VSpace defskip
 \end_inset
 
@@ -359,7 +322,7 @@ status open
 \end_inset
 
 
-\begin_inset Formula $\frac{1}{\cos^{2}(\Phi\pi)}\left\{ 1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \right\} =1$
+\begin_inset Formula $\frac{1}{\cos^{2}(\Phi\pi)}=1$
 \end_inset
 
 
@@ -374,7 +337,7 @@ status open
 \end_inset
 
 
-\begin_inset Formula $1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =\cos^{2}(\Phi\pi)$
+\begin_inset Formula $\cos(\Phi\pi)=\pm1$
 \end_inset
 
 
@@ -389,40 +352,10 @@ status open
 \end_inset
 
 
-\begin_inset Formula $1-\cos^{2}(\Phi\pi)+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\begin_inset Formula $\Phi\in\mathbb{Z}$
 \end_inset
 
 
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\begin_inset Formula $\sin^{2}(\Phi\pi)+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
-\end_inset
-
-
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\begin_inset Formula $\sin^{2}(\Phi\pi)\left\{ 4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Standard
@@ -456,602 +389,9 @@ status open
 
 
 \begin_inset Formula $\left\{ \begin{array}{c}
-\sin^{2}(\Phi\pi)\left\{ 4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0\\
-1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \geq\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}
+\Phi\in\mathbb{Z}\\
+\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}\leq1
 \end{array}\right\} $
-\end_inset
-
-
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-учитывем первое уравнение в неравенстве для дискриминанта:
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\begin_inset Formula $\left\{ \begin{array}{c}
-\sin^{2}(\Phi\pi)\left\{ 4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0\\
-\cos^{2}(\Phi\pi)\geq\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}
-\end{array}\right\} $
-\end_inset
-
-
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\begin_inset Formula $\left\{ \begin{array}{c}
-\sin^{2}(\Phi\pi)\left\{ 4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0\\
-\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}\leq\cos^{2}(\Phi\pi)
-\end{array}\right\} $
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Box Boxed
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-Итого: 
-\begin_inset Formula $\left|\lambda_{1,2}\right|=1$
-\end_inset
-
-
-\begin_inset Formula $\wedge$
-\end_inset
-
-
-\begin_inset Formula $D(M)\leq0$
-\end_inset
-
-
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula 
-\[
-\left\{ \begin{array}{c}
-\sin^{2}(\Phi\pi)\left\{ 4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0\\
-\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}\leq\cos^{2}(\Phi\pi)
-\end{array}\right\} 
-\]
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection*
-Предположение 
-\begin_inset Formula $\sin^{2}(\Phi\pi)\neq0$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $\sin^{2}(\Phi\pi)\left\{ 4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
-\end_inset
-
-
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)=0$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $\frac{\alpha}{2k}\cot(k\pi)+\frac{\alpha}{2k}\cot(\Phi\pi)=4$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\cot(k\pi)=\frac{8k}{\alpha}-\cot(\Phi\pi)$
-\end_inset
-
-.
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Выражаем левую часть неравенства
-\end_layout
-
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula 
-\[
-\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}\leq\cos^{2}(\Phi\pi)
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-через 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $\cot(\Phi\pi)$
-\end_inset
-
-:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\cos(k\pi)=\sqrt{\frac{\cot^{2}(k\pi)}{1+\cot^{2}(k\pi)}}=$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=\frac{\left|\frac{8k}{\alpha}-\cot(\Phi\pi)\right|}{\sqrt{1+\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}}}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\sin(k\pi)=\frac{1}{\sqrt{1+\cot^{2}(k\pi)}}=$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $=\frac{1}{\sqrt{1+\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}}}$
-\end_inset
-
-
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Подставим результат 
-\end_layout
-
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}\leq\cos^{2}(\Phi\pi)$
-\end_inset
-
-
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $\left(\frac{\left|\frac{8k}{\alpha}-\cot(\Phi\pi)\right|}{\sqrt{1+\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}}}+\frac{\alpha}{4k}\frac{1}{\sqrt{1+\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}}}\right)^{2}\leq\cos^{2}(\Phi\pi)$
-\end_inset
-
-
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $\left(\left|\frac{8k}{\alpha}-\cot(\Phi\pi)\right|+\frac{\alpha}{4k}\right)^{2}\leq\cos^{2}(\Phi\pi)\left(1+\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}\right)$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Вернемся к системе:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\left\{ \begin{array}{c}
-\left|\lambda_{1,2}\right|=1\\
-\widetilde{D}\leq0
-\end{array}\right\} \wedge\sin^{2}(\Phi\pi)\neq0$
-\end_inset
-
-
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\begin_inset Formula $\left\{ \begin{array}{c}
-4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)=0\\
-\left(\left|\frac{8k}{\alpha}-\cot(\Phi\pi)\right|+\frac{\alpha}{4k}\right)^{2}\leq\cos^{2}(\Phi\pi)\left(1+\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}\right)\\
-\sin^{2}(\Phi\pi)\neq0
-\end{array}\right\} $
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Box Boxed
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-Итого: 
-\begin_inset Formula $\left|\lambda_{1,2}\right|=1$
-\end_inset
-
- 
-\begin_inset Formula $\wedge$
-\end_inset
-
- 
-\begin_inset Formula $D(M)\leq0$
-\end_inset
-
- 
-\begin_inset Formula $\wedge$
-\end_inset
-
- 
-\begin_inset Formula $\sin^{2}(\Phi\pi)\neq0$
-\end_inset
-
-
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula 
-\[
-\left\{ \begin{array}{c}
-4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)=0\\
-\left(\left|\frac{8k}{\alpha}-\cot(\Phi\pi)\right|+\frac{\alpha}{4k}\right)^{2}\leq\cos^{2}(\Phi\pi)\left(1+\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}\right)\\
-\sin^{2}(\Phi\pi)\neq0
-\end{array}\right\} 
-\]
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $\left(\left|\frac{8k}{\alpha}-\cot(\Phi\pi)\right|+\frac{\alpha}{4k}\right)^{2}\leq\cos^{2}(\Phi\pi)\left(1+\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}\right)$
-\end_inset
-
-
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}+2\frac{\alpha}{4k}\left|\frac{8k}{\alpha}-\cot(\Phi\pi)\right|+\left(\frac{\alpha}{4k}\right)^{2}\leq\cos^{2}(\Phi\pi)+\cos^{2}(\Phi\pi)\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}$
-\end_inset
-
-
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\Leftrightarrow$
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $\sin^{2}(\Phi\pi)\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}+2\frac{\alpha}{4k}\left|\frac{8k}{\alpha}-\cot(\Phi\pi)\right|+\left(\frac{\alpha}{4k}\right)^{2}\leq\cos^{2}(\Phi\pi)$
 \end_inset
 
 

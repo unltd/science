@@ -82,22 +82,9 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
 \begin_inset Formula 
 \[
-\begin{array}{c}
-\lambda_{1,2}=\frac{\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\pm\sqrt{\widetilde{D}}}{\cos(\Phi\pi)}\end{array}
+\lambda_{1,2}=\frac{\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\pm\sqrt{\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1}}{\cos(\Phi\pi)}
 \]
 
 \end_inset
@@ -106,14 +93,11 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula $\widetilde{D}=\cos^{2}\left(\Phi\pi\right)\cdot D(M(k,\Phi))=\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1-\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} $
-\end_inset
+\begin_inset Formula 
+\[
+\widetilde{D}=\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1
+\]
 
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $\lambda_{1}\cdot\lambda_{2}=\frac{1}{\cos^{2}(\Phi\pi)}\left\{ 1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} \right\} $
 \end_inset
 
 
@@ -132,7 +116,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Box Frameless
+\begin_inset Box Boxed
 position "t"
 hor_pos "c"
 has_inner_box 1
@@ -196,37 +180,9 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\Leftrightarrow$
+\begin_inset Formula $\Leftrightarrow\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1>0$
 \end_inset
 
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1-\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} >0$
-\end_inset
-
-
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
 
 \begin_inset Formula $\Leftrightarrow$
 \end_inset
@@ -235,37 +191,9 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\Leftrightarrow$
+\begin_inset Formula $\Leftrightarrow\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}>1$
 \end_inset
 
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} <\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}$
-\end_inset
-
-
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
 
 \begin_inset VSpace defskip
 \end_inset
@@ -289,13 +217,10 @@ status open
 \end_inset
 
 ,
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\left|\frac{\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\pm\sqrt{\widetilde{D}}}{\cos(\Phi\pi)}\right|=1$
+\begin_inset VSpace defskip
 \end_inset
 
-,
+
 \end_layout
 
 \begin_layout Standard
@@ -325,7 +250,15 @@ status open
 \begin_inset Formula $\widetilde{D}=\left(\pm\cos(\Phi\pi)-\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\right)^{2}$
 \end_inset
 
-,
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Рассмотрим систему:
 \end_layout
 
 \begin_layout Standard
@@ -335,10 +268,18 @@ status open
 \end{array}\right\} $
 \end_inset
 
-,
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
 \begin_inset Formula $\left\{ \begin{array}{c}
 \left(\pm\cos(\Phi\pi)-\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\right)^{2}>0\\
 \widetilde{D}=\left(\pm\cos(\Phi\pi)-\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\right)^{2}
@@ -346,6 +287,190 @@ status open
 \end_inset
 
 ,
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Рассмотрим уравнение 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\widetilde{D}=\left(\pm\cos(\Phi\pi)-\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\right)^{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\widetilde{D}=\left(\pm\cos(\Phi\pi)-\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\right)^{2}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1=\left(\pm\cos(\Phi\pi)-\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\right)^{2}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\cos^{2}(\Phi\pi)\mp2\cos(\Phi\pi)\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)+\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\cos^{2}(\Phi\pi)\mp2\cos(\Phi\pi)\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)+1=0$
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.
+ 
+\begin_inset Formula $\frac{\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)-\sqrt{\widetilde{D}}}{\cos(\Phi\pi)}=\pm1$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)-\sqrt{\widetilde{D}}=\pm\cos(\Phi\pi)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-\sqrt{\widetilde{D}}=\pm\cos(\Phi\pi)-\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\widetilde{D}=\left(\pm\cos(\Phi\pi)-\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\right)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Приходим к уравнению из пункта 1.
 \end_layout
 
 \end_body

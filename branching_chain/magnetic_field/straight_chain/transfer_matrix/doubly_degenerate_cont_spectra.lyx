@@ -60,7 +60,7 @@
 \begin_body
 
 \begin_layout Title
-Анализ непрерывного спектра
+Анализ двукратно вырожденногонепрерывного спектра
 \end_layout
 
 \begin_layout Standard
@@ -2244,7 +2244,7 @@ k=\frac{\alpha/2}{i\Theta+\cot(\Phi\pi)},\Theta=\sqrt{\frac{3+5\sin^{2}(\Phi\pi)
 \noun off
 \color none
 
-\begin_inset Formula $D(M)>0$
+\begin_inset Formula $D(M)\leq0$
 \end_inset
 
 :
@@ -2348,6 +2348,10 @@ D(M)\leq0
 \end_inset
 
 
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2356,6 +2360,10 @@ D(M)\leq0
 \end_inset
 
 ,
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2403,6 +2411,10 @@ D(M)\leq0
 1+\sin^{2}(\Phi\pi)\left\{ 3-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =\cos^{2}(\Phi\pi)\\
 \left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}\leq\cos^{2}(\Phi\pi)
 \end{array}\right\} $
+\end_inset
+
+
+\begin_inset VSpace defskip
 \end_inset
 
 
@@ -2561,11 +2573,99 @@ D(M)\leq0
 \begin_inset Formula $\Leftrightarrow$
 \end_inset
 
-учитываем, что 
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Вернемся к системе:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda_{1}\right|=\left|\lambda_{2}\right|=1$
+\end_inset
+
+
+\begin_inset Formula $\wedge$
+\end_inset
+
+
+\begin_inset Formula $D(M)\leq0$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{c}
+\sin^{2}(\Phi\pi)\left\{ 4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0\\
+\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}\leq\cos^{2}(\Phi\pi)
+\end{array}\right\} $
+\end_inset
+
+.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+учитываем в первом уравнении, что 
 \begin_inset Formula $\sin(\Phi\pi)\neq0$
 \end_inset
 
 ,
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\sin^{2}(\Phi\pi)\left\{ 4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)\right\} =0$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2611,11 +2711,66 @@ D(M)\leq0
 \begin_inset Formula $\frac{\alpha}{2k}\cot(k\pi)+\frac{\alpha}{2k}\cot(\Phi\pi)=4$
 \end_inset
 
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\cot(k\pi)=\frac{8k}{\alpha}-\cot(\Phi\pi)$
+\end_inset
+
+.
+\begin_inset VSpace defskip
+\end_inset
+
 
 \end_layout
 
 \begin_layout Standard
-Вернемся к системе:
+Выражаем левую часть неравенства через 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\cot(\Phi\pi)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\cos(k\pi)=\sqrt{\frac{\cot^{2}(k\pi)}{1+\cot^{2}(k\pi)}}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{\left|\frac{8k}{\alpha}-\cot(\Phi\pi)\right|}{\sqrt{1+\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sin(k\pi)=\frac{1}{\sqrt{1+\cot^{2}(k\pi)}}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{1}{\sqrt{1+\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}}}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2643,12 +2798,148 @@ D(M)\leq0
 
 
 \begin_inset Formula $\left\{ \begin{array}{c}
-\frac{\alpha}{2k}\cot(k\pi)+\frac{\alpha}{2k}\cot(\Phi\pi)=4\\
-\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}\leq\cos^{2}(\Phi\pi)
+4-\frac{\alpha}{2k}\cot(k\pi)-\frac{\alpha}{2k}\cot(\Phi\pi)=0\\
+\left(\frac{\left|\frac{8k}{\alpha}-\cot(\Phi\pi)\right|}{\sqrt{1+\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}}}+\frac{\alpha}{4k}\frac{1}{\sqrt{1+\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}}}\right)^{2}\leq\cos^{2}(\Phi\pi)
 \end{array}\right\} $
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\left(\frac{\left|\frac{8k}{\alpha}-\cot(\Phi\pi)\right|}{\sqrt{1+\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}}}+\frac{\alpha}{4k}\frac{1}{\sqrt{1+\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}}}\right)^{2}\leq\cos^{2}(\Phi\pi)$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left(\left|\frac{8k}{\alpha}-\cot(\Phi\pi)\right|+\frac{\alpha}{4k}\right)^{2}\leq\cos^{2}(\Phi\pi)\left(1+\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}\right)$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}+2\frac{\alpha}{4k}\left|\frac{8k}{\alpha}-\cot(\Phi\pi)\right|+\left(\frac{\alpha}{4k}\right)^{2}\leq\cos^{2}(\Phi\pi)+\cos^{2}(\Phi\pi)\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\sin^{2}(\Phi\pi)\left(\frac{8k}{\alpha}-\cot(\Phi\pi)\right)^{2}+2\frac{\alpha}{4k}\left|\frac{8k}{\alpha}-\cot(\Phi\pi)\right|+\left(\frac{\alpha}{4k}\right)^{2}\leq\cos^{2}(\Phi\pi)$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

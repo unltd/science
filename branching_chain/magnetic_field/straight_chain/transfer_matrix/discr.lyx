@@ -327,10 +327,10 @@
 \begin_layout Standard
 5.3.
  Таким образом 
-\begin_inset Formula $g(A,B)$
+\begin_inset Formula $d(A,B)$
 \end_inset
 
- - билинейная симметричная квадратичная форма.
+ - билинейная симметричная форма.
 \end_layout
 
 \begin_layout Standard
@@ -343,7 +343,7 @@
 \end_layout
 
 \begin_layout Standard
-вырвжается через квадратичную квадратичную форму:
+вырвжается через форму:
 \end_layout
 
 \begin_layout Standard

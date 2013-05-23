@@ -282,7 +282,7 @@ a_{2,1} & \left\{ a_{2,2}-\lambda\right\}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $x_{2}=\frac{\lambda_{1,2}-a_{1,1}}{a_{1.2}}$
+\begin_inset Formula $x_{2}=\frac{\lambda_{1,2}-a_{1,1}}{a_{1\text{,}2}}$
 \end_inset
 
 
@@ -343,10 +343,44 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula $X_{1,2}=\left(\begin{array}{c}
+\begin_inset Formula 
+\[
+X_{1,2}=\left(\begin{array}{c}
 1\\
-\frac{\lambda_{1,2}-a_{1,1}}{a_{1.2}}
-\end{array}\right)$
+\frac{\lambda_{1,2}-a_{1,1}}{a_{1,2}}
+\end{array}\right)
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+или
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+X_{1,2}=\left(\begin{array}{c}
+a_{1,2}\\
+\lambda_{1,2}-a_{1,1}
+\end{array}\right)
+\]
+
 \end_inset
 
 

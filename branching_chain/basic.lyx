@@ -1,0 +1,584 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Ищем выражения для переменных 
+\begin_inset Formula $u$
+\end_inset
+
+, 
+\begin_inset Formula $v$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi_{-1,1}(0)=u\neq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha\psi_{-1,1}(0)-2\cdot\psi'_{-1,1}(0)=v$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Вид функции
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{-1,1}(x)=C_{-1,0}^{+}e^{ikx}+C_{-1,0}^{-}e^{-ikx}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Значения в 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\psi_{-1,1}(x)$
+\end_inset
+
+, 
+\begin_inset Formula $\psi'_{-1,1}(x)$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ 0:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{-1,1}(0)=C_{-1,0}^{+}+C_{-1,0}^{-}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi'_{-1,1}(0)=ik(C_{-1,0}^{+}-C_{-1,0}^{-})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Выражения через коэффициенты разложения собственной функции
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u=\psi_{-1,1}(0)=C_{-1,0}^{+}+C_{-1,0}^{-}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $v=\alpha\psi_{-1,1}(0)-2\cdot\psi'_{-1,1}(0)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\alpha\left(C_{-1,0}^{+}+C_{-1,0}^{-}\right)-2\cdot ik(C_{-1,0}^{+}-C_{-1,0}^{-})=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=C_{-1,0}^{+}\left(\alpha-2ik\right)+C_{-1,0}^{-}\left(\alpha+2ik\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого:
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+u=C_{-1,0}^{+}+C_{-1,0}^{-}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+v=C_{-1,0}^{+}\left(\alpha-2ik\right)+C_{-1,0}^{-}\left(\alpha+2ik\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Собственные числа трансфер-матрицы
+\end_layout
+
+\begin_layout Standard
+Характеристический полином:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda^{2}-2\lambda\left(\cos k\pi+\frac{\alpha}{4k}\sin k\pi\right)+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Корни:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda_{1,2}=\left(\cos k\pi+\frac{\alpha}{4k}\sin k\pi\right)\pm\sqrt{\left(\cos k\pi+\frac{\alpha}{4k}\sin k\pi\right)^{2}-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Введем обозначение
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L(k,\alpha)=\left(\cos k\pi+\frac{\alpha}{4k}\sin k\pi\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda_{1,2}=L\pm\sqrt{L^{2}-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Собственные вектора трансфер-матрицы
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Напомним
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+M(k,0)=\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)\right\}  & \left\{ e^{-ik\pi}\frac{\alpha}{4ik}\right\} \\
+\left\{ -e^{ik\pi}\frac{\alpha}{4ik}\right\}  & \left\{ e^{-ik\pi}\left(1-\frac{\alpha}{4ik}\right)\right\} 
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L(k,\alpha)=\left(\cos k\pi+\frac{\alpha}{4k}\sin k\pi\right)=\frac{1}{2}\left\{ e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)+e^{-ik\pi}\left(1-\frac{\alpha}{4ik}\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Уравнение на собственные вектора:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(M-\lambda E\right)\Gamma=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Пользуемся arbitrary_matrix_spectra.lyx:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\Gamma_{1,2}=\left(\begin{array}{c}
+m_{1,2}\\
+\lambda_{1,2}-m_{1,1}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\begin{array}{c}
+e^{-ik\pi}\frac{\alpha}{4ik}\\
+L\pm\sqrt{L^{2}-1}-e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\begin{array}{c}
+e^{-ik\pi}\frac{\alpha}{4ik}\\
+\frac{1}{2}\left\{ e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)+e^{-ik\pi}\left(1-\frac{\alpha}{4ik}\right)\right\} \pm\sqrt{L^{2}-1}-e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\begin{array}{c}
+e^{-ik\pi}\frac{\alpha}{4ik}\\
+\frac{1}{2}\left\{ -e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)+e^{-ik\pi}\left(1-\frac{\alpha}{4ik}\right)\right\} \pm\sqrt{L^{2}-1}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\begin{array}{c}
+e^{-ik\pi}\frac{\alpha}{4ik}\\
+-\frac{1}{2}\left\{ e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)-e^{-ik\pi}\left(1-\frac{\alpha}{4ik}\right)\right\} \pm\sqrt{L^{2}-1}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\begin{array}{c}
+e^{-ik\pi}\frac{\alpha}{4ik}\\
+-\frac{1}{2}\left\{ \left(e^{ik\pi}-e^{-ik\pi}\right)+\frac{\alpha}{4ik}\left(e^{ik\pi}+e^{-ik\pi}\right)\right\} \pm\sqrt{L^{2}-1}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\begin{array}{c}
+e^{-ik\pi}\frac{\alpha}{4ik}\\
+-\left\{ i\sin\left(k\pi\right)+\frac{\alpha}{4ik}\cos\left(k\pi\right)\right\} \pm\sqrt{L^{2}-1}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\begin{array}{c}
+e^{-ik\pi}\frac{\alpha}{4ik}\\
+-\left\{ i\sin\left(k\pi\right)-i\frac{\alpha}{4k}\cos\left(k\pi\right)\right\} \pm\sqrt{L^{2}-1}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\begin{array}{c}
+e^{-ik\pi}\frac{\alpha}{4ik}\\
+-i\left\{ \sin\left(k\pi\right)-\frac{\alpha}{4k}\cos\left(k\pi\right)\right\} \pm\sqrt{L^{2}-1}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\begin{array}{c}
+e^{-ik\pi}\frac{\alpha}{4ik}\\
+i\left(\frac{\alpha}{4k}\cos\left(k\pi\right)-\sin\left(k\pi\right)\right)\pm\sqrt{\left(\cos k\pi+\frac{\alpha}{4k}\sin k\pi\right)^{2}-1}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Пусть 
+\begin_inset Formula $\lambda=\lambda_{1}=L-\sqrt{L^{2}-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda_{1}\right|<1$
+\end_inset
+
+, 
+\begin_inset Formula $\lambda_{1}\in\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Тогда соответствующий ему собственный вектор:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\Gamma_{1}=\left(\begin{array}{c}
+m_{1,2}\\
+\lambda_{1}-m_{1,1}
+\end{array}\right)=\left(\begin{array}{c}
+C_{-1,0}^{+}\\
+C_{-1,0}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha'=\frac{v}{u}=\frac{\alpha\psi_{-1,1}(0)-2\cdot\psi'_{-1,1}(0)}{\psi_{-1,1}(0)}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\alpha-2\frac{\psi'_{-1,1}(0)}{\psi_{-1,1}(0)}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\alpha-ik\frac{C_{-1,0}^{+}-C_{-1,0}^{-}}{C_{-1,0}^{+}+C_{-1,0}^{-}}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\alpha-ik\frac{m_{1,2}-\left(\lambda_{1}-m_{1,1}\right)}{m_{1,2}+\left(\lambda_{1}-m_{1,1}\right)}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\alpha-ik\frac{e^{-ik\pi}\frac{\alpha}{4ik}+e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)-\lambda_{1}}{e^{-ik\pi}\frac{\alpha}{4ik}-e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)+\lambda_{1}}=$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

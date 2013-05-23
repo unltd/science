@@ -473,5 +473,823 @@ status open
 Приходим к уравнению из пункта 1.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого:
+\end_layout
+
+\begin_layout Plain Layout
+Значения энергии 
+\begin_inset Formula $E=k^{2}$
+\end_inset
+
+ будут принадлежать вещественному спектру т.
+ и т.т., когда 
+\begin_inset Formula $k$
+\end_inset
+
+ является корнем уравнений
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\cos^{2}(\Phi\pi)\mp2\cos(\Phi\pi)\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)+1=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+и удавлетворяет неравенству
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}>1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Анализ количества точек
+\end_layout
+
+\begin_layout Standard
+Преобразуем уравнение 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\cos^{2}(\Phi\pi)\mp2\cos(\Phi\pi)\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)+1=0$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\cos^{2}(\Phi\pi)\mp2\cos(\Phi\pi)\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)+1=0$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)=\pm\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left|\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right|=\left|\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}\right|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Введем обозначения:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{\alpha}(k)=\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $g\left(\Phi\right)=\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Свойства 
+\begin_inset Formula $g\left(\Phi\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+1.
+ 
+\begin_inset Formula $\left|g\left(\Phi\right)\right|\geq1$
+\end_inset
+
+ при любом 
+\begin_inset Formula $\Phi$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+2.
+ 
+\begin_inset Formula $\left|g\left(\Phi\right)\right|=1$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\Phi\in\mathbb{Z}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Перепишем уравнение:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\cos^{2}(\Phi\pi)\mp2\cos(\Phi\pi)\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)+1=0$
+\end_inset
+
+ 
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left|L_{\alpha}(k)\right|=g\left(\Phi\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Свойства 
+\begin_inset Formula $L_{\alpha}(k)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+1.
+\begin_inset Formula $\max L_{\alpha}(k)=L_{\alpha}(0)=\underset{k\rightarrow0}{\lim}\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)=1+\frac{\alpha\pi}{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Условие наличия корней:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\left|\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}\right|<\left|1+\frac{\alpha\pi}{4}\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.
+ 
+\begin_inset Formula $L_{\alpha}(k)=\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}\left(\frac{1}{\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}}\cos(k\pi)+\frac{\frac{\alpha}{4k}}{\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}}\sin(k\pi)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}\left(\cos\left(\delta_{\alpha}\left(k\right)\right)\cos(k\pi)+\sin\left(\delta_{\alpha}\left(k\right)\right)\sin(k\pi)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}\left(\cos\left(k\pi-\delta_{\alpha}\left(k\right)\right)\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+где
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\delta_{\alpha}\left(k\right)=\arccos\frac{1}{\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+3.
+ Максимумы 
+\begin_inset Formula $\left|L_{\alpha}(k)\right|$
+\end_inset
+
+ возникают в точках 
+\begin_inset Formula 
+\[
+\cos\left(k\pi-\delta_{\alpha}\left(k\right)\right)=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+и имеют значения 
+\begin_inset Formula 
+\[
+\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Свойства 
+\begin_inset Formula $\delta_{\alpha}\left(k\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+1.
+ 
+\begin_inset Formula $\delta_{\alpha}\left(k\right)\in\left[0,\frac{\pi}{2}\right]$
+\end_inset
+
+ для любых 
+\begin_inset Formula $\alpha,k$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+2.
+ 
+\begin_inset Formula $\underset{k\rightarrow\infty}{\lim}\delta_{\alpha}\left(k\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3.
+ 
+\begin_inset Formula $\underset{k\rightarrow0}{\lim}\delta_{\alpha}\left(k\right)=\frac{\pi}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Сколько максимумов 
+\begin_inset Formula $\left|L_{\alpha}(k)\right|$
+\end_inset
+
+ превысит 
+\begin_inset Formula $g\left(\Phi\right)$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}>g\left(\Phi\right)$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}>\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $1+\left(\frac{\alpha}{4k}\right)^{2}>\left(\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}\right)^{2}$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left(\frac{\alpha}{4k}\right)^{2}>\left(\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}\right)^{2}-1$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left(\frac{\alpha}{4k}\right)^{2}>\frac{\cos^{4}(\Phi\pi)+2\cos^{2}(\Phi\pi)+1}{4\cos^{2}(\Phi\pi)}-1$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left(\frac{\alpha}{4k}\right)^{2}>\frac{\cos^{4}(\Phi\pi)-2\cos^{2}(\Phi\pi)+1}{4\cos^{2}(\Phi\pi)}$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left(\frac{\alpha}{4k}\right)^{2}>\frac{\left(\cos^{2}(\Phi\pi)-1\right)^{2}}{4\cos^{2}(\Phi\pi)}$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left|\frac{\alpha}{4k}\right|>\left|\frac{\cos^{2}(\Phi\pi)-1}{2\cos(\Phi\pi)}\right|$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left|\frac{4k}{\alpha}\right|<\left|\frac{2\cos(\Phi\pi)}{\cos^{2}(\Phi\pi)-1}\right|$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left|k\right|<\left|\frac{\alpha\cos(\Phi\pi)}{2\left(\cos^{2}(\Phi\pi)-1\right)}\right|$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left|k\right|<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Точки максимумов 
+\begin_inset Formula $\left|L_{\alpha}(k)\right|$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\cos\left(k\pi-\delta_{\alpha}\left(k\right)\right)=1$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $k\pi-\delta_{\alpha}\left(k\right)=\pi n$
+\end_inset
+
+, 
+\begin_inset Formula $n\in\mathbb{Z}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $k\pi=\pi n+\delta_{\alpha}\left(k\right)$
+\end_inset
+
+, 
+\begin_inset Formula $n\in\mathbb{Z}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $k_{max}=n+\frac{\delta_{\alpha}\left(k_{max}\right)}{\pi}$
+\end_inset
+
+, 
+\begin_inset Formula $n\in\mathbb{Z}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Условие формирования 2х корней около 
+\begin_inset Formula $k_{max}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|k_{max}\right|<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $\left|n+\frac{\delta_{\alpha}\left(k_{max}\right)}{\pi}\right|<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $-\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}<n+\frac{\delta_{\alpha}}{\pi}<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}$
+\end_inset
+
+
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Formula $-\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{\delta_{\alpha}}{\pi}<n<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{\delta_{\alpha}}{\pi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Оценка снизу количества максимумов: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}<n<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+количество максимумов: 
+\begin_inset Formula $2\left\lfloor \frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}\right\rfloor $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Оценка снизу количества точек:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+4\left\lfloor \frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{1}{2}\right\rfloor 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Оценка сверху количества максимумов: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{1}{2}<n<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Оценка сверху количества точек:
+\begin_inset Formula 
+\[
+4\left\lceil \frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}+\frac{1}{2}\right\rceil 
+\]
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

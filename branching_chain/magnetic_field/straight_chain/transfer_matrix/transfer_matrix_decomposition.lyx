@@ -70,7 +70,7 @@
 \begin_layout Standard
 \begin_inset Formula 
 \[
-M(k,\Phi)=f(k,\Phi)T(k,\Phi)+f(k,\Phi)2\left(e^{-ik\pi}-e^{ik\pi}\right)M(k,0)
+M(k,\Phi)=f(k,\Phi)\left\{ T(k,\Phi)+2\left(e^{-ik\pi}-e^{ik\pi}\right)M(k,0)\right\} 
 \]
 
 \end_inset

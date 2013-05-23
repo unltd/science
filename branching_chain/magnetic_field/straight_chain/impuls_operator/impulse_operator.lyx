@@ -68,14 +68,22 @@ Due to imposed magnetic field
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\hat{p}=\frac{1}{i}\frac{d}{dx}\pm\Phi$
+\begin_inset Formula 
+\[
+\hat{p}=\frac{1}{i}\frac{d}{dx}\pm\Phi
+\]
+
 \end_inset
 
 , where 
-\begin_inset Formula $\Phi=\frac{\pi r^{2}B}{\Phi_{0}}$
+\begin_inset Formula 
+\[
+\Phi=\frac{\pi r^{2}B}{\Phi_{0}}
+\]
+
 \end_inset
 
-, 
+
 \family roman
 \series medium
 \shape up
@@ -88,7 +96,11 @@ Due to imposed magnetic field
 \noun off
 \color none
 
-\begin_inset Formula $\Phi_{0}=\frac{2\pi\hslash c}{|e|}$
+\begin_inset Formula 
+\[
+\Phi_{0}=\frac{2\pi\hslash c}{|e|}
+\]
+
 \end_inset
 
  is magnetic field quantum.

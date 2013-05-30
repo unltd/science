@@ -691,6 +691,13 @@ reference "eq:theor_1_1"
 
 \begin_layout Subsection
 Бесконечная цепочка с изгибом
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Бесконечная-цепочка-с"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1440,8 +1447,13 @@ reference "fig:Схема-разветвления"
 .
  Три полубесконечные цепочки имеют оси симметрии, отмеченные пунктирными
  линиями.
- Их точки контакта с базовым кольцом обозначены латинскими буквами A, B,
- C.
+ Их точки контакта с 
+\series bold
+\shape italic
+базовым кольцом
+\series default
+\shape default
+, имеющим индекс 0, обозначены латинскими буквами A, B, C.
  Углы между осями симметрии обозначены 
 \begin_inset Formula $\beta_{1}$
 \end_inset
@@ -1525,6 +1537,739 @@ reference "eq:zero_mag_trans_matrix_relation"
 \end_inset
 
 , мы можем определить волновые функции на всех кольцах системы.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Получение характеристического уравнения
+\end_layout
+
+\begin_layout Standard
+Как и прежде, все компоненты волновой функции с энергией 
+\begin_inset Formula $k^{2}$
+\end_inset
+
+ будут линейными комбинациями 
+\begin_inset Formula $e^{\pm ikx}$
+\end_inset
+
+.
+ Состояние на базовом кольце описывается посредством трех функций 
+\begin_inset Formula $\psi_{0,1}$
+\end_inset
+
+, 
+\begin_inset Formula $\psi_{0,2}$
+\end_inset
+
+, 
+\begin_inset Formula $\psi_{0,3}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\psi_{0},1=A^{+}e^{ikx}+A^{-}e^{-ikx}, & x\in[0,\beta_{1}]\nonumber \\
+\psi_{0},2=B^{+}e^{ikx}+B^{-}e^{-ikx}, & x\in[0,\beta_{2}]\label{eq:zero_mag_basic_ring_solutions}\\
+\psi_{0},3=C^{+}e^{ikx}+C^{-}e^{-ikx}, & x\in[0,\beta_{3}]\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+На кольцах, примыкающих к базовому кольцу в точках A, B, C введем следующие
+ компоненты волновой функции:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\psi_{m,1}=\text{С}_{m,1}^{+}e^{ikx}+\text{С}_{m,1}^{-}e^{-ikx}, & x\in[0,\pi],\\
+\phi_{m,1}=D_{m,1}^{+}e^{ikx}+D_{m,1}^{-}e^{-ikx}, & x\in[0,\pi],
+\end{eqnarray*}
+
+\end_inset
+
+где 
+\begin_inset Formula $m$
+\end_inset
+
+ - номер ветви - соответственно равен 
+\begin_inset Formula $-1,1,2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Как было показано ранее, при значениях энергии, модули которых не являются
+ квадратами целых чисел, волновая функция должна быть симметричной на прямых
+ цепочках (ветвях) модели:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\psi_{m,j}\left(x\right)=\phi_{m,j}\left(x\right), & x\in[0,\pi],\label{eq:zaro_mag_chain_symmetry}
+\end{eqnarray}
+
+\end_inset
+
+где индекс 
+\begin_inset Formula $m=-1,1,2$
+\end_inset
+
+ нумерует ветви, а индекс 
+\begin_inset Formula $j=1,2,3,...$
+\end_inset
+
+ - кольца вдоль каждой из ветвей.
+ Используя условия 
+\begin_inset Formula $\delta$
+\end_inset
+
+-соединения в точках контакта колец, с учетом равенств 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zaro_mag_chain_symmetry"
+
+\end_inset
+
+, получаем следующую систему уравнений:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+ &  & \psi_{0,1}(0)=\psi_{0,3}(\beta_{3})=\psi_{-1,1}(0),\nonumber \\
+ &  & 2\psi'_{-1,1}(0)-\psi'_{0,3}(\beta_{3})+\psi'_{0,1}(0)=\alpha\cdot\psi_{-1,1}(0),\nonumber \\
+ &  & \psi_{0,2}(0)=\psi_{0,1}(\beta_{1})=\psi_{1,1}(0),\nonumber \\
+ &  & 2\psi'_{1,1}(0)-\psi'_{0,1}(\beta_{1})+\psi'_{0,2}(0)=\alpha\cdot\psi_{1,1}(0),\label{eq:zero_mag_main_system}\\
+ &  & \psi_{0,3}(0)=\psi_{0,2}(\beta_{2})=\psi_{2,1}(0),\nonumber \\
+ &  & 2\psi'_{2,1}(0)-\psi'_{0,2}(\beta_{2})+\psi'_{0,3}(0)=\alpha\cdot\psi_{2,1}(0).\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+В 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "sub:Бесконечная-цепочка-с"
+
+\end_inset
+
+ было показано, что для стационарности состояния необходимо, чтобы компоненты
+ волновой функции на кольцах прямых цепочек описывались собственным вектором
+ трансферной матрицы M (или их линейной комбинацией), отвечающим собственному
+ числу (числам) не превосходящему 1 по модулю.
+ Далее будем предполагать что на всех кольцах прямых цепочек, волновая функция
+ определяется собственным вектором трансферной матрицы с собственным числом
+ 
+\begin_inset Formula $\mu,\,\left|\mu\right|<1$
+\end_inset
+
+.
+ Это соответствует убыванию модуля волновой функции при удалении от разветвления.
+ В результате получим линейную зависимость между компонентами волновой функции
+ на примыкающих кольцах:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\psi_{1,1}(x)=\gamma_{1}\cdot\psi_{-1,1}(x), & x\in[0,\pi],\\
+\psi_{2,1}(x)=\gamma_{2}\cdot\psi_{-1,1}(x), & x\in[0,\pi],
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+где 
+\begin_inset Formula $\gamma_{1,2}\in\mathbb{C}\setminus\left\{ 0\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Введем следующие обозначения:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+ &  & \psi_{-1,2}\left(0\right)=u\ne0,\\
+ &  & \alpha\psi_{-1,1}\left(0\right)-2\psi'_{-1,1}\left(0\right)=v.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+С учетом новых обозначений получаем:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+ &  & \psi_{1,1}(0)=\gamma_{1}\cdot\psi_{-1,1}(0)=\gamma_{1}\cdot u\\
+ &  & \psi_{2,1}(0)=\gamma_{2}\cdot\psi_{-1,1}(0)=\gamma_{2}\cdot u\\
+ &  & \alpha\cdot\psi_{1,1}-2\psi'_{1,1}(0)=\gamma_{1}(\alpha\cdot\psi_{-1,1}-2\psi'_{-1,1}(0))=\gamma_{1}\cdot v\\
+ &  & \alpha\cdot\psi_{2,1}-2\psi'_{2,1}(0)=\gamma_{2}(\alpha\cdot\psi_{-1,1}-2\psi'_{-1,1}(0))=\gamma_{2}\cdot v
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+В результате система уравнений 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zero_mag_main_system"
+
+\end_inset
+
+ принимает более удобный вид:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+ &  & \psi_{0,1}(0)=\psi_{0,3}(\beta_{3})=u,\nonumber \\
+ &  & \psi'_{0,1}(0)-\psi'_{0,3}(\beta_{3})=v,\nonumber \\
+ &  & \psi_{0,2}(0)=\psi_{0,1}(\beta_{1})=\gamma_{1}\cdot v,\nonumber \\
+ &  & \psi'_{0,2}(0)-\psi'_{0,1}(\beta_{1})=\gamma_{1}\cdot u,\label{eq:zero_mag_main_system-2}\\
+ &  & \psi_{0,3}(0)=\psi_{0,2}(\beta_{2})=\gamma_{2}\cdot v\nonumber \\
+ &  & \psi'_{0,3}(0)-\psi'_{0,2}(\beta_{2})=\gamma_{2}\cdot u.\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Перейдем к решению системы.
+ Для начала рассмотрим граничные условия для функции 
+\begin_inset Formula $\psi_{0,1}$
+\end_inset
+
+: 
+\begin_inset Formula 
+\begin{eqnarray*}
+\psi_{0,1}\left(0\right) & = & u,\\
+\psi_{0,1}\left(\beta_{1}\right) & = & \gamma_{1}\cdot u.
+\end{eqnarray*}
+
+\end_inset
+
+ Из них прямо следует равенство: 
+\begin_inset Formula 
+\[
+\psi_{0,1}\left(\beta_{1}\right)=\gamma_{1}\cdot\psi_{0,1}\left(0\right)
+\]
+
+\end_inset
+
+Подставляя из 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zero_mag_basic_ring_solutions"
+
+\end_inset
+
+ выражение для 
+\begin_inset Formula $\psi_{0,1}\left(x\right)$
+\end_inset
+
+ , получаем 
+\begin_inset Formula 
+\begin{eqnarray}
+ &  & A^{+}e^{ik\beta_{1}}+A^{-}e^{-ik\beta_{1}}=\gamma_{1}(A^{+}+A^{-}),\nonumber \\
+ &  & A^{+}(e^{ik\beta_{1}}-\gamma_{1})+A^{-}(e^{-ik\beta_{1}}-\gamma_{1})=0.\label{eq:zero_mag_branching_chain_A}
+\end{eqnarray}
+
+\end_inset
+
+Положим здесь и далее 
+\begin_inset Formula 
+\[
+\gamma_{1}\neq e^{\pm ik\beta_{1}}.
+\]
+
+\end_inset
+
+Тогда между коэффициентами 
+\begin_inset Formula $A^{\pm}$
+\end_inset
+
+ возникает связь:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A^{-}=-A^{+}\frac{e^{ik\beta_{1}}-\gamma_{1}}{e^{-ik\beta_{1}}-\gamma_{1}}.\label{eq:branching_chain_A_relation}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Проведем аналогичные рассуждения для решений 
+\begin_inset Formula $\psi_{0,2}\left(x\right)$
+\end_inset
+
+ и 
+\begin_inset Formula $\psi_{0,3}\left(x\right)$
+\end_inset
+
+ и получим соотношения для их коэффициентов:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+B^{-}=-B^{+}\frac{e^{ik\beta_{2}}-\frac{\gamma_{2}}{\gamma_{1}}}{e^{-ik\beta_{2}}-\frac{\gamma_{2}}{\gamma_{1}}},\label{eq:branching_chain_B_relation}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C^{-}=-C^{+}\frac{e^{ik\beta_{3}}-\frac{1}{\gamma_{2}}}{e^{-ik\beta_{3}}-\frac{1}{\gamma_{2}}},\label{eq:branching_chain_C_relation}
+\end{equation}
+
+\end_inset
+
+где наложены аналогичные требования требования
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+ &  & \frac{\gamma_{2}}{\gamma_{1}}\neq e^{\pm ik\beta_{2},}\\
+ &  & \gamma_{2}\neq e^{\pm ik\beta_{3}.}
+\end{eqnarray*}
+
+\end_inset
+
+Далее, подставив 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:branching_chain_A_relation"
+
+\end_inset
+
+ в граничное условие : 
+\begin_inset Formula $\psi_{0,1}\left(0\right)=u$
+\end_inset
+
+, найдем коэфициент 
+\begin_inset Formula $A^{+}$
+\end_inset
+
+ в виде:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+A^{+}=u\frac{\gamma_{1}-e^{-ik\beta_{1}}}{e^{ik\beta_{1}}-e^{-ik\beta_{1}}}.
+\]
+
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Обратим внимание на то, что для существования правой части требуется 
+\begin_inset Formula 
+\[
+\sin k\beta_{1}\neq0
+\]
+
+\end_inset
+
+.
+ То же самое проделаем для функций 
+\begin_inset Formula $\psi_{0,2}\left(x\right)$
+\end_inset
+
+ и 
+\begin_inset Formula $\psi_{0,3}\left(x\right)$
+\end_inset
+
+ и придем к результату
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+B^{+} & = & \gamma_{1}\cdot u\cdot\frac{\frac{\gamma_{2}}{\gamma_{1}}-e^{-ik\beta_{2}}}{e^{ik\beta_{1}}-e^{-ik\beta_{2}}},\\
+C^{+} & = & \gamma_{2}\cdot u\cdot\frac{\frac{1}{\gamma_{2}}-e^{-ik\beta_{3}}}{e^{ik\beta_{3}}-e^{-ik\beta_{3}}}
+\end{eqnarray*}
+
+\end_inset
+
+с требованиями 
+\begin_inset Formula 
+\[
+\sin k\beta_{2,3}\neq0.
+\]
+
+\end_inset
+
+Теперь коэффициенты всех компонент волновой функции на базовом кольце имеют
+ выражения не связанные друг с другом напрямую.
+\end_layout
+
+\begin_layout Standard
+Рассмотрим условия 
+\begin_inset Formula $\delta$
+\end_inset
+
+-соединения первого порядка 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\psi'_{0,1}\left(0\right)-\psi'_{0,3}\left(\beta_{3}\right) & = & v\\
+\psi'_{0,2}\left(0\right)-\psi'_{0,1}\left(\beta_{1}\right) & = & \gamma_{1}v\\
+\psi'_{0,3}\left(0\right)-\psi'_{0,2}\left(\beta_{2}\right) & = & \gamma_{2}v
+\end{eqnarray*}
+
+\end_inset
+
+Подставив в эти условия выражения для коэффициентов компонент волновой функции
+ на базовом кольце, получим систему уравнений:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\frac{\gamma_{1}}{\sin k\beta_{1}}+\frac{\gamma_{2}}{\sin k\beta_{3}} & = & \frac{v}{ku}+\cot k\beta_{1}+\cot k\beta_{3},\nonumber \\
+\frac{1/\gamma_{1}}{\sin k\beta_{1}}+\frac{\gamma_{2}/\gamma_{1}}{\sin k\beta_{3}} & = & \frac{v}{ku}+\cot k\beta_{1}+\cot k\beta_{2},\label{eq:zero_mag_main_system-3}\\
+\frac{\gamma_{1}/\gamma_{2}}{\sin k\beta_{2}}+\frac{1/\gamma_{2}}{\sin k\beta_{3}} & = & \frac{v}{ku}+\cot k\beta_{2}+\cot k\beta_{3}.\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+Для краткости введем обозначения
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+ &  & R_{n}=\frac{1}{\sin k\beta_{n}},\\
+ &  & Q_{m,n}=\frac{v}{ku}+\cot k\beta_{m}+\cot k\beta_{n},
+\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Formula $m,n=1,2,3$
+\end_inset
+
+, 
+\begin_inset Formula $m\ne n$
+\end_inset
+
+.
+ Тогда система 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zero_mag_main_system-3"
+
+\end_inset
+
+ запишется в более простом виде
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\gamma_{1}R_{1}+\gamma_{2}R_{3} & = & Q_{1,3},\nonumber \\
+\frac{1}{\gamma_{1}}R_{1}+\frac{\gamma_{2}}{\gamma_{1}}R_{2} & = & Q_{1,2},\nonumber \\
+\frac{\gamma_{1}}{\gamma_{2}}R_{2}+\frac{1}{\gamma_{2}}R_{3} & = & Q_{2,3}.\label{eq:zero_mag_main_system-4}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+При заданных углах 
+\begin_inset Formula $\beta_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $\beta_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $\beta_{3}$
+\end_inset
+
+ неизвестными в ней являются параметры 
+\begin_inset Formula $\gamma_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $\gamma_{2}$
+\end_inset
+
+ и 
+\begin_inset Formula $k$
+\end_inset
+
+.
+ Решая совместно первое и второе уравнения из 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zero_mag_main_system-4"
+
+\end_inset
+
+, получим выражения для параметров 
+\begin_inset Formula $\gamma_{1}$
+\end_inset
+
+ и 
+\begin_inset Formula $\gamma_{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\gamma_{1} & = & \frac{R_{1}R_{3}+Q_{1,3}R_{2}}{R_{1}R_{2}+Q_{1,2}R_{3}},\nonumber \\
+\gamma_{2} & = & \frac{Q_{1,3}Q_{1,2}-R_{1}^{2}}{R_{1}R_{2}+Q_{1,2}R_{3}},\label{eq:zero_mag_gamma_1}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+в предположении 
+\begin_inset Formula $R_{1}R_{2}+Q_{1,2}R_{3}\ne0$
+\end_inset
+
+.
+ Если же решить первое и третье уравнения из этой же системы 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zero_mag_main_system-4"
+
+\end_inset
+
+ , то придем к иным выражениям:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\gamma_{1} & = & \frac{Q_{1,3}Q_{2,3}-R_{3}^{2}}{R_{2}R_{3}+Q_{2,3}R_{1}},\label{eq:zero_mag_gamma_2}\\
+\gamma_{2} & = & \frac{R_{1}R_{3}+Q_{1,3}R_{2}}{R_{2}R_{3}+Q_{2,3}R_{1}},\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+в предположении 
+\begin_inset Formula $R_{2}R_{3}+Q_{2,3}R_{1}\ne0$
+\end_inset
+
+.
+ Ясно, что выражения в правых частях 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zero_mag_gamma_1"
+
+\end_inset
+
+ и 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zero_mag_gamma_2"
+
+\end_inset
+
+ должны принимать равные значения, то есть
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{R_{1}R_{3}+Q_{1,3}R_{2}}{R_{1}R_{2}+Q_{1,2}R_{3}} & = & \frac{Q_{1,3}Q_{2,3}-R_{3}^{2}}{R_{2}R_{3}+Q_{2,3}R_{1}},\\
+\frac{Q_{1,3}Q_{1,2}-R_{1}^{2}}{R_{1}R_{2}+Q_{1,2}R_{3}} & = & \frac{R_{1}R_{3}+Q_{1,3}R_{2}}{R_{2}R_{3}+Q_{2,3}R_{1}}.
+\end{eqnarray*}
+
+\end_inset
+
+В результате преобразований оба этих уравнения переходят в одно характеристическ
+ое уравнение: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+2R_{1}R_{2}R_{3}+R_{1}^{2}Q_{2,3}+R_{2}^{2}Q_{1,3}+R_{3}^{2}Q_{1,2}-Q_{1,2}Q_{1,3}Q_{2,3}=0.\label{eq:zero_mag_char_eq}
+\end{equation}
+
+\end_inset
+
+Решениям 
+\begin_inset Formula $k$
+\end_inset
+
+ этого уравнения, удовлетворяющим введенным ограничениям, будут соответствовать
+ собственные числа 
+\begin_inset Formula $E=k^{2}$
+\end_inset
+
+ гамильтониана частицы.
+ Поскольку в ходе решения задачи было сделаны предположения, обеспечивающие
+ существование используемых выражений, то множество решений могло сузится.
+ Следовательно, исходная система может иметь и другие решения, кроме тех,
+ что даёт уравнение 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zero_mag_char_eq"
+
+\end_inset
+
+.
+ Рассмотрим их в следующем разделе.
+\end_layout
+
+\begin_layout Subsubsection
+Изучение особых случаев
+\end_layout
+
+\begin_layout Standard
+Напомним, что коэффициенты 
+\begin_inset Formula $A^{\pm}$
+\end_inset
+
+ компоненты волновой функции 
+\begin_inset Formula $\psi_{0,1}(x)$
+\end_inset
+
+ вычислялись по формулам
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{eqnarray*}
+A^{\pm} & = & u\frac{\gamma_{1}-e^{\mp ik\beta_{1}}}{e^{ik\beta_{1}}-e^{-ik\beta_{1}}}.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+При выведении этих соотношений было сделано предположение
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\gamma_{1}\neq e^{\pm ik\beta_{1}}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Покажем, что в действительности это требование не влияет на решение.
+ Пусть мы имеем
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $\gamma_{1}=e^{\pm ik\beta_{1}}$
+\end_inset
+
+.
+ Тогда из равенства (4.11) будет следовать , а из условия выразим .
 \end_layout
 
 \begin_layout Subsection

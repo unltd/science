@@ -77,8 +77,190 @@ LatexCommand tableofcontents
 
 \end_layout
 
-\begin_layout Part
-Описание модели
+\begin_layout Section
+Введение
+\end_layout
+
+\begin_layout Standard
+TODO Обоснование выбора предмета
+\end_layout
+
+\begin_layout Section
+Обзор результатов по теме
+\end_layout
+
+\begin_layout Subsection
+Прямая бесконечная цепочка
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename straight_chain.png
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+прямая цепочка колец
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename cell.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Элементарная ячейка переодической системы
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Начнем с рассмотрения наиболее простой модели, допускающей явное решение,
+ - бесконечного периодического графа 
+\begin_inset Formula $G_{0}$
+\end_inset
+
+ составленного из массива колец единичного радиуса, соединенных в точках
+ касания (Рис.
+ 1).
+ Пространством состояний бесспиновой нерелятивистской частицы, «живущей»
+ на 
+\begin_inset Formula $G_{0}$
+\end_inset
+
+ , будет 
+\begin_inset Formula $L^{2}(G_{0})$
+\end_inset
+
+ .
+ Будем предполагать систему в отсутствии внешних полей.
+ Что бы максимально упростить рассмотрение, выберем такую систему единиц
+ измерения, где физические константы будут равны единице: положим 
+\begin_inset Formula 
+\[
+h=2m=1
+\]
+
+\end_inset
+
+Для получения самосопряженного оператора необходимо наложить соответствующие
+ граничные условия в узлах графа.
+ В нашей работе мы будем использовать так называемое 
+\begin_inset Formula $\delta$
+\end_inset
+
+-соединение, характеризуемое условиями:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Psi_{j}(0)=\Psi_{k}(0)=\Psi(0),\, j,k\in\left\{ 1,2,3,...,\mathbb{N}\right\} 
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+\underset{j=1}{\overset{n}{\sum}}=\Psi'_{j}(0)=\alpha\Psi(0)\label{eq:}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+где
+\begin_inset Formula $j,k$
+\end_inset
+
+ индексируют множество дуг исходящих из вершины.
+ В нашем случаи 
+\begin_inset Formula $n=4$
+\end_inset
+
+ - и 
+\begin_inset Formula $\alpha\in\mathbb{R}\cup\left\{ \infty\right\} $
+\end_inset
+
+ - это константа соединения одинаковая во всех вершинах.
+ Положим так же 
+\begin_inset Formula $\alpha\neq0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Бесконечная цепочка с изгибом
+\end_layout
+
+\begin_layout Section
+Постановка задачи и её решение
+\end_layout
+
+\begin_layout Subsection
+Система в отсутствии магнитного поля
+\end_layout
+
+\begin_layout Subsection
+Система в магнитном поле
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "1"
+key "key-1"
+
+\end_inset
+
+ Pierre Duclos, Pavel Exner and Ondrˇej Turek «On the spectrum of a bent
+ chain graph»
 \end_layout
 
 \end_body

@@ -91,6 +91,13 @@ TODO Обоснование выбора предмета
 
 \begin_layout Subsection
 Прямая бесконечная цепочка
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Прямая-бесконечная-цепочка"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -102,7 +109,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename straight_chain.png
-	width 70page%
+	width 50page%
 
 \end_inset
 
@@ -114,6 +121,13 @@ status open
 
 \begin_layout Plain Layout
 прямая цепочка колец
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:прямая-цепочка-колец"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -144,6 +158,13 @@ status open
 
 \begin_layout Plain Layout
 Элементарная ячейка переодической системы
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Элементарная-ячейка-переодическо"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -163,8 +184,14 @@ status open
 \end_inset
 
  составленного из массива колец единичного радиуса, соединенных в точках
- касания (Рис.
- 1).
+ касания 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:прямая-цепочка-колец"
+
+\end_inset
+
+.
  Пространством состояний бесспиновой нерелятивистской частицы, «живущей»
  на 
 \begin_inset Formula $G_{0}$
@@ -205,7 +232,7 @@ h=2m=1
 
 \begin_inset Formula 
 \begin{equation}
-\underset{j=1}{\overset{n}{\sum}}=\Psi'_{j}(0)=\alpha\Psi(0)\label{eq:}
+\underset{j=1}{\overset{n}{\sum}}=\Psi'_{j}(0)=\alpha\Psi(0)\label{eq: delta-cond}
 \end{equation}
 
 \end_inset
@@ -235,8 +262,1112 @@ h=2m=1
 .
 \end_layout
 
+\begin_layout Standard
+Определим частичный гамильтониан 
+\begin_inset Formula $H_{0}$
+\end_inset
+
+ через отрицательный лапласиан, действующий как отрицательный лапласиан
+ на каждом ребре графа.
+ В область определения гамильтониана 
+\begin_inset Formula $H_{0}$
+\end_inset
+
+ войдут все функции из 
+\begin_inset Formula $W_{loc}^{2,2}(G_{0})$
+\end_inset
+
+, удовлетворяющие граничным условиям 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq: delta-cond"
+
+\end_inset
+
+ в узлах графа .
+ В виду периодичности модели, спектр оператора может быть вычислен с использован
+ием разложения Блоха-Флоке.
+ Давайте рассмотрим элементарную ячейку с волновыми функциями, указанными
+ на 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Элементарная-ячейка-переодическо"
+
+\end_inset
+
+, и зададимся вопросом о спектре компонент Флоке .
+ Поскольку гамильтониан действует как отрицательная вторая производная,
+ каждая компонента собственной функции с энергией 
+\begin_inset Formula $E=k^{2}\neq0$
+\end_inset
+
+ является линейной комбинацией функций 
+\begin_inset Formula $e^{\pm ikx}$
+\end_inset
+
+.
+ Для положительных энергий положим 
+\begin_inset Formula $k$
+\end_inset
+
+ вещественным и положительным.
+ Для отрицательных значений положим 
+\begin_inset Formula $k=i\kappa,\,\kappa>0$
+\end_inset
+
+.
+ Случай нулевой энергии обсудим отдельно.
+ Для ненулевых энергий находим волновые функции на элементарной ячейке в
+ виде
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\begin{array}{c}
+\psi_{L}=C_{L}^{+}e^{ikx}+C_{L}^{-}e^{-ikx},\, x\in[-\frac{\pi}{2},\,0],\\
+\psi_{L}=C_{L}^{+}e^{ikx}+C_{L}^{-}e^{-ikx},\, x\in[0,\,\frac{\pi}{2}],\\
+\phi_{R}=D_{R}^{+}e^{ikx}+D_{R}^{-}e^{-ikx},\, x\in[-\frac{\pi}{2},0],\\
+\phi_{R}=D_{R}^{+}e^{ikx}+D_{R}^{-}e^{-ikx},\, x\in[0,\,\frac{\pi}{2}].
+\end{array}\label{eq:cell_wavefuncs}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Поскольку в точке контакта двух колец имеет место d-соединение, получаем
+ условия:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\psi_{L}(0)=\psi_{R}(0)=\phi_{L}(0)=\phi_{R},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{equation}
+-\psi_{L}'(0)+\psi_{R}'(0)-\phi_{L}'(0)+\phi_{R}'(0)=\alpha\cdot\psi_{L}(0).\label{eq:cell_delta-cond}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+С другой стороны свободные концы ячейки удовлетворяют условиям Флоке:
+\begin_inset Formula 
+\begin{eqnarray}
+\psi_{R}(\frac{\pi}{2})=e^{i\theta}\psi_{L}(-\frac{\pi}{2}), &  & \psi_{R}'(\frac{\pi}{2})=e^{i\theta}\psi_{L}'(-\frac{\pi}{2}),\label{eq:cell_floquet-conds}\\
+\phi_{R}(\frac{\pi}{2})=e^{i\theta}\phi_{L}(-\frac{\pi}{2}), &  & \phi_{R}'(\frac{\pi}{2})=e^{i\theta}\phi_{L}'(-\frac{\pi}{2}),\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+где 
+\begin_inset Formula $\theta\in\left[-\pi,\,\pi\right]$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Подставляя 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:cell_wavefuncs"
+
+\end_inset
+
+ в 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:cell_delta-cond"
+
+\end_inset
+
+ и 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:cell_floquet-conds"
+
+\end_inset
+
+ получаем
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{eqnarray*}
+C_{X}^{+}\cdot\sin(k\pi)=D_{X}^{+}\cdot\sin(k\pi), &  & C_{X}^{-}\cdot\sin(k\pi)=D_{X}^{-}\cdot\sin(k\pi),
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+где X означает L или R.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Отсюда следует 
+\begin_inset Formula $C_{X}^{+}=C_{X}^{-}$
+\end_inset
+
+ и 
+\begin_inset Formula $D_{X}^{+}=D_{X}^{-}$
+\end_inset
+
+ при 
+\begin_inset Formula $k\notin\mathbb{Z}$
+\end_inset
+
+, то есть решения на верхних и нижних полудугах симметричны.
+ Более того, из 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:cell_delta-cond"
+
+\end_inset
+
+ и 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:cell_floquet-conds"
+
+\end_inset
+
+ мы получаем уравнение для фазового множителя 
+\begin_inset Formula $e^{i\theta}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+e^{2i\theta}-e^{i\theta}(2cosk\pi+\frac{\alpha}{2k}sink\pi)+1=0.\label{eq:straight_chain_phase-cond}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Это уравнение имеет вещественные коэффициенты при 
+\begin_inset Formula $k\in\mathbb{R}\cup i\mathbb{R}\setminus\left\{ 0\right\} $
+\end_inset
+
+ и дискриминант
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D=\left(2cosk\pi+\frac{\alpha}{2k}sink\pi\right)^{2}-4.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+В своей работе 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1"
+
+\end_inset
+
+ Дюкло, Экснер и Тюрек доказали следующую теорему о спектре гамильтониана
+ данной системы, основанную на анализе условий изложенных выше.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Теорема 1.
+ 
+\end_layout
+
+\begin_layout Standard
+Спектр оператора 
+\begin_inset Formula $H_{0}$
+\end_inset
+
+ содержит собственные числа равные 
+\begin_inset Formula $n^{2},\, n\in\mathbb{N}$
+\end_inset
+
+ и полосы абсолютно непрерывного спектра удовлетворяющие следующим условиям.
+\end_layout
+
+\begin_layout Standard
+При 
+\begin_inset Formula $\alpha>0$
+\end_inset
+
+ каждая спектральная полоса содержит интервал 
+\begin_inset Formula $(n^{2},\left(n+1\right)^{2}],\, n\in\mathbb{N}\cup\left\{ 0\right\} $
+\end_inset
+
+ , причем её верхняя граница совпадает с 
+\begin_inset Formula $\left(n+1\right)^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+При 
+\begin_inset Formula $\alpha<0$
+\end_inset
+
+, в каждом интервале 
+\begin_inset Formula $(n^{2},\left(n+1\right)^{2}],\, n\in\mathbb{N}$
+\end_inset
+
+ есть ровно одна спектральная полоса и её нижняя граница совпадает с 
+\begin_inset Formula $n^{2}$
+\end_inset
+
+.
+ Также есть спектральная полоса с нижней границей равной 
+\begin_inset Formula $-\kappa^{2}$
+\end_inset
+
+, где 
+\begin_inset Formula $\kappa$
+\end_inset
+
+ - наибольшее решение уравнения 
+\begin_inset Formula 
+\begin{equation}
+\left|\cos\kappa\pi+\frac{\alpha}{4}\frac{\sinh\kappa\pi}{\kappa}\right|=1.\label{eq:theor_1_1}
+\end{equation}
+
+\end_inset
+
+Верхняя граница этой полосы зависит от 
+\begin_inset Formula $\alpha$
+\end_inset
+
+.
+ Если 
+\begin_inset Formula $-8/\pi<\alpha<0$
+\end_inset
+
+, то она равна 
+\begin_inset Formula $k^{2}$
+\end_inset
+
+, где 
+\begin_inset Formula $k$
+\end_inset
+
+ есть решение уравнения 
+\begin_inset Formula 
+\[
+\left|\cos k\pi+\frac{\alpha}{4}\frac{\sinh k\pi}{k}\right|=1,
+\]
+
+\end_inset
+
+содержащееся в (0, 1).
+ Для 
+\begin_inset Formula $\alpha<-8/\pi$
+\end_inset
+
+ верхняя граница отрицательна: 
+\begin_inset Formula $-\kappa^{2}$
+\end_inset
+
+ , где 
+\begin_inset Formula $\kappa$
+\end_inset
+
+ - наименьшее решение 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:theor_1_1"
+
+\end_inset
+
+.
+ Для 
+\begin_inset Formula $\alpha=-8/\pi$
+\end_inset
+
+ граница равна 0.
+\end_layout
+
+\begin_layout Standard
+Для 
+\begin_inset Formula $\alpha=0$
+\end_inset
+
+ спектр представляет из себя положительную ось: 
+\begin_inset Formula $\sigma\left(H_{0}\right)=[0,\,+\infty)$
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Subsection
 Бесконечная цепочка с изгибом
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename bent_chain.png
+	width 50page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+цепочка с изгибом
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:цепочка-с-изгибом"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Пускай теперь бесконечная цепочка, описанная в 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Прямая-бесконечная-цепочка"
+
+\end_inset
+
+, имеет изгиб, как показано на 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:цепочка-с-изгибом"
+
+\end_inset
+
+.
+ Мы назовем возмущенный граф 
+\begin_inset Formula $G_{\vartheta}$
+\end_inset
+
+; он отличается от 
+\begin_inset Formula $G_{0}$
+\end_inset
+
+ заменой дуг длиной 
+\begin_inset Formula $\pi$
+\end_inset
+
+ фиксированного кольца, которому мы назначим индекс 0, на дуги с длинами
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\pi\pm\vartheta$
+\end_inset
+
+.
+ Угол изгиба 
+\begin_inset Formula $\vartheta$
+\end_inset
+
+ может принимать значения из промежутка 
+\begin_inset Formula $\left(0,\,\pi\right)$
+\end_inset
+
+.
+ Поскольку 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $G_{\vartheta}$
+\end_inset
+
+ имеет зеркальную симметрию, благодаря тому, что оси нулевого кольца проходят
+ через точки 
+\begin_inset Formula $x=1/2\left(\pi\pm\vartheta\right)$
+\end_inset
+
+, оператор 
+\begin_inset Formula $H_{\vartheta}$
+\end_inset
+
+ может быть разложен в прямую сумму четного 
+\begin_inset Formula $H^{+}$
+\end_inset
+
+ оператора и нечетного 
+\begin_inset Formula $H^{-}$
+\end_inset
+
+.
+ Как и прежде, все компоненты волновой функции с энергией 
+\begin_inset Formula $k^{2}$
+\end_inset
+
+ будут линейными комбинациями 
+\begin_inset Formula $e^{\pm ikx}$
+\end_inset
+
+.
+ Кольцо с индексом 0 будем считать изогнутым.
+ Благодаря зеркальной симметрии мы можем изучать только половину системы,
+ проиндексированную неотрицательными индексами.
+\end_layout
+
+\begin_layout Standard
+Волновая функция на кольце с номером 
+\begin_inset Formula $j$
+\end_inset
+
+ будет представлена парой функций 
+\begin_inset Formula $\psi_{j}$
+\end_inset
+
+ и 
+\begin_inset Formula $\phi_{j}$
+\end_inset
+
+, соответствующих верхней верхней и нижней дугам кольца:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\psi_{j}=C_{j}^{+}e^{ikx}+C_{j}^{-}e^{-ikx}, & x\in[0,\pi]\nonumber \\
+\phi_{j}=D_{j}^{+}e^{ikx}+D_{j}^{-}e^{-ikx}, & x\in[0,\pi]\label{eq:bent_chain_wavefuncs}
+\end{eqnarray}
+
+\end_inset
+
+для 
+\begin_inset Formula $j\in\mathbb{N}$
+\end_inset
+
+.
+ На нулевом кольце ситуация иная.
+ Переменные будут пробегать измененные интервалы:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\psi_{j}=C_{j}^{+}e^{ikx}+C_{j}^{-}e^{-ikx}, & x\in\left[\frac{\pi-\vartheta}{2},\,\pi\right]\nonumber \\
+\phi_{j}=D_{j}^{+}e^{ikx}+D_{j}^{-}e^{-ikx}, & x\in\left[\frac{\pi+\vartheta}{2},\,\pi\right]\label{eq:bent_chain_zero_ring_wavefuncs}
+\end{eqnarray}
+
+\end_inset
+
+
+\begin_inset Formula $\delta$
+\end_inset
+
+-соединения с параметром 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ в точках контакта колец дают следующие условия:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\psi_{j}\left(0\right)=\phi_{j}\left(0\right) &  & \psi_{j}\left(\pi\right)=\phi_{j}\left(\pi\right)\label{eq:bent_chain_delta-cond-1}
+\end{eqnarray}
+
+\end_inset
+
+и
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\psi_{j}\left(0\right)=\psi_{j-1}\left(\pi\right),\label{eq:bent_chain_delta-cond-2}\\
+\psi'_{j}(0)+\phi'_{j}(0)\text{−}\psi'_{j\text{−}1}(\pi)\text{−}\phi'_{j\text{−}1}(\pi)=\text{\alpha}\cdot\psi_{j}(0).\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Подставляя 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:bent_chain_wavefuncs"
+
+\end_inset
+
+ в 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:bent_chain_delta-cond-1"
+
+\end_inset
+
+, мы получаем 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+C_{j}^{+}\cdot\sin(k\pi)=D_{j}^{+}\cdot\sin(k\pi), &  & C_{j}^{-}\cdot\sin(k\pi)=D_{j}^{-}\cdot\sin(k\pi),
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+откуда при 
+\begin_inset Formula $k\notin\mathbb{Z}$
+\end_inset
+
+ мы получаем симметрию 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+C_{j}^{+}=C_{j}^{-}, &  & D_{j}^{+}=D_{j}^{-}.\label{eq:bent_chain_symm}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Используя условия соединения 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:bent_chain_delta-cond-2"
+
+\end_inset
+
+, мы приходим к матричной связи между коэффициентами на соседних кольцах
+ для всех 
+\begin_inset Formula $j\geq2$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=M(k,0)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right),\label{eq:zero_mag_trans_matrix_relation}
+\end{equation}
+
+\end_inset
+
+где введено обозначение
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M(k,0)=\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)\right\}  & \left\{ e^{-ik\pi}\frac{\alpha}{4ik}\right\} \\
+\left\{ -e^{ik\pi}\frac{\alpha}{4ik}\right\}  & \left\{ e^{-ik\pi}\left(1-\frac{\alpha}{4ik}\right)\right\} 
+\end{array}\right).
+\]
+
+\end_inset
+
+Матрицу 
+\begin_inset Formula $M(k,0)$
+\end_inset
+
+ принято называть трансфер-матрицей.
+ Иногда её также именуют матрицей монодромии.
+\end_layout
+
+\begin_layout Standard
+Очевидно, что асимптотическое поведение норм 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left(C_{j}^{+};\, C_{j}^{-}\right)^{T}$
+\end_inset
+
+пределяется спектральными свойствами трансфер-матрицы.
+ Пускай 
+\begin_inset Formula $\left(C_{j}^{+};\, C_{j}^{-}\right)^{T}$
+\end_inset
+
+ есть собственный трансфер-вектор матрицы, отвечающий собственному числу
+ 
+\begin_inset Formula $\mu$
+\end_inset
+
+.
+ Тогда 
+\begin_inset Formula $\left|\mu\right|<1$
+\end_inset
+
+ (
+\begin_inset Formula $\left|\mu\right|>1$
+\end_inset
+
+, 
+\begin_inset Formula $\left|\mu\right|=1$
+\end_inset
+
+) означает, что 
+\begin_inset Formula $\left\Vert \left(C_{j}^{+};\, C_{j}^{-}\right)^{T}\right\Vert $
+\end_inset
+
+ экспоненциально убывает (возрастает, неизменна) с ростом 
+\begin_inset Formula $j$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Компоненты волновой функции на j-ом кольце (как и на (-j)ом в силу зеркальной
+ симметрии) для обоих операторов 
+\begin_inset Formula $H^{+}$
+\end_inset
+
+ и 
+\begin_inset Formula $H^{-}$
+\end_inset
+
+ определяются 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left(C_{j}^{+};\, C_{j}^{-}\right)^{T}$
+\end_inset
+
+ и, ввиду соотношения 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zero_mag_trans_matrix_relation"
+
+\end_inset
+
+, зависят от 
+\begin_inset Formula $\left(C_{1}^{+};\, C_{1}^{-}\right)^{T}$
+\end_inset
+
+ .
+ Если 
+\begin_inset Formula $\left(C_{1}^{+};\, C_{1}^{-}\right)^{T}$
+\end_inset
+
+ имеет неисчезающую компоненту, отвечающую собственному числу трансфер-матрицы
+ превосходящему 1, то он не определяет собственную функцию операторов 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $H^{+}$
+\end_inset
+
+ и 
+\begin_inset Formula $H^{-}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+.
+ Если же 
+\begin_inset Formula $\left(C_{1}^{+};\, C_{1}^{-}\right)^{T}$
+\end_inset
+
+ будет линейной комбинацией собственных векторов матрицы 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $M(k,0)$
+\end_inset
+
+ , отвечающих собственным числам, по модулю меньшим 1 (не превосходящим
+ 1), то коэффициенты 
+\begin_inset Formula $C_{j}^{\pm}$
+\end_inset
+
+ определяют собственную функцию (обобщенную собственную функцию) и соответствующ
+ие значения энергии принадлежат точечному (непрерывному) спектру операторов
+ 
+\begin_inset Formula $H^{\pm}$
+\end_inset
+
+.
+ Для проведения спектрального анализа 
+\begin_inset Formula $M(k,0)$
+\end_inset
+
+ матрицы мы воспользуемся её характеристическим полиномом при энергии 
+\begin_inset Formula $E=k^{2}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lambda^{2}-2\lambda\left(\cos k\pi+\frac{\alpha}{4k}\sin k\pi\right)+1,
+\]
+
+\end_inset
+
+который уже возникал в соотношении 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:straight_chain_phase-cond"
+
+\end_inset
+
+.
+ Видно, что матрица имеет собственное ровно одно число по модулю меньшее
+ 1 тогда и только тогда, когда дискриминант положителен, то есть
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|\cos k\pi+\frac{\alpha}{4k}\sin k\pi\right|>1,
+\]
+
+\end_inset
+
+и имеет пару комплексно сопряженных собственных собственных чисел с модулем
+ равным 1 тогда и только тогда, когда эта величина не превосходит 1:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|\cos k\pi+\frac{\alpha}{4k}\sin k\pi\right|\leq1.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+В первом случаи собственные числа определяются формулой
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lambda_{1,2}=\cos k\pi+\frac{\alpha}{4k}\sin k\pi\pm\sqrt{\left(\cos k\pi+\frac{\alpha}{4k}\sin k\pi\right)^{2}-1}
+\]
+
+\end_inset
+
+ и удавлетворяют соотношению 
+\begin_inset Formula $\lambda_{2}=\lambda_{1}^{-1}$
+\end_inset
+
+.
+ Тогда 
+\begin_inset Formula $\lambda_{2}<1$
+\end_inset
+
+ получается при 
+\begin_inset Formula $\cos k\pi+\frac{\alpha}{4k}\sin k\pi<1$
+\end_inset
+
+ и 
+\begin_inset Formula $\lambda_{1}<1$
+\end_inset
+
+ , если это выражение меньше -1.
+ Соответствующими собственными векторами будут 
+\begin_inset Formula $\upsilon_{1,2}=\left(\begin{array}{c}
+\frac{\alpha}{4ik}e^{-ik\pi}\\
+\lambda_{1,2}-\left(1+\frac{\alpha}{4ik}\right)e^{ik\pi}
+\end{array}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Дюкло, Экснер и Тюрек в своей статье 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1"
+
+\end_inset
+
+ продолжают изложенные рассуждения и детально исследуют спектр гамильтониана
+ для цепочки с изгибом.
+ Мы же остановимся здесь и подведем итоги обзора их работы.
+\end_layout
+
+\begin_layout Standard
+Итак, мы выяснили, что если задать волновую функцию на каком-нибудь кольце
+ цепочки, которое мы будем называть базовым и проиндексируем 1, то посредством
+ соотношения 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zero_mag_trans_matrix_relation"
+
+\end_inset
+
+ мы можем определить её и на всей цепочке вообще.
+ Кроме того, эта волновая функция должна удовлетворять условиям 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:bent_chain_delta-cond-1"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:bent_chain_delta-cond-2"
+
+\end_inset
+
+.
+ Так же установлено, для значений энергии E, модули которых не являются
+ квадратами натуральных чисел, волновая функция на каждом кольце цепочки
+ должна быть симметрична относительно её оси, что выражается соотношением
+ 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:bent_chain_symm"
+
+\end_inset
+
+.
+ Далее будем проводить рассуждения именно для таких значений энергии.
+\end_layout
+
+\begin_layout Standard
+Спектральные свойства трансфер-матрицы из соотношения 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zero_mag_trans_matrix_relation"
+
+\end_inset
+
+ так же накладывают условия на волновую функцию на кольцах всех цепочки.
+ Именно, коэффициенты 
+\begin_inset Formula $C_{j}^{\pm}$
+\end_inset
+
+в разложении этой функции на компоненты на верхней (нижней) дуге j-ого кольца,
+ должны составлять вектор 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left(C_{1}^{+};\, C_{1}^{-}\right)^{T}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+, который не содержит компоненту, возрастающую при умножении на трансфер-матрицу.
+ В противном случаи мы получим волновую функцию уходящую на бесконечность,
+ что не соответствует стационарному состоянию частицы.
 \end_layout
 
 \begin_layout Section
@@ -245,6 +1376,155 @@ h=2m=1
 
 \begin_layout Subsection
 Система в отсутствии магнитного поля
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename chain_branching.png
+	width 50page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Схема разветвления
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Схема-разветвления"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Итак, сформулируем подробно задачу исследования.
+ В качестве исследуемой модели возьмем квантовый граф 
+\begin_inset Formula $G$
+\end_inset
+
+ типа разветвленной цепочки колец.
+ Мы будем представлять его себе как базовое кольцо, к которому присоединены
+ три прямые полубесконечные цепочки.
+\end_layout
+
+\begin_layout Standard
+Рассмотрим схему разветвления 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Схема-разветвления"
+
+\end_inset
+
+.
+ Три полубесконечные цепочки имеют оси симметрии, отмеченные пунктирными
+ линиями.
+ Их точки контакта с базовым кольцом обозначены латинскими буквами A, B,
+ C.
+ Углы между осями симметрии обозначены 
+\begin_inset Formula $\beta_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $\beta_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $\beta_{3}$
+\end_inset
+
+.
+ На каждой дуге задана волновая функция.
+ Все волновые функции, объеденные в одну составляют волновую функцию квантовой
+ частицы.
+ Стрелками на дугах обозначены направления отсчета координаты вдоль этих
+ дуг.
+ Все кольца имеют единичный радиус и соединены в точках касания.
+ Как и ранее, пространством состояний бесспиновой нерелятивистской частицы,
+ «живущей» на 
+\begin_inset Formula $G$
+\end_inset
+
+, будет 
+\begin_inset Formula $L^{2}\left(G\right)$
+\end_inset
+
+.
+ Будем предполагать систему в отсутствии внешних полей.
+ Что бы максимально упростить рассмотрение, выберем такую систему единиц
+ измерения, где физические константы будут равны единице: положим 
+\begin_inset Formula $h=2m=1$
+\end_inset
+
+.
+ В местах контакта колец на волновые функции наложим условия 
+\begin_inset Formula $\delta$
+\end_inset
+
+-соединения 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq: delta-cond"
+
+\end_inset
+
+.
+ Определим гамильтониан системы 
+\begin_inset Formula $H$
+\end_inset
+
+ как отрицательный лапласиан, действующий как 
+\begin_inset Formula $\Psi\rightarrow-\frac{d^{2}}{x^{2}}\Psi$
+\end_inset
+
+ на каждом ребре графа.
+ В область определения гамильтониана 
+\begin_inset Formula $H$
+\end_inset
+
+ ойдут все функции из 
+\begin_inset Formula $W_{loc}^{2,2}\left(G\right)$
+\end_inset
+
+, удовлетворяющие граничным 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq: delta-cond"
+
+\end_inset
+
+ в узлах графа.
+ Для полного описания состояния модели достаточно найти волновые функции
+ на базовом кольце и на трех кольцах, контактирующих с ним.
+ Тогда, пользуясь трансферной матрицей из соотношения 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zero_mag_trans_matrix_relation"
+
+\end_inset
+
+, мы можем определить волновые функции на всех кольцах системы.
 \end_layout
 
 \begin_layout Subsection

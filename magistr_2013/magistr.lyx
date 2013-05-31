@@ -82,11 +82,171 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
-TODO Обоснование выбора предмета
+В последние годы все больше внимания со стороны не только науки, но и государств
+а уделяется нанонтехнологиям.
+ Неслучайно был сформирован концерн «РОСНАНО» и открыты соответствующие
+ отделения при многих институтах и университетах страны.
+ На наноразмерные технологии возлагают сегодня большие надежды.
+ В этой сравнительно молодой научной сфере ищут и находят успех множество
+ ученых всего мира.
+ Одно из направлений исследовательской деятельности связано связано с изучением
+ свойств кристаллов.
+\end_layout
+
+\begin_layout Standard
+Теоретическое изучение свойств одномерного слоя атомов углерода началось
+ еще в середине прошлого века.
+ Оно не было очень активным и плодотворным, так как одномерный слой углерода
+ создать не удавалось и особых надежд исследователи не имели.
+ Получить же этот необычный материал, названный графеном, удалось совсем
+ недавно, в 2010 году, что вызвало заметный интерес к его исследованию.
+\end_layout
+
+\begin_layout Standard
+Уже найдено много возможностей для использования графена.
+ Серди них важное место занимает применение в качестве основы для электрических
+ схем.
+ Сам материал в этом случаи будет являться проводником, а электрическая
+ цепь будет формироваться присадкой на лист графена атомов других веществ.
+ Эти атомы, помещенные в узлы кристаллической решетки проводящего графена,
+ будут изменять валентности узлов, препятствуя прохождению через них заряда.
+\end_layout
+
+\begin_layout Standard
+Исследование и описание наноструктур имеют особенности, вызванные их чрезвычайно
+ малыми размерами.
+ Для описания систем размером в несколько атомов необходимо использовать
+ средства квантовой физики.
+ Работая в установленных теорией рамках, мы будем описывать заряженную частицу,
+ распространяющуюся по графену, волновой функцией.
+ Сам же материал будем представлять по средством квантового графа, описанного
+ далее.
+\end_layout
+
+\begin_layout Standard
+Нас в данной работе не интересует лист графена целиком, но интересуют его
+ полоса, как проводник для заряда, и, в особенности, разветвление этой полосы.
+ Такая система может быть весьма приближенно описана квантовым графом G,
+ представляющем из себя разветвленную цепочку колец.
+ Спектральные свойства такого графа представляют самостоятельный интерес
+ и являются объектом настоящего исследования.
+\end_layout
+
+\begin_layout Standard
+Квантовый граф это широко используемая математическая модель для наносистем(см.,
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1,key-2,key-3"
+
+\end_inset
+
+).
+ С физической точки зрения наиболее интересны спектральные и транспортные
+ свойства системы.
+ Также как и граф вида звезды наш структура довольно проста и не дает сплошного
+ спектра.
+ Ситуация меняется, когда мы рассматриваем декорированный граф или граф
+ с циклами, особенно не компактный (см., 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-4,key-5"
+
+\end_inset
+
+).
+ Для данной системы возникает интригующей вопрос, касающийся существования
+ связанных состояний.
+ Для начала рассмотрим периодическую цепочку спаренных колец, соединенных
+ в точках касания.
+ Соответствующий оператор Шредингера имеет бесконечно вырожденные собственные
+ числа и абсолютно непрерывный спектр (см.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-6"
+
+\end_inset
+
+).
+ В 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-6"
+
+\end_inset
+
+ также изучена цепочка колец с изгибом.
+ В этом случаи появляется дискретный спектр (связанные состояния).
+ Эта система, в некотором смысле, является моделью квантового волновода
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-7,key-9"
+
+\end_inset
+
+.
+ Преимущество квантового графа это его единичная размерность.
+ Она позволяет написать спектральное уравнение в явном виде.
+ Другое достоинство это возможность метод трансферной матрицы (матрицы монодроми
+и) для выведения спектрального уравнения.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-10,key-11"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Цель работы заключается в отыскании связанных состояний частицы «живущей»
+ на квантовом графе G (имеющей своим пространством состояний 
+\begin_inset Formula $L_{2}\left(G\right)$
+\end_inset
+
+), то есть состояний соответствующих движению частицы в конечной области
+ пространства.
+ Исследование делиться на две части: 
+\shape italic
+система без магнитного поля
+\shape default
+ и 
+\shape italic
+систма в магнитном поле, перепендикулярном её плоскости
+\shape default
+.
+ В первой части, основываясь на результаты представленных в работе 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-6"
+
+\end_inset
+
+, мы проводим анализ точечного спектра и получаем для него характристическое
+ уравнение.
+ Во второй части работы изучается существенный спектр системы в магнитном
+ поле.
 \end_layout
 
 \begin_layout Part
-Обзор результатов по теме
+Обзор результатов предшественников
+\end_layout
+
+\begin_layout Standard
+В своей работе 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-6"
+
+\end_inset
+
+ Дюкло, Экснер и Тюрек произвели детальный анализ спектральных свойств прямой
+ бесконечной цепочки колец и цепочки колец с изгибом.
+ Прежде чем начать изучение своей модели, мы проведем обзор полученных ими
+ результатов.
 \end_layout
 
 \begin_layout Section
@@ -564,9 +724,18 @@ key "key-1"
 \series bold
 Теорема 1.
  
+\begin_inset CommandInset label
+LatexCommand label
+name "Теорема-1."
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+
+\shape italic
 Спектр оператора 
 \begin_inset Formula $H_{0}$
 \end_inset
@@ -579,6 +748,8 @@ key "key-1"
 \end_layout
 
 \begin_layout Standard
+
+\shape italic
 При 
 \begin_inset Formula $\alpha>0$
 \end_inset
@@ -595,6 +766,8 @@ key "key-1"
 \end_layout
 
 \begin_layout Standard
+
+\shape italic
 При 
 \begin_inset Formula $\alpha<0$
 \end_inset
@@ -678,6 +851,8 @@ reference "eq:theor_1_1"
 \end_layout
 
 \begin_layout Standard
+
+\shape italic
 Для 
 \begin_inset Formula $\alpha=0$
 \end_inset
@@ -1196,9 +1371,9 @@ reference "eq:zero_mag_trans_matrix_relation"
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-\lambda^{2}-2\lambda\left(\cos k\pi+\frac{\alpha}{4k}\sin k\pi\right)+1,
-\]
+\begin{equation}
+\lambda^{2}-2\lambda\left(\cos k\pi+\frac{\alpha}{4k}\sin k\pi\right)+1,\label{eq:zero_mag_char_polynomial}
+\end{equation}
 
 \end_inset
 
@@ -1281,7 +1456,7 @@ reference "eq:straight_chain_phase-cond"
 Дюкло, Экснер и Тюрек в своей статье 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-1"
+key "key-6"
 
 \end_inset
 
@@ -3104,36 +3279,10 @@ reference "eq:zero_mag_trans_matrix_relation"
 \end_layout
 
 \begin_layout Paragraph
-Дискриминант трансфер-матрицы
+Дискриминант трансфер-матрицы.
 \end_layout
 
 \begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Box ovalbox
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
 
 \shape italic
 Дискриминантом матрицы
@@ -3151,11 +3300,6 @@ status open
 \noun off
 \color none
 дискриминант ее характеристического полинома.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -3321,7 +3465,7 @@ D(M(k,\Phi))=\frac{4}{\cos^{2}(\Phi\pi)}\left\{ \left(\cos(k\pi)+\frac{\alpha}{4
 \end_layout
 
 \begin_layout Paragraph
-След трансфер-матрицы
+След трансфер-матрицы.
 \end_layout
 
 \begin_layout Standard
@@ -3408,12 +3552,12 @@ tr(M(k,\Phi))=\frac{2}{\cos(\Phi\pi)}\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi
 \end_layout
 
 \begin_layout Paragraph
-Собственные числа трансфер-матрицы
+Собственные числа трансфер-матрицы.
 \end_layout
 
 \begin_layout Standard
 Мы уже имеем выражения для следа трансфер-матрицы и её дискриминанта.
- Таким образом у нас есть все, что бы выписть окончательный вид её собственных
+ Таким образом у нас есть всё, что бы выписть окончательный вид её собственных
  чисел:
 \begin_inset Formula 
 \[
@@ -3436,6 +3580,1005 @@ reference "eq:zero_mag_trans-matrix_eigenvalues"
 .
 \end_layout
 
+\begin_layout Standard
+Для анализа собственных чисел удобно рассматривать два случая: при положительном
+ и не положительном дискриминанте 
+\begin_inset Formula $\widetilde{D}=\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subparagraph
+Не положительный дискриминант 
+\begin_inset Formula $\widetilde{D}\leq0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Если в случае нулевого магнитного поля аналогичное условие на дискриминант
+ характеристического полинома 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zero_mag_char_polynomial"
+
+\end_inset
+
+ являлось условием непрерывного спектра, то в случае ненулевого магнитного
+ поля это не так.
+ Здесь мы имеем два комплексно сопряженных собственных числа, модули которых
+ равны 
+\begin_inset Formula $\left|\cos\Phi\pi\right|^{-1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Как мы знаем, число энергия 
+\begin_inset Formula $E=k^{2}$
+\end_inset
+
+ будет принадлежать существенному спектру, если хотя бы одно из собственных
+ чисел соответствующей трансфер матрицы будет иметь модуль равный единице.
+ Это условие можно записать в виде 
+\begin_inset Formula 
+\begin{equation}
+\left|\lambda_{1}\right|=1\,\vee\,\left|\lambda_{2}\right|=1\label{eq:mag_essential_spectra_cond}
+\end{equation}
+
+\end_inset
+
+или сокращенно 
+\begin_inset Formula 
+\[
+\left|\lambda_{1,2}\right|=1.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Легко видеть, что при 
+\begin_inset Formula $\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1\leq0$
+\end_inset
+
+ и любых значения энергии 
+\begin_inset Formula $E=k^{2}$
+\end_inset
+
+ собственные числа удавлетворят этому условию, только если 
+\begin_inset Formula $\left|\cos\Phi\pi\right|=1$
+\end_inset
+
+, то есть в случаи целы значений 
+\begin_inset Formula $\Phi\in\mathbb{Z}$
+\end_inset
+
+.
+ В частности при нулевом магнитном поле (
+\begin_inset Formula $\text{\Phi=0}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subparagraph
+Положительный дискриминант 
+\begin_inset Formula $\widetilde{D}>0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Мы уже показали, что присутствующее магнитное поле меняет домножает модули
+ собственных чисел на 
+\begin_inset Formula $\left|\cos\Phi\pi\right|^{-1}$
+\end_inset
+
+.
+ В то время как при нулевом магнитном поле условие 
+\begin_inset Formula $\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1>0$
+\end_inset
+
+ давало лакуну в непрерывном спектре, здесь мы получаем серию точек 
+\begin_inset Formula $E=k^{2}$
+\end_inset
+
+ существенного спектра, где 
+\begin_inset Formula $k$
+\end_inset
+
+ являются корнями уравнения
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\cos^{2}(\Phi\pi)\mp2\cos(\Phi\pi)\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)+1=0\label{eq:mag_essential_spactra_char}
+\end{equation}
+
+\end_inset
+
+и удавлетворяет неравенству
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}>1.\label{eq:mag_pos_discr_1}
+\end{equation}
+
+\end_inset
+
+В действительности, можно легко показать, что при 
+\begin_inset Formula $\cos(\Phi\pi)\neq1$
+\end_inset
+
+, для корней уравлениня 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:mag_essential_spactra_char"
+
+\end_inset
+
+ условие 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:mag_pos_discr_1"
+
+\end_inset
+
+ уже выполнено.
+ С ледовательно, при 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\cos(\Phi\pi)\neq1$
+\end_inset
+
+, т.е.
+ 
+\begin_inset Formula $\Phi\notin\mathbb{Z}$
+\end_inset
+
+, всем корням 
+\begin_inset Formula $k$
+\end_inset
+
+ уровнения 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:mag_essential_spactra_char"
+
+\end_inset
+
+ будут соответствовть точки существенного спектра 
+\begin_inset Formula $E=k^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+При 
+\begin_inset Formula $\cos(\Phi\pi)=1$
+\end_inset
+
+ это уравнение принимает вид 
+\begin_inset Formula 
+\[
+2\mp2\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)=0
+\]
+
+\end_inset
+
+ и, очевидно, не разрешимо при выполненном
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:mag_pos_discr_1"
+
+\end_inset
+
+.
+ Это соответствует отсутствию точек существенного спектра в лакунах при
+ нулевом магнитном поле.
+\end_layout
+
+\begin_layout Paragraph*
+Количество точек существенного спектра.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename L_function.png
+	width 50page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Функция 
+\begin_inset Formula $L_{\alpha}(x)$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Функция-L"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Элементарными преобразованиями можно показать что уравнение 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:mag_essential_spactra_char"
+
+\end_inset
+
+ при 
+\begin_inset Formula $\cos\Phi\pi\neq0$
+\end_inset
+
+ эквивалентно следующему
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula 
+\[
+\left|\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right|=\left|\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}\right|.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Для упрощения анализа введем обозначение 
+\begin_inset Formula 
+\[
+L_{\alpha}(k)=\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi).
+\]
+
+\end_inset
+
+ Заметим, что в определении функции 
+\begin_inset Formula $L_{\alpha}(k)$
+\end_inset
+
+ можно выделить косинус:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L_{\alpha}(k)=\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)=\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}\left(\cos\left(k\pi-\delta_{\alpha}\left(k\right)\right)\right)
+\]
+
+\end_inset
+
+где
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\delta_{\alpha}\left(k\right)=\arcsin\frac{\frac{\alpha}{4k}}{\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}}
+\]
+
+\end_inset
+
+ - бесконечно малая величина при 
+\begin_inset Formula $k$
+\end_inset
+
+ стремящемся на бесконечность, а множитель 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}$
+\end_inset
+
+ стремится к единице справа.
+\end_layout
+
+\begin_layout Standard
+Найдем так же предел в нуле самой функции 
+\begin_inset Formula $L_{\alpha}(k)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{k\rightarrow0}L_{\alpha}(k)=\lim_{k\rightarrow0}\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)=1+\frac{\alpha\pi}{4}
+\]
+
+\end_inset
+
+ и до определим её этим значением:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L_{\alpha}(0)=1+\frac{\alpha\pi}{4}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Таким образом, функция 
+\begin_inset Formula $L_{\alpha}(k)$
+\end_inset
+
+ будет иметь экстремум в нуле со значением 
+\begin_inset Formula $1+\frac{\alpha\pi}{4}$
+\end_inset
+
+ и серию экстремумов с убывающей амплитудой 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}$
+\end_inset
+
+ в точках 
+\begin_inset Formula 
+\begin{equation}
+\cos\left(k\pi-\delta_{\alpha}\left(k\right)\right)=\pm1\label{eq:mag_L_extremums}
+\end{equation}
+
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+На графике 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Функция-L"
+
+\end_inset
+
+, построенном при положительном 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, можно проследить поведение функции 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $L_{\alpha}(k)$
+\end_inset
+
+.
+ Горизонтальные линии около оси абсцисс соответствуют значеняим 
+\begin_inset Formula 
+\begin{equation}
+y=\pm\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}.\label{eq:mag_L_fig_horizontals}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Абсциссы пересечения графика функции 
+\begin_inset Formula $L_{\alpha}(k)$
+\end_inset
+
+ и горизонталей 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:mag_L_fig_horizontals"
+
+\end_inset
+
+ являются корнями уравнения 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:mag_essential_spactra_char"
+
+\end_inset
+
+.
+ Видно, что вследствие затухания амплитуд экстремумов 
+\begin_inset Formula $L_{\alpha}(k)$
+\end_inset
+
+ количество этих корней, а значит и точек вещественного спектра, будет ограничен
+о при фиксированном значении 
+\begin_inset Formula $\Phi$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Давайте теперь зададимся вопрсом наличия точек существенного спектра, порождаемы
+х урвнением 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:mag_essential_spactra_char"
+
+\end_inset
+
+.
+ Пользуясь четностью функции 
+\begin_inset Formula $L_{\alpha}(k)$
+\end_inset
+
+ будем проводить рассуждения только для положительных 
+\begin_inset Formula $k$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+При положительном 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ неравенство 
+\begin_inset Formula $L_{\alpha}(0)=1+\frac{\alpha\pi}{4}>\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}$
+\end_inset
+
+ эквивалентно условию для 
+\begin_inset Formula $k$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+k>\frac{\alpha}{\sqrt{\alpha\pi\left(8+\alpha\pi\right)}},
+\]
+
+\end_inset
+
+которое с достоверностью выполняется уже при 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $k>\mbox{\frac{1}{\pi}}$
+\end_inset
+
+.
+ В то время как, ввиду положительности смещения 
+\begin_inset Formula $\delta_{\alpha}\left(k\right)$
+\end_inset
+
+, абсцисса первого экстремума 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:mag_L_extremums"
+
+\end_inset
+
+ справа от нуля уже удавлетворит этому условию.
+ Это означает, что при 
+\begin_inset Formula $\alpha>0$
+\end_inset
+
+ амплитуда экстремума в нуле (
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $L_{\alpha}(0)$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+) превзайдет амплитуды всех остальных экстремумов, и именно ей и будет определяь
+тся наличие корней.
+ В общем же случаи 
+\begin_inset Formula $\alpha\neq0$
+\end_inset
+
+ наличие корней у уравнения 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:mag_essential_spactra_char"
+
+\end_inset
+
+ гарантируется выполнением условия 
+\begin_inset Formula $\left|L_{\alpha}(0)\right|>\mbox{\left|\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}\right|}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph*
+Лемма 1.
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+При 
+\begin_inset Formula $\Phi\notin\mathbb{Z}$
+\end_inset
+
+ и 
+\begin_inset Formula $\alpha\neq0$
+\end_inset
+
+ условие
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+\begin_inset Formula 
+\[
+\left|1+\frac{\alpha\pi}{4}\right|>\mbox{\left|\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}\right|}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+обеспечивает наличие в существенном спектре гамильтониана системы по крайней
+ мере двух точек 
+\begin_inset Formula $E=k^{2}$
+\end_inset
+
+, где 
+\begin_inset Formula $k$
+\end_inset
+
+ являются решениями уравнения 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:mag_essential_spactra_char"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Сколько же точек вещественного спектра получится при заданном значении магнитног
+о поля? Для выяснения этого вопроса введем обозначение 
+\begin_inset Formula 
+\[
+g\left(\Phi\right)=\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}
+\]
+
+\end_inset
+
+ и обратимся к условию возникновения корней около произвольного экстремума:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|L_{\alpha}(k)\right|=\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}>\mbox{\left|\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}\right|}=\left|g\left(\Phi\right)\right|.
+\]
+
+\end_inset
+
+ Это неравенство при 
+\begin_inset Formula $\cos(\Phi\pi)\neq0$
+\end_inset
+
+ эквивалентно следующему:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left|k\right|<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}.\label{eq:mag_essential_spectra_extrem_cond}
+\end{equation}
+
+\end_inset
+
+ Теперь осталось только выяснить, сколько точек экстремума 
+\begin_inset Formula $L_{\alpha}(k)$
+\end_inset
+
+ укладывается интервал, заданный этим неравенством.
+ Как мы уже установили, эти точки экстремума описываются уравнением 
+\begin_inset Formula $\cos\left(k_{ex}\pi-\delta_{\alpha}\left(k_{ex}\right)\right)=1$
+\end_inset
+
+, которое можно записать в виде 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula 
+\begin{equation}
+k_{ex}=n+\frac{\delta_{\alpha}\left(k_{ex}\right)}{\pi},\, n\in\mathbb{Z},\label{eq:mag_essential_spectra_k_ex}
+\end{equation}
+
+\end_inset
+
+ где 
+\begin_inset Formula $\delta_{\alpha}\left(k_{ex}\right)=\arcsin\frac{\frac{\alpha}{4k}}{\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}}\in\left[-\frac{\pi}{2};\,\frac{\pi}{2}\right]$
+\end_inset
+
+.
+ Подставив выражение 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:mag_essential_spectra_k_ex"
+
+\end_inset
+
+ в 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:mag_essential_spectra_extrem_cond"
+
+\end_inset
+
+ , приходим к условию 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula 
+\[
+-\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{\delta_{\alpha}}{\pi}<n<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{\delta_{\alpha}}{\pi}
+\]
+
+\end_inset
+
+ Благодаря ограниченности величины 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\delta_{\alpha}$
+\end_inset
+
+, количество точек эктремума функции 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $L_{\alpha}(k)$
+\end_inset
+
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, удавлетворяющих 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:mag_essential_spectra_extrem_cond"
+
+\end_inset
+
+ , можно оценить сверху и снизу.
+ Таким образом, количество точек существенного спектра гамильтониана можно
+ ограничить снизу значеним
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+4\left\lfloor \frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{1}{2}\right\rfloor ,
+\]
+
+\end_inset
+
+а сверху - значением 
+\begin_inset Formula 
+\[
+4\left\lceil \frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}+\frac{1}{2}\right\rceil .
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Наконец, мы можем сформировать результаты всех наших рассуждений о существенном
+ спектре разветвления цепочки колец в следующую теорему.
+\end_layout
+
+\begin_layout Subparagraph
+Теорема 2.
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Если магнитное поле 
+\begin_inset Formula $B$
+\end_inset
+
+ , действующее перпендикулярно плоскости системы такого что значение 
+\begin_inset Formula $\Phi=\frac{\pi B}{\Phi_{0}}$
+\end_inset
+
+ является целым числом, то существенный спектр гамильтониана системы совпадает
+ с тем, что возникает в отсутвии магнитного поля и описан в теореме 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "Теорема-1."
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Если же значение 
+\begin_inset Formula $\Phi=\frac{\pi B}{\Phi_{0}}$
+\end_inset
+
+ вещественно, но не является ни целым, ни полуцелым числом, то существенный
+ спектр состоит из отдельных точек 
+\begin_inset Formula $E=k^{2}$
+\end_inset
+
+, где 
+\begin_inset Formula $k$
+\end_inset
+
+ являются корнями уравнения
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+\begin_inset Formula 
+\[
+\cos^{2}(\Phi\pi)\mp2\cos(\Phi\pi)\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)+1=0.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Таких точек будет как минимум две при условии 
+\begin_inset Formula 
+\[
+\left|1+\frac{\alpha\pi}{4}\right|>\mbox{\left|\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}\right|.}
+\]
+
+\end_inset
+
+Кроме того, если это условие выполнено, то количество этих точек можно оценить
+ снизу числом 
+\begin_inset Formula 
+\[
+4\left\lfloor \frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{1}{2}\right\rfloor 
+\]
+
+\end_inset
+
+ и с верху числом 
+\begin_inset Formula 
+\[
+4\left\lceil \frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}+\frac{1}{2}\right\rceil .
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Заключение
+\end_layout
+
+\begin_layout Standard
+Работа была посвящена решению спектральной задачи для квантового графа типа
+ цепочки колец с разветвлением в магнитном.
+ Рассматриваемая модель является грубым приближением для разветвления полосы
+ графена.
+\end_layout
+
+\begin_layout Standard
+В ходе исследования было характеристическое уравнение на спектр модели в
+ отсутствии магнитного поля.
+ Так же проведен анализ существенного спектра этой же системы в магнином
+ поле.
+\end_layout
+
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
@@ -3444,8 +4587,156 @@ key "key-1"
 
 \end_inset
 
- Pierre Duclos, Pavel Exner and Ondrˇej Turek «On the spectrum of a bent
- chain graph»
+ P.Kuchment.
+ J.
+ Phys.
+ A: Math.
+ Gen.
+ 38 (2005) 4887.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "2"
+key "key-2"
+
+\end_inset
+
+P.Exner, J.P.Keating, P.Kuchment, T.Sunada, A.Teplyaev (Eds.).
+ On Graphs.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "3"
+key "key-3"
+
+\end_inset
+
+N.I.Gerasimenko, B.S.Pavlov.
+ Teor.
+ Mat.
+ Fiz.
+ 74 (1988) 345.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "4"
+key "key-4"
+
+\end_inset
+
+M.Aizenman, J.H.Schenker.
+ Lett.
+ Math.
+ Phys.
+ 53 (2000) 253.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "5"
+key "key-5"
+
+\end_inset
+
+J.Bruning, V.A.Geyler, I.S.Lobanov.
+ Math.
+ Notes.
+ 77 (6) (2005) 932.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "6"
+key "key-6"
+
+\end_inset
+
+P.Duclos, P.Exner,.
+ O.Turek.
+ J.
+ Phys.
+ A: Math.
+ Theor.
+ 41 (2008) 415206.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "7"
+key "key-7"
+
+\end_inset
+
+P.Duclos, P.Exner.
+ Rev.
+ Math.
+ Phys.
+ 7 (1995) 73.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "8"
+key "key-8"
+
+\end_inset
+
+I.Yu.Popov.
+ Phys.
+ Lett.
+ A.
+ 269 (2000) 148.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "9"
+key "key-9"
+
+\end_inset
+
+E.S.Trifanova.
+ Pisma v Zh.
+ Tech.
+ Fyz.
+ 35 (4) (2009) 60.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "10"
+key "key-10"
+
+\end_inset
+
+P.Kurasov, J.Larsen.
+ J.Math.Anal.Appl.
+ 266 (2002) 127.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "11"
+key "key-11"
+
+\end_inset
+
+E.Korotyaev: Commun.
+ Math.Phys.
+ 213 (2000) 471.
 \end_layout
 
 \end_body

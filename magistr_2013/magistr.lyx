@@ -1872,7 +1872,7 @@ C^{-}=-C^{+}\frac{e^{ik\beta_{3}}-\frac{1}{\gamma_{2}}}{e^{-ik\beta_{3}}-\frac{1
 \begin_inset Formula 
 \begin{eqnarray*}
  &  & \frac{\gamma_{2}}{\gamma_{1}}\neq e^{\pm ik\beta_{2},}\\
- &  & \gamma_{2}\neq e^{\pm ik\beta_{3}.}
+ &  & \gamma_{2}\neq e^{\pm ik\beta_{3}}.
 \end{eqnarray*}
 
 \end_inset
@@ -1909,9 +1909,9 @@ reference "eq:branching_chain_A_relation"
 \noun off
 \color none
 \begin_inset Formula 
-\[
-A^{+}=u\frac{\gamma_{1}-e^{-ik\beta_{1}}}{e^{ik\beta_{1}}-e^{-ik\beta_{1}}}.
-\]
+\begin{equation}
+A^{+}=u\frac{\gamma_{1}-e^{-ik\beta_{1}}}{e^{ik\beta_{1}}-e^{-ik\beta_{1}}}.\label{eq:zero_mag_A_plus}
+\end{equation}
 
 \end_inset
 
@@ -2265,15 +2265,247 @@ A^{\pm} & = & u\frac{\gamma_{1}-e^{\mp ik\beta_{1}}}{e^{ik\beta_{1}}-e^{-ik\beta
 \noun off
 \color none
  
-\begin_inset Formula $\gamma_{1}=e^{\pm ik\beta_{1}}$
+\begin_inset Formula $\gamma_{1}=e^{ik\beta_{1}}$
 \end_inset
 
 .
- Тогда из равенства (4.11) будет следовать , а из условия выразим .
+ Тогда из равенства 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zero_mag_branching_chain_A"
+
+\end_inset
+
+ будет следовать 
+\begin_inset Formula $A^{-}=0$
+\end_inset
+
+, а из условия 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\psi_{0,1}\left(0\right)=u$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ выразим 
+\begin_inset Formula $A^{+}=u$
+\end_inset
+
+.
+ Тоже самое получится, если выражение 
+\begin_inset Formula $\gamma_{1}=e^{ik\beta_{1}}$
+\end_inset
+
+ напрямую подставить в 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zero_mag_A_plus"
+
+\end_inset
+
+.
+ Значит без требования 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\gamma_{1}\neq e^{ik\beta_{1}}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ можно обойтись.
+ Проведя те же рассуждения для 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\gamma_{1}\neq e^{-ik\beta_{1}}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, увидим что выполнение 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\gamma_{1}=e^{-ik\beta_{1}}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ также допустимо.
+ Рассуждая аналогично, откажемся от требований 
+\begin_inset Formula $\frac{\gamma_{2}}{\gamma_{1}}\neq e^{\pm ik\beta_{2}}$
+\end_inset
+
+ и 
+\begin_inset Formula $\gamma_{2}\neq e^{\pm ik\beta_{3}}$
+\end_inset
+
+.
+ Определение наличия решений системы 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zero_mag_main_system-2"
+
+\end_inset
+
+ в случаях когда 
+\begin_inset Formula $\sin k\beta_{m},\, m=1,2,3,...$
+\end_inset
+
+, 
+\begin_inset Formula $R_{1}R_{2}+Q_{1,2}R_{3}=0$
+\end_inset
+
+ или 
+\begin_inset Formula $R_{2}R_{3}+Q_{2,3}R_{1}=0$
+\end_inset
+
+ достаточно сложно для анализа.
+ Мы не будем здесь их рассматривать.
 \end_layout
 
 \begin_layout Subsection
 Система в магнитном поле
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename mag_chain_branching.png
+	width 50page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Разветвление цепочки в магнитном поле
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Разветвление-цепочки-в"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Логическим продолжением исследования разветвленной цепочки колец стало наложение
+ на систему внешнего магнитного поля 
+\begin_inset Formula $\overrightarrow{B}$
+\end_inset
+
+ действующего перпендикулярно её плоскости (См 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Разветвление-цепочки-в"
+
+\end_inset
+
+).
+ Как известно, магнитное поле заметно действует на проводники округлой формы.
+ В нашем же рассматриваемая модель вся состоит из соединенных между собой
+ колец, и наличие могнитного поля, действующего перпендикулярно плоскости
+ модели, очевидно проявляется.
+ 
 \end_layout
 
 \begin_layout Bibliography

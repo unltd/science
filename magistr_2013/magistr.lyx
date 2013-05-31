@@ -2505,7 +2505,553 @@ reference "fig:Разветвление-цепочки-в"
  В нашем же рассматриваемая модель вся состоит из соединенных между собой
  колец, и наличие могнитного поля, действующего перпендикулярно плоскости
  модели, очевидно проявляется.
+\end_layout
+
+\begin_layout Standard
+Начнем наблюдение влияния магнитного поля с импульса частицы.
+ Как известно, частица, движущаяса по дуге окружности получает 
+\begin_inset Quotes eld
+\end_inset
+
+магнитную добавку
+\begin_inset Quotes erd
+\end_inset
+
+ в оператор импульса:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\hat{p}=\frac{1}{i}\frac{d}{dx}\pm\Phi,
+\]
+
+\end_inset
+
+ где 
+\begin_inset Formula $\Phi=\frac{\pi B}{\Phi_{0}}$
+\end_inset
+
+ , а 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\Phi_{0}=\frac{2\pi\hslash c}{|e|}$
+\end_inset
+
+ - квант магнитного поля.
+ Знак перед 
+\begin_inset Formula $\Phi$
+\end_inset
+
+ в выражении для импульса будет разный для по-разному направленых дуг, относител
+ьно направления магнитного поля.
+ Для дуг, направленных по часовой стрелке (например, дуги базового кольца)
+ в формуле используется знак 
+\begin_inset Quotes eld
+\end_inset
+
++
+\begin_inset Quotes erd
+\end_inset
+
+, а для дуг, направленных в противоположную сторону, - знак 
+\begin_inset Quotes eld
+\end_inset
+
+-
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Это правило мы назовем 
+\begin_inset Quotes eld
+\end_inset
+
+правилом знаков
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Дугу, направленную по часовой стрелке, станем называть 
+\family default
+\series default
+\shape italic
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+положительной дугой, 
+\shape default
+а направленную в в противоположную сторону дугу - 
+\shape italic
+отрицательной
+\shape default
+.
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Гамильтониан частицы может быть выражен через оператор импульса как 
+\begin_inset Formula $\hat{H}=\frac{\hat{p}^{2}}{2m}$
+\end_inset
+
+, а значит так же претерпит изменения.
+ Мы введем 
+\begin_inset Formula $\hat{H}_{\Phi}$
+\end_inset
+
+ - гамильтониан системы в магнитном поле:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\hat{H_{\Phi}}=-\frac{d^{2}}{dx^{2}}\pm\frac{2\Phi}{i}\frac{d}{dx}+\Phi^{2},
+\]
+
+\end_inset
+
+ где знак перед оператором однократного дифференцирования выберается согласно
+ правилу для знака в операторе импульса.
+ Как и раньше мы рассматриваем стационарную задачу, которая с введением
+ магнитного поля так же преображается:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\hat{H_{\Phi}}\psi=E\psi,
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(-\frac{d^{2}}{dx^{2}}\pm\frac{2\Phi}{i}\frac{d}{dx}+\Phi^{2})\psi=E\psi.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Корни характеристичексого полинома
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\chi(\lambda)=-\lambda^{2}\mp i2\Phi\lambda+\Phi^{2}-E.
+\]
+
+\end_inset
+
+ этого дифференциального уравнениея так же получат 
+\begin_inset Quotes eld
+\end_inset
+
+магнитную добавку
+\begin_inset Quotes erd
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+\lambda_{1,2}=\mp i\Phi\pm ik,
+\]
+
+\end_inset
+
+ где 
+\begin_inset Formula $k=\sqrt{E}$
+\end_inset
+
+, а знаки перед 
+\begin_inset Formula $i\Phi$
+\end_inset
+
+ выбераются по правилу по 
+\begin_inset Quotes eld
+\end_inset
+
+противоположному правилу знаков
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Здесь знак 
+\begin_inset Quotes eld
+\end_inset
+
+-
+\begin_inset Quotes erd
+\end_inset
+
+ - для направлиных по часовой, а 
+\begin_inset Quotes eld
+\end_inset
+
++
+\begin_inset Quotes erd
+\end_inset
+
+ - для дуг направленных против часовой стрелки соответственно.
+ Магнитная добавка в собственных числах влечет в свою очередь изменение
+ вида решений на дугах:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\psi(x)=e^{\mp i\Phi x}(C^{+}e^{ikx}+C^{-}e^{-ikx}).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Прямая цепочка колец в магнитном поле и существенный спектр
+\end_layout
+
+\begin_layout Standard
+Как и в случаи системы в отсутствии магнитного поля о существенном спектре
+ модели можно судить по спектральным свойствам прямой цепочки.
+ Первым делом, для получения самосопряженного гамильтониана мы наложим в
+ качестве граничных условий в узлах графа условия дельта соединения 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:bent_chain_delta-cond-1"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:bent_chain_delta-cond-2"
+
+\end_inset
+
+.
+ Используя первую группу уравнений 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:bent_chain_delta-cond-1"
+
+\end_inset
+
+, мы получаем матричную зависимость для коэффициентов решений на дугах одного
+ кольца:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(\begin{array}{c}
+D_{j}^{+}\\
+D_{j}^{-}
+\end{array}\right)=S(k,\Phi)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right),
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S(k,\Phi)=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} \\
+\left\{ e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right\} 
+\end{array}\right),
+\]
+
+\end_inset
+
+ где коэффициенты решения на 
+\shape italic
+отрицательной
+\shape default
+ дуге выражены через коэффициенты 
+\shape italic
+положительной
+\shape default
+.
+ Применяя сразу обе группы граничных условий 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:bent_chain_delta-cond-1"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:bent_chain_delta-cond-2"
+
+\end_inset
+
+, мы приходим к матричной связи решений на 
+\shape italic
+положительных
+\shape default
+ дугах соседних колец:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=M(k,\Phi)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right),\, j=2,3,4,...,\label{eq:mag_transfer_matix_relation}
+\end{equation}
+
+\end_inset
+
+ где 
+\begin_inset Formula 
+\[
+M\left(k,\Phi\right)=\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}\right)^{-1}\widetilde{M}\left(k,\Phi\right)
+\]
+
+\end_inset
+
+ - трансфер-матрица размерности 2х2 системы в магнитном поле, а матрицу
  
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\widetilde{M}\left(k,\Phi\right)$
+\end_inset
+
+ мы опишем её столбцами:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\widetilde{M}\left(k,\Phi\right)^{\left\langle 1\right\rangle }=\mbox{\left(\begin{array}{c}
+e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2e^{i2k\pi}+\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\\
+1-e^{i2k\pi}e^{-i2\Phi\pi}+e^{i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)
+\end{array}\right)},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\widetilde{M}\left(k,\Phi\right)^{\left\langle 2\right\rangle }=\mbox{\left(\begin{array}{c}
+e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}+\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\\
+2e^{-i2k\pi}-e^{-i2\Phi\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)
+\end{array}\right)}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+В целях дальнейшего спектрального анализа трансфер-матрицы оказалось полезно
+ получитье следующее ее разложение:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M(k,\Phi)=f(k,\Phi)\left\{ T(k,\Phi)+2\left(e^{-ik\pi}-e^{ik\pi}\right)M(k,0)\right\} ,
+\]
+
+\end_inset
+
+где 
+\begin_inset Formula 
+\[
+f(k,\Phi)=\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)^{-1}\left(e^{-ik\pi}-e^{ik\pi}\right)^{-1}
+\]
+
+\end_inset
+
+- функция 
+\begin_inset Formula $f:\:\mathbb{C}\otimes\mathbb{C}\mapsto\mathbb{C}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T(k,\Phi)=\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)^{2}\tilde{T}(k,\Phi)
+\]
+
+\end_inset
+
+- функция 
+\begin_inset Formula $T:\mathbb{C}\otimes\mathbb{C}\rightarrow\mathbb{C}_{2x2}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\tilde{T}(k,\Phi)=\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ g(k,\Phi)\right\} \\
+\left\{ -g(-k,\Phi)\right\}  & \left\{ -1\right\} 
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- вспомогательная матрица-функция 
+\begin_inset Formula $\tilde{T}:\mathbb{C}\otimes\mathbb{C}\rightarrow\mathbb{C}_{2x2}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g(k,\Phi)=\frac{e^{-ik\pi}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)}{\left(e^{i\Phi\pi}-e^{-i\Phi\pi}\right)}
+\]
+
+\end_inset
+
+- функция 
+\begin_inset Formula $g:\mathbb{C}\otimes\mathbb{C}\rightarrow\mathbb{C}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M(k,0)=\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\left(1+\frac{\alpha}{4ik}\right)\right\}  & \left\{ e^{-ik\pi}\frac{\alpha}{4ik}\right\} \\
+\left\{ -e^{ik\pi}\frac{\alpha}{4ik}\right\}  & \left\{ e^{-ik\pi}\left(1-\frac{\alpha}{4ik}\right)\right\} 
+\end{array}\right)
+\]
+
+\end_inset
+
+- трансферная матрица системы в отсутсвии магнитного поля.
+ Это разложение особенно ценно тем, что устанавливает связь между трансфер-матри
+цами систем в магнитном поле и в его отсутствии.
+ Подставляя в него 
+\begin_inset Formula $\Phi=0$
+\end_inset
+
+ можно легко увидеть, что в правой части останется только матрица 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $M(k,0)$
+\end_inset
+
+, то есть матричное соотношение 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:mag_transfer_matix_relation"
+
+\end_inset
+
+ является обобщением соотношения 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:zero_mag_trans_matrix_relation"
+
+\end_inset
+
+ на случай ненулевого магнитного поля.
 \end_layout
 
 \begin_layout Bibliography

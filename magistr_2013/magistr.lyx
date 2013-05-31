@@ -77,7 +77,7 @@ LatexCommand tableofcontents
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Part
 Введение
 \end_layout
 
@@ -85,11 +85,11 @@ LatexCommand tableofcontents
 TODO Обоснование выбора предмета
 \end_layout
 
-\begin_layout Section
+\begin_layout Part
 Обзор результатов по теме
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Прямая бесконечная цепочка
 \begin_inset CommandInset label
 LatexCommand label
@@ -689,7 +689,7 @@ reference "eq:theor_1_1"
 .
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Бесконечная цепочка с изгибом
 \begin_inset CommandInset label
 LatexCommand label
@@ -1243,9 +1243,9 @@ reference "eq:straight_chain_phase-cond"
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-\lambda_{1,2}=\cos k\pi+\frac{\alpha}{4k}\sin k\pi\pm\sqrt{\left(\cos k\pi+\frac{\alpha}{4k}\sin k\pi\right)^{2}-1}
-\]
+\begin{equation}
+\lambda_{1,2}=\cos k\pi+\frac{\alpha}{4k}\sin k\pi\pm\sqrt{\left(\cos k\pi+\frac{\alpha}{4k}\sin k\pi\right)^{2}-1}\label{eq:zero_mag_trans-matrix_eigenvalues}
+\end{equation}
 
 \end_inset
 
@@ -1377,11 +1377,11 @@ reference "eq:zero_mag_trans_matrix_relation"
  что не соответствует стационарному состоянию частицы.
 \end_layout
 
-\begin_layout Section
+\begin_layout Part
 Постановка задачи и её решение
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Система в отсутствии магнитного поля
 \end_layout
 
@@ -1540,7 +1540,7 @@ reference "eq:zero_mag_trans_matrix_relation"
  
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Получение характеристического уравнения
 \end_layout
 
@@ -2196,7 +2196,7 @@ reference "eq:zero_mag_char_eq"
  Рассмотрим их в следующем разделе.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Изучение особых случаев
 \end_layout
 
@@ -2443,7 +2443,7 @@ reference "eq:zero_mag_main_system-2"
  Мы не будем здесь их рассматривать.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Система в магнитном поле
 \end_layout
 
@@ -2741,7 +2741,7 @@ reference "fig:Разветвление-цепочки-в"
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Прямая цепочка колец в магнитном поле и существенный спектр
 \end_layout
 
@@ -2812,7 +2812,14 @@ S(k,\Phi)=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}
 положительной
 \shape default
 .
- Применяя сразу обе группы граничных условий 
+\end_layout
+
+\begin_layout Subsubsection
+Трансфер-матрица в магнитном поле
+\end_layout
+
+\begin_layout Standard
+Применяя сразу обе группы граничных условий 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "eq:bent_chain_delta-cond-1"
@@ -2910,9 +2917,9 @@ e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}+\frac{i\alpha}{2k}\left(1-
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-M(k,\Phi)=f(k,\Phi)\left\{ T(k,\Phi)+2\left(e^{-ik\pi}-e^{ik\pi}\right)M(k,0)\right\} ,
-\]
+\begin{equation}
+M(k,\Phi)=f(k,\Phi)\left\{ T(k,\Phi)+2\left(e^{-ik\pi}-e^{ik\pi}\right)M(k,0)\right\} ,\label{eq:mag_trans_matrix_decomp}
+\end{equation}
 
 \end_inset
 
@@ -3052,6 +3059,381 @@ reference "eq:zero_mag_trans_matrix_relation"
 \end_inset
 
  на случай ненулевого магнитного поля.
+\end_layout
+
+\begin_layout Subsubsection
+Спектральный анализ трансфер-матрицы
+\end_layout
+
+\begin_layout Standard
+Теперь, когда у нас появился вид трансфер-матрицы системы в магнином поле
+ мы можем провести ее спектральный анализ и сделать на его основе заключения
+ о спектре гамильтониана.
+ Двумерная матрица 
+\begin_inset Formula $M$
+\end_inset
+
+ имеет два собственных числа (или одно двукратно вырожденное):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\lambda_{1,2}=\frac{tr(M)\pm\sqrt{D(M)}}{2}\label{eq:mag_trans-matrix_eigenvalues-1}
+\end{equation}
+
+\end_inset
+
+где 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $D(M)=tr(M)^{2}-4det(M)=(m_{1,1}-m_{2,2})^{2}+4m_{1,2}m_{2,1}$
+\end_inset
+
+ - дискриминант ее характеристического полинома.
+\end_layout
+
+\begin_layout Paragraph
+Дискриминант трансфер-матрицы
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Box ovalbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+
+\shape italic
+Дискриминантом матрицы
+\shape default
+ 2х2 будем называть 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+дискриминант ее характеристического полинома.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Дискриминант 
+\begin_inset Formula $D\left(M\right)$
+\end_inset
+
+ является квадратичной формой от матрицы и обладает следующими свойствоми:
+\end_layout
+
+\begin_layout Standard
+1) Дискриминант от суммы матриц 
+\begin_inset Formula $A$
+\end_inset
+
+ и 
+\begin_inset Formula $B$
+\end_inset
+
+ есть
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D(A+B)=D(A)+D(B)+2d(A,B),
+\]
+
+\end_inset
+
+где 
+\begin_inset Formula $d(A,B)=\left(a_{1,1}-a_{2,2}\right)\left(b_{1,1}-b_{2,2}\right)+2a_{1,2}b_{2,1}+2b_{1,2}a_{2,1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+2) Пусть 
+\begin_inset Formula $\alpha\in\mathbb{C}$
+\end_inset
+
+ - комплексная константа, 
+\begin_inset Formula $C$
+\end_inset
+
+ - матрица 2х2, 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D(\alpha C)=\alpha^{2}D(C)
+\]
+
+\end_inset
+
+Функция же 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $d(A,B)$
+\end_inset
+
+ является билинейной симметричной формой.
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Используя указанные выше свойства дискриминанта матрицы найдем его вид для
+ трансфер-матрицы 
+\begin_inset Formula $M\left(k,\Phi\right)$
+\end_inset
+
+ с учетом её разложения 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:mag_trans_matrix_decomp"
+
+\end_inset
+
+:
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula 
+\[
+D(M(k,\Phi))=f(k,\Phi)^{2}\cdot\left\{ \begin{array}{c}
+D\left(T(k,\Phi)\right)+\\
++4\left(e^{-ik\pi}-e^{ik\pi}\right)^{2}D\left(M(k,0)\right)+\\
++4\left(e^{-ik\pi}-e^{ik\pi}\right)d\left(T(k,\Phi),\, M(k,0)\right)
+\end{array}\right\} .
+\]
+
+\end_inset
+
+ И, наконец, подставив выражения для 
+\begin_inset Formula $T\left(k,\Phi\right)$
+\end_inset
+
+ и 
+\begin_inset Formula $M\left(k,0\right)$
+\end_inset
+
+ получим окончательный вид: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D(M(k,\Phi))=\frac{4}{\cos^{2}(\Phi\pi)}\left\{ \left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1\right\} .
+\]
+
+\end_inset
+
+Легко видеть, что этот дискриминант отличается от дискримината случая без
+ магнитного поля множителем 
+\begin_inset Formula $\left(cos\Phi\pi\right)^{-2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+След трансфер-матрицы
+\end_layout
+
+\begin_layout Standard
+Кроме дискриминанта в выражении для собственных чисел трансфер-матрицы также
+ присутствует её след 
+\begin_inset Formula $tr\left(M\left(k,\Phi\right)\right)$
+\end_inset
+
+.
+ Вооружившись свойством линейности следа, как функции от матрицы, мы приходим
+ к разложению
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+tr(M(k,\Phi))=tr\left(f(k,\Phi)T(k,\Phi)+f(k,\Phi)2\left(e^{-ik\pi}-e^{ik\pi}\right)M(k,0)\right)=
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=f(k,\Phi)\left\{ tr\left(T(k,\Phi)\right)+2\left(e^{-ik\pi}-e^{ik\pi}\right)tr\left(M(k,0)\right)\right\} .
+\]
+
+\end_inset
+
+ Осталось подставить сюда выражения для 
+\begin_inset Formula $T\left(k,\Phi\right)$
+\end_inset
+
+ и 
+\begin_inset Formula $M\left(k,0\right)$
+\end_inset
+
+ и получить вид следа всей трансфер-матрицы:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula 
+\[
+tr(M(k,\Phi))=\frac{2}{\cos(\Phi\pi)}\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right).
+\]
+
+\end_inset
+
+ Если сравнить этот результат со следом трансфер-матрицы в нулевом магнитном
+ поле 
+\begin_inset Formula $M(k,0)$
+\end_inset
+
+, то можно заметить присутствие дополнительно множителя 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\left(cos\Phi\pi\right)^{-1}$
+\end_inset
+
+.
+ Далее мы увидим, что этот множитель проявится и в собственных числах.
+\end_layout
+
+\begin_layout Paragraph
+Собственные числа трансфер-матрицы
+\end_layout
+
+\begin_layout Standard
+Мы уже имеем выражения для следа трансфер-матрицы и её дискриминанта.
+ Таким образом у нас есть все, что бы выписть окончательный вид её собственных
+ чисел:
+\begin_inset Formula 
+\[
+\lambda_{1,2}=\frac{\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)\pm\sqrt{\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)^{2}-1}}{\cos(\Phi\pi)}.
+\]
+
+\end_inset
+
+Как и следовало ожидать, дополнительный множитель 
+\begin_inset Formula $\left(cos\Phi\pi\right)^{-1}$
+\end_inset
+
+ отличает его от вида 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:zero_mag_trans-matrix_eigenvalues"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Bibliography

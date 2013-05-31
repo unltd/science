@@ -3,9 +3,13 @@
 \begin_document
 \begin_header
 \textclass article
+\begin_preamble
+\usepackage{indentfirst}
+\usepackage{cmap}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language russian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,8 +29,9 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
-\papersize default
+\papersize a4paper
 \use_geometry false
 \use_amsmath 1
 \use_esint 1
@@ -46,7 +51,7 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\quotes_language french
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -3061,8 +3066,8 @@ M\left(k,\Phi\right)=\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\p
 \begin_inset Formula 
 \[
 \widetilde{M}\left(k,\Phi\right)^{\left\langle 1\right\rangle }=\mbox{\left(\begin{array}{c}
-e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2e^{i2k\pi}+\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\\
-1-e^{i2k\pi}e^{-i2\Phi\pi}+e^{i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)
+ e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2e^{i2k\pi}+\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right)\\
+1-e^{i2k\pi}e^{-i2\Phi\pi}+e^{i2k\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\right) 
 \end{array}\right)},
 \]
 
@@ -3075,8 +3080,8 @@ e^{i2\Phi\pi}+e^{-i2\Phi\pi}-2e^{i2k\pi}+\frac{i\alpha}{2k}\left(e^{i2k\pi}-1\ri
 \begin_inset Formula 
 \[
 \widetilde{M}\left(k,\Phi\right)^{\left\langle 2\right\rangle }=\mbox{\left(\begin{array}{c}
-e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}+\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\\
-2e^{-i2k\pi}-e^{-i2\Phi\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)
+ e^{-i2k\pi}e^{-i2\Phi\pi}-1-e^{-i2k\pi}+e^{i2\Phi\pi}+\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right)\\
+2e^{-i2k\pi}-e^{-i2\Phi\pi}-e^{i2\Phi\pi}-\frac{i\alpha}{2k}\left(1-e^{-i2k\pi}\right) 
 \end{array}\right)}.
 \]
 

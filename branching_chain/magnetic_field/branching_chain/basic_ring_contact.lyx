@@ -1,0 +1,1076 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang russian
+\begin_inset Graphics
+	filename chain_branching.png
+	width 50page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang russian
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang russian
+Схема разветвления
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Схема-разветвления"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Решения на базовом кольце:
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula $\psi_{0,1}(x)=e^{-i\Phi x}\left(A_{1}^{+}e^{ikx}+A_{1}^{-}e^{-ikx}\right)=e^{-i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+A_{1}^{+}\\
+A_{0,1}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula $\psi_{0,2}(x)=e^{-i\Phi x}\left(A_{2}^{+}e^{ikx}+A_{2}^{-}e^{-ikx}\right)=e^{-i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+A_{2}^{+}\\
+A_{2}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula $\psi_{0,3}(x)=e^{-i\Phi x}\left(A_{3}^{+}e^{ikx}+A_{3}^{-}e^{-ikx}\right)=e^{-i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+A_{3}^{+}\\
+A_{3}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1.
+ Точка 
+\begin_inset Quotes eld
+\end_inset
+
+A
+\begin_inset Quotes erd
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+1.1.
+ Кольцо (-1, 1).
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula $\psi_{-1,1}(x)=e^{i\Phi x}\left(C_{-1,1}^{+}e^{ikx}+C_{-1,1}^{-}e^{-ikx}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula $\phi_{-1,1}(x)=e^{-i\Phi x}\left(D_{-1,1}^{+}e^{ikx}+D_{-1,1}^{-}e^{-ikx}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1.2.
+ Векторный вид
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula $\psi_{-1,1}(x)=e^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{-1,1}^{+}\\
+C_{-1,1}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula $\phi_{-1,1}(x)=e^{-i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+D_{-1,1}^{+}\\
+D_{-1,1}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Напомним, коэффициенты верхней и нижней дуг прямой цепочки связаны между
+ собой соотношением:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\left(\begin{array}{c}
+D_{j}^{+}\\
+D_{j}^{-}
+\end{array}\right)=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} \\
+\left\{ e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right\} 
+\end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Обозначение:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} \\
+\left\{ e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right\} 
+\end{array}\right)=S\left(\Phi\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Перепишем имеющееся выражение для 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\phi_{-1,1}(x)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula $\phi_{-1,1}(x)=e^{-i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)S\left(\Phi\right)\left(\begin{array}{c}
+C_{-1,1}^{+}\\
+C_{-1,1}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Условия дельта-соединения в точке 
+\begin_inset Quotes eld
+\end_inset
+
+А
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{-1,1}(0)=\psi_{0,1}(0)=\psi_{0,3}(\beta_{3})=\psi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $-i\hat{p}\psi_{0,3}(\beta_{3})+i\hat{p}\psi_{0,1}(0)+i\hat{p}\psi_{-1,1}(0)+i\hat{p}\phi_{-1,1}(0)=\alpha\psi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Подстановка:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+C_{-1,1}^{+}\\
+C_{-1,1}^{-}
+\end{array}\right)=\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+A_{1}^{+}\\
+A_{1}^{-}
+\end{array}\right)=e^{-i\Phi\beta_{3}}\left(\begin{array}{cc}
+\left\{ e^{ik\beta_{3}}\right\}  & \left\{ e^{-ik\beta_{3}}\right\} \end{array}\right)\left(\begin{array}{c}
+A_{3}^{+}\\
+A_{3}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $-e^{-i\Phi\beta_{3}}\left(\begin{array}{cc}
+\left\{ e^{ik\beta_{3}}\right\}  & \left\{ -e^{-ik\beta_{3}}\right\} \end{array}\right)\left(\begin{array}{c}
+A_{3}^{+}\\
+A_{3}^{-}
+\end{array}\right)+\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left(\begin{array}{c}
+A_{1}^{+}\\
+A_{1}^{-}
+\end{array}\right)+\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left(\begin{array}{c}
+C_{-1,1}^{+}\\
+C_{-1,1}^{-}
+\end{array}\right)+\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)S\left(\Phi\right)\left(\begin{array}{c}
+C_{-1,1}^{+}\\
+C_{-1,1}^{-}
+\end{array}\right)=\frac{\alpha}{ik}\psi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Преобразование
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+C_{-1,1}^{+}\\
+C_{-1,1}^{-}
+\end{array}\right)=\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+A_{1}^{+}\\
+A_{1}^{-}
+\end{array}\right)=e^{-i\Phi\beta_{3}}\left(\begin{array}{cc}
+\left\{ e^{ik\beta_{3}}\right\}  & \left\{ e^{-ik\beta_{3}}\right\} \end{array}\right)\left(\begin{array}{c}
+A_{3}^{+}\\
+A_{3}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left(I+S\left(\Phi\right)\right)\left(\begin{array}{c}
+C_{-1,1}^{+}\\
+C_{-1,1}^{-}
+\end{array}\right)=\frac{\alpha}{ik}\psi-\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left(\begin{array}{c}
+A_{1}^{+}\\
+A_{1}^{-}
+\end{array}\right)+e^{-i\Phi\beta_{3}}\left(\begin{array}{cc}
+\left\{ e^{ik\beta_{3}}\right\}  & \left\{ -e^{-ik\beta_{3}}\right\} \end{array}\right)\left(\begin{array}{c}
+A_{3}^{+}\\
+A_{3}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Подставим во второе уравнение 
+\begin_inset Formula $\psi=\psi_{0,1}(0)=\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+A_{1}^{+}\\
+A_{1}^{-}
+\end{array}\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left(I+S\left(\Phi\right)\right)\left(\begin{array}{c}
+C_{-1,1}^{+}\\
+C_{-1,1}^{-}
+\end{array}\right)=\frac{\alpha}{ik}\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+A_{1}^{+}\\
+A_{1}^{-}
+\end{array}\right)-\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left(\begin{array}{c}
+A_{1}^{+}\\
+A_{1}^{-}
+\end{array}\right)+e^{-i\Phi\beta_{3}}\left(\begin{array}{cc}
+\left\{ e^{ik\beta_{3}}\right\}  & \left\{ -e^{-ik\beta_{3}}\right\} \end{array}\right)\left(\begin{array}{c}
+A_{3}^{+}\\
+A_{3}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left(I+S\left(\Phi\right)\right)\left(\begin{array}{c}
+C_{-1,1}^{+}\\
+C_{-1,1}^{-}
+\end{array}\right)=\left(\begin{array}{cc}
+\left\{ \frac{\alpha}{ik}-1\right\}  & \left\{ \frac{\alpha}{ik}+1\right\} \end{array}\right)\left(\begin{array}{c}
+A_{1}^{+}\\
+A_{1}^{-}
+\end{array}\right)+e^{-i\Phi\beta_{3}}\left(\begin{array}{cc}
+\left\{ e^{ik\beta_{3}}\right\}  & \left\{ -e^{-ik\beta_{3}}\right\} \end{array}\right)\left(\begin{array}{c}
+A_{3}^{+}\\
+A_{3}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Таким образом приходим к системе:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+C_{-1,1}^{+}\\
+C_{-1,1}^{-}
+\end{array}\right)=\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+A_{1}^{+}\\
+A_{1}^{-}
+\end{array}\right)\label{eq:delta_1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+C_{-1,1}^{+}\\
+C_{-1,1}^{-}
+\end{array}\right)=e^{-i\Phi\beta_{3}}\left(\begin{array}{cc}
+\left\{ e^{ik\beta_{3}}\right\}  & \left\{ e^{-ik\beta_{3}}\right\} \end{array}\right)\left(\begin{array}{c}
+A_{3}^{+}\\
+A_{3}^{-}
+\end{array}\right)\label{eq:delta_2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\begin{equation}
+\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left(I+S\left(\Phi\right)\right)\left(\begin{array}{c}
+C_{-1,1}^{+}\\
+C_{-1,1}^{-}
+\end{array}\right)=\left(\begin{array}{cc}
+\left\{ \frac{\alpha}{ik}-1\right\}  & \left\{ \frac{\alpha}{ik}+1\right\} \end{array}\right)\left(\begin{array}{c}
+A_{1}^{+}\\
+A_{1}^{-}
+\end{array}\right)+e^{-i\Phi\beta_{3}}\left(\begin{array}{cc}
+\left\{ e^{ik\beta_{3}}\right\}  & \left\{ -e^{-ik\beta_{3}}\right\} \end{array}\right)\left(\begin{array}{c}
+A_{3}^{+}\\
+A_{3}^{-}
+\end{array}\right)\label{eq:delta_3}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Рассмотрим 
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left(I+S\left(\Phi\right)\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)S\left(\Phi\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} \\
+\left\{ e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right\} 
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ \left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} -\left\{ e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right\} \right\}  & \left\{ \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} -\left\{ e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right\} \right\} \end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}+e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}+e^{-ik\pi}e^{-i\Phi\pi}\right\} \end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ 2e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\}  & \left\{ 2e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left(I+S\left(\Phi\right)\right)=\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)+\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)S\left(\Phi\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)+e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ 2e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\}  & \left\{ 2e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ 2e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}+e^{i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\}  & \left\{ 2e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)\right\} \end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ 2e^{ik\pi}e^{-i\Phi\pi}-2e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ 2e^{-ik\pi}e^{-i\Phi\pi}-2e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=4e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} \end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Соберем матрицу из строк 
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)$
+\end_inset
+
+ и 
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left(I+S\left(\Phi\right)\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T\left(k,\Phi\right)=\left(\begin{array}{cc}
+1 & 1\\
+\left\{ 4e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)\right\}  & \left\{ 4e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)\right\} 
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Вычислим обратную матрицу по формуле 
+\begin_inset Formula $\left(\begin{array}{cc}
+1 & 1\\
+a & b
+\end{array}\right)^{-1}=\frac{1}{b-a}\left(\begin{array}{cc}
+b & -1\\
+-a & 1
+\end{array}\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(T\left(k,\Phi\right)\right)^{-1}=\frac{1}{4}e^{i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}+e^{-ik\pi}e^{i\Phi\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ 4e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)\right\}  & \left\{ -1\right\} \\
+\left\{ -4e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)\right\}  & \left\{ 1\right\} 
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Преобразуем 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\left(e^{-ik\pi}\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)-e^{ik\pi}\left(e^{i\Phi\pi}+e^{-i\Phi\pi}\right)\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $e^{-ik\pi}\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)-e^{ik\pi}\left(e^{i\Phi\pi}+e^{-i\Phi\pi}\right)=e^{-ik\pi}\left(e^{-i\Phi\pi}+e^{i\Phi\pi}\right)-e^{ik\pi}\left(e^{i\Phi\pi}+e^{-i\Phi\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(e^{-ik\pi}-e^{ik\pi}\right)\left(e^{i\Phi\pi}+e^{-i\Phi\pi}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Учтем это в выражении для 
+\begin_inset Formula $\left(T\left(k,\Phi\right)\right)^{-1}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(T\left(k,\Phi\right)\right)^{-1}=\frac{1}{4}e^{i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)\left\{ \left(e^{-ik\pi}-e^{ik\pi}\right)\left(e^{i\Phi\pi}+e^{-i\Phi\pi}\right)\right\} ^{-1}\left(\begin{array}{cc}
+\left\{ 4e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)\right\}  & \left\{ -1\right\} \\
+\left\{ -4e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)\right\}  & \left\{ 1\right\} 
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-\frac{1}{4}e^{i\Phi\pi}\left(e^{i\Phi\pi}+e^{-i\Phi\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ 4e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)\right\}  & \left\{ -1\right\} \\
+\left\{ -4e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)\right\}  & \left\{ 1\right\} 
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Рассмотрим пару уравнений 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:delta_1"
+
+\end_inset
+
+ и 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:delta_3"
+
+\end_inset
+
+ в системе:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+C_{-1,1}^{+}\\
+C_{-1,1}^{-}
+\end{array}\right)=\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+A_{1}^{+}\\
+A_{1}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left(I+S\left(\Phi\right)\right)\left(\begin{array}{c}
+C_{-1,1}^{+}\\
+C_{-1,1}^{-}
+\end{array}\right)=\left(\begin{array}{cc}
+\left\{ \frac{\alpha}{ik}-1\right\}  & \left\{ \frac{\alpha}{ik}+1\right\} \end{array}\right)\left(\begin{array}{c}
+A_{1}^{+}\\
+A_{1}^{-}
+\end{array}\right)+e^{-i\Phi\beta_{3}}\left(\begin{array}{cc}
+\left\{ e^{ik\beta_{3}}\right\}  & \left\{ -e^{-ik\beta_{3}}\right\} \end{array}\right)\left(\begin{array}{c}
+A_{3}^{+}\\
+A_{3}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Перейдем к матричному виду (в левой части возникнет ранее определенная матрица
+ T, умноженная на вектор коэффициентов):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T\left(k,\Phi\right)\left(\begin{array}{c}
+C_{-1,1}^{+}\\
+C_{-1,1}^{-}
+\end{array}\right)=\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \\
+\left\{ \frac{\alpha}{ik}-1\right\}  & \left\{ \frac{\alpha}{ik}+1\right\} 
+\end{array}\right)\left(\begin{array}{c}
+A_{1}^{+}\\
+A_{1}^{-}
+\end{array}\right)+\left(\begin{array}{cc}
+\left\{ 0\right\}  & \left\{ 0\right\} \\
+\left\{ e^{-i\Phi\beta_{3}}e^{ik\beta_{3}}\right\}  & \left\{ -e^{-i\Phi\beta_{3}}e^{-ik\beta_{3}}\right\} 
+\end{array}\right)\left(\begin{array}{c}
+A_{3}^{+}\\
+A_{3}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Поскольку матрица 
+\begin_inset Formula $T$
+\end_inset
+
+ имеет обратную:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{c}
+C_{-1,1}^{+}\\
+C_{-1,1}^{-}
+\end{array}\right)=\left(T\left(k,\Phi\right)\right)^{-1}\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \\
+\left\{ \frac{\alpha}{ik}-1\right\}  & \left\{ \frac{\alpha}{ik}+1\right\} 
+\end{array}\right)\left(\begin{array}{c}
+A_{1}^{+}\\
+A_{1}^{-}
+\end{array}\right)+\left(T\left(k,\Phi\right)\right)^{-1}\left(\begin{array}{cc}
+\left\{ 0\right\}  & \left\{ 0\right\} \\
+\left\{ e^{-i\Phi\beta_{3}}e^{ik\beta_{3}}\right\}  & \left\{ -e^{-i\Phi\beta_{3}}e^{-ik\beta_{3}}\right\} 
+\end{array}\right)\left(\begin{array}{c}
+A_{3}^{+}\\
+A_{3}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Все шесть перемнных 
+\begin_inset Formula $A_{1}^{\pm}$
+\end_inset
+
+, 
+\begin_inset Formula $A_{3}^{\pm}$
+\end_inset
+
+, 
+\begin_inset Formula $C_{-1,1}^{\pm}$
+\end_inset
+
+ можно выразить через три независимые переменные 
+\begin_inset Formula $a_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $b_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $c_{1}$
+\end_inset
+
+ следующим образом:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{1}^{+}=a_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{1}^{-}=b_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{3}^{+}=c_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{3}^{-}=e^{ik\beta_{3}}\left(e^{i\Phi\beta_{3}}\left(a_{1}+b_{1}\right)-c_{1}e^{ik\beta_{3}}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{c}
+C_{-1,1}^{+}\\
+C_{-1,1}^{-}
+\end{array}\right)=\left(T\left(k,\Phi\right)\right)^{-1}\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \\
+\left\{ \frac{\alpha}{ik}-1\right\}  & \left\{ \frac{\alpha}{ik}+1\right\} 
+\end{array}\right)\left(\begin{array}{c}
+a_{1}\\
+b_{1}
+\end{array}\right)+\left(T\left(k,\Phi\right)\right)^{-1}\left(\begin{array}{cc}
+\left\{ 0\right\}  & \left\{ 0\right\} \\
+\left\{ e^{-i\Phi\beta_{3}}e^{ik\beta_{3}}\right\}  & \left\{ -e^{-i\Phi\beta_{3}}e^{-ik\beta_{3}}\right\} 
+\end{array}\right)\left(\begin{array}{c}
+c_{1}\\
+e^{ik\beta_{3}}\left(e^{i\Phi\beta_{3}}\left(a_{1}+b_{1}\right)-c_{1}e^{ik\beta_{3}}\right)
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(T\left(k,\Phi\right)\right)^{-1}\left(\begin{array}{c}
+a_{1}+b_{1}\\
+a_{1}\left(\frac{\alpha}{ik}-1\right)+b_{1}\left(\frac{\alpha}{ik}+1\right)+c_{1}e^{-i\Phi\beta_{3}}e^{ik\beta_{3}}-\left(a_{1}+b_{1}\right)+c_{1}e^{-i\Phi\beta_{3}}e^{ik\beta_{3}}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(T\left(k,\Phi\right)\right)^{-1}\left(\begin{array}{c}
+a_{1}+b_{1}\\
+a_{1}\left(\frac{\alpha}{ik}-2\right)+b_{1}\frac{\alpha}{ik}+2c_{1}e^{-i\Phi\beta_{3}}e^{ik\beta_{3}}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

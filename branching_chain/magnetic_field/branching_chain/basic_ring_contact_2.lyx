@@ -133,22 +133,6 @@ A_{3}^{-}
 \end_layout
 
 \begin_layout Standard
-Выберем три независимых переменных 
-\begin_inset Formula $C_{-1,1}^{+}$
-\end_inset
-
-, 
-\begin_inset Formula $A_{1}^{+}$
-\end_inset
-
-, 
-\begin_inset Formula $A_{1}^{-}$
-\end_inset
-
- и выразим через ни остальные.
-\end_layout
-
-\begin_layout Standard
 Из 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -233,10 +217,11 @@ A_{1}^{-}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\left(\begin{array}{c}
-A_{3}^{+}\\
-A_{3}^{-}
-\end{array}\right)=e^{i\Phi\beta_{3}}\frac{1}{2}\left(\begin{array}{cc}
+Вычисляем обратную матрицу
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{i\Phi\beta_{3}}\frac{1}{2}\left(\begin{array}{cc}
 \left\{ e^{-ik\beta_{3}}\right\}  & \left\{ e^{-ik\beta_{3}}\right\} \\
 \left\{ e^{ik\beta_{3}}\right\}  & \left\{ -e^{ik\beta_{3}}\right\} 
 \end{array}\right)\left\{ T\left(k,\Phi\right)\left(\begin{array}{c}
@@ -255,10 +240,15 @@ A_{1}^{-}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\left(\begin{array}{c}
-A_{3}^{+}\\
-A_{3}^{-}
-\end{array}\right)=e^{i\Phi\beta_{3}}\frac{1}{2}\left(\begin{array}{cc}
+Подставляем 
+\begin_inset Formula $C_{1,1}^{-}=A_{1}^{+}+A_{1}^{-}-C_{1,1}^{+}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{i\Phi\beta_{3}}\frac{1}{2}\left(\begin{array}{cc}
 \left\{ e^{-ik\beta_{3}}\right\}  & \left\{ e^{-ik\beta_{3}}\right\} \\
 \left\{ e^{ik\beta_{3}}\right\}  & \left\{ -e^{ik\beta_{3}}\right\} 
 \end{array}\right)\left\{ T\left(k,\Phi\right)\left(\begin{array}{c}
@@ -288,12 +278,14 @@ A_{1}^{-}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\left(\begin{array}{c}
+\begin_inset Formula 
+\begin{equation}
+\left(\begin{array}{c}
 A_{j-1}^{+}\\
 A_{j-1}^{-}
-\end{array}\right)=e^{i\Phi\beta_{3}}\frac{1}{2}\left(\begin{array}{cc}
-\left\{ e^{-ik\beta_{3}}\right\}  & \left\{ e^{-ik\beta_{3}}\right\} \\
-\left\{ e^{ik\beta_{3}}\right\}  & \left\{ -e^{ik\beta_{3}}\right\} 
+\end{array}\right)=e^{i\Phi\beta_{j-1}}\frac{1}{2}\left(\begin{array}{cc}
+\left\{ e^{-ik\beta_{j-1}}\right\}  & \left\{ e^{-ik\beta_{j-1}}\right\} \\
+\left\{ e^{ik\beta_{j-1}}\right\}  & \left\{ -e^{ik\beta_{j-1}}\right\} 
 \end{array}\right)\left\{ T\left(k,\Phi\right)\left(\begin{array}{c}
 C_{j,1}^{+}\\
 A_{j}^{+}+A_{j}^{-}-C_{j,1}^{+}
@@ -303,7 +295,135 @@ A_{j}^{+}+A_{j}^{-}-C_{j,1}^{+}
 \end{array}\right)\left(\begin{array}{c}
 A_{j}^{+}\\
 A_{j}^{-}
+\end{array}\right)\right\} \label{eq:basic_ring_rel}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Введем обозначения
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Q\left(\beta\right)=e^{i\Phi\beta}\frac{1}{2}\left(\begin{array}{cc}
+\left\{ e^{-ik\beta}\right\}  & \left\{ e^{-ik\beta}\right\} \\
+\left\{ e^{ik\beta}\right\}  & \left\{ -e^{ik\beta}\right\} 
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Перепишем
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{c}
+A_{j-1}^{+}\\
+A_{j-1}^{-}
+\end{array}\right)=Q\left(\beta_{j-1}\right)\left\{ T\left(k,\Phi\right)\left(\begin{array}{c}
+C_{j,1}^{+}\\
+A_{j}^{+}+A_{j}^{-}-C_{j,1}^{+}
+\end{array}\right)-\left(\begin{array}{cc}
+\left\{ 0\right\}  & \left\{ 0\right\} \\
+\left\{ \frac{\alpha}{ik}-1\right\}  & \left\{ \frac{\alpha}{ik}+1\right\} 
+\end{array}\right)\left(\begin{array}{c}
+A_{j}^{+}\\
+A_{j}^{-}
 \end{array}\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Преобразуем
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\left(\begin{array}{c}
+A_{j-1}^{+}\\
+A_{j-1}^{-}
+\end{array}\right)=Q\left(\beta_{j-1}\right)\left\{ T\left(k,\Phi\right)\left(\begin{array}{c}
+1\\
+-1
+\end{array}\right)C_{j,1}^{+}+T\left(k,\Phi\right)\left(\begin{array}{cc}
+0 & 0\\
+1 & 1
+\end{array}\right)\left(\begin{array}{c}
+A_{j}^{+}\\
+A_{j}^{-}
+\end{array}\right)-\left(\begin{array}{cc}
+\left\{ 0\right\}  & \left\{ 0\right\} \\
+\left\{ \frac{\alpha}{ik}-1\right\}  & \left\{ \frac{\alpha}{ik}+1\right\} 
+\end{array}\right)\left(\begin{array}{c}
+A_{j}^{+}\\
+A_{j}^{-}
+\end{array}\right)\right\} $
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\left(\begin{array}{c}
+A_{j-1}^{+}\\
+A_{j-1}^{-}
+\end{array}\right)=Q\left(\beta_{j-1}\right)\left\{ T\left(k,\Phi\right)\left(\begin{array}{c}
+1\\
+-1
+\end{array}\right)C_{j,1}^{+}+\left\{ T\left(k,\Phi\right)\left(\begin{array}{cc}
+0 & 0\\
+1 & 1
+\end{array}\right)-\left(\begin{array}{cc}
+\left\{ 0\right\}  & \left\{ 0\right\} \\
+\left\{ \frac{\alpha}{ik}-1\right\}  & \left\{ \frac{\alpha}{ik}+1\right\} 
+\end{array}\right)\right\} \left(\begin{array}{c}
+A_{j}^{+}\\
+A_{j}^{-}
+\end{array}\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Введем обозначения
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Q\left(\beta\right)=e^{i\Phi\beta}\frac{1}{2}\left(\begin{array}{cc}
+\left\{ e^{-ik\beta}\right\}  & \left\{ e^{-ik\beta}\right\} \\
+\left\{ e^{ik\beta}\right\}  & \left\{ -e^{ik\beta}\right\} 
+\end{array}\right)$
 \end_inset
 
 

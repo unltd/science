@@ -204,7 +204,7 @@ C_{j,m}^{-}
 \lang russian
 \begin_inset Formula 
 \begin{eqnarray*}
- &  & \psi_{-1,2}\left(0\right)=u\ne0,\\
+ &  & \psi_{-1,1}\left(0\right)=u\ne0,\\
  &  & \alpha\psi_{-1,1}\left(0\right)-i\hat{p}\psi{}_{-1,1}(0)+i\hat{p}\varphi_{-1,1}\left(0\right)=v.
 \end{eqnarray*}
 

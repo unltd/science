@@ -1213,12 +1213,12 @@ M(k,0)=\left(\begin{array}{cc}
 \begin_inset Formula $\left(C_{j}^{+};\, C_{j}^{-}\right)^{T}$
 \end_inset
 
-пределяется спектральными свойствами трансфер-матрицы.
+определяется спектральными свойствами трансфер-матрицы.
  Пускай 
 \begin_inset Formula $\left(C_{j}^{+};\, C_{j}^{-}\right)^{T}$
 \end_inset
 
- есть собственный трансфер-вектор матрицы, отвечающий собственному числу
+ есть собственный вектор трансфер-матрицы, отвечающий собственному числу
  
 \begin_inset Formula $\mu$
 \end_inset
@@ -1236,7 +1236,7 @@ M(k,0)=\left(\begin{array}{cc}
 \begin_inset Formula $\left|\mu\right|=1$
 \end_inset
 
-) означает, что 
+) означает, что норма 
 \begin_inset Formula $\left\Vert \left(C_{j}^{+};\, C_{j}^{-}\right)^{T}\right\Vert $
 \end_inset
 
@@ -1355,11 +1355,11 @@ reference "eq:zero_mag_trans_matrix_relation"
 \end_inset
 
 .
- Для проведения спектрального анализа 
+ Для проведения спектрального анализа матрицы 
 \begin_inset Formula $M(k,0)$
 \end_inset
 
- матрицы мы воспользуемся её характеристическим полиномом при энергии 
+ мы воспользуемся её характеристическим полиномом при энергии 
 \begin_inset Formula $E=k^{2}$
 \end_inset
 
@@ -1382,8 +1382,9 @@ reference "eq:straight_chain_phase-cond"
 \end_inset
 
 .
- Видно, что матрица имеет собственное ровно одно число по модулю меньшее
- 1 тогда и только тогда, когда дискриминант положителен, то есть
+ Видно, что матрица имеет ровно одно собственное число второй кратнойсти
+ по модулю меньшее 1 тогда и только тогда, когда дискриминант положителен,
+ то есть
 \end_layout
 
 \begin_layout Standard
@@ -1394,8 +1395,8 @@ reference "eq:straight_chain_phase-cond"
 
 \end_inset
 
-и имеет пару комплексно сопряженных собственных собственных чисел с модулем
- равным 1 тогда и только тогда, когда эта величина не превосходит 1:
+и имеет пару комплексно сопряженных собственных чисел с модулем равным 1
+ тогда и только тогда, когда эта величина не превосходит 1:
 \end_layout
 
 \begin_layout Standard
@@ -1431,7 +1432,7 @@ reference "eq:straight_chain_phase-cond"
 \end_inset
 
  получается при 
-\begin_inset Formula $\cos k\pi+\frac{\alpha}{4k}\sin k\pi<1$
+\begin_inset Formula $\cos k\pi+\frac{\alpha}{4k}\sin k\pi>1$
 \end_inset
 
  и 
@@ -1489,7 +1490,7 @@ reference "eq:bent_chain_delta-cond-2"
 
 .
  Так же установлено, для значений энергии E, модули которых не являются
- квадратами натуральных чисел, волновая функция на каждом кольце цепочки
+ квадратами натуральных чисел, что волновая функция на каждом кольце цепочки
  должна быть симметрична относительно её оси, что выражается соотношением
  
 \begin_inset CommandInset ref
@@ -1510,7 +1511,7 @@ reference "eq:zero_mag_trans_matrix_relation"
 
 \end_inset
 
- так же накладывают условия на волновую функцию на кольцах всех цепочки.
+ так же накладывают условия на волновую функцию на кольцах всей цепочки.
  Именно, коэффициенты 
 \begin_inset Formula $C_{j}^{\pm}$
 \end_inset
@@ -1744,9 +1745,9 @@ reference "eq:zero_mag_trans_matrix_relation"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{eqnarray}
-\psi_{0},1=A^{+}e^{ikx}+A^{-}e^{-ikx}, & x\in[0,\beta_{1}]\nonumber \\
-\psi_{0},2=B^{+}e^{ikx}+B^{-}e^{-ikx}, & x\in[0,\beta_{2}]\label{eq:zero_mag_basic_ring_solutions}\\
-\psi_{0},3=C^{+}e^{ikx}+C^{-}e^{-ikx}, & x\in[0,\beta_{3}]\nonumber 
+\psi_{0,1}=A^{+}e^{ikx}+A^{-}e^{-ikx}, & x\in[0,\beta_{1}]\nonumber \\
+\psi_{0,2}=B^{+}e^{ikx}+B^{-}e^{-ikx}, & x\in[0,\beta_{2}]\label{eq:zero_mag_basic_ring_solutions}\\
+\psi_{0,3}=C^{+}e^{ikx}+C^{-}e^{-ikx}, & x\in[0,\beta_{3}]\nonumber 
 \end{eqnarray}
 
 \end_inset
@@ -2674,8 +2675,8 @@ reference "fig:Разветвление-цепочки-в"
 
 ).
  Как известно, магнитное поле заметно действует на проводники округлой формы.
- В нашем же рассматриваемая модель вся состоит из соединенных между собой
- колец, и наличие магнитного поля, действующего перпендикулярно плоскости
+ В нашем же случае рассматриваемая модель вся состоит из соединенных между
+ собой колец, и наличие магнитного поля, действующего перпендикулярно плоскости
  модели, очевидно проявляется.
 \end_layout
 
@@ -3673,8 +3674,8 @@ reference "eq:zero_mag_char_polynomial"
 \end_layout
 
 \begin_layout Standard
-Мы уже показали, что присутствующее магнитное поле меняет домножает модули
- собственных чисел на 
+Мы уже показали, что присутствующее магнитное поле домножает модули собственных
+ чисел на 
 \begin_inset Formula $\left|\cos\Phi\pi\right|^{-1}$
 \end_inset
 
@@ -4205,7 +4206,7 @@ reference "eq:mag_L_extremums"
 \uwave off
 \noun off
 \color none
-)  амплитуды всех остальных экстремумов, и именно ей и будет определяться
+) больше  амплитуд всех остальных экстремумов, и именно ей и будет определяться
  наличие корней.
  В общем же случаи 
 \begin_inset Formula $\alpha\neq0$
@@ -4480,7 +4481,7 @@ reference "eq:mag_essential_spectra_extrem_cond"
 \begin_inset Formula $B$
 \end_inset
 
- , действующее перпендикулярно плоскости системы такого что значение 
+ , действующее перпендикулярно плоскости системы такого, что значение 
 \begin_inset Formula $\Phi=\frac{\pi B}{\Phi_{0}}$
 \end_inset
 

@@ -1,0 +1,826 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula 
+\begin{eqnarray}
+ &  & \psi_{0,1}(0)=\psi_{0,3}(\beta_{3})=u,\nonumber \\
+ &  & i\hat{p}\psi_{0,1}(0)-i\hat{p}\psi_{0,3}(\beta_{3})=v,\nonumber \\
+ &  & \psi_{0,2}(0)=\psi_{0,1}(\beta_{1})=\gamma_{1}\cdot u,\nonumber \\
+ &  & i\hat{p}\psi_{0,2}(0)-i\hat{p}\psi_{0,1}(\beta_{1})=\gamma_{1}\cdot v,\label{eq:mag_main_system-2}\\
+ &  & \psi_{0,3}(0)=\psi_{0,2}(\beta_{2})=\gamma_{2}\cdot u\nonumber \\
+ &  & i\hat{p}\psi_{0,3}(0)-i\hat{p}\psi_{0,2}(\beta_{2})=\gamma_{2}\cdot v.\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Решения на базовом кольце:
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang russian
+\begin_inset Formula $\psi_{0,1}(x)=e^{-i\Phi x}\left(A_{1}^{+}e^{ikx}+A_{1}^{-}e^{-ikx}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang russian
+\begin_inset Formula $\psi_{0,2}(x)=e^{-i\Phi x}\left(A_{2}^{+}e^{ikx}+A_{2}^{-}e^{-ikx}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang russian
+\begin_inset Formula $\psi_{0,3}(x)=e^{-i\Phi x}\left(A_{3}^{+}e^{ikx}+A_{3}^{-}e^{-ikx}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\beta_{1,2,3}\neq0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1.
+ Пусть 
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{0,1}(0)=\psi_{0,3}(\beta_{3})=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{0,2}(0)=\psi_{0,1}(\beta_{1})=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{0,3}(0)=\psi_{0,2}(\beta_{2})=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1.1.
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{1}^{+}+A_{1}^{-}=e^{-i\Phi\beta_{3}}\left(A_{3}^{+}e^{ik\beta_{3}}+A_{3}^{-}e^{-ik\beta_{3}}\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{2}^{+}+A_{2}^{-}=e^{-i\Phi\beta_{1}}\left(A_{1}^{+}e^{ik\beta_{1}}+A_{1}^{-}e^{-ik\beta_{1}}\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{3}^{+}+A_{3}^{-}=e^{-i\Phi\beta_{2}}\left(A_{2}^{+}e^{ik\beta_{2}}+A_{2}^{-}e^{-ik\beta_{2}}\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1.4.
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{1}^{+}+A_{1}^{-}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $e^{-i\Phi\beta_{1}}\left(A_{1}^{+}e^{ik\beta_{1}}+A_{1}^{-}e^{-ik\beta_{1}}\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{1}^{+}+A_{1}^{-}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $e^{-i\Phi\beta_{1}}\left(A_{1}^{+}e^{ik\beta_{1}}-A_{1}^{+}e^{-ik\beta_{1}}\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{1}^{+}+A_{1}^{-}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{1}^{+}e^{-i\Phi\beta_{1}}\left(e^{ik\beta_{1}}-e^{-ik\beta_{1}}\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+1.4.1.
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\beta_{1}\neq\pi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{1}^{\pm}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1.4.2.
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\beta_{1}=\pi$
+\end_inset
+
+, 
+\begin_inset Formula $e^{ik\beta_{1}}-e^{-ik\beta_{1}}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Здесь к-нты 
+\begin_inset Formula $A_{1}^{\pm}$
+\end_inset
+
+ выразить не удается.
+\end_layout
+
+\begin_layout Standard
+Аналогично заключаем 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $A_{2,3}^{\pm}=0$
+\end_inset
+
+.
+ Таким образом при требовании п.
+ 1 все к-нты всех компонент волновой ф-ии на базовом кольце будут равны
+ нулю одновременно.
+ Это равенство нулю распространится и на все остальные компоненты при помощи
+ трансферной матрицы.
+ Получаем вырожденный случай.
+ Соотв.
+ волновая ф-ия будет являтся решением системы.
+\end_layout
+
+\begin_layout Standard
+Далее будем пологать, что по крайней мере в одной из трех точек контакта
+ базового кольца с ветвями волновая функция отлична от нуля.
+ Эта точка и будет считаться точкой А, из которой исходит компонента 0,1.
+ Таким образом, будем считать 
+\begin_inset Formula $u\neq0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+2.
+ Пусть 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\gamma_{1}\neq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{0,1}(0)=\psi_{0,3}(\beta_{3})=u$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{0,2}(0)=\psi_{0,1}(\beta_{1})=\gamma_{1}\cdot u$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{0,3}(0)=\psi_{0,2}(\beta_{2})=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.1.
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{1}^{+}+A_{1}^{-}=e^{-i\Phi\beta_{3}}\left(A_{3}^{+}e^{ik\beta_{3}}+A_{3}^{-}e^{-ik\beta_{3}}\right)=u$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{2}^{+}+A_{2}^{-}=e^{-i\Phi\beta_{1}}\left(A_{1}^{+}e^{ik\beta_{1}}+A_{1}^{-}e^{-ik\beta_{1}}\right)=\gamma_{1}\cdot u$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{3}^{+}+A_{3}^{-}=e^{-i\Phi\beta_{2}}\left(A_{2}^{+}e^{ik\beta_{2}}+A_{2}^{-}e^{-ik\beta_{2}}\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.2.
+ Из 2.1(1,1) и 2.1(2,2):
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{1}^{+}+A_{1}^{-}=u$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $e^{-i\Phi\beta_{1}}\left(A_{1}^{+}e^{ik\beta_{1}}+A_{1}^{-}e^{-ik\beta_{1}}\right)=\gamma_{1}\cdot u$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{1}^{+}e^{-ik\beta_{1}}+A_{1}^{-}e^{-ik\beta_{1}}=u$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{1}^{+}e^{ik\beta_{1}}+A_{1}^{-}e^{-ik\beta_{1}}=\gamma_{1}\cdot u\cdot e^{i\Phi\beta_{1}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{1}^{+}\left(e^{ik\beta_{1}}-e^{-ik\beta_{1}}\right)=\gamma_{1}\cdot u\cdot e^{i\Phi\beta_{1}}-u$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{1}^{+}=\frac{\gamma_{1}\cdot u\cdot e^{i\Phi\beta_{1}}-u}{e^{ik\beta_{1}}-e^{-ik\beta_{1}}}$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

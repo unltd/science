@@ -758,6 +758,19 @@ status open
 
 \end_layout
 
+\begin_layout Plain Layout
+Теперь коэффициенты компонент волновой фунции центрально кольца оказываются
+ выраженными через значение компоненты 
+\begin_inset Formula $\psi_{0,1}(0)=u$
+\end_inset
+
+ и два неизвестных множителя 
+\begin_inset Formula $\gamma_{1,2}$
+\end_inset
+
+.
+\end_layout
+
 \end_inset
 
 
@@ -824,7 +837,7 @@ status open
 \begin_layout Plain Layout
 3.2.
  
-\begin_inset Formula $i\hat{p}\psi_{0,2}(0)=iku\frac{e^{-i\Phi\beta_{2}}\left(e^{-ik\beta_{2}}+e^{ik\beta_{2}}\right)-2\frac{\gamma_{2}}{\gamma_{1}}}{e^{-i\Phi\beta_{2}}\left(e^{-ik\beta_{2}}-e^{ik\beta_{2}}\right)}$
+\begin_inset Formula $i\hat{p}\psi_{0,2}(0)=ik\gamma_{1}u\frac{e^{-i\Phi\beta_{2}}\left(e^{-ik\beta_{2}}+e^{ik\beta_{2}}\right)-2\frac{\gamma_{2}}{\gamma_{1}}}{e^{-i\Phi\beta_{2}}\left(e^{-ik\beta_{2}}-e^{ik\beta_{2}}\right)}$
 \end_inset
 
 
@@ -833,7 +846,7 @@ status open
 \begin_layout Plain Layout
 3.3.
  
-\begin_inset Formula $i\hat{p}\psi_{0,3}(0)=iku\frac{e^{-i\Phi\beta_{3}}\left(e^{-ik\beta_{3}}+e^{ik\beta_{3}}\right)-2\frac{1}{\gamma_{2}}}{e^{-i\Phi\beta_{3}}\left(e^{-ik\beta_{3}}-e^{ik\beta_{3}}\right)}$
+\begin_inset Formula $i\hat{p}\psi_{0,3}(0)=ik\gamma_{2}u\frac{e^{-i\Phi\beta_{3}}\left(e^{-ik\beta_{3}}+e^{ik\beta_{3}}\right)-2\frac{1}{\gamma_{2}}}{e^{-i\Phi\beta_{3}}\left(e^{-ik\beta_{3}}-e^{ik\beta_{3}}\right)}$
 \end_inset
 
 
@@ -916,9 +929,793 @@ status open
 
 \end_layout
 
+\begin_layout Plain Layout
+4.2.
+ 
+\begin_inset Formula $i\hat{p}\psi_{0,2}(\beta_{2})=ike^{-i\Phi\beta_{2}}(A_{2}^{+}e^{ik\beta_{2}}-A_{2}^{-}e^{-ik\beta_{2}})$
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $i\hat{p}\psi_{0,2}(\beta_{2})=ik\gamma_{1}e^{-i\Phi\beta_{2}}u\frac{2e^{-i\Phi\beta_{2}}-\left(e^{ik\beta_{2}}+e^{-ik\beta_{2}}\right)\frac{\gamma_{2}}{\gamma_{1}}}{e^{-i\Phi\beta_{2}}\left(e^{-ik\beta_{2}}-e^{ik\beta_{2}}\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+4.3.
+ 
+\begin_inset Formula $i\hat{p}\psi_{0,3}(\beta_{3})=ike^{-i\Phi\beta_{3}}(A_{3}^{+}e^{ik\beta_{3}}-A_{3}^{-}e^{-ik\beta_{3}})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $i\hat{p}\psi_{0,3}(\beta_{3})=ik\gamma_{2}e^{-i\Phi\beta_{3}}u\frac{2e^{-i\Phi\beta_{3}}-\left(e^{ik\beta_{3}}+e^{-ik\beta_{3}}\right)\frac{1}{\gamma_{2}}}{e^{-i\Phi\beta_{3}}\left(e^{-ik\beta_{3}}-e^{ik\beta_{3}}\right)}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Используем условия дельта-соединения для производных в точкух контакта базового
+ кольца.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+5.1.
+ 
+\begin_inset Formula $i\hat{p}\psi_{0,1}(0)-i\hat{p}\psi_{0,3}(\beta_{3})=v$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $iku\frac{e^{-i\Phi\beta_{1}}\left(e^{-ik\beta_{1}}+e^{ik\beta_{1}}\right)-2\gamma_{1}}{e^{-i\Phi\beta_{1}}\left(e^{-ik\beta_{1}}-e^{ik\beta_{1}}\right)}-ik\gamma_{2}e^{-i\Phi\beta_{3}}u\frac{2e^{-i\Phi\beta_{3}}-\left(e^{ik\beta_{3}}+e^{-ik\beta_{3}}\right)\frac{1}{\gamma_{2}}}{e^{-i\Phi\beta_{3}}\left(e^{-ik\beta_{3}}-e^{ik\beta_{3}}\right)}=v$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $iku\frac{2\gamma_{1}-e^{-i\Phi\beta_{1}}\left(e^{-ik\beta_{1}}+e^{ik\beta_{1}}\right)}{e^{-i\Phi\beta_{1}}\left(e^{ik\beta_{1}}-e^{-ik\beta_{1}}\right)}+ike^{-i\Phi\beta_{3}}u\frac{2\gamma_{2}e^{-i\Phi\beta_{3}}-\left(e^{ik\beta_{3}}+e^{-ik\beta_{3}}\right)}{e^{-i\Phi\beta_{3}}\left(e^{ik\beta_{3}}-e^{-ik\beta_{3}}\right)}=v$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $i\frac{2\gamma_{1}-e^{-i\Phi\beta_{1}}\left(e^{-ik\beta_{1}}+e^{ik\beta_{1}}\right)}{e^{-i\Phi\beta_{1}}\left(e^{ik\beta_{1}}-e^{-ik\beta_{1}}\right)}+ie^{-i\Phi\beta_{3}}\frac{2\gamma_{2}e^{-i\Phi\beta_{3}}-\left(e^{ik\beta_{3}}+e^{-ik\beta_{3}}\right)}{e^{-i\Phi\beta_{3}}\left(e^{ik\beta_{3}}-e^{-ik\beta_{3}}\right)}=\frac{v}{ku}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $i\left(\frac{e^{+i\Phi\beta_{1}}2\gamma_{1}}{\left(e^{ik\beta_{1}}-e^{-ik\beta_{1}}\right)}-\frac{\left(e^{-ik\beta_{1}}+e^{ik\beta_{1}}\right)}{\left(e^{ik\beta_{1}}-e^{-ik\beta_{1}}\right)}\right)+i\left(e^{-i\Phi\beta_{3}}\frac{2\gamma_{2}}{\left(e^{ik\beta_{3}}-e^{-ik\beta_{3}}\right)}-\frac{\left(e^{ik\beta_{3}}+e^{-ik\beta_{3}}\right)}{\left(e^{ik\beta_{3}}-e^{-ik\beta_{3}}\right)}\right)=\frac{v}{ku}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(\gamma_{1}\frac{e^{+i\Phi\beta_{1}}i2}{\left(e^{ik\beta_{1}}-e^{-ik\beta_{1}}\right)}-\frac{i\left(e^{-ik\beta_{1}}+e^{ik\beta_{1}}\right)}{\left(e^{ik\beta_{1}}-e^{-ik\beta_{1}}\right)}\right)+\left(\gamma_{2}e^{-i\Phi\beta_{3}}\frac{i2}{\left(e^{ik\beta_{3}}-e^{-ik\beta_{3}}\right)}-\frac{i\left(e^{ik\beta_{3}}+e^{-ik\beta_{3}}\right)}{\left(e^{ik\beta_{3}}-e^{-ik\beta_{3}}\right)}\right)=\frac{v}{ku}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(\gamma_{1}e^{+i\Phi\beta_{1}}\frac{i2}{\left(e^{ik\beta_{1}}-e^{-ik\beta_{1}}\right)}-\frac{i\left(e^{-ik\beta_{1}}+e^{ik\beta_{1}}\right)}{\left(e^{ik\beta_{1}}-e^{-ik\beta_{1}}\right)}\right)+\left(\gamma_{2}e^{-i\Phi\beta_{3}}\frac{i2}{\left(e^{ik\beta_{3}}-e^{-ik\beta_{3}}\right)}-\frac{i\left(e^{ik\beta_{3}}+e^{-ik\beta_{3}}\right)}{\left(e^{ik\beta_{3}}-e^{-ik\beta_{3}}\right)}\right)=\frac{v}{ku}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(\gamma_{1}e^{+i\Phi\beta_{1}}\frac{i2}{\left(e^{ik\beta_{1}}-e^{-ik\beta_{1}}\right)}-\frac{i\left(e^{-ik\beta_{1}}+e^{ik\beta_{1}}\right)}{\left(e^{ik\beta_{1}}-e^{-ik\beta_{1}}\right)}\right)+\left(\gamma_{2}e^{-i\Phi\beta_{3}}\frac{i2}{\left(e^{ik\beta_{3}}-e^{-ik\beta_{3}}\right)}-\frac{i\left(e^{ik\beta_{3}}+e^{-ik\beta_{3}}\right)}{\left(e^{ik\beta_{3}}-e^{-ik\beta_{3}}\right)}\right)=\frac{v}{ku}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}e^{+i\Phi\beta_{1}}\frac{1}{\sin\left(k\beta_{1}\right)}-\cot\left(k\beta_{1}\right)+\gamma_{2}e^{-i\Phi\beta_{3}}\frac{1}{\sin\left(k\beta_{3}\right)}-\cot\left(k\beta_{3}\right)=\frac{v}{ku}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}e^{+i\Phi\beta_{1}}\frac{1}{\sin\left(k\beta_{1}\right)}+\gamma_{2}e^{-i\Phi\beta_{3}}\frac{1}{\sin\left(k\beta_{3}\right)}=\frac{v}{ku}+\cot\left(k\beta_{1}\right)+\cot\left(k\beta_{3}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}R\left(k,\Phi,\beta_{1}\right)+\gamma_{2}R\left(k,-\Phi,\beta_{3}\right)=Q\left(\beta_{1},\beta_{3}\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $R\left(k,\Phi,\beta\right)=e^{i\Phi\beta}\frac{1}{\sin\left(k\beta\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $Q\left(x,y\right)=\frac{v}{ku}+\cot\left(kx\right)+\cot\left(ky\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+5.2.
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $i\hat{p}\psi_{0,2}(0)-i\hat{p}\psi_{0,1}(\beta_{1})=\gamma_{1}\cdot v$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{\gamma_{2}}{\gamma_{1}}R\left(k,\Phi,\beta_{2}\right)+\frac{1}{\gamma_{1}}R\left(k,-\Phi,\beta_{1}\right)=Q\left(\beta_{2},\beta_{1}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+5.3.
+ 
+\begin_inset Formula $i\hat{p}\psi_{0,3}(0)-i\hat{p}\psi_{0,2}(\beta_{2})=\gamma_{2}\cdot v$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{\gamma_{2}}R\left(k,\Phi,\beta_{3}\right)+\frac{\gamma_{1}}{\gamma_{2}}R\left(k,-\Phi,\beta_{2}\right)=Q\left(\beta_{3},\beta_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Получаем следующую систему уравнений
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}R\left(k,\Phi,\beta_{1}\right)+\gamma_{2}R\left(k,-\Phi,\beta_{3}\right)=Q\left(\beta_{1},\beta_{3}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{\gamma_{2}}{\gamma_{1}}R\left(k,\Phi,\beta_{2}\right)+\frac{1}{\gamma_{1}}R\left(k,-\Phi,\beta_{1}\right)=Q\left(\beta_{2},\beta_{1}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{\gamma_{2}}R\left(k,\Phi,\beta_{3}\right)+\frac{\gamma_{1}}{\gamma_{2}}R\left(k,-\Phi,\beta_{2}\right)=Q\left(\beta_{3},\beta_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+6.1.
+ Рассмотрим 1-ое и 2-ое в совокупности
+\end_layout
+
+\begin_layout Plain Layout
+6.1.1
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}R\left(k,\Phi,\beta_{1}\right)+\gamma_{2}R\left(k,-\Phi,\beta_{3}\right)=Q\left(\beta_{1},\beta_{3}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{\gamma_{2}}{\gamma_{1}}R\left(k,\Phi,\beta_{2}\right)+\frac{1}{\gamma_{1}}R\left(k,-\Phi,\beta_{1}\right)=Q\left(\beta_{2},\beta_{1}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+6.1.2: 6.1.1(2)*
+\begin_inset Formula $\gamma_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}R\left(k,\Phi,\beta_{1}\right)+\gamma_{2}R\left(k,-\Phi,\beta_{3}\right)=Q\left(\beta_{1},\beta_{3}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{2}R\left(k,\Phi,\beta_{2}\right)+R\left(k,-\Phi,\beta_{1}\right)=\gamma_{1}Q\left(\beta_{2},\beta_{1}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+6.1.3: 6.1.2(1) * 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $R\left(k,\Phi,\beta_{2}\right)$
+\end_inset
+
+, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6.1.2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+(2) * 
+\begin_inset Formula $R\left(k,-\Phi,\beta_{3}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\gamma_{1}R\left(k,\Phi,\beta_{1}\right)R\left(k,\Phi,\beta_{2}\right)+\gamma_{2}R\left(k,-\Phi,\beta_{3}\right)R\left(k,\Phi,\beta_{2}\right)=Q\left(\beta_{1},\beta_{3}\right)R\left(k,\Phi,\beta_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{2}R\left(k,-\Phi,\beta_{3}\right)R\left(k,\Phi,\beta_{2}\right)+R\left(k,-\Phi,\beta_{3}\right)R\left(k,-\Phi,\beta_{1}\right)=\gamma_{1}R\left(k,-\Phi,\beta_{3}\right)Q\left(\beta_{2},\beta_{1}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+6.1.4.
+ 6.1.3(1) - 6.1.3(2):
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\gamma_{1}R\left(k,\Phi,\beta_{1}\right)R\left(k,\Phi,\beta_{2}\right)-R\left(k,-\Phi,\beta_{3}\right)R\left(k,-\Phi,\beta_{1}\right)=Q\left(\beta_{1},\beta_{3}\right)R\left(k,\Phi,\beta_{2}\right)-\gamma_{1}R\left(k,-\Phi,\beta_{3}\right)Q\left(\beta_{2},\beta_{1}\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\gamma_{1}R\left(k,\Phi,\beta_{1}\right)R\left(k,\Phi,\beta_{2}\right)+\gamma_{1}R\left(k,-\Phi,\beta_{3}\right)Q\left(\beta_{2},\beta_{1}\right)=Q\left(\beta_{1},\beta_{3}\right)R\left(k,\Phi,\beta_{2}\right)+R\left(k,-\Phi,\beta_{3}\right)R\left(k,-\Phi,\beta_{1}\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\gamma_{1}=\frac{R\left(k,-\Phi,\beta_{3}\right)R\left(k,-\Phi,\beta_{1}\right)+R\left(k,\Phi,\beta_{2}\right)Q\left(\beta_{1},\beta_{3}\right)}{R\left(k,\Phi,\beta_{1}\right)R\left(k,\Phi,\beta_{2}\right)+R\left(k,-\Phi,\beta_{3}\right)Q\left(\beta_{2},\beta_{1}\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+6.1.5: 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6.1.2(1) * 
+\begin_inset Formula $Q\left(\beta_{2},\beta_{1}\right)$
+\end_inset
+
+, 6.1.2(2) * 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $R\left(k,\Phi,\beta_{1}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}R\left(k,\Phi,\beta_{1}\right)Q\left(\beta_{2},\beta_{1}\right)+\gamma_{2}R\left(k,-\Phi,\beta_{3}\right)Q\left(\beta_{2},\beta_{1}\right)=Q\left(\beta_{1},\beta_{3}\right)Q\left(\beta_{2},\beta_{1}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{2}R\left(k,\Phi,\beta_{1}\right)R\left(k,\Phi,\beta_{2}\right)+R\left(k,\Phi,\beta_{1}\right)R\left(k,-\Phi,\beta_{1}\right)=\gamma_{1}R\left(k,\Phi,\beta_{1}\right)Q\left(\beta_{2},\beta_{1}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+6.1.6 Подставляем ЛЧ второго в первое:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{2}R\left(k,\Phi,\beta_{1}\right)R\left(k,\Phi,\beta_{2}\right)+R\left(k,\Phi,\beta_{1}\right)R\left(k,-\Phi,\beta_{1}\right)+\gamma_{2}R\left(k,-\Phi,\beta_{3}\right)Q\left(\beta_{2},\beta_{1}\right)=Q\left(\beta_{1},\beta_{3}\right)Q\left(\beta_{2},\beta_{1}\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{2}=\frac{Q\left(\beta_{1},\beta_{3}\right)Q\left(\beta_{2},\beta_{1}\right)-R\left(k,\Phi,\beta_{1}\right)R\left(k,-\Phi,\beta_{1}\right)}{R\left(k,\Phi,\beta_{1}\right)R\left(k,\Phi,\beta_{2}\right)+R\left(k,-\Phi,\beta_{3}\right)Q\left(\beta_{2},\beta_{1}\right)}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+6.2.
+ Аналогично рассмотрим 1-ое и 3-е.
+\end_layout
+
+\begin_layout Plain Layout
+6.2.1
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}R\left(k,\Phi,\beta_{1}\right)+\gamma_{2}R\left(k,-\Phi,\beta_{3}\right)=Q\left(\beta_{1},\beta_{3}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{\gamma_{2}}R\left(k,\Phi,\beta_{3}\right)+\frac{\gamma_{1}}{\gamma_{2}}R\left(k,-\Phi,\beta_{2}\right)=Q\left(\beta_{3},\beta_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+6.2.2: 6.2.1(2) * 
+\begin_inset Formula $\gamma_{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}R\left(k,\Phi,\beta_{1}\right)+\gamma_{2}R\left(k,-\Phi,\beta_{3}\right)=Q\left(\beta_{1},\beta_{3}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $R\left(k,\Phi,\beta_{3}\right)+\gamma_{1}R\left(k,-\Phi,\beta_{2}\right)=\gamma_{2}Q\left(\beta_{3},\beta_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+6.2.3: 6.2.2(1) * 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $Q\left(\beta_{3},\beta_{2}\right)$
+\end_inset
+
+, 6.2.2(2) * 
+\begin_inset Formula $R\left(k,-\Phi,\beta_{3}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}R\left(k,\Phi,\beta_{1}\right)Q\left(\beta_{3},\beta_{2}\right)+\gamma_{2}R\left(k,-\Phi,\beta_{3}\right)Q\left(\beta_{3},\beta_{2}\right)=Q\left(\beta_{1},\beta_{3}\right)Q\left(\beta_{3},\beta_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $R\left(k,-\Phi,\beta_{3}\right)R\left(k,\Phi,\beta_{3}\right)+\gamma_{1}R\left(k,-\Phi,\beta_{3}\right)R\left(k,-\Phi,\beta_{2}\right)=\gamma_{2}R\left(k,-\Phi,\beta_{3}\right)Q\left(\beta_{3},\beta_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+6.2.4: Подставляем ЛЧ второго в первое:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}R\left(k,\Phi,\beta_{1}\right)Q\left(\beta_{3},\beta_{2}\right)+R\left(k,-\Phi,\beta_{3}\right)R\left(k,\Phi,\beta_{3}\right)+\gamma_{1}R\left(k,-\Phi,\beta_{3}\right)R\left(k,-\Phi,\beta_{2}\right)=Q\left(\beta_{1},\beta_{3}\right)Q\left(\beta_{3},\beta_{2}\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}=\frac{Q\left(\beta_{1},\beta_{3}\right)Q\left(\beta_{3},\beta_{2}\right)-R\left(k,-\Phi,\beta_{3}\right)R\left(k,\Phi,\beta_{3}\right)}{R\left(k,\Phi,\beta_{1}\right)Q\left(\beta_{3},\beta_{2}\right)+R\left(k,-\Phi,\beta_{3}\right)R\left(k,-\Phi,\beta_{2}\right)}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}=\frac{Q\left(\beta_{1},\beta_{3}\right)Q\left(\beta_{3},\beta_{2}\right)-R\left(k,-\Phi,\beta_{3}\right)R\left(k,\Phi,\beta_{3}\right)}{R\left(k,-\Phi,\beta_{3}\right)R\left(k,-\Phi,\beta_{2}\right)+R\left(k,\Phi,\beta_{1}\right)Q\left(\beta_{3},\beta_{2}\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+6.2.5: 6.2.2(1) * 
+\begin_inset Formula $R\left(k,-\Phi,\beta_{2}\right)$
+\end_inset
+
+, 6.2.2(2) * 
+\begin_inset Formula $R\left(k,\Phi,\beta_{1}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}R\left(k,\Phi,\beta_{1}\right)R\left(k,-\Phi,\beta_{2}\right)+\gamma_{2}R\left(k,-\Phi,\beta_{3}\right)R\left(k,-\Phi,\beta_{2}\right)=Q\left(\beta_{1},\beta_{3}\right)R\left(k,-\Phi,\beta_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $R\left(k,\Phi,\beta_{1}\right)R\left(k,\Phi,\beta_{3}\right)+\gamma_{1}R\left(k,\Phi,\beta_{1}\right)R\left(k,-\Phi,\beta_{2}\right)=\gamma_{2}R\left(k,\Phi,\beta_{1}\right)Q\left(\beta_{3},\beta_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+6.2.6.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}R\left(k,\Phi,\beta_{1}\right)R\left(k,-\Phi,\beta_{2}\right)+\gamma_{2}R\left(k,-\Phi,\beta_{3}\right)R\left(k,-\Phi,\beta_{2}\right)=Q\left(\beta_{1},\beta_{3}\right)R\left(k,-\Phi,\beta_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}R\left(k,\Phi,\beta_{1}\right)R\left(k,-\Phi,\beta_{2}\right)=\gamma_{2}R\left(k,\Phi,\beta_{1}\right)Q\left(\beta_{3},\beta_{2}\right)-R\left(k,\Phi,\beta_{1}\right)R\left(k,\Phi,\beta_{3}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+6.2.7.
+ Подставляем ПЧ второго в первое:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{2}R\left(k,\Phi,\beta_{1}\right)Q\left(\beta_{3},\beta_{2}\right)-R\left(k,\Phi,\beta_{1}\right)R\left(k,\Phi,\beta_{3}\right)+\gamma_{2}R\left(k,-\Phi,\beta_{3}\right)R\left(k,-\Phi,\beta_{2}\right)=Q\left(\beta_{1},\beta_{3}\right)R\left(k,-\Phi,\beta_{2}\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{2}R\left(k,\Phi,\beta_{1}\right)Q\left(\beta_{3},\beta_{2}\right)+\gamma_{2}R\left(k,-\Phi,\beta_{3}\right)R\left(k,-\Phi,\beta_{2}\right)=Q\left(\beta_{1},\beta_{3}\right)R\left(k,-\Phi,\beta_{2}\right)+R\left(k,\Phi,\beta_{1}\right)R\left(k,\Phi,\beta_{3}\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{2}=\frac{Q\left(\beta_{1},\beta_{3}\right)R\left(k,-\Phi,\beta_{2}\right)+R\left(k,\Phi,\beta_{1}\right)R\left(k,\Phi,\beta_{3}\right)}{R\left(k,\Phi,\beta_{1}\right)Q\left(\beta_{3},\beta_{2}\right)+R\left(k,-\Phi,\beta_{3}\right)R\left(k,-\Phi,\beta_{2}\right)}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{2}=\frac{R\left(k,\Phi,\beta_{1}\right)R\left(k,\Phi,\beta_{3}\right)+Q\left(\beta_{1},\beta_{3}\right)R\left(k,-\Phi,\beta_{2}\right)}{R\left(k,-\Phi,\beta_{3}\right)R\left(k,-\Phi,\beta_{2}\right)+R\left(k,\Phi,\beta_{1}\right)Q\left(\beta_{3},\beta_{2}\right)}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Коэффициенты линейной зависимости 
+\begin_inset Formula $\gamma_{1,2}$
+\end_inset
+
+ оказываются выражены двумя способами через переменные 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $k,\Phi,\beta_{1,2,3}$
+\end_inset
+
+ и значение первой компоненты волновой функции на кольце в её точке 0: 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\psi_{0,1}(0)=u$
+\end_inset
+
+.
 \end_layout
 
 \end_body

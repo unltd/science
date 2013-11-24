@@ -154,10 +154,184 @@ status open
 \uwave off
 \noun off
 \color none
-\begin_inset Formula $\beta_{1,2,3}\neq0$
+\begin_inset Formula $\beta_{1,2,3}\in$
 \end_inset
 
 
+\begin_inset Formula $\left(0,\pi\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sin\left(\beta_{j}\right)\neq0$
+\end_inset
+
+, 
+\begin_inset Formula $\cos\left(\beta_{j}\right)\neq1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+1) 
+\begin_inset Formula $A_{1}^{+}=u\frac{e^{-i\Phi\beta_{1}}e^{-ik\beta_{1}}-\gamma_{1}}{e^{-i\Phi\beta_{1}}\left(e^{-ik\beta_{1}}-e^{ik\beta_{1}}\right)}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{1}^{-}=-A_{1}^{+}\frac{e^{-i\Phi\beta_{1}}e^{ik\beta_{1}}-\gamma_{1}}{e^{-i\Phi\beta_{1}}e^{-ik\beta_{1}}-\gamma_{1}}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{1}^{-}=-u\frac{e^{-i\Phi\beta_{1}}e^{-ik\beta_{1}}-\gamma_{1}}{e^{-i\Phi\beta_{1}}\left(e^{-ik\beta_{1}}-e^{ik\beta_{1}}\right)}\frac{e^{-i\Phi\beta_{1}}e^{ik\beta_{1}}-\gamma_{1}}{e^{-i\Phi\beta_{1}}e^{-ik\beta_{1}}-\gamma_{1}}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{1}^{-}=-u\frac{e^{-i\Phi\beta_{1}}e^{ik\beta_{1}}-\gamma_{1}}{e^{-i\Phi\beta_{1}}\left(e^{-ik\beta_{1}}-e^{ik\beta_{1}}\right)}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{1}^{\pm}=u\frac{e^{\mp ik\beta_{1}}-\gamma_{1}e^{i\Phi\beta_{1}}}{e^{-ik\beta_{1}}-e^{ik\beta_{1}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+2) 
+\begin_inset Formula $A_{2}^{+}=\gamma_{1}u\frac{e^{-i\Phi\beta_{2}}e^{-ik\beta_{2}}-\frac{\gamma_{2}}{\gamma_{1}}}{e^{-i\Phi\beta_{2}}\left(e^{-ik\beta_{2}}-e^{ik\beta_{2}}\right)}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{2}^{-}=-A_{2}^{+}\frac{e^{-i\Phi\beta_{2}}e^{ik\beta_{2}}-\frac{\gamma_{2}}{\gamma_{1}}}{e^{-i\Phi\beta_{2}}e^{-ik\beta_{2}}-\frac{\gamma_{2}}{\gamma_{1}}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{2}^{\pm}=u\frac{\gamma_{1}e^{\mp ik\beta_{2}}-\gamma_{2}e^{i\Phi\beta_{2}}}{e^{-ik\beta_{2}}-e^{ik\beta_{2}}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Plain Layout
+3) 
+\begin_inset Formula $A_{3}^{+}=\gamma_{2}u\frac{e^{-i\Phi\beta_{3}}e^{-ik\beta_{3}}-\frac{1}{\gamma_{2}}}{e^{-i\Phi\beta_{3}}\left(e^{-ik\beta_{3}}-e^{ik\beta_{3}}\right)}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{3}^{-}=-A_{3}^{+}\frac{e^{-i\Phi\beta_{3}}e^{ik\beta_{3}}-\frac{1}{\gamma_{2}}}{e^{-i\Phi\beta_{3}}e^{-ik\beta_{3}}-\frac{1}{\gamma_{2}}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{3}^{\pm}=u\frac{\gamma_{2}e^{\mp ik\beta_{3}}-e^{i\Phi\beta_{3}}}{e^{-ik\beta_{3}}-e^{ik\beta_{3}}}$
+\end_inset
+
+;
 \end_layout
 
 \end_inset
@@ -432,27 +606,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-1.4.1.
- 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $\beta_{1}\neq\pi$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 
 \family roman
 \series medium
@@ -466,31 +619,6 @@ status open
 \noun off
 \color none
 \begin_inset Formula $A_{1}^{\pm}=0$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-1.4.2.
- 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $\beta_{1}=\pi$
-\end_inset
-
-, 
-\begin_inset Formula $e^{ik\beta_{1}}-e^{-ik\beta_{1}}=0$
 \end_inset
 
 
@@ -545,6 +673,88 @@ status open
 
 \begin_layout Standard
 2.
+ Пусть 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\gamma_{1}=0,\gamma_{2}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{0,1}(0)=\psi_{0,3}(\beta_{3})=u$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{0,2}(0)=\psi_{0,1}(\beta_{1})=0$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{0,3}(0)=\psi_{0,2}(\beta_{2})=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+3.
  Пусть 
 \family roman
 \series medium
@@ -622,7 +832,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-2.1.
+3.1.
 
 \family roman
 \series medium
@@ -696,12 +906,15 @@ status open
 \end_layout
 
 \begin_layout Standard
-2.2.
- Из 2.1(1,1) и 2.1(2,2):
+3.2.
+ Из 3.1(1,1) и 3.1(2,2):
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula $A_{1}^{+}=u\frac{e^{-i\Phi\beta_{1}}e^{-ik\beta_{1}}-\gamma_{1}}{e^{-i\Phi\beta_{1}}\left(e^{-ik\beta_{1}}-e^{ik\beta_{1}}\right)}$
+\end_inset
 
+, 
 \family roman
 \series medium
 \shape up
@@ -713,37 +926,41 @@ status open
 \uwave off
 \noun off
 \color none
-\begin_inset Formula $A_{1}^{+}+A_{1}^{-}=u$
+
+\begin_inset Formula $A_{1}^{-}=-A_{1}^{+}\frac{e^{-i\Phi\beta_{1}}e^{ik\beta_{1}}-\gamma_{1}}{e^{-i\Phi\beta_{1}}e^{-ik\beta_{1}}-\gamma_{1}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{2}^{+}=\gamma_{1}u\frac{e^{-i\Phi\beta_{2}}e^{-ik\beta_{2}}}{e^{-i\Phi\beta_{2}}\left(e^{-ik\beta_{2}}-e^{ik\beta_{2}}\right)}$
+\end_inset
+
+, 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $A_{2}^{-}=-A_{2}^{+}e^{2ik\beta_{2}}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $e^{-i\Phi\beta_{1}}\left(A_{1}^{+}e^{ik\beta_{1}}+A_{1}^{-}e^{-ik\beta_{1}}\right)=\gamma_{1}\cdot u$
+\begin_inset Formula $A_{3}^{+}=\frac{u}{e^{-i\Phi\beta_{3}}\left(e^{ik\beta_{3}}-e^{-ik\beta_{3}}\right)}$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-.
-\end_layout
-
-\begin_layout Standard
-
+, 
 \family roman
 \series medium
 \shape up
@@ -755,68 +972,8 @@ status open
 \uwave off
 \noun off
 \color none
-\begin_inset Formula $A_{1}^{+}e^{-ik\beta_{1}}+A_{1}^{-}e^{-ik\beta_{1}}=u$
-\end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $A_{1}^{+}e^{ik\beta_{1}}+A_{1}^{-}e^{-ik\beta_{1}}=\gamma_{1}\cdot u\cdot e^{i\Phi\beta_{1}}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-.
-\end_layout
-
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $A_{1}^{+}\left(e^{ik\beta_{1}}-e^{-ik\beta_{1}}\right)=\gamma_{1}\cdot u\cdot e^{i\Phi\beta_{1}}-u$
-\end_inset
-
-,
-\end_layout
-
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $A_{1}^{+}=\frac{\gamma_{1}\cdot u\cdot e^{i\Phi\beta_{1}}-u}{e^{ik\beta_{1}}-e^{-ik\beta_{1}}}$
+\begin_inset Formula $A_{3}^{-}=-A_{3}^{+}$
 \end_inset
 
 

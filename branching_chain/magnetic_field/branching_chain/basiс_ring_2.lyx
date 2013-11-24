@@ -108,6 +108,59 @@ name "fig:Схема-разветвления"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\beta_{1,2,3}\in$
+\end_inset
+
+
+\begin_inset Formula $\left(0,\pi\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sin\left(\beta_{j}\right)\neq0$
+\end_inset
+
+, 
+\begin_inset Formula $\cos\left(\beta_{j}\right)\neq1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Решения на базовом кольце:
 \end_layout
 

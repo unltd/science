@@ -340,6 +340,46 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{1}^{\pm}=u\frac{\gamma_{1}e^{i\Phi\beta_{1}}-e^{\mp ik\beta_{1}}}{e^{ik\beta_{1}}-e^{-ik\beta_{1}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{2}^{\pm}=u\frac{\gamma_{2}e^{i\Phi\beta_{2}}-\gamma_{1}e^{\mp ik\beta_{2}}}{e^{ik\beta_{2}}-e^{-ik\beta_{2}}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{3}^{\pm}=u\frac{e^{i\Phi\beta_{3}}-\gamma_{2}e^{\mp ik\beta_{3}}}{e^{ik\beta_{3}}-e^{-ik\beta_{3}}}$
+\end_inset
+
+;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 1.
  Пусть 
 \end_layout
@@ -672,6 +712,20 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
 2.
  Пусть 
 \family roman
@@ -692,7 +746,7 @@ status open
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \family roman
 \series medium
@@ -711,7 +765,7 @@ status open
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \family roman
 \series medium
@@ -730,7 +784,7 @@ status open
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \family roman
 \series medium
@@ -749,11 +803,51 @@ status open
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 .
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Formula $A_{1}^{\pm}=u\frac{e^{\mp ik\beta_{1}}}{e^{ik\beta_{1}}-e^{-ik\beta_{1}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{2}^{\pm}=0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{3}^{\pm}=u\frac{e^{i\Phi\beta_{3}}}{e^{ik\beta_{3}}-e^{-ik\beta_{3}}}$
+\end_inset
+
+;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
 3.
  Пусть 
 \family roman
@@ -771,10 +865,14 @@ status open
 \begin_inset Formula $\gamma_{1}\neq0$
 \end_inset
 
+, 
+\begin_inset Formula $\gamma_{2}=0$
+\end_inset
+
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \family roman
 \series medium
@@ -793,7 +891,7 @@ status open
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \family roman
 \series medium
@@ -812,7 +910,7 @@ status open
 , 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \family roman
 \series medium
@@ -831,136 +929,53 @@ status open
 
 \end_layout
 
-\begin_layout Standard
-3.1.
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
+\begin_layout Plain Layout
+.
 \end_layout
 
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $A_{1}^{+}+A_{1}^{-}=e^{-i\Phi\beta_{3}}\left(A_{3}^{+}e^{ik\beta_{3}}+A_{3}^{-}e^{-ik\beta_{3}}\right)=u$
+\begin_layout Plain Layout
+\begin_inset Formula $A_{1}^{\pm}=u\frac{\gamma_{1}e^{i\Phi\beta_{1}}-e^{\mp ik\beta_{1}}}{e^{ik\beta_{1}}-e^{-ik\beta_{1}}}$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $A_{2}^{+}+A_{2}^{-}=e^{-i\Phi\beta_{1}}\left(A_{1}^{+}e^{ik\beta_{1}}+A_{1}^{-}e^{-ik\beta_{1}}\right)=\gamma_{1}\cdot u$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $A_{3}^{+}+A_{3}^{-}=e^{-i\Phi\beta_{2}}\left(A_{2}^{+}e^{ik\beta_{2}}+A_{2}^{-}e^{-ik\beta_{2}}\right)=0$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-3.2.
- Из 3.1(1,1) и 3.1(2,2):
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $A_{1}^{+}=u\frac{e^{-i\Phi\beta_{1}}e^{-ik\beta_{1}}-\gamma_{1}}{e^{-i\Phi\beta_{1}}\left(e^{-ik\beta_{1}}-e^{ik\beta_{1}}\right)}$
-\end_inset
-
-, 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
-\begin_inset Formula $A_{1}^{-}=-A_{1}^{+}\frac{e^{-i\Phi\beta_{1}}e^{ik\beta_{1}}-\gamma_{1}}{e^{-i\Phi\beta_{1}}e^{-ik\beta_{1}}-\gamma_{1}}$
+\begin_layout Plain Layout
+\begin_inset Formula $A_{2}^{\pm}=u\frac{-\gamma_{1}e^{\mp ik\beta_{2}}}{e^{ik\beta_{2}}-e^{-ik\beta_{2}}}$
 \end_inset
 
 ;
 \end_layout
 
-\begin_layout Standard
-\begin_inset Formula $A_{2}^{+}=\gamma_{1}u\frac{e^{-i\Phi\beta_{2}}e^{-ik\beta_{2}}}{e^{-i\Phi\beta_{2}}\left(e^{-ik\beta_{2}}-e^{ik\beta_{2}}\right)}$
+\begin_layout Plain Layout
+\begin_inset Formula $A_{3}^{\pm}=u\frac{e^{i\Phi\beta_{3}}}{e^{ik\beta_{3}}-e^{-ik\beta_{3}}}$
 \end_inset
 
-, 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+;
+\end_layout
 
-\begin_inset Formula $A_{2}^{-}=-A_{2}^{+}e^{2ik\beta_{2}}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $A_{3}^{+}=\frac{u}{e^{-i\Phi\beta_{3}}\left(e^{ik\beta_{3}}-e^{-ik\beta_{3}}\right)}$
-\end_inset
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
 
-, 
+\begin_layout Plain Layout
+4.
+ Пусть 
 \family roman
 \series medium
 \shape up
@@ -973,7 +988,98 @@ status open
 \noun off
 \color none
 
-\begin_inset Formula $A_{3}^{-}=-A_{3}^{+}$
+\begin_inset Formula $\gamma_{1}=0$
+\end_inset
+
+, 
+\begin_inset Formula $\gamma_{2}\neq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{0,1}(0)=\psi_{0,3}(\beta_{3})=u$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{0,2}(0)=\psi_{0,1}(\beta_{1})=0$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\psi_{0,3}(0)=\psi_{0,2}(\beta_{2})=\gamma_{2}\cdot u$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{1}^{\pm}=u\frac{-e^{\mp ik\beta_{1}}}{e^{ik\beta_{1}}-e^{-ik\beta_{1}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{2}^{\pm}=u\frac{\gamma_{2}e^{i\Phi\beta_{2}}}{e^{ik\beta_{2}}-e^{-ik\beta_{2}}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $A_{3}^{\pm}=u\frac{e^{i\Phi\beta_{3}}-\gamma_{2}e^{\mp ik\beta_{3}}}{e^{ik\beta_{3}}-e^{-ik\beta_{3}}}$
+\end_inset
+
+;
+\end_layout
+
 \end_inset
 
 

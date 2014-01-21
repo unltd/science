@@ -1627,14 +1627,14 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula $\frac{\gamma_{2}}{\gamma_{1}}R\left(k,\Phi,\beta_{2}\right)+\frac{1}{\gamma_{1}}R\left(k,-\Phi,\beta_{1}\right)=Q\left(\beta_{2},\beta_{1}\right)\gamma_{1}e^{i\Phi\beta_{1}}R_{1}+\gamma_{2}e^{-i\Phi\beta_{3}}R_{3}+\cot\left(k\beta_{2}\right)-\cot\left(k\beta_{3}\right)$
+\begin_inset Formula $\frac{\gamma_{2}}{\gamma_{1}}R\left(k,\Phi,\beta_{2}\right)+\frac{1}{\gamma_{1}}R\left(k,-\Phi,\beta_{1}\right)=\gamma_{1}e^{i\Phi\beta_{1}}R_{1}+\gamma_{2}e^{-i\Phi\beta_{3}}R_{3}+\cot\left(k\beta_{2}\right)-\cot\left(k\beta_{3}\right)$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula $\frac{1}{\gamma_{2}}R\left(k,\Phi,\beta_{3}\right)+\frac{\gamma_{1}}{\gamma_{2}}R\left(k,-\Phi,\beta_{2}\right)=Q\left(\beta_{3},\beta_{2}\right)\gamma_{1}e^{i\Phi\beta_{1}}R_{1}+\gamma_{2}e^{-i\Phi\beta_{3}}R_{3}+\cot\left(k\beta_{2}\right)-\cot\left(k\beta_{1}\right)$
+\begin_inset Formula $\frac{1}{\gamma_{2}}R\left(k,\Phi,\beta_{3}\right)+\frac{\gamma_{1}}{\gamma_{2}}R\left(k,-\Phi,\beta_{2}\right)=\gamma_{1}e^{i\Phi\beta_{1}}R_{1}+\gamma_{2}e^{-i\Phi\beta_{3}}R_{3}+\cot\left(k\beta_{2}\right)-\cot\left(k\beta_{1}\right)$
 \end_inset
 
 

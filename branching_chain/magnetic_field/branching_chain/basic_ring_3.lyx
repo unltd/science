@@ -1602,14 +1602,14 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula $\frac{\gamma_{2}}{\gamma_{1}}R\left(k,\Phi,\beta_{2}\right)+\frac{1}{\gamma_{1}}R\left(k,-\Phi,\beta_{1}\right)=Q\left(\beta_{2},\beta_{1}\right)\gamma_{1}e^{i\Phi\beta_{1}}R_{1}+\gamma_{2}e^{-i\Phi\beta_{3}}R_{3}-\cot\left(k\beta_{1}\right)-\cot\left(k\beta_{3}\right)+\cot\left(k\beta_{2}\right)+\cot\left(k\beta_{1}\right)$
+\begin_inset Formula $\frac{\gamma_{2}}{\gamma_{1}}R\left(k,\Phi,\beta_{2}\right)+\frac{1}{\gamma_{1}}R\left(k,-\Phi,\beta_{1}\right)=\gamma_{1}e^{i\Phi\beta_{1}}R_{1}+\gamma_{2}e^{-i\Phi\beta_{3}}R_{3}-\cot\left(k\beta_{1}\right)-\cot\left(k\beta_{3}\right)+\cot\left(k\beta_{2}\right)+\cot\left(k\beta_{1}\right)$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula $\frac{1}{\gamma_{2}}R\left(k,\Phi,\beta_{3}\right)+\frac{\gamma_{1}}{\gamma_{2}}R\left(k,-\Phi,\beta_{2}\right)=Q\left(\beta_{3},\beta_{2}\right)\gamma_{1}e^{i\Phi\beta_{1}}R_{1}+\gamma_{2}e^{-i\Phi\beta_{3}}R_{3}-\cot\left(k\beta_{1}\right)-\cot\left(k\beta_{3}\right)+\cot\left(k\beta_{3}\right)+\cot\left(k\beta_{2}\right)$
+\begin_inset Formula $\frac{1}{\gamma_{2}}R\left(k,\Phi,\beta_{3}\right)+\frac{\gamma_{1}}{\gamma_{2}}R\left(k,-\Phi,\beta_{2}\right)=\gamma_{1}e^{i\Phi\beta_{1}}R_{1}+\gamma_{2}e^{-i\Phi\beta_{3}}R_{3}-\cot\left(k\beta_{1}\right)-\cot\left(k\beta_{3}\right)+\cot\left(k\beta_{3}\right)+\cot\left(k\beta_{2}\right)$
 \end_inset
 
 
@@ -1635,6 +1635,223 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Formula $\frac{1}{\gamma_{2}}R\left(k,\Phi,\beta_{3}\right)+\frac{\gamma_{1}}{\gamma_{2}}R\left(k,-\Phi,\beta_{2}\right)=\gamma_{1}e^{i\Phi\beta_{1}}R_{1}+\gamma_{2}e^{-i\Phi\beta_{3}}R_{3}+\cot\left(k\beta_{2}\right)-\cot\left(k\beta_{1}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{\gamma_{2}}{\gamma_{1}}R_{2}^{+}+\frac{1}{\gamma_{1}}R_{1}^{-}=\gamma_{1}R_{1}^{+}+\gamma_{2}R_{3}^{-}+\cot\left(k\beta_{2}\right)-\cot\left(k\beta_{3}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{\gamma_{2}}R_{3}^{+}+\frac{\gamma_{1}}{\gamma_{2}}R_{2}^{-}=\gamma_{1}R_{1}^{+}+\gamma_{2}R_{3}^{-}+\cot\left(k\beta_{2}\right)-\cot\left(k\beta_{1}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{2}R_{2}^{+}+R_{1}^{-}=\gamma_{1}^{2}R_{1}^{+}+\gamma_{1}\gamma_{2}R_{3}^{-}+\gamma_{1}\left(\cot\left(k\beta_{2}\right)-\cot\left(k\beta_{3}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $R_{3}^{+}+\gamma_{1}R_{2}^{-}=\gamma_{1}\gamma_{2}R_{1}^{+}+\gamma_{2}^{2}R_{3}^{-}+\gamma_{2}\left(\cot\left(k\beta_{2}\right)-\cot\left(k\beta_{1}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}^{2}R_{1}^{+}+\gamma_{1}\gamma_{2}R_{3}^{-}+\gamma_{1}\left(\cot\left(k\beta_{2}\right)-\cot\left(k\beta_{3}\right)\right)-\gamma_{2}R_{2}^{+}-R_{1}^{-}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{2}^{2}R_{3}^{-}+\gamma_{1}\gamma_{2}R_{1}^{+}+\gamma_{2}\left(\cot\left(k\beta_{2}\right)-\cot\left(k\beta_{1}\right)\right)-\gamma_{1}R_{2}^{-}-R_{3}^{+}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Получили два уравнения кривых 2-го порядка
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma_{1}^{2}R_{1}^{+}+\gamma_{1}\gamma_{2}R_{3}^{-}+\gamma_{1}\left(\cot\left(k\beta_{2}\right)-\cot\left(k\beta_{3}\right)\right)-\gamma_{2}R_{2}^{+}-R_{1}^{-}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $a_{{11}}x^{2}+a_{{22}}y^{2}+2a_{{12}}xy+2a_{{13}}x+2a_{{23}}y+a_{{33}}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $a_{11}=R_{1}^{+}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $a_{22}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $a_{12}=\frac{1}{2}R_{3}^{-}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $a_{13}=\frac{1}{2}\left(\cot\left(k\beta_{2}\right)-\cot\left(k\beta_{3}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $a_{23}=-\frac{1}{2}R_{2}^{+}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $a_{33}=-R_{1}^{-}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $D={\begin{vmatrix}a_{{11}} & a_{{12}}\\
+a_{{12}} & a_{{22}}
+\end{vmatrix}}=a_{{11}}a_{{22}}-a_{{12}}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $D=-\left(\frac{1}{2}R_{3}^{-}\right)^{2}=-\frac{1}{4}\left(R_{3}^{-}\right)^{2}=-\frac{1}{4}\left(e^{i\Phi\beta_{3}}\frac{1}{\sin\left(k\beta_{3}\right)}\right)^{2}=-\frac{1}{4}e^{2i\Phi\beta_{3}}\frac{1}{\sin^{2}\left(k\beta_{3}\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta={\begin{vmatrix}a_{{11}} & a_{{12}} & a_{{13}}\\
+a_{{12}} & a_{{22}} & a_{{23}}\\
+a_{{13}} & a_{{23}} & a_{{33}}
+\end{vmatrix}}=-a_{{11}}a_{{23}}^{2}=-R_{1}^{+}\left(-\frac{1}{2}R_{2}^{+}\right)^{2}=-\frac{1}{4}R_{1}^{+}\left(R_{2}^{+}\right)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $I={\text{tr}}{\begin{pmatrix}a_{{11}} & a_{{12}}\\
+a_{{12}} & a_{{22}}
+\end{pmatrix}}=a_{{11}}+a_{{22}}=R_{1}^{+}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta I=-\frac{1}{4}R_{1}^{+}\left(R_{2}^{+}\right)^{2}R_{1}^{+}=-\frac{1}{4}\left(R_{1}^{+}\right)^{2}\left(R_{2}^{+}\right)^{2}$
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 

@@ -1826,7 +1826,14 @@ a_{{12}} & a_{{22}}
 \begin_inset Formula $\Delta={\begin{vmatrix}a_{{11}} & a_{{12}} & a_{{13}}\\
 a_{{12}} & a_{{22}} & a_{{23}}\\
 a_{{13}} & a_{{23}} & a_{{33}}
-\end{vmatrix}}=-a_{{11}}a_{{23}}^{2}=-R_{1}^{+}\left(-\frac{1}{2}R_{2}^{+}\right)^{2}=-\frac{1}{4}R_{1}^{+}\left(R_{2}^{+}\right)^{2}$
+\end{vmatrix}}=-a_{{11}}a_{{23}}^{2}-a_{{12}}^{2}a_{{23}}=-a_{{23}}\left(a_{{11}}a_{{23}}-a_{{12}}^{2}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $=-\frac{1}{2}R_{2}^{+}\left(-\frac{1}{2}R_{1}^{+}R_{2}^{+}-\left(\frac{1}{2}R_{3}^{-}\right)^{2}\right)=\frac{1}{4}R_{2}^{+}\left(R_{1}^{+}R_{2}^{+}+\frac{1}{2}\left(R_{3}^{-}\right)^{2}\right)$
 \end_inset
 
 
@@ -1836,17 +1843,6 @@ a_{{13}} & a_{{23}} & a_{{33}}
 \begin_inset Formula $I={\text{tr}}{\begin{pmatrix}a_{{11}} & a_{{12}}\\
 a_{{12}} & a_{{22}}
 \end{pmatrix}}=a_{{11}}+a_{{22}}=R_{1}^{+}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $\Delta I=-\frac{1}{4}R_{1}^{+}\left(R_{2}^{+}\right)^{2}R_{1}^{+}=-\frac{1}{4}\left(R_{1}^{+}\right)^{2}\left(R_{2}^{+}\right)^{2}$
 \end_inset
 
 

@@ -1713,6 +1713,10 @@ status open
 Получили два уравнения кривых 2-го порядка
 \end_layout
 
+\begin_layout Plain Layout
+.
+\end_layout
+
 \end_inset
 
 
@@ -1731,6 +1735,10 @@ special "none"
 height "1in"
 height_special "totalheight"
 status open
+
+\begin_layout Plain Layout
+Рассмотрим первое уравнение системы
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Formula $\gamma_{1}^{2}R_{1}^{+}+\gamma_{1}\gamma_{2}R_{3}^{-}+\gamma_{1}\left(\cot\left(k\beta_{2}\right)-\cot\left(k\beta_{3}\right)\right)-\gamma_{2}R_{2}^{+}-R_{1}^{-}=0$

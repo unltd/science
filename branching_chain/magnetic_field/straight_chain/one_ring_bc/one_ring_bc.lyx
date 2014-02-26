@@ -164,8 +164,8 @@ and for
 \end_layout
 
 \begin_layout Standard
-As delta-copling demands the components values at the contact poins of the
- ring must be equal to each other:
+As delta-coupling demands the components values at the contact points of
+ the ring must be equal to each other:
 \end_layout
 
 \begin_layout Standard
@@ -183,7 +183,7 @@ As delta-copling demands the components values at the contact poins of the
 \end_layout
 
 \begin_layout Standard
-Solving this pair of equations we arrive at the relation between coeffitients:
+Solving this pair of equations we arrive at the relation between coefficients:
 \end_layout
 
 \begin_layout Standard
@@ -237,7 +237,7 @@ C_{j}^{-}
 \end_layout
 
 \begin_layout Standard
-It can be rewriten in matrix form:
+It can be rewritten in matrix form:
 \end_layout
 
 \begin_layout Standard

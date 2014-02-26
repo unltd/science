@@ -539,6 +539,15 @@ status open
 Анализ количества точек
 \end_layout
 
+\begin_layout Subsection*
+I.
+ 
+\begin_inset Formula $k$
+\end_inset
+
+ - вещественное, положительное
+\end_layout
+
 \begin_layout Standard
 Преобразуем уравнение 
 \family roman
@@ -873,20 +882,20 @@ status open
 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsubsection*
 Сколько максимумов 
 \begin_inset Formula $\left|L_{\alpha}(k)\right|$
 \end_inset
 
  превысит 
-\begin_inset Formula $g\left(\Phi\right)$
+\begin_inset Formula $\left|g\left(\Phi\right)\right|$
 \end_inset
 
 ?
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}>g\left(\Phi\right)$
+\begin_inset Formula $\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}>\left|g\left(\Phi\right)\right|$
 \end_inset
 
 
@@ -901,7 +910,7 @@ status open
 \end_inset
 
 
-\begin_inset Formula $\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}>\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}$
+\begin_inset Formula $\sqrt{1+\left(\frac{\alpha}{4k}\right)^{2}}>\left|\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}\right|$
 \end_inset
 
 
@@ -1286,6 +1295,47 @@ status open
 4\left\lceil \frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}+\frac{1}{2}\right\rceil 
 \]
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+II.
+ 
+\begin_inset Formula $k$
+\end_inset
+
+ - мнимое
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $k=i\kappa$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{\alpha}(k)=\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{\alpha}(i\kappa)=\cos(i\kappa\pi)+\frac{\alpha}{4i\kappa}\sin(i\kappa\pi)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{\alpha}(i\kappa)=\cos(i\kappa\pi)+\frac{\alpha}{4i\kappa}\sin(i\kappa\pi)$
 \end_inset
 
 

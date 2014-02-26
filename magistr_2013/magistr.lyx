@@ -3718,7 +3718,7 @@ reference "eq:zero_mag_char_polynomial"
 \begin_inset Formula $\cos(\Phi\pi)\neq1$
 \end_inset
 
-, для корней уравлениня 
+, для корней уравнения 
 \family roman
 \series medium
 \shape up
@@ -3745,7 +3745,7 @@ reference "eq:mag_pos_discr_1"
 \end_inset
 
  уже выполнено.
- С ледовательно, при 
+ Следовательно, при 
 \family default
 \series default
 \shape default
@@ -4102,7 +4102,7 @@ reference "eq:mag_essential_spactra_char"
 
 \begin_layout Standard
 Давайте теперь зададимся вопросом наличия точек существенного спектра, порождаем
-ых урвнением 
+ых уравнением 
 \begin_inset CommandInset ref
 LatexCommand eqref
 reference "eq:mag_essential_spactra_char"
@@ -4261,7 +4261,7 @@ reference "eq:mag_essential_spactra_char"
 
 \shape italic
 обеспечивает наличие в существенном спектре гамильтониана системы по крайней
- мере двух точек 
+ мере одной точки 
 \begin_inset Formula $E=k^{2}$
 \end_inset
 
@@ -4406,7 +4406,7 @@ reference "eq:mag_essential_spectra_extrem_cond"
 \begin_inset Formula $\delta_{\alpha}$
 \end_inset
 
-, количество точек эктремума функции 
+, количество точек экстремума функции 
 \family default
 \series default
 \shape default
@@ -4434,7 +4434,7 @@ reference "eq:mag_essential_spectra_extrem_cond"
 \uwave off
 \noun off
 \color none
-, удавлетворяющих 
+, удовлетворяющих 
 \begin_inset CommandInset ref
 LatexCommand eqref
 reference "eq:mag_essential_spectra_extrem_cond"
@@ -4443,7 +4443,7 @@ reference "eq:mag_essential_spectra_extrem_cond"
 
  , можно оценить сверху и снизу.
  Таким образом, количество точек существенного спектра гамильтониана можно
- ограничить снизу значеним
+ ограничить снизу значением
 \end_layout
 
 \begin_layout Standard

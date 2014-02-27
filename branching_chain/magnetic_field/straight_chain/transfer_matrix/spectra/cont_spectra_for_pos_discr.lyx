@@ -541,6 +541,7 @@ status open
 
 \begin_layout Subsection*
 I.
+ Положительная энергия.
  
 \begin_inset Formula $k$
 \end_inset
@@ -733,41 +734,7 @@ I.
 
 \begin_layout Standard
 1.
-\begin_inset Formula $\max L_{\alpha}(k)=L_{\alpha}(0)=\underset{k\rightarrow0}{\lim}\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)=1+\frac{\alpha\pi}{4}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Box Boxed
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-Условие наличия корней:
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula 
-\[
-\left|\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}\right|<\left|1+\frac{\alpha\pi}{4}\right|
-\]
-
-\end_inset
-
-
-\end_layout
-
+\begin_inset Formula $L_{\alpha}(0)=\underset{k\rightarrow0}{\lim}\left(\cos(k\pi)+\frac{\alpha}{4k}\sin(k\pi)\right)=1+\frac{\alpha\pi}{4}$
 \end_inset
 
 
@@ -816,15 +783,15 @@ status open
 
 \begin_layout Standard
 3.
- Максимумы 
+ Локальные максимумы 
 \begin_inset Formula $\left|L_{\alpha}(k)\right|$
 \end_inset
 
  возникают в точках 
 \begin_inset Formula 
-\[
-\cos\left(k\pi-\delta_{\alpha}\left(k\right)\right)=1
-\]
+\begin{equation}
+\cos\left(k\pi-\delta_{\alpha}\left(k\right)\right)=1\label{eq:extremums}
+\end{equation}
 
 \end_inset
 
@@ -877,6 +844,44 @@ status open
 3.
  
 \begin_inset Formula $\underset{k\rightarrow0}{\lim}\delta_{\alpha}\left(k\right)=\frac{\pi}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Достаточное условие наличия корней
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Достаточное условие наличия корней
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{equation}
+\left|\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}\right|<\left|1+\frac{\alpha\pi}{4}\right|\label{eq:roots_sufficient_condition}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -1045,7 +1050,7 @@ status open
 \end_inset
 
 
-\begin_inset Formula $\left|k\right|<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}$
+\begin_inset Formula $0<k<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}$
 \end_inset
 
 
@@ -1192,7 +1197,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\left|k_{max}\right|<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}$
+\begin_inset Formula $0<k_{max}<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}$
 \end_inset
 
 
@@ -1207,7 +1212,7 @@ status open
 \end_inset
 
 
-\begin_inset Formula $\left|n+\frac{\delta_{\alpha}\left(k_{max}\right)}{\pi}\right|<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}$
+\begin_inset Formula $0<n+\frac{\delta_{\alpha}\left(k_{max}\right)}{\pi}<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}$
 \end_inset
 
 
@@ -1222,7 +1227,7 @@ status open
 \end_inset
 
 
-\begin_inset Formula $-\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}<n+\frac{\delta_{\alpha}}{\pi}<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}$
+\begin_inset Formula $0<n+\frac{\delta_{\alpha}}{\pi}<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}$
 \end_inset
 
 
@@ -1237,7 +1242,7 @@ status open
 \end_inset
 
 
-\begin_inset Formula $-\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{\delta_{\alpha}}{\pi}<n<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{\delta_{\alpha}}{\pi}$
+\begin_inset Formula $-\frac{\delta_{\alpha}}{\pi}<n<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{\delta_{\alpha}}{\pi}$
 \end_inset
 
 
@@ -1248,7 +1253,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $-\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}<n<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{1}{2}$
+\begin_inset Formula $0<n<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{1}{2}$
 \end_inset
 
 
@@ -1256,7 +1261,7 @@ status open
 
 \begin_layout Standard
 количество максимумов: 
-\begin_inset Formula $2\left\lfloor \frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}\right\rfloor $
+\begin_inset Formula $\left\lfloor \frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{1}{2}\right\rfloor $
 \end_inset
 
 
@@ -1269,7 +1274,7 @@ status open
 \begin_layout Standard
 \begin_inset Formula 
 \[
-4\left\lfloor \frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{1}{2}\right\rfloor 
+2\left\lfloor \frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{1}{2}\right\rfloor 
 \]
 
 \end_inset
@@ -1282,7 +1287,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $-\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}-\frac{1}{2}<n<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}$
+\begin_inset Formula $-\frac{1}{2}<n<\frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}$
 \end_inset
 
 
@@ -1292,7 +1297,7 @@ status open
 Оценка сверху количества точек:
 \begin_inset Formula 
 \[
-4\left\lceil \frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}+\frac{1}{2}\right\rceil 
+2\left\lceil \frac{\left|\alpha\right|}{2}\frac{\left|\cos(\Phi\pi)\right|}{1-\cos^{2}(\Phi\pi)}\right\rceil +3
 \]
 
 \end_inset
@@ -1300,9 +1305,21 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+- здесь мы учитываем оценку количества локальных максимумов и крень от потенциал
+ьно возможного первого максимума (имеет место при 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:roots_sufficient_condition"
+
+\end_inset
+
+).
+\end_layout
+
 \begin_layout Subsection*
 II.
- 
+ Отрицательная энергия, 
 \begin_inset Formula $k$
 \end_inset
 
@@ -1311,6 +1328,10 @@ II.
 
 \begin_layout Standard
 \begin_inset Formula $k=i\kappa$
+\end_inset
+
+, 
+\begin_inset Formula $\kappa>0$
 \end_inset
 
 
@@ -1335,10 +1356,101 @@ II.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $L_{\alpha}(i\kappa)=\cos(i\kappa\pi)+\frac{\alpha}{4i\kappa}\sin(i\kappa\pi)$
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $cos(x)=\frac{e^{ix}+e^{-ix}}{2}$
+\end_inset
+
+, 
+\begin_inset Formula $sin(x)=\frac{e^{ix}-e^{-ix}}{2i}$
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $cos(ix)=\frac{e^{-x}+e^{x}}{2}$
+\end_inset
+
+, 
+\begin_inset Formula $sin(ix)=\frac{e^{-x}-e^{x}}{2i}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{\alpha}(i\kappa)=\frac{e^{-\kappa\pi}+e^{\kappa\pi}}{2}+\frac{\alpha}{4i\kappa}\frac{e^{-\kappa\pi}-e^{\kappa\pi}}{2i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{\alpha}(i\kappa)=\frac{e^{\kappa\pi}+e^{-\kappa\pi}}{2}+\frac{\alpha}{4\kappa}\frac{e^{\kappa\pi}-e^{-\kappa\pi}}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{\alpha}(i\kappa)=\cosh\left(\kappa\pi\right)+\frac{\alpha}{4\kappa}\sinh\left(\kappa\pi\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Итак, 
+\begin_inset Formula $L_{\alpha}(i\kappa)$
+\end_inset
+
+ - монотонно возрастает с ростом 
+\begin_inset Formula $\kappa$
+\end_inset
+
+ от 0 до 
+\begin_inset Formula $\infty$
+\end_inset
+
+, а следовательно её график имеет ровно одно пересечение с 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+прямой
+\begin_inset Formula $\left|\frac{\cos^{2}(\Phi\pi)+1}{2\cos(\Phi\pi)}\right|$
+\end_inset
+
+ в области 
+\begin_inset Formula $\kappa\geq0$
+\end_inset
+
+.
 \end_layout
 
 \end_body

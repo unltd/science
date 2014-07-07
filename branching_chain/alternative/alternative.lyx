@@ -1,0 +1,370 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula 
+\begin{eqnarray}
+ &  & \psi_{1}(0)=\psi_{3}(\beta_{3})=\psi_{1,1}(0),\nonumber \\
+ &  & 2\psi'_{1,1}(0)-\psi'_{3}(\beta_{3})+\psi'_{1}(0)=\alpha\cdot\psi_{1,1}(0),\nonumber \\
+ &  & \psi_{2}(0)=\psi_{1}(\beta_{1})=\psi_{2,1}(0),\nonumber \\
+ &  & 2\psi'_{2,1}(0)-\psi'_{1}(\beta_{1})+\psi'_{2}(0)=\alpha\cdot\psi_{2,1}(0),\label{eq:zero_mag_main_system}\\
+ &  & \psi_{3}(0)=\psi_{2}(\beta_{2})=\psi_{2,1}(0),\nonumber \\
+ &  & 2\psi'_{3,1}(0)-\psi'_{2}(\beta_{2})+\psi'_{3}(0)=\alpha\cdot\psi_{3,1}(0).\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+На центральном кольце:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\psi_{m}=A_{m}^{+}e^{ikx}+A_{m}^{-}e^{-ikx},x\in[0,\beta_{1}]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+На ветвях
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula 
+\begin{eqnarray*}
+\psi_{m,j}=C_{m,j}^{+}e^{ikx}+C_{m,j}^{-}e^{-ikx}, & x\in[0,\pi],\\
+\phi_{m,j}=D_{m,j}^{+}e^{ikx}+D_{m,j}^{-}e^{-ikx}, & x\in[0,\pi],
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m=1,2,3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Производная
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi'_{m,j}=iC_{m,j}^{+}e^{ikx}-iC_{m,j}^{-}e^{-ikx}=i\left(C_{m,j}^{+}e^{ikx}-C_{m,j}^{-}e^{-ikx}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Подставим выражения для решений на дугах в систему
+\end_layout
+
+\begin_layout Standard
+1.
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\psi_{m}(0)=\psi_{m+2}(\beta_{j+2})=\psi_{j,1}(0),$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{m}^{+}+A_{m}^{-}=A_{m+2}^{+}e^{ik\beta_{m+2}}+A_{m+2}^{-}e^{-ik\beta_{m+2}}=C_{m,1}^{+}+C_{m,1}^{-},$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $2\psi'_{m,1}(0)-\psi'_{m+2}(\beta_{m+2})+\psi'_{m}(0)=\alpha\cdot\psi_{m}(0)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $2i\left(C_{m,1}^{+}-C_{m,1}^{-}\right)-i\left(A_{m+2}^{+}e^{ik\beta_{m+2}}-A_{m+2}^{-}e^{-ik\beta_{m+2}}\right)+i\left(A_{m}^{+}-A_{m}^{-}\right)=\alpha\cdot\left(A_{m}^{+}+A_{m}^{-}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Получаем сиситему из 9-и уравнений:
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{m}^{+}+A_{m}^{-}=A_{m+2}^{+}e^{ik\beta_{m+2}}+A_{m+2}^{-}e^{-ik\beta_{m+2}}=C_{m,1}^{+}+C_{m,1}^{-},$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $2i\left(C_{m,1}^{+}-C_{m,1}^{-}\right)-i\left(A_{m+2}^{+}e^{ik\beta_{m+2}}-A_{m+2}^{-}e^{-ik\beta_{m+2}}\right)+i\left(A_{m}^{+}-A_{m}^{-}\right)=\alpha\cdot\left(A_{m}^{+}+A_{m}^{-}\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Plain Layout
+где 
+\begin_inset Formula $m=1,2,3$
+\end_inset
+
+, 
+\begin_inset Formula $A_{m+2}^{\pm}=A_{m-1}^{\pm}$
+\end_inset
+
+ при 
+\begin_inset Formula $m>1$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Перепишем полученную систему
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $A_{m}^{+}+A_{m}^{-}=A_{m+2}^{+}e^{ik\beta_{m+2}}+A_{m+2}^{-}e^{-ik\beta_{m+2}}=C_{m,1}^{+}+C_{m,1}^{-},$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $C_{m,1}^{+}-C_{m,1}^{-}-i\left(A_{m+2}^{+}e^{ik\beta_{m+2}}-A_{m+2}^{-}e^{-ik\beta_{m+2}}\right)+i\left(A_{m}^{+}-A_{m}^{-}\right)=\alpha\cdot\left(A_{m}^{+}+A_{m}^{-}\right)$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

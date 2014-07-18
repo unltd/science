@@ -1,0 +1,1289 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Part
+Модель
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename bent_chain.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Действует магнитное поле с силой 
+\begin_inset Formula $B$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Оператор импульса:
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula 
+\[
+\hat{p}=\frac{1}{i}\frac{d}{dx}\pm\Phi,
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+де 
+\begin_inset Formula $\Phi=\frac{\pi B}{\Phi_{0}}$
+\end_inset
+
+ , а 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\Phi_{0}=\frac{2\pi\hslash c}{|e|}$
+\end_inset
+
+ - квант магнитного поля.
+ .
+ Знак перед 
+\begin_inset Formula $\Phi$
+\end_inset
+
+ в выражении для импульса будет разный для по-разному направленных дуг,
+ относительно направления магнитного поля.
+ Для дуг, направленных по часовой стрелке (например, дуги базового кольца)
+ в формуле используется знак 
+\begin_inset Quotes eld
+\end_inset
+
++
+\begin_inset Quotes erd
+\end_inset
+
+, а для дуг, направленных в противоположную сторону, - знак 
+\begin_inset Quotes eld
+\end_inset
+
+-
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Это правило мы назовем 
+\begin_inset Quotes eld
+\end_inset
+
+правилом знаков
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Дугу, направленную по часовой стрелке, станем называть 
+\family default
+\series default
+\shape italic
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+положительной дугой, 
+\shape default
+а направленную в в противоположную сторону дугу - 
+\shape italic
+отрицательной
+\shape default
+.
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang russian
+Гамильтониан частицы может быть выражен через оператор импульса как 
+\begin_inset Formula $\hat{H}=\frac{\hat{p}^{2}}{2m}$
+\end_inset
+
+, а значит так же претерпит изменения.
+ Мы введем 
+\begin_inset Formula $\hat{H}_{\Phi}$
+\end_inset
+
+ - гамильтониан системы в магнитном поле:
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula 
+\[
+\hat{H_{\Phi}}=-\frac{d^{2}}{dx^{2}}\pm\frac{2\Phi}{i}\frac{d}{dx}+\Phi^{2},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+где знак перед оператором однократного дифференцирования выбирается согласно
+ правилу для знака в операторе импульса.
+ Как и раньше мы рассматриваем стационарную задачу, которая с введением
+ магнитного поля так же преображается:
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula 
+\[
+\hat{H_{\Phi}}\psi=E\psi,
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula 
+\[
+(-\frac{d^{2}}{dx^{2}}\pm\frac{2\Phi}{i}\frac{d}{dx}+\Phi^{2})\psi=E\psi.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Корни характеристического полинома
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula 
+\[
+\chi(\lambda)=-\lambda^{2}\mp i2\Phi\lambda+\Phi^{2}-E.
+\]
+
+\end_inset
+
+ этого дифференциального уравнениея так же получат 
+\begin_inset Quotes eld
+\end_inset
+
+магнитную добавку
+\begin_inset Quotes erd
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+\lambda_{1,2}=\mp i\Phi\pm ik,
+\]
+
+\end_inset
+
+ где 
+\begin_inset Formula $k=\sqrt{E}$
+\end_inset
+
+, а знаки перед 
+\begin_inset Formula $i\Phi$
+\end_inset
+
+ выбираются по правилу по 
+\begin_inset Quotes eld
+\end_inset
+
+противоположному правилу знаков
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Здесь знак 
+\begin_inset Quotes eld
+\end_inset
+
+-
+\begin_inset Quotes erd
+\end_inset
+
+ - для направленных по часовой, а 
+\begin_inset Quotes eld
+\end_inset
+
++
+\begin_inset Quotes erd
+\end_inset
+
+ - для дуг направленных против часовой стрелки соответственно.
+ Магнитная добавка в собственных числах влечет в свою очередь изменение
+ вида решений на дугах:
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula 
+\[
+\psi(x)=e^{\mp i\Phi x}(C^{+}e^{ikx}+C^{-}e^{-ikx}).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+Для получения самосопряженного оператора необходимо наложить соответствующие
+ граничные условия в узлах графа.
+ В нашей работе мы будем использовать так называемое 
+\begin_inset Formula $\delta$
+\end_inset
+
+-соединение, характеризуемое условиями:
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+\begin_inset Formula 
+\[
+\Psi_{j}(0)=\Psi_{k}(0)=\Psi(0),\, j,k\in\left\{ 1,2,3,...,\mathbb{N}\right\} 
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+\underset{j=1}{\overset{n}{\sum}}\Psi'_{j}(0)=\alpha\Psi(0)\label{eq: delta-cond}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang russian
+где
+\begin_inset Formula $j,k$
+\end_inset
+
+ индексируют множество дуг исходящих из вершины.
+ В нашем случаи 
+\begin_inset Formula $n=4$
+\end_inset
+
+ - и 
+\begin_inset Formula $\alpha\in\mathbb{R}\cup\left\{ \infty\right\} $
+\end_inset
+
+ - это константа соединения одинаковая во всех вершинах.
+ Положим так же 
+\begin_inset Formula $\alpha\neq0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+
+\lang russian
+Прямая цепочка колец
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename straight_chain.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Гамильтониан системы
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+In remark about impulse operator on ring in magnetic field we have already
+ obtained following representation of it:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\hat{p}=\frac{1}{i}\frac{d}{dx}\pm\Phi
+\]
+
+\end_inset
+
+wher '+' used for clockwise directed arcs and '-' for counter-clockwise
+ directed arcs.
+\end_layout
+
+\begin_layout Standard
+Since the magnetic field is not patential the partcle's energy can be computed
+ as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E=\frac{p^{2}}{2m}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $p$
+\end_inset
+
+ and 
+\begin_inset Formula $m$
+\end_inset
+
+ is partcle's impulse and mass respectively.
+ In order to compute the particle's Hamiltonian we should just rewrite this
+ relation for corresponding operators:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{H}=\frac{\hat{p}^{2}}{2m}=\frac{1}{2m}(\frac{1}{i}\frac{d}{dx}\pm\Phi)^{2}=\frac{1}{2m}(-\frac{d^{2}}{dx^{2}}\pm\frac{2\Phi}{i}\frac{d}{dx}+\Phi^{2})$
+\end_inset
+
+.
+ Remembering that we have put 
+\begin_inset Formula $2m=1$
+\end_inset
+
+ we obtain the final view of particle's energy operator:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\hat{H}=-\frac{d^{2}}{dx^{2}}\pm\frac{2\Phi}{i}\frac{d}{dx}+\Phi^{2},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where '+' in the right hand side of the equation corresponds to
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ clockwise directed arcs and '-' to counter-clockwise directed arcs.
+\end_layout
+
+\begin_layout Subsection
+Стационарная задача
+\end_layout
+
+\begin_layout Standard
+In our work we investigate the stationary problem for a quantum non-relativistic
+ spinless particle living on the branching graph.
+ So we should to solve stationary Shreodinger equation:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\hat{H}\psi=E\psi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+in order to describe system's behaviour.
+ Let's now substitute Hamiltonian's view obtained at the corresponding remark:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(-\frac{d^{2}}{dx^{2}}\pm\frac{2\Phi}{i}\frac{d}{dx}+\Phi^{2})\psi=E\psi.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In order to obtain eigenfunctions we can employ the characteristic polynomial:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\chi(\lambda)=-\lambda^{2}\mp i2\Phi\lambda+\Phi^{2}-E.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let us now find roots of this polynomial:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-\lambda^{2}\mp i2\Phi\lambda+\Phi^{2}-E=0$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda^{2}\pm i2\Phi\lambda-\Phi^{2}+E=0$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(\lambda\pm i\Phi)^{2}=-E$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda\pm i\Phi=\pm\sqrt{-E}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda\pm i\Phi=\pm i\sqrt{E}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda=\mp i\Phi\pm i\sqrt{E}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+So the roots are as follows:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lambda_{1,2}=\mp i\Phi\pm ik
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $k=\sqrt{E}$
+\end_inset
+
+.
+ The sign '-' before 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $i\Phi$
+\end_inset
+
+corresponds to clockwise directed arcs and '+' to counter-clockwise directed
+ arcs.
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ Thus the solution sholud have the following view:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi(x)=e^{\mp i\Phi x}(C^{+}e^{ikx}+C^{-}e^{-ikx})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Matrix form:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi(x)=e^{\mp i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Derivative:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{d}{dx}\psi(x)=\frac{d}{dx}\left\{ e^{\mp i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\mp i\Phi e^{\mp i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)+e^{\mp i\Phi x}\left(\begin{array}{cc}
+\left\{ ike^{ikx}\right\}  & \left\{ -ike^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{\mp i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}(ik\mp i\Phi)\right\}  & \left\{ e^{-ikx}(-ik\mp i\Phi)\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ie^{\mp i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}(k\mp\Phi)\right\}  & \left\{ e^{-ikx}(-k\mp\Phi)\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Взаимосвязь решений на дугах
+\end_layout
+
+\begin_layout Standard
+Let now consider the straight semi-infinite chain of rings with delta-coupling
+ imposed at each vertex.
+ Wave function components on j-th ring are as follows:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\psi_{j}(x)=(C_{j}^{+}e^{ikx}+C_{j}^{-}e^{-ikx})e^{-i\Phi x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varphi_{j}(x)=(D_{j}^{+}e^{ikx}+D_{j}^{-}e^{-ikx})e^{i\Phi x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+At the boundary points those components have following values
+\end_layout
+
+\begin_layout Standard
+for 
+\begin_inset Formula $\psi_{j}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi_{j}(0)=C_{j}^{+}+C_{j}^{-},$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi_{j}(\pi)=(C_{j}^{+}e^{ik\pi}+C_{j}^{-}e^{-ik\pi})e^{-i\Phi\pi},$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and for 
+\begin_inset Formula $\phi_{j}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varphi_{j}(0)=D_{j}^{+}+D_{j}^{-}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varphi_{j}(\pi)=(D_{j}^{+}e^{ik\pi}+D_{j}^{-}e^{-ik\pi})e^{i\Phi\pi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As delta-coupling demands the components values at the contact points of
+ the ring must be equal to each other:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi_{j}(0)=\varphi_{j}(0)$
+\end_inset
+
+ and
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi_{j}(\pi)=\varphi_{j}(\pi).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Итак, давайте решим эту систему
+\end_layout
+
+\begin_layout Standard
+1.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C_{j}^{+}+C_{j}^{-}=D_{j}^{+}+D_{j}^{-}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(C_{j}^{+}e^{ik\pi}+C_{j}^{-}e^{-ik\pi})e^{-i\Phi\pi}=(D_{j}^{+}e^{ik\pi}+D_{j}^{-}e^{-ik\pi})e^{i\Phi\pi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.
+ Умножим певое на 
+\begin_inset Formula $e^{-ik\pi}e^{i\Phi\pi}$
+\end_inset
+
+ и вычтем из второго:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(C_{j}^{+}e^{ik\pi}+C_{j}^{-}e^{-ik\pi})e^{-i\Phi\pi}-\left(C_{j}^{+}+C_{j}^{-}\right)e^{-ik\pi}e^{i\Phi\pi}=(D_{j}^{+}e^{ik\pi}+D_{j}^{-}e^{-ik\pi})e^{i\Phi\pi}-\left(D_{j}^{+}+D_{j}^{-}\right)e^{-ik\pi}e^{i\Phi\pi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C_{j}^{+}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)+C_{j}^{-}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)=D_{j}^{+}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D_{j}^{+}=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left\{ C_{j}^{+}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)+C_{j}^{-}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3.
+ Домножим первое на 
+\begin_inset Formula $e^{ik\pi}e^{i\Phi\pi}$
+\end_inset
+
+ и вычтем из второго
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(C_{j}^{+}e^{ik\pi}+C_{j}^{-}e^{-ik\pi})e^{-i\Phi\pi}-\left(C_{j}^{+}+C_{j}^{-}\right)e^{ik\pi}e^{i\Phi\pi}=(D_{j}^{+}e^{ik\pi}+D_{j}^{-}e^{-ik\pi})e^{i\Phi\pi}-\left(D_{j}^{+}+D_{j}^{-}\right)e^{ik\pi}e^{i\Phi\pi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C_{j}^{+}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)+C_{j}^{-}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)=D_{j}^{-}\left(e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D_{j}^{-}=e^{-i\Phi\pi}\left(e^{-ik\pi}-e^{ik\pi}\right)^{-1}\left\{ C_{j}^{+}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)+C_{j}^{-}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+4.
+ Объединим результаты 2 и 3 в систему:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D_{j}^{+}=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left\{ C_{j}^{+}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)+C_{j}^{-}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D_{j}^{-}=e^{-i\Phi\pi}\left(e^{-ik\pi}-e^{ik\pi}\right)^{-1}\left\{ C_{j}^{+}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)+C_{j}^{-}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+или в векторном виде
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{c}
+D_{j}^{+}\\
+D_{j}^{-}
+\end{array}\right)=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} \\
+\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} 
+\end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Трансфер-матрица в магнитном поле
+\end_layout
+
+\begin_layout Subsection
+Действие оператора импульса в магнитном поле
+\end_layout
+
+\begin_layout Standard
+Due to imposed magnetic field 
+\begin_inset Formula $B$
+\end_inset
+
+ the impulse operator on the ring has an adjustment:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\hat{p}=\frac{1}{i}\frac{d}{dx}\pm\Phi
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+The sign in the right hand side of this relation depends on orientation
+ of rings's arc relative to magnetic flow.
+ So in our model we defin 'plus' sign for clockwise directed arcs and 'minus'
+ sign for anti-clockwise directed arcs.
+\end_layout
+
+\begin_layout Standard
+Let now consider the following operator 
+\begin_inset Formula $i\hat{p}$
+\end_inset
+
+ on clockwise and counter-clockwise directed arcs.
+\end_layout
+
+\begin_layout Standard
+1.
+ Для положительной дуги:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $i\hat{p}\psi(x)=i(\frac{1}{i}\frac{d}{dx}+\Phi)\psi(x)=(\frac{d}{dx}+i\Phi)\psi(x)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{d}{dx}\psi(x)=\frac{d}{dx}\left\{ e^{-i\Phi x}(C_{j}^{+}e^{ikx}+C_{j}^{-}e^{-ikx})\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ie^{-i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}(k-\Phi)\right\}  & \left\{ e^{-ikx}(-k-\Phi)\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $i\hat{p}\psi(x)=(\frac{d}{dx}+i\Phi)\psi(x)=ie^{-i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}(k-\Phi)\right\}  & \left\{ e^{-ikx}(-k-\Phi)\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+i\Phi(C_{j}^{+}e^{ikx}+C_{j}^{-}e^{-ikx})e^{-i\Phi x}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ike^{-i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ -e^{-ikx})\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.
+ Для отрицательной дуги:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $i\hat{p}\varphi(x)=i(\frac{1}{i}\frac{d}{dx}-\Phi)\varphi(x)=(\frac{d}{dx}-i\Phi)\varphi(x)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{d}{dx}\varphi(x)=\frac{d}{dx}\left\{ e^{i\Phi x}(D_{j}^{+}e^{ikx}+D_{j}^{-}e^{-ikx})\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ie^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}(k+\Phi)\right\}  & \left\{ e^{-ikx}(-k+\Phi)\right\} \end{array}\right)\left(\begin{array}{c}
+D^{+}\\
+D^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $i\hat{p}\psi(x)=(\frac{d}{dx}-i\Phi)\psi(x)=ie^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}(k+\Phi)\right\}  & \left\{ e^{-ikx}(-k+\Phi)\right\} \end{array}\right)\left(\begin{array}{c}
+D^{+}\\
+D^{-}
+\end{array}\right)-$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-i\Phi(D_{j}^{+}e^{ikx}+D_{j}^{-}e^{-ikx})e^{i\Phi x}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ike^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ -e^{-ikx})\right\} \end{array}\right)\left(\begin{array}{c}
+D^{+}\\
+D^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Точка контакта
+\end_layout
+
+\begin_layout Standard
+As we said the rings contact points must satisfy delta-coupling condition.
+ For (j-1)-th to j-th ring contact coupling conditions are following:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi_{j-1}(\pi)=\psi_{j}(0)=\psi$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "(delta-1)"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-i\hat{p}\psi_{j-1}(\pi)-i\hat{p}\varphi_{j-1}(\pi)+i\hat{p}\psi_{j}(0)+i\hat{p}\varphi_{j}(0)=\alpha\psi$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "(delta-2)"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As we know impulse operator acts in followin way:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\hat{p}\psi(x)=ke^{-i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ -e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+for the clockwise arcs and
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\hat{p}\varphi(x)=ke^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ -e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+D^{+}\\
+D^{-}
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+for the counter-clockwise arcs.
+\end_layout
+
+\end_body
+\end_document

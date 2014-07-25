@@ -1285,5 +1285,58 @@ D^{-}
 for the counter-clockwise arcs.
 \end_layout
 
+\begin_layout Standard
+2.
+ Let us now rewrite the second condition 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "(delta-2)"
+
+\end_inset
+
+:==
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\psi_{j-1}(\pi)+\hat{p}\varphi_{j-1}(\pi)-\hat{p}\psi_{j}(0)-\hat{p}\varphi_{j}(0)=i\alpha\psi$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\psi_{j-1}(\pi)+\hat{p}\varphi_{j-1}(\pi)=i\alpha\psi+\hat{p}\psi_{j}(0)+\hat{p}\varphi_{j}(0)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\psi_{j}(0)+\hat{p}\varphi_{j}(0)=\hat{p}\psi_{j-1}(\pi)+\hat{p}\varphi_{j-1}(\pi)-i\alpha\psi_{j-1}(\pi)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+ЛЧ: 
+\begin_inset Formula $\hat{p}\psi_{j}(0)+\hat{p}\varphi_{j}(0)=k\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)+k\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -\right\} \end{array}\right)\left(\begin{array}{c}
+D^{+}\\
+D^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

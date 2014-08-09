@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     69608,       1752]
-NotebookOptionsPosition[     67984,       1700]
-NotebookOutlinePosition[     68522,       1721]
-CellTagsIndexPosition[     68479,       1718]
+NotebookDataLength[     77478,       2005]
+NotebookOptionsPosition[     75504,       1941]
+NotebookOutlinePosition[     76042,       1962]
+CellTagsIndexPosition[     75999,       1959]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1696,6 +1696,247 @@ Cell[BoxData[
          RowBox[{"i", " ", "\[Alpha]"}]}], ")"}]}], 
       RowBox[{"2", " ", "k"}]]}], "}"}]}], "}"}]], "Output",
  CellChangeTimes->{3.6165744816041956`*^9, 3.6165745741144867`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"MatrixForm", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["e", 
+         RowBox[{
+          RowBox[{"i", " ", "k", " ", "\[Pi]"}], "-", 
+          RowBox[{"i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", " ", "k"}], "-", 
+          RowBox[{"i", " ", "\[Alpha]"}]}], ")"}]}], 
+       RowBox[{"2", " ", "k"}]], ",", 
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["e", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", "i"}], " ", "k", " ", "\[Pi]"}], "-", 
+          RowBox[{"i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]], " ", "i", " ",
+         "\[Alpha]"}], 
+       RowBox[{"2", " ", "k"}]]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["e", 
+         RowBox[{
+          RowBox[{"i", " ", "k", " ", "\[Pi]"}], "-", 
+          RowBox[{"i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]], " ", "i", " ",
+         "\[Alpha]"}], 
+       RowBox[{"2", " ", "k"}]], ",", 
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["e", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", "i"}], " ", "k", " ", "\[Pi]"}], "-", 
+          RowBox[{"i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", " ", "k"}], "+", 
+          RowBox[{"i", " ", "\[Alpha]"}]}], ")"}]}], 
+       RowBox[{"2", " ", "k"}]]}], "}"}]}], "}"}], "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["e", 
+         RowBox[{
+          RowBox[{"i", " ", "k", " ", "\[Pi]"}], "-", 
+          RowBox[{"i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", " ", "k"}], "-", 
+          RowBox[{"i", " ", "\[Alpha]"}]}], ")"}]}], 
+       RowBox[{"2", " ", "k"}]], 
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["e", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", "i"}], " ", "k", " ", "\[Pi]"}], "-", 
+          RowBox[{"i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]], " ", "i", " ",
+         "\[Alpha]"}], 
+       RowBox[{"2", " ", "k"}]]},
+     {
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["e", 
+         RowBox[{
+          RowBox[{"i", " ", "k", " ", "\[Pi]"}], "-", 
+          RowBox[{"i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]], " ", "i", " ",
+         "\[Alpha]"}], 
+       RowBox[{"2", " ", "k"}]], 
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["e", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", "i"}], " ", "k", " ", "\[Pi]"}], "-", 
+          RowBox[{"i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", " ", "k"}], "+", 
+          RowBox[{"i", " ", "\[Alpha]"}]}], ")"}]}], 
+       RowBox[{"2", " ", "k"}]]}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Center}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}],
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{3.616575990095476*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"PPsi", "[", "\[Pi]", "]"}], ".", 
+   RowBox[{"{", 
+    RowBox[{"Cp0", ",", "Cm0"}], "}"}]}], "+", 
+  RowBox[{
+   RowBox[{"PPhi", "[", "\[Pi]", "]"}], ".", "S", ".", 
+   RowBox[{"{", 
+    RowBox[{"Cp0", ",", "Cm0"}], "}"}]}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"-", "Cm0"}], " ", 
+   SuperscriptBox["e", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", "i"}], " ", "k", " ", "\[Pi]"}], "-", 
+     RowBox[{"i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]], " ", "k"}], "+", 
+  RowBox[{"Cp0", " ", 
+   SuperscriptBox["e", 
+    RowBox[{
+     RowBox[{"i", " ", "k", " ", "\[Pi]"}], "-", 
+     RowBox[{"i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]], " ", "k"}], "+", 
+  RowBox[{"Cm0", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     FractionBox[
+      RowBox[{
+       SuperscriptBox["e", 
+        RowBox[{
+         RowBox[{"i", " ", "k", " ", "\[Pi]"}], "-", 
+         RowBox[{"i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "1"}], "+", 
+         SuperscriptBox["e", 
+          RowBox[{"2", " ", "i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]]}], 
+        ")"}], " ", "k"}], 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", 
+       SuperscriptBox["e", 
+        RowBox[{"2", " ", "i", " ", "k", " ", "\[Pi]"}]]}]], "-", 
+     FractionBox[
+      RowBox[{
+       SuperscriptBox["e", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", "i"}], " ", "k", " ", "\[Pi]"}], "-", 
+         RowBox[{"i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "1"}], "+", 
+         SuperscriptBox["e", 
+          RowBox[{
+           RowBox[{"2", " ", "i", " ", "k", " ", "\[Pi]"}], "+", 
+           RowBox[{"2", " ", "i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]]}], 
+        ")"}], " ", "k"}], 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", 
+       SuperscriptBox["e", 
+        RowBox[{"2", " ", "i", " ", "k", " ", "\[Pi]"}]]}]]}], ")"}]}], "+", 
+  RowBox[{"Cp0", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     FractionBox[
+      RowBox[{
+       SuperscriptBox["e", 
+        RowBox[{
+         RowBox[{"i", " ", "k", " ", "\[Pi]"}], "-", 
+         RowBox[{"i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", 
+          SuperscriptBox["e", 
+           RowBox[{"2", " ", "i", " ", "k", " ", "\[Pi]"}]]}], "+", 
+         SuperscriptBox["e", 
+          RowBox[{"2", " ", "i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]]}], 
+        ")"}], " ", "k"}], 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", 
+       SuperscriptBox["e", 
+        RowBox[{"2", " ", "i", " ", "k", " ", "\[Pi]"}]]}]], "-", 
+     FractionBox[
+      RowBox[{
+       SuperscriptBox["e", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", "i"}], " ", "k", " ", "\[Pi]"}], "-", 
+         RowBox[{"i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", 
+          SuperscriptBox["e", 
+           RowBox[{"2", " ", "i", " ", "k", " ", "\[Pi]"}]]}], "+", 
+         SuperscriptBox["e", 
+          RowBox[{
+           RowBox[{"2", " ", "i", " ", "k", " ", "\[Pi]"}], "+", 
+           RowBox[{"2", " ", "i", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]]}], 
+        ")"}], " ", "k"}], 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", 
+       SuperscriptBox["e", 
+        RowBox[{"2", " ", "i", " ", "k", " ", "\[Pi]"}]]}]]}], 
+    ")"}]}]}]], "Output",
+ CellChangeTimes->{3.6165755974180164`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Simplify", "[", "%97", "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"-", "2"}], " ", "Cm0", " ", 
+  SuperscriptBox["e", 
+   RowBox[{
+    RowBox[{"-", "i"}], " ", "\[Pi]", " ", 
+    RowBox[{"(", 
+     RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]], " ", "k"}]], "Output",
+ CellChangeTimes->{3.6165758932709384`*^9}]
 }, Open  ]]
 },
 WindowSize->{918, 1102},
@@ -1746,13 +1987,25 @@ Cell[46240, 1072, 907, 21, 43, "Output"],
 Cell[47150, 1095, 3115, 90, 136, "Output"],
 Cell[50268, 1187, 4102, 115, 199, "Output"],
 Cell[54373, 1304, 6973, 199, 321, "Output"],
-Cell[61349, 1505, 1849, 46, 179, "Output"]
+Cell[61349, 1505, 1849, 46, 122, "Output"]
 }, Open  ]],
 Cell[63213, 1554, 89, 2, 42, "Input"],
 Cell[63305, 1558, 94, 1, 42, "Input"],
 Cell[CellGroupData[{
 Cell[63424, 1563, 3008, 85, 155, "Input"],
 Cell[66435, 1650, 1533, 47, 65, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[68005, 1702, 1567, 48, 132, "Input"],
+Cell[69575, 1752, 1961, 58, 170, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[71573, 1815, 283, 9, 42, "Input"],
+Cell[71859, 1826, 3226, 95, 166, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[75122, 1926, 84, 2, 42, "Input"],
+Cell[75209, 1930, 279, 8, 43, "Output"]
 }, Open  ]]
 }
 ]

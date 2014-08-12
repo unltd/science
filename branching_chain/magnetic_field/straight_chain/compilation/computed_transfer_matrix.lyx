@@ -1,0 +1,280 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Formula $-(\alpha i+2k)e^{2\pi i(k+\Phi)}+(\alpha i-2k)e^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{4\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-(\alpha ie^{2\pi i(k+\Phi)}+2ke^{2\pi i(k+\Phi)})+(\alpha ie^{2\pi i(2k+\Phi)}-2ke^{2\pi i(2k+\Phi)})+2ke^{2\pi i(k+2\Phi)}+2ke^{4\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-\alpha ie^{2\pi i(k+\Phi)}-2ke^{2\pi i(k+\Phi)}+\alpha ie^{2\pi i(2k+\Phi)}-2ke^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{4\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-\alpha ie^{2\pi i(k+\Phi)}+\alpha ie^{2\pi i(2k+\Phi)}-2ke^{2\pi i(2k+\Phi)}-2ke^{2\pi i(k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{4\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\alpha\left(ie^{2\pi i(2k+\Phi)}-e^{2\pi i(k+\Phi)}\right)-2ke^{2\pi i(2k+\Phi)}-2ke^{2\pi i(k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{4\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=i\alpha e^{2ik\pi}e^{2\pi i\Phi}\left(e^{2\pi ik}-1\right)-2ke^{2\pi i(2k+\Phi)}-2ke^{2\pi i(k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{4\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=i\alpha e^{2ik\pi}e^{2\pi i\Phi}\left(e^{2\pi ik}-1\right)-2ke^{2\pi i(2k+\Phi)}-2ke^{2\pi i(k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{4\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Вынесем за скобки 
+\begin_inset Formula $2ke^{2ik\pi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2ke^{2ik\pi}\left(\frac{i\alpha}{2k}e^{2\pi i\Phi}\left(e^{2\pi ik}-1\right)-e^{2\pi i(k+\Phi)}-e^{2\pi i\Phi}+e^{4\pi i\Phi}+e^{2\pi ik}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2ke^{2ik\pi}\left(\frac{i\alpha}{2k}e^{2\pi i\Phi}\left(e^{2\pi ik}-1\right)+e^{2\pi i\Phi}\left(1-e^{2\pi i\Phi}\right)+e^{2\pi ik}-e^{2\pi i(k+\Phi)}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2ke^{2ik\pi}\left(\frac{i\alpha}{2k}e^{2\pi i\Phi}\left(e^{2\pi ik}-1\right)+e^{2\pi i\Phi}\left(1-e^{2\pi i\Phi}\right)+e^{2\pi ik}\left(1-e^{2\pi i\Phi}\right)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2ke^{2ik\pi}\left(\frac{i\alpha}{2k}e^{2\pi i\Phi}\left(e^{2\pi ik}-1\right)+\left(e^{2\pi i\Phi}+e^{2\pi ik}\right)\left(1-e^{2\pi i\Phi}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-e^{2\pi i\Phi}(\alpha i+4k)+\alpha ie^{2\pi i(k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-(\alpha ie^{2\pi i\Phi}+4ke^{2\pi i\Phi})+\alpha ie^{2\pi i(k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-\alpha ie^{2\pi i\Phi}-4ke^{2\pi i\Phi}+\alpha ie^{2\pi i(k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-\alpha ie^{2\pi i\Phi}+\alpha ie^{2\pi i(k+\Phi)}-4ke^{2\pi i\Phi}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=i\alpha\left(e^{2\pi i(k+\Phi)}-e^{2\pi i\Phi}\right)-4ke^{2\pi i\Phi}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=i\alpha\left(e^{2\pi ik}-1\right)e^{2\pi i\Phi}-4ke^{2\pi i\Phi}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2k\left(\frac{i\alpha}{2k}\left(e^{2\pi ik}-1\right)e^{2\pi i\Phi}+e^{2\pi i(k+2\Phi)}+e^{2\pi ik}-2e^{2\pi i\Phi}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M=\frac{1}{2k}e^{-ik\pi-i\pi\Phi}\left(1+e^{2i\Phi\pi}\right)^{-1}\left(e^{2ik\pi}-1\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ 2ke^{2ik\pi}\left(1+e^{4i\pi\Phi}-2e^{2i\pi k+2i\pi\Phi}+\frac{i\alpha}{2k}\left(e^{2i\pi k}-1\right)e^{2i\pi\Phi}\right)\right\}  & \left\{ 2k\left(\frac{\alpha i}{2k}\left(e^{2\pi ik}-1\right)e^{2\pi i\Phi}+\left(e^{2\pi i\Phi}-1\right)\left(e^{2\pi i(k+\Phi)}-1\right)\right)\right\} \\
+\left\{ 2ke^{2ik\pi}\left(\frac{i\alpha}{2k}e^{2\pi i\Phi}\left(e^{2\pi ik}-1\right)+\left(e^{2\pi i\Phi}+e^{2\pi ik}\right)\left(1-e^{2\pi i\Phi}\right)\right)\right\}  & \left\{ 2k\left(\frac{i\alpha}{4k}\left(e^{2\pi ik}-1\right)e^{2\pi i\Phi}+e^{2\pi i(k+2\Phi)}+e^{2\pi ik}-2e^{2\pi i\Phi}\right)\right\} 
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M=e^{-ik\pi-i\pi\Phi}\left(1+e^{2i\Phi\pi}\right)^{-1}\left(e^{2ik\pi}-1\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ e^{2ik\pi}\left(1+e^{4i\pi\Phi}-2e^{2i\pi k+2i\pi\Phi}+\frac{i\alpha}{2k}\left(e^{2i\pi k}-1\right)e^{2i\pi\Phi}\right)\right\}  & \left\{ \frac{\alpha i}{2k}\left(e^{2\pi ik}-1\right)e^{2\pi i\Phi}+\left(e^{2\pi i\Phi}-1\right)\left(e^{2\pi i(k+\Phi)}-1\right)\right\} \\
+\left\{ e^{2ik\pi}\left(\frac{i\alpha}{2k}e^{2\pi i\Phi}\left(e^{2\pi ik}-1\right)+\left(e^{2\pi i\Phi}+e^{2\pi ik}\right)\left(1-e^{2\pi i\Phi}\right)\right)\right\}  & \left\{ \frac{i\alpha}{2k}\left(e^{2\pi ik}-1\right)e^{2\pi i\Phi}+e^{2\pi i(k+2\Phi)}+e^{2\pi ik}-2e^{2\pi i\Phi}\right\} 
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M=e^{-i\pi\Phi}\left(1+e^{2i\Phi\pi}\right)^{-1}\left(e^{2ik\pi}-1\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ e^{ik\pi}\left(1+e^{4i\pi\Phi}-2e^{2i\pi k+2i\pi\Phi}+\frac{i\alpha}{2k}\left(e^{2i\pi k}-1\right)e^{2i\pi\Phi}\right)\right\}  & \left\{ \frac{\alpha i}{2k}e^{-ik\pi}\left(e^{2\pi ik}-1\right)e^{2\pi i\Phi}+e^{-ik\pi}\left(e^{2\pi i\Phi}-1\right)\left(e^{2\pi i(k+\Phi)}-1\right)\right\} \\
+\left\{ e^{ik\pi}\left(\frac{i\alpha}{2k}e^{2\pi i\Phi}\left(e^{2\pi ik}-1\right)+\left(e^{2\pi i\Phi}+e^{2\pi ik}\right)\left(1-e^{2\pi i\Phi}\right)\right)\right\}  & \left\{ \frac{i\alpha}{2k}e^{-ik\pi}\left(e^{2\pi ik}-1\right)e^{2\pi i\Phi}+e^{-ik\pi}\left(e^{2\pi i(k+2\Phi)}+e^{2\pi ik}-2e^{2\pi i\Phi}\right)\right\} 
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M=e^{-i\pi\Phi}\left(1+e^{2i\Phi\pi}\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ e^{ik\pi}\left(\left(1+e^{4i\pi\Phi}-2e^{2i\pi k+2i\pi\Phi}\right)\left(e^{2ik\pi}-1\right)^{-1}+\frac{i\alpha}{2k}e^{2i\pi\Phi}\right)\right\}  & \left\{ \frac{\alpha i}{2k}e^{-ik\pi}e^{2\pi i\Phi}\left(e^{2ik\pi}-1\right)^{-1}+e^{-ik\pi}\left(e^{2\pi i\Phi}-1\right)\left(e^{2\pi i(k+\Phi)}-1\right)\left(e^{2ik\pi}-1\right)^{-1}\right\} \\
+\left\{ e^{ik\pi}\left(\frac{i\alpha}{2k}e^{2\pi i\Phi}+\left(e^{2\pi i\Phi}+e^{2\pi ik}\right)\left(1-e^{2\pi i\Phi}\right)\left(e^{2ik\pi}-1\right)^{-1}\right)\right\}  & \left\{ \frac{i\alpha}{2k}e^{-ik\pi}e^{2\pi i\Phi}+e^{-ik\pi}\left(e^{2\pi i(k+2\Phi)}+e^{2\pi ik}-2e^{2\pi i\Phi}\right)\left(e^{2ik\pi}-1\right)^{-1}\right\} 
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M=e^{-i\pi\Phi}\left(1+e^{2i\Phi\pi}\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ e^{ik\pi}\left(\left(1+e^{4i\pi\Phi}-2e^{2i\pi k+2i\pi\Phi}\right)\left(e^{2ik\pi}-1\right)^{-1}-\frac{\alpha}{2ik}e^{2i\pi\Phi}\right)\right\}  & \left\{ \frac{\alpha}{2ik}e^{-ik\pi}e^{2\pi i\Phi}\left(e^{2ik\pi}-1\right)^{-1}+e^{-ik\pi}\left(e^{2\pi i\Phi}-1\right)\left(e^{2\pi i(k+\Phi)}-1\right)\left(e^{2ik\pi}-1\right)^{-1}\right\} \\
+\left\{ e^{ik\pi}\left(\frac{\alpha}{2ik}e^{2\pi i\Phi}+\left(e^{2\pi i\Phi}+e^{2\pi ik}\right)\left(1-e^{2\pi i\Phi}\right)\left(e^{2ik\pi}-1\right)^{-1}\right)\right\}  & \left\{ \frac{\alpha}{2ik}e^{-ik\pi}e^{2\pi i\Phi}+e^{-ik\pi}\left(e^{2\pi i(k+2\Phi)}+e^{2\pi ik}-2e^{2\pi i\Phi}\right)\left(e^{2ik\pi}-1\right)^{-1}\right\} 
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

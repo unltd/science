@@ -138,7 +138,7 @@ status open
 \begin_layout Standard
 
 \lang russian
-де 
+где 
 \begin_inset Formula $\Phi=\frac{\pi B}{\Phi_{0}}$
 \end_inset
 
@@ -847,6 +847,40 @@ Let now consider the straight semi-infinite chain of rings with delta-coupling
 \end_layout
 
 \begin_layout Standard
+или в матричном виде
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\psi(x)=e^{-i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+C^{+}\\
+C^{-}
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varphi(x)=e^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+D^{+}\\
+D^{-}
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 At the boundary points those components have following values
 \end_layout
 
@@ -1029,6 +1063,33 @@ D_{j}^{-}
 C_{j}^{+}\\
 C_{j}^{-}
 \end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S=e^{-2i\Phi\pi}\left(-1+e^{2ikπ}\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ e^{2ikπ}-e^{2iπ\Phi}\right\}  & \left\{ 1-e^{2iπ\Phi}\right\} \\
+\left\{ e^{2ikπ+2iπ\text{\Phi}}-e^{2ikπ}\right\}  & \left\{ e^{2ikπ+2iπ\Phi}-1\right\} 
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left(\begin{array}{c}
+D_{j}^{+}\\
+D_{j}^{-}
+\end{array}\right)=S\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)\label{eq:up_down_relation}
+\end{equation}
+
 \end_inset
 
 
@@ -1286,8 +1347,7 @@ for the counter-clockwise arcs.
 \end_layout
 
 \begin_layout Standard
-2.
- Let us now rewrite the second condition 
+Let us now rewrite the second condition 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "(delta-2)"
@@ -1312,27 +1372,1230 @@ reference "(delta-2)"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\hat{p}\psi_{j}(0)+\hat{p}\varphi_{j}(0)=\hat{p}\psi_{j-1}(\pi)+\hat{p}\varphi_{j-1}(\pi)-i\alpha\psi_{j-1}(\pi)$
+\begin_inset Formula 
+\begin{equation}
+\hat{p}\psi_{j}(0)+\hat{p}\varphi_{j}(0)=\hat{p}\psi_{j-1}(\pi)+\hat{p}\varphi_{j-1}(\pi)-i\alpha\psi_{j-1}(\pi)\label{eq:delta_2_rewriten}
+\end{equation}
+
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
-.
+1.
 \end_layout
 
 \begin_layout Standard
-ЛЧ: 
+\begin_inset Formula $\hat{p}\varphi_{j}(0)=k\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left(\begin{array}{c}
+D_{j}^{+}\\
+D_{j}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Используем соотношение 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:up_down_relation"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\varphi_{j}(0)=k\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)e^{-2i\Phi\pi}\left(-1+e^{2ikπ}\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ e^{2ikπ}-e^{2iπ\Phi}\right\}  & \left\{ 1-e^{2iπ\Phi}\right\} \\
+\left\{ e^{2ikπ+2iπ\text{\Phi}}-e^{2ikπ}\right\}  & \left\{ e^{2ikπ+2iπ\Phi}-1\right\} 
+\end{array}\right\} \left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\varphi_{j}(0)=k\cdot e^{-2i\Phi\pi}\cdot\left(-1+e^{2ikπ}\right)^{-1}\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left\{ \begin{array}{cc}
+\left\{ e^{2ikπ}-e^{2iπ\Phi}\right\}  & \left\{ 1-e^{2iπ\Phi}\right\} \\
+\left\{ e^{2ikπ+2iπ\text{\Phi}}-e^{2ikπ}\right\}  & \left\{ e^{2ikπ+2iπ\Phi}-1\right\} 
+\end{array}\right\} \left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\varphi_{j}(0)=k\cdot e^{-2i\Phi\pi}\cdot\left(-1+e^{2ikπ}\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ e^{2ikπ}-e^{2iπ\Phi}-e^{2ikπ+2iπ\text{\Phi}}+e^{2ikπ}\right\}  & \left\{ 1-e^{2iπ\Phi}-e^{2ikπ+2iπ\Phi}+1\right\} \end{array}\right\} \left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\varphi_{j}(0)=k\cdot e^{-2i\Phi\pi}\cdot\left(-1+e^{2ikπ}\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ 2e^{2ikπ}-e^{2iπ\Phi}-e^{2ikπ+2iπ\text{\Phi}}\right\}  & \left\{ 2-e^{2iπ\Phi}-e^{2ikπ+2iπ\Phi}\right\} \end{array}\right\} \left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\varphi_{j-1}(\pi)=ke^{i\Phi\pi}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ -e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+D_{j-1}^{+}\\
+D_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Используем соотношение 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:up_down_relation"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\varphi_{j-1}(\pi)=ke^{i\Phi\pi}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ -e^{-ik\pi}\right\} \end{array}\right)e^{-2i\Phi\pi}\left(-1+e^{2ikπ}\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ e^{2ikπ}-e^{2iπ\Phi}\right\}  & \left\{ 1-e^{2iπ\Phi}\right\} \\
+\left\{ e^{2ikπ+2iπ\text{\Phi}}-e^{2ikπ}\right\}  & \left\{ e^{2ikπ+2iπ\Phi}-1\right\} 
+\end{array}\right\} \left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\varphi_{j-1}(\pi)=k\cdot e^{-i\Phi\pi}\cdot\left(-1+e^{2ikπ}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ -e^{-ik\pi}\right\} \end{array}\right)\left\{ \begin{array}{cc}
+\left\{ e^{2ikπ}-e^{2iπ\Phi}\right\}  & \left\{ 1-e^{2iπ\Phi}\right\} \\
+\left\{ e^{2ikπ+2iπ\text{\Phi}}-e^{2ikπ}\right\}  & \left\{ e^{2ikπ+2iπ\Phi}-1\right\} 
+\end{array}\right\} \left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.1.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ -e^{-ik\pi}\right\} \end{array}\right)\cdot\left\{ \begin{array}{c}
+e^{2ikπ}-e^{2iπ\Phi}\\
+e^{2ikπ+2iπ\text{\Phi}}-e^{2ikπ}
+\end{array}\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{ik\pi}\left(e^{2ikπ}-e^{2iπ\Phi}\right)-e^{-ik\pi}\left(e^{2ikπ+2iπ\text{\Phi}}-e^{2ikπ}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{ik\pi}e^{2ikπ}-e^{ik\pi}e^{2iπ\Phi}-e^{-ik\pi}e^{2ikπ+2iπ\text{\Phi}}+e^{-ik\pi}e^{2ikπ}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{3ikπ}-e^{ik\pi}e^{2iπ\Phi}-e^{ikπ+2iπ\text{\Phi}}+e^{ikπ}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{3ikπ}-2e^{ik\pi}e^{2iπ\Phi}+e^{ikπ}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ -e^{-ik\pi}\right\} \end{array}\right)\cdot\left\{ \begin{array}{c}
+1-e^{2iπ\Phi}\\
+e^{2ikπ+2iπ\Phi}-1
+\end{array}\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{ik\pi}\left(1-e^{2iπ\Phi}\right)-e^{-ik\pi}\left(e^{2ikπ+2iπ\Phi}-1\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(e^{ik\pi}-e^{ik\pi}e^{2iπ\Phi}\right)-\left(e^{-ik\pi}e^{2ikπ+2iπ\Phi}-e^{-ik\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(e^{ik\pi}-e^{ik\pi+2iπ\Phi}\right)-\left(e^{ikπ+2iπ\Phi}-e^{-ik\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{ik\pi}-e^{ik\pi+2iπ\Phi}-e^{ikπ+2iπ\Phi}+e^{-ik\pi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{ik\pi}-2e^{ikπ+2iπ\Phi}+e^{-ik\pi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.3.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\varphi_{j-1}(\pi)=k\cdot e^{-i\Phi\pi}\cdot\left(-1+e^{2ikπ}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ -e^{-ik\pi}\right\} \end{array}\right)\left\{ \begin{array}{cc}
+\left\{ e^{2iπ\Phi}-e^{2ikπ}\right\}  & \left\{ e^{2iπ\Phi}-1\right\} \\
+\left\{ e^{2ikπ+2iπ\text{\Phi}}-e^{2ikπ}\right\}  & \left\{ e^{2ikπ+2iπ\Phi}-1\right\} 
+\end{array}\right\} \left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Используем 2.1 и 2.2
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\varphi_{j-1}(\pi)=k\cdot e^{-i\Phi\pi}\cdot\left(-1+e^{2ikπ}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{3ikπ}-2e^{ik\pi}e^{2iπ\Phi}+e^{ikπ}\right\}  & \left\{ e^{ik\pi}-2e^{ikπ+2iπ\Phi}+e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3.
+ Перепишем левую часть 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:delta_2_rewriten"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula $\hat{p}\psi_{j}(0)+\hat{p}\varphi_{j}(0)=k\left(\begin{array}{cc}
 \left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left(\begin{array}{c}
-C^{+}\\
-C^{-}
-\end{array}\right)+k\left(\begin{array}{cc}
-\left\{ 1\right\}  & \left\{ -\right\} \end{array}\right)\left(\begin{array}{c}
-D^{+}\\
-D^{-}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+k\cdot e^{-2i\Phi\pi}\cdot\left(-1+e^{2ikπ}\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ 2e^{2ikπ}-e^{2iπ\Phi}-e^{2ikπ+2iπ\text{\Phi}}\right\}  & \left\{ 2-e^{2iπ\Phi}-e^{2ikπ+2iπ\Phi}\right\} \end{array}\right\} \left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
 \end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\psi_{j}(0)+\hat{p}\varphi_{j}(0)=k\cdot e^{-2i\Phi\pi}\cdot\left(-1+e^{2ikπ}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{2i\Phi\pi}\cdot\left(e^{2ikπ}-1\right)\right\}  & \left\{ -e^{2i\Phi\pi}\cdot\left(e^{2ikπ}-1\right)\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+k\cdot e^{-2i\Phi\pi}\cdot\left(-1+e^{2ikπ}\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ 2e^{2ikπ}-e^{2iπ\Phi}-e^{2ikπ+2iπ\text{\Phi}}\right\}  & \left\{ 2-e^{2iπ\Phi}-e^{2ikπ+2iπ\Phi}\right\} \end{array}\right\} \left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3.1.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e^{2i\Phi\pi}\cdot\left(e^{2ikπ}-1\right)+2e^{2ikπ}-e^{2iπ\Phi}-e^{2ikπ+2iπ\text{\Phi}}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{2i\Phi\pi}e^{2ikπ}-e^{2i\Phi\pi}+2e^{2ikπ}-e^{2iπ\Phi}-e^{2ikπ+2iπ\text{\Phi}}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2e^{2ikπ}-2e^{2i\Phi\pi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2\left(e^{2ikπ}-e^{2i\Phi\pi}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3.2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-e^{2i\Phi\pi}\cdot\left(e^{2ikπ}-1\right)+2-e^{2iπ\Phi}-e^{2ikπ+2iπ\Phi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-\left(e^{2i\Phi\pi}e^{2ikπ}-e^{2i\Phi\pi}\right)+2-e^{2iπ\Phi}-e^{2ikπ+2iπ\Phi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-e^{2i\Phi\pi}e^{2ikπ}+e^{2i\Phi\pi}+2-e^{2iπ\Phi}-e^{2ikπ+2iπ\Phi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-e^{2i\Phi\pi}e^{2ikπ}+2-e^{2ikπ+2iπ\Phi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2-2e^{2ikπ+2iπ\Phi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2\left(1-e^{2ikπ+2iπ\Phi}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3.4.
+ Используем 3.1 и 3.2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\psi_{j}(0)+\hat{p}\varphi_{j}(0)=k\cdot e^{-2i\Phi\pi}\cdot\left(-1+e^{2ikπ}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{2i\Phi\pi}\cdot\left(e^{2ikπ}-1\right)\right\}  & \left\{ -e^{2i\Phi\pi}\cdot\left(e^{2ikπ}-1\right)\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+k\cdot e^{-2i\Phi\pi}\cdot\left(-1+e^{2ikπ}\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ 2e^{2ikπ}-e^{2iπ\Phi}-e^{2ikπ+2iπ\text{\Phi}}\right\}  & \left\{ 2-e^{2iπ\Phi}-e^{2ikπ+2iπ\Phi}\right\} \end{array}\right\} \left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\psi_{j}(0)+\hat{p}\varphi_{j}(0)=k\cdot e^{-2i\Phi\pi}\cdot\left(-1+e^{2ikπ}\right)^{-1}\left(\begin{array}{cc}
+\left\{ 2\left(e^{2ikπ}-e^{2i\Phi\pi}\right)\right\}  & \left\{ 2\left(1-e^{2ikπ+2iπ\Phi}\right)\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\psi_{j}(0)+\hat{p}\varphi_{j}(0)=2k\cdot e^{-2i\Phi\pi}\cdot\left(-1+e^{2ikπ}\right)^{-1}\left(\begin{array}{cc}
+\left\{ \left(e^{2ikπ}-e^{2i\Phi\pi}\right)\right\}  & \left\{ \left(1-e^{2ikπ+2iπ\Phi}\right)\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+4.
+ Перепишем правую часть 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:delta_2_rewriten"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\psi_{j-1}(\pi)+\hat{p}\varphi_{j-1}(\pi)-i\alpha\psi_{j-1}(\pi)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ke^{-i\Phi\pi}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ -e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+k\cdot e^{-i\Phi\pi}\cdot\left(e^{2ikπ}-1\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{3ikπ}-2e^{ik\pi}e^{2iπ\Phi}+e^{ikπ}\right\}  & \left\{ e^{ik\pi}-2e^{ikπ+2iπ\Phi}+e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-i\alpha e^{-i\Phi\pi}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ke^{-i\Phi\pi}\cdot\left(e^{2ikπ}-1\right)^{-1}\left(\begin{array}{cc}
+\left\{ \left(e^{2ikπ}-1\right)e^{ik\pi}\right\}  & \left\{ -\left(e^{2ikπ}-1\right)e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+k\cdot e^{-i\Phi\pi}\cdot\left(e^{2ikπ}-1\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{3ikπ}-2e^{ik\pi}e^{2iπ\Phi}+e^{ikπ}\right\}  & \left\{ e^{ik\pi}-2e^{ikπ+2iπ\Phi}+e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)-$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-i\alpha\cdot k\cdot e^{-i\Phi\pi}\cdot\left(e^{2ikπ}-1\right)^{-1}\left(\begin{array}{cc}
+\left\{ k\left(e^{2ikπ}-1\right)e^{ik\pi}\right\}  & \left\{ k\left(e^{2ikπ}-1\right)e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ke^{-i\Phi\pi}\cdot\left(e^{2ikπ}-1\right)^{-1}\left(\begin{array}{cc}
+\left\{ \left(e^{2ikπ}-1\right)e^{ik\pi}\right\}  & \left\{ -\left(e^{2ikπ}-1\right)e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+k\cdot e^{-i\Phi\pi}\cdot\left(e^{2ikπ}-1\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{3ikπ}-2e^{ik\pi}e^{2iπ\Phi}+e^{ikπ}\right\}  & \left\{ e^{ik\pi}-2e^{ikπ+2iπ\Phi}+e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+k\cdot e^{-i\Phi\pi}\cdot\left(e^{2ikπ}-1\right)^{-1}\left(\begin{array}{cc}
+\left\{ -\frac{i\alpha}{k}\left(e^{2ikπ}-1\right)e^{ik\pi}\right\}  & \left\{ -\frac{i\alpha}{k}\left(e^{2ikπ}-1\right)e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+4.1.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(e^{2ikπ}-1\right)e^{ik\pi}+e^{3ikπ}-2e^{ik\pi}e^{2iπ\Phi}+e^{ikπ}-\frac{i\alpha}{k}\left(e^{2ikπ}-1\right)e^{ik\pi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(e^{2ikπ}e^{ik\pi}-e^{ik\pi}\right)+e^{3ikπ}-2e^{ik\pi}e^{2iπ\Phi}+e^{ikπ}-\frac{i\alpha}{k}\left(e^{2ikπ}-1\right)e^{ik\pi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{3ikπ}-e^{ik\pi}+e^{3ikπ}-2e^{ik\pi}e^{2iπ\Phi}+e^{ikπ}-\frac{i\alpha}{k}\left(e^{2ikπ}-1\right)e^{ik\pi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2e^{3ikπ}-2e^{ik\pi}e^{2iπ\Phi}-\frac{i\alpha}{k}\left(e^{2ikπ}-1\right)e^{ik\pi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+4.2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-\left(e^{2ikπ}-1\right)e^{-ik\pi}+e^{ik\pi}-2e^{ikπ+2iπ\Phi}+e^{-ik\pi}-\frac{i\alpha}{k}\left(e^{2ikπ}-1\right)e^{-ik\pi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-\left(e^{2ikπ}e^{-ik\pi}-e^{-ik\pi}\right)+e^{ik\pi}-2e^{ikπ+2iπ\Phi}+e^{-ik\pi}-\frac{i\alpha}{k}\left(e^{2ikπ}-1\right)e^{-ik\pi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-\left(e^{ikπ}-e^{-ik\pi}\right)+e^{ik\pi}-2e^{ikπ+2iπ\Phi}+e^{-ik\pi}-\frac{i\alpha}{k}\left(e^{2ikπ}-1\right)e^{-ik\pi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=-e^{ikπ}+e^{-ik\pi}+e^{ik\pi}-2e^{ikπ+2iπ\Phi}+e^{-ik\pi}-\frac{i\alpha}{k}\left(e^{2ikπ}-1\right)e^{-ik\pi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-ik\pi}-2e^{ikπ+2iπ\Phi}+e^{-ik\pi}-\frac{i\alpha}{k}\left(e^{2ikπ}-1\right)e^{-ik\pi}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2e^{-ik\pi}-2e^{ikπ+2iπ\Phi}-\frac{i\alpha}{k}\left(e^{2ikπ}-1\right)e^{-ik\pi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+4.3.
+ Используем 4.1 и 4.2
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\psi_{j-1}(\pi)+\hat{p}\varphi_{j-1}(\pi)-i\alpha\psi_{j-1}(\pi)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ke^{-i\Phi\pi}\cdot\left(e^{2ikπ}-1\right)^{-1}\left(\begin{array}{cc}
+\left\{ 2e^{3ikπ}-2e^{ik\pi}e^{2iπ\Phi}-\frac{i\alpha}{k}\left(e^{2ikπ}-1\right)e^{ik\pi}\right\}  & \left\{ 2e^{-ik\pi}-2e^{ikπ+2iπ\Phi}-\frac{i\alpha}{k}\left(e^{2ikπ}-1\right)e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+5.
+ Таким образом уравнение 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:delta_2_rewriten"
+
+\end_inset
+
+ запишется в виде:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2k\cdot e^{-2i\Phi\pi}\cdot\left(-1+e^{2ikπ}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{2ikπ}-e^{2i\Phi\pi}\right\}  & \left\{ 1-e^{2ikπ+2iπ\Phi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=ke^{-i\Phi\pi}\cdot\left(e^{2ikπ}-1\right)^{-1}\left(\begin{array}{cc}
+\left\{ 2e^{3ikπ}-2e^{ik\pi}e^{2iπ\Phi}-\frac{i\alpha}{k}\left(e^{2ikπ}-1\right)e^{ik\pi}\right\}  & \left\{ 2e^{-ik\pi}-2e^{ikπ+2iπ\Phi}-\frac{i\alpha}{k}\left(e^{2ikπ}-1\right)e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Упростим, поделив на 
+\begin_inset Formula $2k\cdot e^{-2i\Phi\pi}\left(-1+e^{2ikπ}\right)^{-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e^{-2i\Phi\pi}\cdot\left(-1+e^{2ikπ}\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{2ikπ}-e^{2i\Phi\pi}\right\}  & \left\{ 1-e^{2ikπ+2iπ\Phi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-i\Phi\pi}\cdot\left(e^{2ikπ}-1\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{3ikπ}-e^{ik\pi}e^{2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}-e^{ikπ+2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left(\begin{array}{cc}
+\left\{ e^{2ikπ}-e^{2i\Phi\pi}\right\}  & \left\{ 1-e^{2ikπ+2iπ\Phi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=e^{i\Phi\pi}\cdot\left(\begin{array}{cc}
+\left\{ e^{3ikπ}-e^{ik\pi}e^{2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}-e^{ikπ+2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)\label{eq:delta-2_simple}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+6.
+ Запишем так же первое уравнение из 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "(delta-1)"
+
+\end_inset
+
+ в матричном виде
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi_{j-1}(\pi)=\psi_{j}(0)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi_{j}(0)=\psi_{j-1}(\pi)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=e^{-i\Phi\pi}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)\label{eq:delta-1_simple}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+7.
+ Объединим уравнения 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:delta-1_simple"
+
+\end_inset
+
+ и 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:delta-2_simple"
+
+\end_inset
+
+ в систему и решим ее
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=e^{-i\Phi\pi}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+ &
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ e^{2ikπ}-e^{2i\Phi\pi}\right\}  & \left\{ 1-e^{2ikπ+2iπ\Phi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=e^{i\Phi\pi}\cdot\left(\begin{array}{cc}
+\left\{ e^{3ikπ}-e^{ik\pi}e^{2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}-e^{ikπ+2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+ Домножим первое уравнение на 
+\begin_inset Formula $e^{2i\Phi\pi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ e^{2i\Phi\pi}\right\}  & \left\{ e^{2i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=e^{i\Phi\pi}\cdot\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+ &
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{cc}
+\left\{ e^{2ikπ}-e^{2i\Phi\pi}\right\}  & \left\{ 1-e^{2ikπ+2iπ\Phi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=e^{i\Phi\pi}\cdot\left(\begin{array}{cc}
+\left\{ e^{3ikπ}-e^{ik\pi}e^{2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}-e^{ikπ+2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left\{ \begin{array}{cc}
+\left\{ e^{2i\Phi\pi}\right\}  & \left\{ e^{2i\Phi\pi}\right\} \\
+\{e^{2ikπ}-e^{2i\Phi\pi}\} & \{1-e^{2ikπ+2iπ\Phi}\}
+\end{array}\right\} \left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=e^{i\Phi\pi}\left\{ \begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \\
+\left\{ e^{3ikπ}-e^{ik\pi}e^{2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}-e^{ikπ+2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{-ik\pi}\right\} 
+\end{array}\right\} \left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+7.1.
+ Вычислим обратную для матрицы стоящей в левой части
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\mbox{\ensuremath{\left\{ \begin{array}{cc}
+a & b\\
+c & d
+\end{array}\right\} =\left\{ \begin{array}{cc}
+\left\{ e^{2i\Phi\pi}\right\}  & \left\{ e^{2i\Phi\pi}\right\} \\
+\{e^{2ikπ}-e^{2i\Phi\pi}\} & \{1-e^{2ikπ+2iπ\Phi}\}
+\end{array}\right\} }}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left\{ \begin{array}{cc}
+a & b\\
+c & d
+\end{array}\right\} ^{-1}=\left(ad-bc\right)^{-1}\left\{ \begin{array}{cc}
+d & -b\\
+-c & a
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ad-bc=e^{2i\Phi\pi}\left(1-e^{2ikπ+2iπ\Phi}\right)-e^{2i\Phi\pi}\left(e^{2ikπ}-e^{2i\Phi\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{2i\Phi\pi}\left(1-e^{2ikπ+2iπ\Phi}-e^{2ikπ}+e^{2i\Phi\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{2i\Phi\pi}\left(1+e^{2i\Phi\pi}-e^{2ikπ+2iπ\Phi}-e^{2ikπ}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{2i\Phi\pi}\left(1+e^{2i\Phi\pi}\right)\left(1-e^{2ikπ}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left\{ \begin{array}{cc}
+d & -b\\
+-c & a
+\end{array}\right\} =\left\{ \begin{array}{cc}
+\left\{ 1-e^{2ikπ+2iπ\Phi}\right\}  & \left\{ e^{2i\Phi\pi}-e^{2ikπ}\right\} \\
+-e^{2i\Phi\pi} & e^{2i\Phi\pi}
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left\{ \begin{array}{cc}
+\left\{ e^{2i\Phi\pi}\right\}  & \left\{ e^{2i\Phi\pi}\right\} \\
+\{e^{2ikπ}-e^{2i\Phi\pi}\} & \{1-e^{2ikπ+2iπ\Phi}\}
+\end{array}\right\} ^{-1}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-2i\Phi\pi}\left(1+e^{2i\Phi\pi}\right)^{-1}\left(1-e^{2ikπ}\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ 1-e^{2ikπ+2iπ\Phi}\right\}  & \left\{ e^{2i\Phi\pi}-e^{2ikπ}\right\} \\
+-e^{2i\Phi\pi} & e^{2i\Phi\pi}
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+7.2.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left\{ \begin{array}{cc}
+\left\{ e^{2i\Phi\pi}\right\}  & \left\{ e^{2i\Phi\pi}\right\} \\
+\{e^{2ikπ}-e^{2i\Phi\pi}\} & \{1-e^{2ikπ+2iπ\Phi}\}
+\end{array}\right\} \left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=e^{i\Phi\pi}\left\{ \begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \\
+\left\{ e^{3ikπ}-e^{ik\pi}e^{2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}-e^{ikπ+2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{-ik\pi}\right\} 
+\end{array}\right\} \left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=e^{i\Phi\pi}\left\{ \begin{array}{cc}
+\left\{ e^{2i\Phi\pi}\right\}  & \left\{ e^{2i\Phi\pi}\right\} \\
+\{e^{2ikπ}-e^{2i\Phi\pi}\} & \{1-e^{2ikπ+2iπ\Phi}\}
+\end{array}\right\} ^{-1}\left\{ \begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \\
+\left\{ e^{3ikπ}-e^{ik\pi}e^{2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}-e^{ikπ+2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{-ik\pi}\right\} 
+\end{array}\right\} \left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Используем 7.1
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=e^{i\Phi\pi}e^{-2i\Phi\pi}\left(1+e^{2i\Phi\pi}\right)^{-1}\left(1-e^{2ik\pi}\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ 1-e^{2ik\pi+2i\pi\Phi}\right\}  & \left\{ e^{2i\Phi\pi}-e^{2ik\pi}\right\} \\
+-e^{2i\Phi\pi} & e^{2i\Phi\pi}
+\end{array}\right\} \left\{ \begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \\
+\left\{ e^{3ikπ}-e^{ik\pi}e^{2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}-e^{ikπ+2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{-ik\pi}\right\} 
+\end{array}\right\} \left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)=e^{-i\Phi\pi}\left(1+e^{2i\Phi\pi}\right)^{-1}\left(1-e^{2ik\pi}\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ 1-e^{2ik\pi+2i\pi\Phi}\right\}  & \left\{ e^{2i\Phi\pi}-e^{2ik\pi}\right\} \\
+-e^{2i\Phi\pi} & e^{2i\Phi\pi}
+\end{array}\right\} \left\{ \begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \\
+\left\{ e^{3ikπ}-e^{ik\pi}e^{2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}-e^{ikπ+2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{-ik\pi}\right\} 
+\end{array}\right\} \left(\begin{array}{c}
+C_{j-1}^{+}\\
+C_{j-1}^{-}
+\end{array}\right)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+7.3.
+ Вычисляем [1,1]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left\{ \begin{array}{cc}
+\left\{ 1-e^{2ik\pi+2i\pi\Phi}\right\}  & \left\{ e^{2i\Phi\pi}-e^{2ik\pi}\right\} \end{array}\right\} \left\{ \begin{array}{c}
+e^{ik\pi}\\
+e^{3ikπ}-e^{ik\pi}e^{2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{ik\pi}
+\end{array}\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(1-e^{2ik\pi+2i\pi\Phi}\right)e^{ik\pi}+\left(e^{2i\Phi\pi}-e^{2ik\pi}\right)\left(e^{3ikπ}-e^{ik\pi}e^{2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{ik\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{ik\pi}\left(1-e^{2ik\pi+2i\pi\Phi}+e^{2i\Phi\pi}\left(e^{2ikπ}-e^{2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)\right)-e^{2ik\pi}\left(e^{2ikπ}-e^{2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)\right)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{ik\pi}\left(1-e^{2ik\pi+2i\pi\Phi}+\left(e^{2i\Phi\pi}e^{2ikπ}-e^{2i\Phi\pi}e^{2iπ\Phi}-e^{2i\Phi\pi}\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)\right)-\left(e^{2ik\pi}e^{2ikπ}-e^{2ik\pi}e^{2iπ\Phi}-e^{2ik\pi}\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)\right)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{ik\pi}\left(1-e^{2ik\pi+2i\pi\Phi}+e^{2i\Phi\pi}e^{2ikπ}-e^{2i\Phi\pi}e^{2iπ\Phi}-e^{2i\Phi\pi}\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)-e^{2ik\pi}e^{2ikπ}+e^{2ik\pi}e^{2iπ\Phi}+e^{2ik\pi}\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{ik\pi}\left(1-e^{4iπ\Phi}-e^{4ikπ}+e^{2ik\pi}e^{2iπ\Phi}+\left(e^{2ik\pi}-e^{2i\Phi\pi}\right)\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+7.4.
+ Вычисляем [1,2]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left\{ \begin{array}{cc}
+\left\{ 1-e^{2ik\pi+2i\pi\Phi}\right\}  & \left\{ e^{2i\Phi\pi}-e^{2ik\pi}\right\} \end{array}\right\} \left\{ \begin{array}{c}
+e^{-ik\pi}\\
+e^{-ik\pi}-e^{ikπ+2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{-ik\pi}
+\end{array}\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(1-e^{2ik\pi+2i\pi\Phi}\right)e^{-ik\pi}+\left(e^{2i\Phi\pi}-e^{2ik\pi}\right)\left(e^{-ik\pi}-e^{ikπ+2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{-ik\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(1-e^{2ik\pi+2i\pi\Phi}\right)e^{-ik\pi}+e^{-ik\pi}\left(e^{2i\Phi\pi}-e^{2ik\pi}\right)\left(1-e^{2ikπ+2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-ik\pi}\left(1-e^{2ik\pi+2i\pi\Phi}+e^{2i\Phi\pi}\left(1-e^{2ikπ+2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)\right)-e^{2ik\pi}\left(1-e^{2ikπ+2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)\right)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-ik\pi}\left(1-e^{2ik\pi+2i\pi\Phi}+\left(e^{2i\Phi\pi}-e^{2i\Phi\pi}e^{2ikπ+2iπ\Phi}-e^{2i\Phi\pi}\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)\right)-\left(e^{2ik\pi}-e^{2ik\pi}e^{2ikπ+2iπ\Phi}-e^{2ik\pi}\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)\right)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-ik\pi}\left(1-e^{2ik\pi+2i\pi\Phi}+e^{2i\Phi\pi}-e^{2i\Phi\pi}e^{2ikπ+2iπ\Phi}-e^{2i\Phi\pi}\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)-e^{2ik\pi}+e^{2ik\pi}e^{2ikπ+2iπ\Phi}+e^{2ik\pi}\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{-ik\pi}\left(1-e^{2ik\pi+2i\pi\Phi}+e^{2i\Phi\pi}-e^{2ikπ+4iπ\Phi}-e^{2i\Phi\pi}\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)-e^{2ik\pi}+e^{4ik\pi}e^{2iπ\Phi}+e^{2ik\pi}\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)\right)=$
 \end_inset
 
 

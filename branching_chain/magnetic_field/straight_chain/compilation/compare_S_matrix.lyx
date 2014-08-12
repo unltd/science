@@ -183,20 +183,5 @@ C_{j}^{-}
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Formula $S=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left\{ \begin{array}{cc}
-\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} \\
-\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} 
-\end{array}\right\} $
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Таким образом, матрицы полученные двумя путями (вручную и при помощи ПК)
- идентичны (сводимы друг к другу).
-\end_layout
-
 \end_body
 \end_document

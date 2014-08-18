@@ -1,0 +1,278 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Пусть 
+\begin_inset Formula $A$
+\end_inset
+
+ - квадратная матрица с элементами из 
+\begin_inset Formula $\mathbb{C}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Тогда собственные числа этой матрицы запишутся в виде
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lambda_{1,2}=\frac{tr(A)\pm\sqrt{D}}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Где дискриминат 
+\begin_inset Formula $D$
+\end_inset
+
+ имеет вид
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D=tr(A)^{2}-4det(A).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Найдем произведение собственных чисел
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda_{1}\cdot\lambda_{2}=\frac{tr(A)+\sqrt{D}}{2}\cdot\frac{tr(A)-\sqrt{D}}{2}=\frac{tr(A)^{2}-D}{4}=\frac{tr(A)^{2}-tr(A)^{2}+4det(A)}{4}=det\left(A\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Итого
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lambda_{1}\cdot\lambda_{2}=det\left(A\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Рассмотрим условие непрерывного спектра:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda_{1}\right|=1$
+\end_inset
+
+ или 
+\begin_inset Formula $\left|\lambda_{2}\right|=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+можно записать как
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda_{1,2}\right|=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Используем выражение для 
+\begin_inset Formula $\lambda$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\frac{tr(A)\pm\sqrt{D}}{2}\right|=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{tr(A)\pm\sqrt{D}}{2}=e^{i\theta}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{tr(A)\pm\sqrt{tr(A)^{2}-4det(A)}}{2}=e^{i\theta}$
+\end_inset
+
+, 
+\begin_inset Formula $\theta\in\left[0;2\pi\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\pm\sqrt{tr(A)^{2}-4det(A)}=2e^{i\theta}-tr(A)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $tr(A)^{2}-4det(A)=4e^{i2\theta}-4\cdot e^{i\theta}\cdot tr(A)+tr(A)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-4det(A)=4e^{i2\theta}-4\cdot e^{i\theta}\cdot tr(A)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $det(A)=e^{i\theta}\cdot tr(A)-e^{i2\theta}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $det(A)=e^{i\theta}\cdot tr(A)-e^{i2\theta}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $det(A)+e^{i2\theta}=e^{i\theta}\cdot tr(A)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|det(A)+e^{i2\theta}\right|=\left|e^{i\theta}\right|\cdot\left|tr(A)\right|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|tr(A)\right|=\left|det(A)+e^{i2\theta}\right|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+При условии 
+\begin_inset Formula $det(A)=1$
+\end_inset
+
+ получаем неравенство
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|tr(A)\right|\le2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\end_body
+\end_document

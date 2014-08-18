@@ -69,6 +69,24 @@
 \begin_body
 
 \begin_layout Standard
+Трансфер-матрица, вычисленная в пакете Mathematica:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M(k,\Phi)=\frac{e^{-i\pi(k+\Phi)}}{2k\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\left\{ \begin{array}{cc}
+\left\{ -\left(-\alpha ie^{2\pi i(k+\Phi)}+(\alpha i-4k)e^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}\right)\right\}  & \left\{ \alpha i\left(-\left(e^{2\pi ik}-1\right)\right)e^{2\pi i\Phi}-2k\left(e^{2\pi i\Phi}-1\right)\left(e^{2\pi i(k+\Phi)}-1\right)\right\} \\
+\left\{ -(\alpha i+2k)e^{2\pi i(k+\Phi)}+(\alpha i-2k)e^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{4\pi ik}\right\}  & \left\{ \left.-e^{2\pi i\Phi}(\alpha i+4k)+\alpha ie^{2\pi i(k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}\right)\right\} 
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Упрощение
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula $-(\alpha i+2k)e^{2\pi i(k+\Phi)}+(\alpha i-2k)e^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{4\pi ik}=$
 \end_inset
 

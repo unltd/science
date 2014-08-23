@@ -141,6 +141,163 @@ D=tr(A)^{2}-4det(A).
 \end_layout
 
 \begin_layout Standard
+Уравнение на собственные вектора:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(A-\lambda E\right)X=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A-\lambda E=\left(\begin{array}{cc}
+\left\{ a_{1,1}-\lambda\right\}  & a_{1,2}\\
+a_{2,1} & \left\{ a_{2,2}-\lambda\right\} 
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+При 
+\begin_inset Formula $\lambda_{1,2}\neq a_{1,1}$
+\end_inset
+
+ и 
+\begin_inset Formula $a_{1,2}\neq0$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(a_{1,1}-\lambda_{1,2}\right)x_{1}+a_{1,2}x_{2}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x_{1}=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x_{2}=\frac{\lambda_{1,2}-a_{1,1}}{a_{1\text{,}2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого: для собственных чисел 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\lambda_{1,2}$
+\end_inset
+
+, таких, что 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\lambda_{1,2}\neq a_{1,1}$
+\end_inset
+
+ и 
+\begin_inset Formula $a_{1,2}\neq0$
+\end_inset
+
+ получаются собственные вектора
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+X_{1,2}=\left(\begin{array}{c}
+1\\
+\frac{\lambda_{1,2}-a_{1,1}}{a_{1,2}}
+\end{array}\right)
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+или
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+X_{1,2}=\left(\begin{array}{c}
+a_{1,2}\\
+\lambda_{1,2}-a_{1,1}
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Рассмотрим условие непрерывного спектра:
 \end_layout
 

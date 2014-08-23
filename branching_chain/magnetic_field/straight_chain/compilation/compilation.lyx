@@ -77,7 +77,7 @@
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -2639,7 +2639,7 @@ e^{-ik\pi}-e^{ikπ+2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{-ik\pi
 
 \begin_layout Standard
 \begin_inset Formula $M(k,\Phi)=\frac{e^{-i\pi(k+\Phi)}}{2k\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\left\{ \begin{array}{cc}
-\left\{ -\left(-\alpha ie^{2\pi i(k+\Phi)}+(\alpha i-4k)e^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}\right)\right\}  & \left\{ \alpha i\left(-\left(e^{2\pi ik}-1\right)\right)e^{2\pi i\Phi}-2k\left(e^{2\pi i\Phi}-1\right)\left(e^{2\pi i(k+\Phi)}-1\right)\right\} \\
+\left\{ -\left(-\alpha ie^{2\pi i(k+\Phi)}+(\alpha i-4k)e^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}\right)\right\}  & \left\{ -\alpha i\left(e^{2\pi ik}-1\right)e^{2\pi i\Phi}-2k\left(e^{2\pi i\Phi}-1\right)\left(e^{2\pi i(k+\Phi)}-1\right)\right\} \\
 \left\{ -(\alpha i+2k)e^{2\pi i(k+\Phi)}+(\alpha i-2k)e^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{4\pi ik}\right\}  & \left\{ -e^{2\pi i\Phi}(\alpha i+4k)+\alpha ie^{2\pi i(k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}\right\} 
 \end{array}\right\} $
 \end_inset
@@ -2786,7 +2786,7 @@ e^{-ik\pi}-e^{ikπ+2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{-ik\pi
 \end_layout
 
 \begin_layout Subsection
-Условие непрерывного спектра
+Условие непрерывного спектра для произвольной матрицы
 \end_layout
 
 \begin_layout Standard
@@ -2855,6 +2855,163 @@ D=tr(A)^{2}-4det(A).
 \[
 \lambda_{1}\cdot\lambda_{2}=det\left(A\right)
 \]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Уравнение на собственные вектора:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(A-\lambda E\right)X=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A-\lambda E=\left(\begin{array}{cc}
+\left\{ a_{1,1}-\lambda\right\}  & a_{1,2}\\
+a_{2,1} & \left\{ a_{2,2}-\lambda\right\} 
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+При 
+\begin_inset Formula $\lambda_{1,2}\neq a_{1,1}$
+\end_inset
+
+ и 
+\begin_inset Formula $a_{1,2}\neq0$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(a_{1,1}-\lambda_{1,2}\right)x_{1}+a_{1,2}x_{2}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x_{1}=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x_{2}=\frac{\lambda_{1,2}-a_{1,1}}{a_{1\text{,}2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итого: для собственных чисел 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\lambda_{1,2}$
+\end_inset
+
+, таких, что 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\lambda_{1,2}\neq a_{1,1}$
+\end_inset
+
+ и 
+\begin_inset Formula $a_{1,2}\neq0$
+\end_inset
+
+ получаются собственные вектора
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+X_{1,2}=\left(\begin{array}{c}
+1\\
+\frac{\lambda_{1,2}-a_{1,1}}{a_{1,2}}
+\end{array}\right)
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+или
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+X_{1,2}=\left(\begin{array}{c}
+a_{1,2}\\
+\lambda_{1,2}-a_{1,1}
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -2992,7 +3149,202 @@ D=tr(A)^{2}-4det(A).
 \end_layout
 
 \begin_layout Subsection
-Непрерывный спектр
+След трансфер-матрицы
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Трансфер-матрица, вычисленная в пакете Mathematica:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $M(k,\Phi)=\frac{e^{-i\pi(k+\Phi)}}{2k\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\left\{ \begin{array}{cc}
+\left\{ -\left(-\alpha ie^{2\pi i(k+\Phi)}+(\alpha i-4k)e^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}\right)\right\}  & \left\{ \alpha i\left(-\left(e^{2\pi ik}-1\right)\right)e^{2\pi i\Phi}-2k\left(e^{2\pi i\Phi}-1\right)\left(e^{2\pi i(k+\Phi)}-1\right)\right\} \\
+\left\{ -(\alpha i+2k)e^{2\pi i(k+\Phi)}+(\alpha i-2k)e^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{4\pi ik}\right\}  & \left\{ -e^{2\pi i\Phi}(\alpha i+4k)+\alpha ie^{2\pi i(k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}\right\} 
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Вычисляем след трансфер-матрицы
+\end_layout
+
+\begin_layout Standard
+1.
+ Просуммируем без множителя
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-\left(-\alpha ie^{2\pi i(k+\Phi)}+(\alpha i-4k)e^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}\right)-e^{2\pi i\Phi}(\alpha i+4k)+\alpha ie^{2\pi i(k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\alpha ie^{2\pi i(k+\Phi)}-(\alpha i-4k)e^{2\pi i(2k+\Phi)}-2ke^{2\pi i(k+2\Phi)}-2ke^{2\pi ik}-e^{2\pi i\Phi}(\alpha i+4k)+\alpha ie^{2\pi i(k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2\alpha ie^{2\pi i(k+\Phi)}-(\alpha i-4k)e^{2\pi i(2k+\Phi)}-2ke^{2\pi i(k+2\Phi)}-2ke^{2\pi ik}-e^{2\pi i\Phi}(\alpha i+4k)+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2\alpha ie^{2\pi i(k+\Phi)}-(\alpha i-4k)e^{2\pi i(2k+\Phi)}-2ke^{2\pi ik}-e^{2\pi i\Phi}(\alpha i+4k)+2ke^{2\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2\alpha ie^{2\pi i(k+\Phi)}-(\alpha i-4k)e^{2\pi i(2k+\Phi)}-e^{2\pi i\Phi}(\alpha i+4k)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{2\pi i\Phi}\left\{ 2\alpha ie^{2\pi ik}-(\alpha i-4k)e^{4\pi ik}-\alpha i-4k\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{2\pi i\Phi}\left\{ 2\alpha ie^{2\pi ik}-\alpha ie^{4\pi ik}+4ke^{4\pi ik}-\alpha i-4k\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{2\pi i\Phi}\left\{ \alpha i\left(2e^{2\pi ik}-e^{4\pi ik}-1\right)+4ke^{4\pi ik}-4k\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{2\pi i\Phi}\left\{ -\alpha i\left(e^{4\pi ik}-2e^{2\pi ik}+1\right)+4k\left(e^{4\pi ik}-1\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{2\pi i\Phi}\left\{ -\alpha i\left(e^{2\pi ik}-1\right)^{2}+4k\left(e^{2\pi ik}-1\right)\left(e^{2\pi ik}+1\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{2\pi i\Phi}\left(e^{2\pi ik}-1\right)\left\{ -\alpha i\left(e^{2\pi ik}-1\right)+4k\left(e^{2\pi ik}+1\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.
+ Учтем множитель
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $tr(M(k,\Phi))=\frac{e^{-i\pi(k+\Phi)}}{2k\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\cdot e^{2\pi i\Phi}\left(e^{2\pi ik}-1\right)\left\{ -\alpha i\left(e^{2\pi ik}-1\right)+4k\left(e^{2\pi ik}+1\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{e^{-i\pi(k-\Phi)}}{2k\left(e^{2\pi i\Phi}+1\right)}\cdot\left\{ -\alpha i\left(e^{2\pi ik}-1\right)+4k\left(e^{2\pi ik}+1\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{e^{-i\pi(k-\Phi)}}{2k\left(e^{2\pi i\Phi}+1\right)}\cdot\left\{ 4k\left(e^{2\pi ik}+1\right)-\alpha i\left(e^{2\pi ik}-1\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{2e^{-i\pi(k-\Phi)}}{e^{2\pi i\Phi}+1}\cdot\left\{ e^{2\pi ik}+1-\frac{\alpha i}{4k}\left(e^{2\pi ik}-1\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Получаем след трансфер-матрицы
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $tr(M(k,\Phi))=\frac{2e^{-i\pi(k-\Phi)}}{e^{2\pi i\Phi}+1}\cdot\left\{ e^{2\pi ik}+1-\frac{\alpha i}{4k}\left(e^{2\pi ik}-1\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Условие непрерывного спектра для трансфер-матрицы
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $tr(M)=\frac{2e^{-i\pi(k-\Phi)}}{e^{2\pi i\Phi}+1}\cdot\left\{ e^{2\pi ik}+1-\frac{\alpha i}{4k}\left(e^{2\pi ik}-1\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{2e^{i\pi\Phi}}{e^{2\pi i\Phi}+1}\cdot\left\{ \frac{e^{2\pi ik}+1}{e^{i\pi k}}-\frac{\alpha i}{4k}\frac{e^{2\pi ik}+1}{e^{i\pi k}}\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{2e^{i\pi\Phi}}{e^{2\pi i\Phi}+1}\cdot2\cdot\left\{ \frac{e^{2\pi ik}+1}{2e^{i\pi k}}+\frac{\alpha}{4k}\frac{e^{2\pi ik}+1}{2ie^{i\pi k}}\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{2}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3001,35 +3353,7 @@ D=tr(A)^{2}-4det(A).
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\left|\frac{2e^{-i\pi(k-\Phi)}}{e^{2\pi i\Phi}+1}\cdot\left\{ e^{2\pi ik}+1-\frac{\alpha i}{4k}\left(e^{2\pi ik}-1\right)\right\} \right|\leq2$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\left|e^{-i\pi k}\cdot\left\{ e^{2\pi ik}+1-\frac{\alpha i}{4k}\left(e^{2\pi ik}-1\right)\right\} \right|\leq2\left|\frac{e^{2\pi i\Phi}+1}{2e^{i\pi\Phi}}\right|$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\left|2\cdot\left\{ \frac{e^{2\pi ik}+1}{2e^{i\pi k}}-\frac{\alpha i}{4k}\cdot\frac{e^{2\pi ik}-1}{2e^{i\pi k}}\right\} \right|\leq2\left|\frac{e^{2\pi i\Phi}+1}{2e^{i\pi\Phi}}\right|$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\left|\frac{e^{2\pi ik}+1}{2e^{i\pi k}}-\frac{\alpha i}{4k}\cdot\frac{e^{2\pi ik}-1}{2e^{i\pi k}}\right|\leq\left|\frac{e^{2\pi i\Phi}+1}{2e^{i\pi\Phi}}\right|$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\left|\frac{e^{\pi ik}+e^{-i\pi k}}{2}+\frac{\alpha}{4k}\cdot\frac{e^{\pi ik}-e^{-i\pi k}}{2i}\right|\leq\left|\frac{e^{\pi i\Phi}+e^{-i\pi\Phi}}{2}\right|$
+\begin_inset Formula $\left|\frac{2}{\cos\left(\pi\Phi\right)}\cdot\left\{ \cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right\} \right|\leq2$
 \end_inset
 
 
@@ -3044,6 +3368,174 @@ D=tr(A)^{2}-4det(A).
 
 \begin_layout Section
 Точечный спектр
+\end_layout
+
+\begin_layout Subsection
+Собственные вектора и собственные числа трансфер-матрицы
+\end_layout
+
+\begin_layout Standard
+Собственные числа трансфер-матрицы
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda_{1,2}=\frac{tr(M)\pm\sqrt{tr(M)^{2}-4}}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda_{1,2}=\frac{\frac{2}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\pm\sqrt{\left(\frac{2}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\right)^{2}-4}}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda_{1,2}=\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\pm\sqrt{\left(\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\right)^{2}-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Собственные вектора трансфер-матрицы
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $X_{1,2}=\left(\begin{array}{c}
+m_{1,2}\\
+\lambda_{1,2}-m_{1,1}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $M(k,\Phi)=\frac{e^{-i\pi(k+\Phi)}}{2k\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\left\{ \begin{array}{cc}
+\left\{ -\left(-\alpha ie^{2\pi i(k+\Phi)}+(\alpha i-4k)e^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}\right)\right\}  & \left\{ -\alpha i\left(e^{2\pi ik}-1\right)e^{2\pi i\Phi}-2k\left(e^{2\pi i\Phi}-1\right)\left(e^{2\pi i(k+\Phi)}-1\right)\right\} \\
+\left\{ -(\alpha i+2k)e^{2\pi i(k+\Phi)}+(\alpha i-2k)e^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{4\pi ik}\right\}  & \left\{ -e^{2\pi i\Phi}(\alpha i+4k)+\alpha ie^{2\pi i(k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}\right\} 
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,1}=\frac{e^{-i\pi(k+\Phi)}}{2k\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\left\{ -\left(-\alpha ie^{2\pi i(k+\Phi)}+(\alpha i-4k)e^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,1}=-\frac{e^{-i\pi(k+\Phi)}}{2k\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\left\{ -\alpha ie^{2\pi i(k+\Phi)}+(\alpha i-4k)e^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,1}=-\frac{e^{i\pi(k-\Phi)}}{2k\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\left\{ -\alpha ie^{2\pi i\Phi}+(\alpha i-4k)e^{2\pi i(k+\Phi)}+2ke^{4\pi i\Phi}+2k\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,1}=-\frac{e^{i\pi(k-\Phi)}}{2k\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\left\{ -\alpha ie^{2\pi i\Phi}+\alpha ie^{2\pi i(k+\Phi)}-4ke^{2\pi i(k+\Phi)}+2ke^{4\pi i\Phi}+2k\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,1}=-\frac{e^{i\pi(k-\Phi)}}{2k\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\left\{ \alpha ie^{2\pi i\Phi}\left(e^{2i\pi k}-1\right)-4ke^{2\pi i(k+\Phi)}+2ke^{4\pi i\Phi}+2k\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,1}=-\frac{e^{i\pi(k+\Phi)}}{\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\left\{ \frac{\alpha i}{2k}\left(e^{2i\pi k}-1\right)-2e^{2\pi ik}+\frac{e^{4\pi i\Phi}+1}{e^{2\pi i\Phi}}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,1}=-\frac{e^{i\pi(k+\Phi)}}{\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\left\{ \frac{\alpha i}{2k}\left(e^{2i\pi k}-1\right)-2e^{2\pi ik}+2\frac{e^{4\pi i\Phi}+1}{2e^{2\pi i\Phi}}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,1}=-\frac{e^{i\pi(k+\Phi)}}{\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\left\{ \frac{\alpha i}{2k}\left(e^{2i\pi k}-1\right)+2-2e^{2\pi ik}+2\cos\left(2\pi\Phi\right)-2\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,1}=-\frac{e^{i\pi(k+\Phi)}}{\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\left\{ \frac{\alpha i}{2k}\left(e^{2i\pi k}-1\right)+-2\left(e^{2\pi ik}-1\right)+2\cos\left(2\pi\Phi\right)-2\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,1}=-\frac{2e^{i\pi(k+\Phi)}}{\left(e^{2\pi i\Phi}+1\right)}\left\{ \frac{\alpha i}{4k}-1+\frac{\cos\left(2\pi\Phi\right)-1}{e^{2\pi ik}-1}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,1}=-\frac{e^{i\pi k}}{\cos\left(\pi\Phi\right)}\left\{ \frac{\alpha i}{4k}-1+\frac{\cos\left(2\pi\Phi\right)-1}{e^{2\pi ik}-1}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,1}=\frac{e^{i\pi k}}{\cos\left(\pi\Phi\right)}\left\{ 1+\frac{\alpha}{4ik}+\frac{1-\cos\left(2\pi\Phi\right)}{e^{2\pi ik}-1}\right\} $
+\end_inset
+
+
 \end_layout
 
 \end_body

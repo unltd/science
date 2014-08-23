@@ -2633,5 +2633,418 @@ e^{-ik\pi}-e^{ikπ+2iπ\Phi}-\frac{i\alpha}{2k}\left(e^{2ikπ}-1\right)e^{-ik\pi
 
 \end_layout
 
+\begin_layout Standard
+Трансфер-матрица, вычисленная в пакете Mathematica:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M(k,\Phi)=\frac{e^{-i\pi(k+\Phi)}}{2k\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\left\{ \begin{array}{cc}
+\left\{ -\left(-\alpha ie^{2\pi i(k+\Phi)}+(\alpha i-4k)e^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}\right)\right\}  & \left\{ \alpha i\left(-\left(e^{2\pi ik}-1\right)\right)e^{2\pi i\Phi}-2k\left(e^{2\pi i\Phi}-1\right)\left(e^{2\pi i(k+\Phi)}-1\right)\right\} \\
+\left\{ -(\alpha i+2k)e^{2\pi i(k+\Phi)}+(\alpha i-2k)e^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{4\pi ik}\right\}  & \left\{ -e^{2\pi i\Phi}(\alpha i+4k)+\alpha ie^{2\pi i(k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}\right\} 
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+След трансфер-матрицы
+\end_layout
+
+\begin_layout Standard
+Вычисляем след трансфер-матрицы
+\end_layout
+
+\begin_layout Standard
+1.
+ Просуммируем без множителя
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-\left(-\alpha ie^{2\pi i(k+\Phi)}+(\alpha i-4k)e^{2\pi i(2k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}\right)-e^{2\pi i\Phi}(\alpha i+4k)+\alpha ie^{2\pi i(k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\alpha ie^{2\pi i(k+\Phi)}-(\alpha i-4k)e^{2\pi i(2k+\Phi)}-2ke^{2\pi i(k+2\Phi)}-2ke^{2\pi ik}-e^{2\pi i\Phi}(\alpha i+4k)+\alpha ie^{2\pi i(k+\Phi)}+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2\alpha ie^{2\pi i(k+\Phi)}-(\alpha i-4k)e^{2\pi i(2k+\Phi)}-2ke^{2\pi i(k+2\Phi)}-2ke^{2\pi ik}-e^{2\pi i\Phi}(\alpha i+4k)+2ke^{2\pi i(k+2\Phi)}+2ke^{2\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2\alpha ie^{2\pi i(k+\Phi)}-(\alpha i-4k)e^{2\pi i(2k+\Phi)}-2ke^{2\pi ik}-e^{2\pi i\Phi}(\alpha i+4k)+2ke^{2\pi ik}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=2\alpha ie^{2\pi i(k+\Phi)}-(\alpha i-4k)e^{2\pi i(2k+\Phi)}-e^{2\pi i\Phi}(\alpha i+4k)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{2\pi i\Phi}\left\{ 2\alpha ie^{2\pi ik}-(\alpha i-4k)e^{4\pi ik}-\alpha i-4k\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{2\pi i\Phi}\left\{ 2\alpha ie^{2\pi ik}-\alpha ie^{4\pi ik}+4ke^{4\pi ik}-\alpha i-4k\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{2\pi i\Phi}\left\{ \alpha i\left(2e^{2\pi ik}-e^{4\pi ik}-1\right)+4ke^{4\pi ik}-4k\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{2\pi i\Phi}\left\{ -\alpha i\left(e^{4\pi ik}-2e^{2\pi ik}+1\right)+4k\left(e^{4\pi ik}-1\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{2\pi i\Phi}\left\{ -\alpha i\left(e^{2\pi ik}-1\right)^{2}+4k\left(e^{2\pi ik}-1\right)\left(e^{2\pi ik}+1\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=e^{2\pi i\Phi}\left(e^{2\pi ik}-1\right)\left\{ -\alpha i\left(e^{2\pi ik}-1\right)+4k\left(e^{2\pi ik}+1\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.
+ Учтем множитель
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $tr(M(k,\Phi))=\frac{e^{-i\pi(k+\Phi)}}{2k\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\cdot e^{2\pi i\Phi}\left(e^{2\pi ik}-1\right)\left\{ -\alpha i\left(e^{2\pi ik}-1\right)+4k\left(e^{2\pi ik}+1\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{e^{-i\pi(k-\Phi)}}{2k\left(e^{2\pi i\Phi}+1\right)}\cdot\left\{ -\alpha i\left(e^{2\pi ik}-1\right)+4k\left(e^{2\pi ik}+1\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{e^{-i\pi(k-\Phi)}}{2k\left(e^{2\pi i\Phi}+1\right)}\cdot\left\{ 4k\left(e^{2\pi ik}+1\right)-\alpha i\left(e^{2\pi ik}-1\right)\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\frac{2e^{-i\pi(k-\Phi)}}{e^{2\pi i\Phi}+1}\cdot\left\{ e^{2\pi ik}+1-\frac{\alpha i}{4k}\left(e^{2\pi ik}-1\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Получаем след трансфер-матрицы
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $tr(M(k,\Phi))=\frac{2e^{-i\pi(k-\Phi)}}{e^{2\pi i\Phi}+1}\cdot\left\{ e^{2\pi ik}+1-\frac{\alpha i}{4k}\left(e^{2\pi ik}-1\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Непрерывный спектр
+\end_layout
+
+\begin_layout Subsection
+Условие непрерывного спектра
+\end_layout
+
+\begin_layout Standard
+Пусть 
+\begin_inset Formula $A$
+\end_inset
+
+ - квадратная матрица с элементами из 
+\begin_inset Formula $\mathbb{C}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Тогда собственные числа этой матрицы запишутся в виде
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lambda_{1,2}=\frac{tr(A)\pm\sqrt{D}}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Где дискриминат 
+\begin_inset Formula $D$
+\end_inset
+
+ имеет вид
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D=tr(A)^{2}-4det(A).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Найдем произведение собственных чисел
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda_{1}\cdot\lambda_{2}=\frac{tr(A)+\sqrt{D}}{2}\cdot\frac{tr(A)-\sqrt{D}}{2}=\frac{tr(A)^{2}-D}{4}=\frac{tr(A)^{2}-tr(A)^{2}+4det(A)}{4}=det\left(A\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Итого
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lambda_{1}\cdot\lambda_{2}=det\left(A\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Рассмотрим условие непрерывного спектра:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda_{1}\right|=1$
+\end_inset
+
+ или 
+\begin_inset Formula $\left|\lambda_{2}\right|=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+можно записать как
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda_{1,2}\right|=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Используем выражение для 
+\begin_inset Formula $\lambda$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\frac{tr(A)\pm\sqrt{D}}{2}\right|=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{tr(A)\pm\sqrt{D}}{2}=e^{i\theta}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{tr(A)\pm\sqrt{tr(A)^{2}-4det(A)}}{2}=e^{i\theta}$
+\end_inset
+
+, 
+\begin_inset Formula $\theta\in\left[0;2\pi\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\pm\sqrt{tr(A)^{2}-4det(A)}=2e^{i\theta}-tr(A)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $tr(A)^{2}-4det(A)=4e^{i2\theta}-4\cdot e^{i\theta}\cdot tr(A)+tr(A)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-4det(A)=4e^{i2\theta}-4\cdot e^{i\theta}\cdot tr(A)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $det(A)=e^{i\theta}\cdot tr(A)-e^{i2\theta}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $det(A)=e^{i\theta}\cdot tr(A)-e^{i2\theta}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $det(A)+e^{i2\theta}=e^{i\theta}\cdot tr(A)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|det(A)+e^{i2\theta}\right|=\left|e^{i\theta}\right|\cdot\left|tr(A)\right|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|tr(A)\right|=\left|det(A)+e^{i2\theta}\right|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+При условии 
+\begin_inset Formula $det(A)=1$
+\end_inset
+
+ получаем неравенство
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|tr(A)\right|\le2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Непрерывный спектр
+\end_layout
+
+\begin_layout Standard
+Применим условие непрерывного спектра, полученное в предыдущем разделе к
+ выражению для следа трансфер-матрицы.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\frac{2e^{-i\pi(k-\Phi)}}{e^{2\pi i\Phi}+1}\cdot\left\{ e^{2\pi ik}+1-\frac{\alpha i}{4k}\left(e^{2\pi ik}-1\right)\right\} \right|\leq2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|e^{-i\pi k}\cdot\left\{ e^{2\pi ik}+1-\frac{\alpha i}{4k}\left(e^{2\pi ik}-1\right)\right\} \right|\leq2\left|\frac{e^{2\pi i\Phi}+1}{2e^{i\pi\Phi}}\right|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|2\cdot\left\{ \frac{e^{2\pi ik}+1}{2e^{i\pi k}}-\frac{\alpha i}{4k}\cdot\frac{e^{2\pi ik}-1}{2e^{i\pi k}}\right\} \right|\leq2\left|\frac{e^{2\pi i\Phi}+1}{2e^{i\pi\Phi}}\right|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\frac{e^{2\pi ik}+1}{2e^{i\pi k}}-\frac{\alpha i}{4k}\cdot\frac{e^{2\pi ik}-1}{2e^{i\pi k}}\right|\leq\left|\frac{e^{2\pi i\Phi}+1}{2e^{i\pi\Phi}}\right|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\frac{e^{\pi ik}+e^{-i\pi k}}{2}+\frac{\alpha}{4k}\cdot\frac{e^{\pi ik}-e^{-i\pi k}}{2i}\right|\leq\left|\frac{e^{\pi i\Phi}+e^{-i\pi\Phi}}{2}\right|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\cos\left(\pi k\right)+\frac{\alpha}{4k}\cdot\sin\left(\pi k\right)\right|\leq\cos\left(\pi\Phi\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Точечный спектр
+\end_layout
+
 \end_body
 \end_document

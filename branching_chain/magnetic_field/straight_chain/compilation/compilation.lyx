@@ -1042,7 +1042,7 @@ As delta-coupling demands the components values at the contact points of
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $D_{j}^{-}=e^{-i\Phi\pi}\left(e^{-ik\pi}-e^{ik\pi}\right)^{-1}\left\{ C_{j}^{+}\left(e^{ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)+C_{j}^{-}\left(e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right)\right\} $
+\begin_inset Formula $D_{j}^{-}=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left\{ C_{j}^{+}\left(e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)+C_{j}^{-}\left(e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right)\right\} $
 \end_inset
 
 
@@ -1058,7 +1058,7 @@ D_{j}^{+}\\
 D_{j}^{-}
 \end{array}\right)=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}\left(\begin{array}{cc}
 \left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{-ik\pi}e^{i\Phi\pi}\right\} \\
-\left\{ e^{ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{i\Phi\pi}\right\} 
+\left\{ e^{ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ e^{ik\pi}e^{i\Phi\pi}-e^{-ik\pi}e^{-i\Phi\pi}\right\} 
 \end{array}\right)\left(\begin{array}{c}
 C_{j}^{+}\\
 C_{j}^{-}
@@ -1069,7 +1069,39 @@ C_{j}^{-}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $S=e^{-2i\Phi\pi}\left(-1+e^{2ikπ}\right)^{-1}\left\{ \begin{array}{cc}
+\begin_inset Formula $\left(\begin{array}{c}
+D_{j}^{+}\\
+D_{j}^{-}
+\end{array}\right)=e^{-i\Phi\pi}\left(e^{ik\pi}-e^{-ik\pi}\right)^{-1}e^{-ik\pi}\left(\begin{array}{cc}
+\left\{ e^{2ik\pi}e^{-i\Phi\pi}-e^{i\Phi\pi}\right\}  & \left\{ e^{-i\Phi\pi}-e^{i\Phi\pi}\right\} \\
+\left\{ e^{2ik\pi}e^{i\Phi\pi}-e^{2ik\pi}e^{-i\Phi\pi}\right\}  & \left\{ e^{2ik\pi}e^{i\Phi\pi}-e^{-i\Phi\pi}\right\} 
+\end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{c}
+D_{j}^{+}\\
+D_{j}^{-}
+\end{array}\right)=e^{-2i\Phi\pi}\left(e^{2ik\pi}-1\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{2ik\pi}-e^{2i\Phi\pi}\right\}  & \left\{ 1-e^{2i\Phi\pi}\right\} \\
+\left\{ e^{2ik\pi}e^{2i\Phi\pi}-e^{2ik\pi}\right\}  & \left\{ e^{2ik\pi}e^{2i\Phi\pi}-1\right\} 
+\end{array}\right)\left(\begin{array}{c}
+C_{j}^{+}\\
+C_{j}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S=e^{-2i\Phi\pi}\left(e^{2ikπ}-1\right)^{-1}\left\{ \begin{array}{cc}
 \left\{ e^{2ikπ}-e^{2iπ\Phi}\right\}  & \left\{ 1-e^{2iπ\Phi}\right\} \\
 \left\{ e^{2ikπ+2iπ\text{\Phi}}-e^{2ikπ}\right\}  & \left\{ e^{2ikπ+2iπ\Phi}-1\right\} 
 \end{array}\right\} $

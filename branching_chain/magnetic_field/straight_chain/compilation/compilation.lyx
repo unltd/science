@@ -3538,5 +3538,133 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cos(z)=\frac{e^{iz}+e^{-iz}}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sin(z)=\frac{e^{iz}-e^{-iz}}{i2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $e^{2iz}+1=2e^{iz}\cos(z)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $e^{2iz}-1=2ie^{iz}\sin(z)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,2}=\frac{e^{-i\pi(k+\Phi)}}{2k\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\left\{ -\alpha i\left(e^{2\pi ik}-1\right)e^{2\pi i\Phi}-2k\left(e^{2\pi i\Phi}-1\right)\left(e^{2\pi i(k+\Phi)}-1\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,2}=\frac{e^{-i\pi(k+\Phi)}}{\left(e^{2\pi ik}-1\right)\left(e^{2\pi i\Phi}+1\right)}\left\{ -\frac{\alpha i}{2k}\left(e^{2\pi ik}-1\right)e^{2\pi i\Phi}-\left(e^{2\pi i\Phi}-1\right)\left(e^{2\pi i(k+\Phi)}-1\right)\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,2}=\frac{e^{-i\pi(k+\Phi)}}{e^{2\pi i\Phi}+1}\left\{ -\frac{\alpha i}{2k}e^{2\pi i\Phi}-\frac{\left(e^{2\pi i\Phi}-1\right)\left(e^{2\pi i(k+\Phi)}-1\right)}{e^{2\pi ik}-1}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,2}=\frac{e^{-i\pi(k+\Phi)}}{2e^{\pi i\Phi}\cos\left(\pi\Phi\right)}\left\{ -\frac{\alpha i}{2k}e^{2\pi i\Phi}-\frac{2ie^{\pi i\Phi}\sin\left(\pi\Phi\right)\cdot2ie^{\pi i\left(k+\Phi\right)}\sin\left(\pi\left(k+\Phi\right)\right)}{e^{2\pi ik}-1}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,2}=\frac{e^{-i\pi(k+\Phi)}}{2e^{\pi i\Phi}\cos\left(\pi\Phi\right)}\left\{ -\frac{\alpha i}{2k}e^{2\pi i\Phi}+\frac{4e^{i\pi\left(k+2\Phi\right)}\sin\left(\pi\Phi\right)\cdot\sin\left(\pi\left(k+\Phi\right)\right)}{e^{2\pi ik}-1}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,2}=\frac{e^{-i\pi(k+2\Phi)}}{2\cos\left(\pi\Phi\right)}\left\{ -\frac{\alpha i}{2k}e^{2\pi i\Phi}+\frac{4e^{i\pi\left(k+2\Phi\right)}\sin\left(\pi\Phi\right)\cdot\sin\left(\pi\left(k+\Phi\right)\right)}{e^{2\pi ik}-1}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,2}=\frac{e^{-i\pi(k+2\Phi)}}{\cos\left(\pi\Phi\right)}\left\{ -\frac{\alpha i}{4k}e^{2\pi i\Phi}+\frac{2e^{i\pi\left(k+2\Phi\right)}\sin\left(\pi\Phi\right)\cdot\sin\left(\pi\left(k+\Phi\right)\right)}{e^{2\pi ik}-1}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,2}=\frac{e^{-i\pi k}}{\cos\left(\pi\Phi\right)}\left\{ -\frac{\alpha i}{4k}+\frac{2e^{i\pi k}\sin\left(\pi\Phi\right)\cdot\sin\left(\pi\left(k+\Phi\right)\right)}{e^{2\pi ik}-1}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,2}=\frac{e^{-i\pi k}}{\cos\left(\pi\Phi\right)}\left\{ -\frac{\alpha i}{4k}+\frac{2e^{i\pi k}\sin\left(\pi\Phi\right)\cdot\sin\left(\pi\left(k+\Phi\right)\right)}{2ie^{i\pi k}\sin\left(\pi k\right)}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,2}=\frac{e^{-i\pi k}}{\cos\left(\pi\Phi\right)}\left\{ -\frac{\alpha i}{4k}+\frac{\sin\left(\pi\Phi\right)\cdot\sin\left(\pi\left(k+\Phi\right)\right)}{i\sin\left(\pi k\right)}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{1,2}=\frac{e^{-i\pi k}}{\cos\left(\pi\Phi\right)}\left\{ \frac{\alpha}{4ik}+\frac{\sin\left(\pi\Phi\right)\cdot\sin\left(\pi\left(k+\Phi\right)\right)}{i\sin\left(\pi k\right)}\right\} $
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

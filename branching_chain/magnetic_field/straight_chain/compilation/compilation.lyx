@@ -77,7 +77,7 @@
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -3539,6 +3539,13 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula $m_{1,1}=\frac{\cos(\pi k)+i\sin(\pi k)}{\cos\left(\pi\Phi\right)}\left\{ 1+\frac{\alpha}{4ik}+\frac{1-\cos\left(2\pi\Phi\right)}{2i\left(\cos(\pi k)+i\sin(\pi k)\right)\sin\left(\pi k\right)}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 .
 \end_layout
 
@@ -3571,14 +3578,53 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula $e^{2iz}+1=2e^{iz}\cos(z)$
+\begin_inset Formula $e^{2iz}+1=2e^{iz}\cos(z)=2\left(\cos(z)+i\sin(z)\right)\cos(z)$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Formula $e^{2iz}-1=2ie^{iz}\sin(z)$
+\begin_inset Formula $e^{2iz}-1=2ie^{iz}\sin(z)=2i\left(\cos(z)+i\sin(z)\right)\sin(z)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $e^{iz}=\cos(z)+i\sin(z)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $e^{-iz}=\cos(z)-i\sin(z)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $e^{2i\pi k}-1=2i\left(\cos(\pi k)+i\sin(\pi k)\right)\sin\left(\pi k\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $e^{i\pi k}=\cos(\pi k)+i\sin(\pi k)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $e^{i\pi k}=\cos(\pi k)-i\sin(\pi k)$
 \end_inset
 
 
@@ -3667,6 +3713,13 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula $m_{1,2}=\frac{\cos(\pi k)-i\sin(\pi k)}{\cos\left(\pi\Phi\right)}\left\{ \frac{\alpha}{4ik}+\frac{\sin\left(\pi\Phi\right)\cdot\sin\left(\pi\left(k+\Phi\right)\right)}{i\sin\left(\pi k\right)}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Выражение для собственных векторов трансфер-матрицы
 \end_layout
 
@@ -3710,8 +3763,8 @@ m_{1,2}\\
 \noun off
 \color none
 \begin_inset Formula $X_{1,2}=\left(\begin{array}{c}
-\frac{e^{-i\pi k}}{\cos\left(\pi\Phi\right)}\left\{ \frac{\alpha}{4ik}+\frac{\sin\left(\pi\Phi\right)\cdot\sin\left(\pi\left(k+\Phi\right)\right)}{i\sin\left(\pi k\right)}\right\} \\
-\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\pm\sqrt{\left(\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\right)^{2}-1}-\frac{e^{i\pi k}}{\cos\left(\pi\Phi\right)}\left\{ 1+\frac{\alpha}{4ik}+\frac{1-\cos\left(2\pi\Phi\right)}{e^{2\pi ik}-1}\right\} 
+\frac{\cos(\pi k)-i\sin(\pi k)}{\cos\left(\pi\Phi\right)}\left\{ \frac{\alpha}{4ik}+\frac{\sin\left(\pi\Phi\right)\cdot\sin\left(\pi\left(k+\Phi\right)\right)}{i\sin\left(\pi k\right)}\right\} \\
+\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\pm\sqrt{\left(\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\right)^{2}-1}-\frac{\cos(\pi k)+i\sin(\pi k)}{\cos\left(\pi\Phi\right)}\left\{ 1+\frac{\alpha}{4ik}+\frac{1-\cos\left(2\pi\Phi\right)}{2i\left(\cos(\pi k)+i\sin(\pi k)\right)\sin\left(\pi k\right)}\right\} 
 \end{array}\right)$
 \end_inset
 
@@ -3740,8 +3793,149 @@ m_{1,2}\\
 \noun off
 \color none
 \begin_inset Formula $X_{1,2}=\left(\begin{array}{c}
-e^{-i\pi k}\left\{ \frac{\alpha}{4ik}+\frac{\sin\left(\pi\Phi\right)\cdot\sin\left(\pi\left(k+\Phi\right)\right)}{i\sin\left(\pi k\right)}\right\} \\
-\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\pm\sqrt{\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)^{2}-\cos^{2}\left(\pi\Phi\right)}-e^{i\pi k}\left\{ 1+\frac{\alpha}{4ik}+\frac{1-\cos\left(2\pi\Phi\right)}{e^{2\pi ik}-1}\right\} 
+\left(\cos(\pi k)-i\sin(\pi k)\right)\left\{ \frac{\alpha}{4ik}+\frac{\sin\left(\pi\Phi\right)\cdot\sin\left(\pi\left(k+\Phi\right)\right)}{i\sin\left(\pi k\right)}\right\} \\
+\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\pm\sqrt{\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)^{2}-\cos^{2}\left(\pi\Phi\right)}-\left(\cos(\pi k)+i\sin(\pi k)\right)\left\{ 1+\frac{\alpha}{4ik}+\frac{1-\cos\left(2\pi\Phi\right)}{2i\left(\cos(\pi k)+i\sin(\pi k)\right)\sin\left(\pi k\right)}\right\} 
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Рассмотрим вторую компоненту вектора
+\end_layout
+
+\begin_layout Standard
+1.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\cos(\pi k)+i\sin(\pi k)\right)\left\{ 1+\frac{\alpha}{4ik}+\frac{1-\cos\left(2\pi\Phi\right)}{2i\left(\cos(\pi k)+i\sin(\pi k)\right)\sin\left(\pi k\right)}\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\cos(\pi k)+i\sin(\pi k)\right)+\frac{\alpha}{4ik}\left(\cos(\pi k)+i\sin(\pi k)\right)+\frac{1-\cos\left(2\pi\Phi\right)}{2i\sin\left(\pi k\right)}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\cos(\pi k)+i\sin(\pi k)+\frac{\alpha}{4ik}\cos(\pi k)+\frac{\alpha}{4k}\sin(\pi k)+\frac{1-\cos\left(2\pi\Phi\right)}{2i\sin\left(\pi k\right)}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\pm\sqrt{\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)^{2}-\cos^{2}\left(\pi\Phi\right)}-\left(\cos(\pi k)+i\sin(\pi k)\right)\left\{ 1+\frac{\alpha}{4ik}+\frac{1-\cos\left(2\pi\Phi\right)}{2i\left(\cos(\pi k)+i\sin(\pi k)\right)\sin\left(\pi k\right)}\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\pm\sqrt{\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)^{2}-\cos^{2}\left(\pi\Phi\right)}-\left(\cos(\pi k)+i\sin(\pi k)+\frac{\alpha}{4ik}\cos(\pi k)+\frac{\alpha}{4k}\sin(\pi k)+\frac{1-\cos\left(2\pi\Phi\right)}{2i\sin\left(\pi k\right)}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\pm\sqrt{\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)^{2}-\cos^{2}\left(\pi\Phi\right)}-\cos(\pi k)-i\sin(\pi k)-\frac{\alpha}{4ik}\cos(\pi k)-\frac{\alpha}{4k}\sin(\pi k)-\frac{1-\cos\left(2\pi\Phi\right)}{2i\sin\left(\pi k\right)}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\pm\sqrt{\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)^{2}-\cos^{2}\left(\pi\Phi\right)}-i\sin(\pi k)-\frac{\alpha}{4ik}\cos(\pi k)-\frac{1-\cos\left(2\pi\Phi\right)}{2i\sin\left(\pi k\right)}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $1-\cos\left(2\pi\Phi\right)=1-(\cos^{2}\left(\pi\Phi\right)-\sin^{2}\left(\pi\Phi\right))=2\sin^{2}\left(\pi\Phi\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\pm\sqrt{\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)^{2}-\cos^{2}\left(\pi\Phi\right)}-i\sin(\pi k)-\frac{\alpha}{4ik}\cos(\pi k)-\frac{2\sin^{2}\left(\pi\Phi\right)}{2i\sin\left(\pi k\right)}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\pm\sqrt{\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)^{2}-\cos^{2}\left(\pi\Phi\right)}-i\sin(\pi k)+i\frac{\alpha}{4k}\cos(\pi k)+i\frac{\sin^{2}\left(\pi\Phi\right)}{\sin\left(\pi k\right)}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=i\frac{\alpha}{4k}\cos(\pi k)-i\sin(\pi k)+i\frac{\sin^{2}\left(\pi\Phi\right)}{\sin\left(\pi k\right)}\pm\sqrt{\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)^{2}-\cos^{2}\left(\pi\Phi\right)}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=i\left(\frac{\alpha}{4k}\cos(\pi k)-\sin(\pi k)+\frac{\sin^{2}\left(\pi\Phi\right)}{\sin\left(\pi k\right)}\right)\pm\sqrt{\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)^{2}-\cos^{2}\left(\pi\Phi\right)}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Выражение для собственного вектора после упрощения
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $X_{1,2}=\left(\begin{array}{c}
+\left(\cos(\pi k)-i\sin(\pi k)\right)\left\{ \frac{\alpha}{4ik}+\frac{\sin\left(\pi\Phi\right)\cdot\sin\left(\pi\left(k+\Phi\right)\right)}{i\sin\left(\pi k\right)}\right\} \\
+i\left(\frac{\alpha}{4k}\cos(\pi k)-\sin(\pi k)+\frac{\sin^{2}\left(\pi\Phi\right)}{\sin\left(\pi k\right)}\right)\pm\sqrt{\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)^{2}-\cos^{2}\left(\pi\Phi\right)}
 \end{array}\right)$
 \end_inset
 

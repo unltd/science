@@ -3942,5 +3942,35 @@ i\left(\frac{\alpha}{4k}\cos(\pi k)-\sin(\pi k)+\frac{\sin^{2}\left(\pi\Phi\righ
 
 \end_layout
 
+\begin_layout Standard
+Вынесем за скобки 
+\begin_inset Formula $i$
+\end_inset
+
+ в первой компоненте
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $X_{1,2}=\left(\begin{array}{c}
+-i\left(\cos(\pi k)-i\sin(\pi k)\right)\left\{ \frac{\alpha}{4k}+\frac{\sin\left(\pi\Phi\right)\cdot\sin\left(\pi\left(k+\Phi\right)\right)}{\sin\left(\pi k\right)}\right\} \\
+i\left(\frac{\alpha}{4k}\cos(\pi k)-\sin(\pi k)+\frac{\sin^{2}\left(\pi\Phi\right)}{\sin\left(\pi k\right)}\right)\pm\sqrt{\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)^{2}-\cos^{2}\left(\pi\Phi\right)}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

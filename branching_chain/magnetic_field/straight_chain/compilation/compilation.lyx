@@ -3360,7 +3360,11 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\left|\cos\left(\pi k\right)+\frac{\alpha}{4k}\cdot\sin\left(\pi k\right)\right|\leq\cos\left(\pi\Phi\right)$
+\begin_inset Formula 
+\begin{equation}
+\left|\cos\left(\pi k\right)+\frac{\alpha}{4k}\cdot\sin\left(\pi k\right)\right|\leq\left|\cos\left(\pi\Phi\right)\right|\label{eq:cont_spectra}
+\end{equation}
+
 \end_inset
 
 
@@ -3368,6 +3372,34 @@ status open
 
 \begin_layout Section
 Точечный спектр
+\end_layout
+
+\begin_layout Standard
+Значения точечного спектра будут распологатся в лакунах непрерывно спектра,
+ для которых справедливо условие:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left|\cos\left(\pi k\right)+\frac{\alpha}{4k}\cdot\sin\left(\pi k\right)\right|>\left|\cos\left(\pi\Phi\right)\right|\label{eq:cont_spectra_gap}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+См.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:cont_spectra"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -3970,6 +4002,456 @@ i\left(\frac{\alpha}{4k}\cos(\pi k)-\sin(\pi k)+\frac{\sin^{2}\left(\pi\Phi\righ
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Выбор собственного числа
+\end_layout
+
+\begin_layout Standard
+Для каждой пары прараметров 
+\begin_inset Formula $k,\Phi$
+\end_inset
+
+ возьмем то из собственных числ, модуль которого будет меньше 1.
+\end_layout
+
+\begin_layout Standard
+1.
+ Является ли 
+\begin_inset Formula $\lambda_{1}$
+\end_inset
+
+ кандидатом на эту роль?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda_{1}=\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)+\sqrt{\left(\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\right)^{2}-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Выясним, при каких 
+\begin_inset Formula $k,\Phi$
+\end_inset
+
+ выполняется неравенство
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda_{1}\right|<1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)+\sqrt{\left(\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\right)^{2}-1}\right|<1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Обозначим выражение 
+\begin_inset Formula $\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)$
+\end_inset
+
+ за 
+\begin_inset Formula $t$
+\end_inset
+
+: 
+\begin_inset Formula $\left|t\right|>1$
+\end_inset
+
+, 
+\begin_inset Formula $t\in\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|t+\sqrt{t^{2}-1}\right|<1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(t+\sqrt{t^{2}-1}\right)^{2}<1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $t^{2}+2t\sqrt{t^{2}-1}+t^{2}-1<1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2t^{2}+2t\sqrt{t^{2}-1}<2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $t^{2}+t\sqrt{t^{2}-1}<1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $t^{2}-1+t\sqrt{t^{2}-1}<0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\sqrt{t^{2}-1}\right)^{2}+t\sqrt{t^{2}-1}<0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sqrt{t^{2}-1}\left(\sqrt{t^{2}-1}+t\right)<0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sqrt{t^{2}-1}+t<0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $t<-\sqrt{t^{2}-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Итак, t - должно быть отрицательным.
+ Обозначим 
+\begin_inset Formula $-t$
+\end_inset
+
+ за 
+\begin_inset Formula $u>0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-u<-\sqrt{\left(-u\right)^{2}-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u>\sqrt{u^{2}-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u^{2}>u^{2}-1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u^{2}>u^{2}-1$
+\end_inset
+
+ - верно.
+\end_layout
+
+\begin_layout Standard
+Значит 
+\begin_inset Formula $t<-\sqrt{t^{2}-1}$
+\end_inset
+
+ справедливо для любых отрицательных 
+\begin_inset Formula $t$
+\end_inset
+
+.
+ Таким образом 
+\begin_inset Formula $t<-1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Итак
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)+\sqrt{\left(\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\right)^{2}-1}\right|<1$
+\end_inset
+
+ справедливо ТТТ, когда 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)<-1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)<-\cos\left(\pi\Phi\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Получили
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda_{1}\right|<1$
+\end_inset
+
+ тогда и только тогда, когда выполнено 
+\begin_inset Formula $\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)<-\cos\left(\pi\Phi\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+2.
+ Проделаем аналогичное исследование для 
+\begin_inset Formula $\lambda_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda_{2}=\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)-\sqrt{\left(\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\right)^{2}-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Выясним, при каких 
+\begin_inset Formula $k,\Phi$
+\end_inset
+
+ выполняется неравенство
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda_{2}\right|<1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)-\sqrt{\left(\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)\right)^{2}-1}\right|<1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Обозначим выражение 
+\begin_inset Formula $\frac{1}{\cos\left(\pi\Phi\right)}\cdot\left(\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)\right)$
+\end_inset
+
+ за 
+\begin_inset Formula $t$
+\end_inset
+
+: 
+\begin_inset Formula $\left|t\right|>1$
+\end_inset
+
+, 
+\begin_inset Formula $t\in\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|t-\sqrt{t^{2}-1}\right|<1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(t-\sqrt{t^{2}-1}\right)^{2}<1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $t^{2}-2t\sqrt{t^{2}-1}+t^{2}-1<1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2t^{2}-2t\sqrt{t^{2}-1}<2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $t^{2}-t\sqrt{t^{2}-1}<1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $t^{2}-1-t\sqrt{t^{2}-1}<0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\sqrt{t^{2}-1}\right)^{2}-t\sqrt{t^{2}-1}<0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sqrt{t^{2}-1}\left(\sqrt{t^{2}-1}-t\right)<0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sqrt{t^{2}-1}-t<0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $t>\sqrt{t^{2}-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Данное условие выполнено при любых 
+\begin_inset Formula $t>1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Вывод
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda_{2}\right|<1$
+\end_inset
+
+ тогда и только тогда, когда выполнено 
+\begin_inset Formula $\cos\left(\pi k\right)+\frac{\alpha}{4k}\sin\left(\pi k\right)>\cos\left(\pi\Phi\right)$
+\end_inset
+
+.
 \end_layout
 
 \end_body

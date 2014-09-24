@@ -4454,5 +4454,359 @@ status open
 .
 \end_layout
 
+\begin_layout Subsection
+Распространение волнойвой функции
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename bent_chain.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Теперь решим следующую задачу.
+ Пусть на близлежащем кольце по одну сторону от центрального кольца задана
+ волновая функция.
+ Продолжим эту волновую функцию на ближащее к центральному кольцо по другую
+ его сторону.
+\end_layout
+
+\begin_layout Standard
+Кольцо, на котором волновая функция задана будет условно именовать 
+\begin_inset Quotes eld
+\end_inset
+
+левым
+\begin_inset Quotes erd
+\end_inset
+
+, а компоненты волновой функции на нем обозначим как 
+\begin_inset Formula $\psi_{L}$
+\end_inset
+
+ и 
+\begin_inset Formula $\varphi_{L}$
+\end_inset
+
+.
+ Кольцо по другую сторону назовем 
+\begin_inset Quotes eld
+\end_inset
+
+правым
+\begin_inset Quotes erd
+\end_inset
+
+ и его компоненты искомой волновой функции обозначим 
+\begin_inset Formula $\psi_{R}$
+\end_inset
+
+ и 
+\begin_inset Formula $\varphi_{R}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Пусть компонента 
+\begin_inset Formula $\psi_{L}$
+\end_inset
+
+ левеого кольца определяется коэффициентами 
+\begin_inset Formula $\left\{ C_{L}^{+},C_{L}^{-}\right\} $
+\end_inset
+
+, компонента 
+\begin_inset Formula $\varphi_{L}$
+\end_inset
+
+- коэффициентами 
+\begin_inset Formula $\left\{ D_{L}^{+},D_{L}^{-}\right\} $
+\end_inset
+
+, а компоненты на дугах правого кольца - 
+\begin_inset Formula $\left\{ C_{R}^{+},C_{R}^{-}\right\} $
+\end_inset
+
+и 
+\begin_inset Formula $\left\{ D_{R}^{+},D_{R}^{-}\right\} $
+\end_inset
+
+ соответственно.
+\end_layout
+
+\begin_layout Standard
+Компоненты центрально кольца назовем 
+\begin_inset Formula $\psi_{0}$
+\end_inset
+
+ и 
+\begin_inset Formula $\varphi_{0}$
+\end_inset
+
+ , а их коэфициенты обозначим
+\begin_inset Formula $\left\{ C_{0}^{+},C_{0}^{-}\right\} $
+\end_inset
+
+и 
+\begin_inset Formula $\left\{ D_{0}^{+},D_{0}^{-}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Взаимосвязь компонент на дугах центрального кольца
+\end_layout
+
+\begin_layout Subsubsection
+Распространение волновой фунции на центральное кольцо
+\end_layout
+
+\begin_layout Standard
+Компоненты волновой функции на дугах левого кольца имеют вид:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi_{L}(x)=e^{-i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{L}^{+}\\
+C_{L}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varphi_{L}(x)=e^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+D_{L}^{+}\\
+D_{L}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Действие оператора импулься на эти компоненты выражается в следующем:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\psi_{L}(x)=ke^{-i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ -e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{L}^{+}\\
+C_{L}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\varphi(x)=ke^{i\Phi x}\left(\begin{array}{cc}
+\left\{ e^{ikx}\right\}  & \left\{ -e^{-ikx}\right\} \end{array}\right)\left(\begin{array}{c}
+D_{L}^{+}\\
+D_{L}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Запишем условия дельта-соединения в точке контакта левого кольца с центральным.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi_{L}(\pi)=\varphi_{L}\left(\pi\right)=\psi_{0}(0)=\varphi_{0}\left(0\right)=\psi$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\psi_{0}(0)+\hat{p}\varphi_{0}(0)=\hat{p}\psi_{L}(\pi)+\hat{p}\varphi_{L}(\pi)-i\alpha\psi_{L}(\pi)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+На прямых участках цепочки, которым относятся левое и правое кольца решения
+ на коэффиценты решений на нажних дугах выражаются через коэффициенты решений
+ верхних дуг через матрицу 
+\begin_inset Formula $S$
+\end_inset
+
+ (см 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:up_down_relation"
+
+\end_inset
+
+).
+ Из этого следует что 
+\begin_inset Formula $\varphi_{L}(\pi)$
+\end_inset
+
+ выражается через к-нты 
+\begin_inset Formula $\psi_{L}(\pi)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{p}\varphi_{L}(\pi)=k\cdot e^{-i\Phi\pi}\cdot\left(e^{2ikπ}-1\right)^{-1}\left(\begin{array}{cc}
+\left\{ e^{3ikπ}-2e^{ik\pi}e^{2iπ\Phi}+e^{ikπ}\right\}  & \left\{ e^{ik\pi}-2e^{ikπ+2iπ\Phi}+e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{L}^{+}\\
+C_{L}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Причем условие 
+\begin_inset Formula $\psi_{L}(\pi)=\varphi_{L}\left(\pi\right)$
+\end_inset
+
+ также выполнено.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi_{L}(\pi)=e^{-i\Phi\pi}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{L}^{+}\\
+C_{L}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\psi_{0}(0)=\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+C_{0}^{+}\\
+C_{0}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varphi_{0}(0)=\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+D_{0}^{+}\\
+D_{0}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Итого:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e^{-i\Phi\pi}\left(\begin{array}{cc}
+\left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{L}^{+}\\
+C_{L}^{-}
+\end{array}\right)=\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+C_{0}^{+}\\
+C_{0}^{-}
+\end{array}\right)=\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
+D_{0}^{+}\\
+D_{0}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\psi_{0}(0)=k\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left(\begin{array}{c}
+C_{L}^{+}\\
+C_{L}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{p}\varphi_{0}(0)=k\left(\begin{array}{cc}
+\left\{ 1\right\}  & \left\{ -1\right\} \end{array}\right)\left(\begin{array}{c}
+D_{L}^{+}\\
+D_{L}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

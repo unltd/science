@@ -6090,6 +6090,62 @@ C_{L}^{-}
 \end_layout
 
 \begin_layout Standard
+При 
+\begin_inset Formula $e^{2ik\left(\pi-\vartheta\right)}\neq1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e^{-i\Phi\pi}\left(e^{2ik\pi}-1\right)\left(\begin{array}{cc}
+\left\{ e^{2ik\pi}-e^{2i\Phi\pi}\right\}  & \left\{ e^{-2ik\vartheta}-e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{0}^{+}\\
+C_{0}^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)\left(\begin{array}{cc}
+\left\{ e^{3ik\pi}-e^{ik\pi}e^{2i\Phi\pi}-\frac{i\alpha}{2k}e^{ik\pi}\left(e^{2ik\pi}-1\right)\right\}  & \left\{ e^{-ik\pi}-e^{ik\pi}e^{2i\Phi\pi}-\frac{i\alpha}{2k}e^{-ik\pi}\left(e^{2ik\pi}-1\right)\right\} \end{array}\right)\left(\begin{array}{c}
+C_{L}^{+}\\
+C_{L}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(e^{2ik\pi}-1\right)\left(\begin{array}{cc}
+\left\{ e^{2ik\pi}-e^{2i\Phi\pi}\right\}  & \left\{ e^{-2ik\vartheta}-e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{0}^{+}\\
+C_{0}^{-}
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)\left(\begin{array}{cc}
+\left\{ e^{3ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{3i\Phi\pi}-\frac{i\alpha}{2k}e^{ik\pi}\left(e^{2ik\pi}-1\right)e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{3i\Phi\pi}-\frac{i\alpha}{2k}e^{-ik\pi}\left(e^{2ik\pi}-1\right)e^{i\Phi\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+C_{L}^{+}\\
+C_{L}^{-}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Первое уравнение
 \end_layout
 
@@ -6109,11 +6165,11 @@ C_{L}^{-}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $e^{-i\Phi\pi}\left(e^{2ik\pi}-1\right)\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}\left(\begin{array}{cc}
+\begin_inset Formula $\left(e^{2ik\pi}-1\right)\left(\begin{array}{cc}
 \left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
 C_{0}^{+}\\
 C_{0}^{-}
-\end{array}\right)=e^{-i\Phi\pi}\left(e^{2ik\pi}-1\right)\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}e^{-i\Phi\pi}\left(\begin{array}{cc}
+\end{array}\right)=\left(e^{2ik\pi}-1\right)e^{-i\Phi\pi}\left(\begin{array}{cc}
 \left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
 C_{L}^{+}\\
 C_{L}^{-}
@@ -6124,27 +6180,12 @@ C_{L}^{-}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $e^{-i\Phi\pi}\left(e^{2ik\pi}-1\right)\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}\left(\begin{array}{cc}
-\left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
-C_{0}^{+}\\
-C_{0}^{-}
-\end{array}\right)=e^{-2i\Phi\pi}\left(e^{2ik\pi}-1\right)\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}\left(\begin{array}{cc}
-\left\{ e^{ik\pi}\right\}  & \left\{ e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
-C_{L}^{+}\\
-C_{L}^{-}
-\end{array}\right)$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $e^{-i\Phi\pi}\left(e^{2ik\pi}-1\right)\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}\left(\begin{array}{cc}
+\begin_inset Formula $\left(e^{2ik\pi}-1\right)\left(\begin{array}{cc}
 \left\{ 1\right\}  & \left\{ 1\right\} \end{array}\right)\left(\begin{array}{c}
 C_{0}^{+}\\
 C_{0}^{-}
 \end{array}\right)=\left(\begin{array}{cc}
-\left\{ e^{-2i\Phi\pi}\left(e^{2ik\pi}-1\right)\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}e^{ik\pi}\right\}  & \left\{ e^{-2i\Phi\pi}\left(e^{2ik\pi}-1\right)\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
+\left\{ \left(e^{2ik\pi}-1\right)e^{-i\Phi\pi}e^{ik\pi}\right\}  & \left\{ \left(e^{2ik\pi}-1\right)e^{-i\Phi\pi}e^{-ik\pi}\right\} \end{array}\right)\left(\begin{array}{c}
 C_{L}^{+}\\
 C_{L}^{-}
 \end{array}\right)$
@@ -6158,15 +6199,22 @@ C_{L}^{-}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $e^{-i\Phi\pi}\left(e^{2ik\pi}-1\right)\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}\left\{ \begin{array}{cc}
+\begin_inset Formula $\left(e^{2ik\pi}-1\right)\left\{ \begin{array}{cc}
 \left\{ 1\right\}  & \left\{ 1\right\} \\
 \left\{ e^{2ik\pi}-e^{2i\Phi\pi}\right\}  & \left\{ e^{-2ik\vartheta}-e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}\right\} 
 \end{array}\right\} \left(\begin{array}{c}
 C_{0}^{+}\\
 C_{0}^{-}
-\end{array}\right)=\left\{ \begin{array}{cc}
-\left\{ e^{-2i\Phi\pi}\left(e^{2ik\pi}-1\right)\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}e^{ik\pi}\right\}  & \left\{ e^{-2i\Phi\pi}\left(e^{2ik\pi}-1\right)\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}e^{-ik\pi}\right\} \\
-\left\{ e^{3ik\pi}-e^{ik\pi}e^{2i\Phi\pi}-\frac{i\alpha}{2k}e^{ik\pi}\left(e^{2ik\pi}-1\right)\right\}  & \left\{ e^{-ik\pi}-e^{ik\pi}e^{2i\Phi\pi}-\frac{i\alpha}{2k}e^{-ik\pi}\left(e^{2ik\pi}-1\right)\right\} 
+\end{array}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\left\{ \begin{array}{cc}
+\left\{ \left(e^{2ik\pi}-1\right)e^{-i\Phi\pi}e^{ik\pi}\right\}  & \left\{ \left(e^{2ik\pi}-1\right)e^{-i\Phi\pi}e^{-ik\pi}\right\} \\
+\left\{ e^{3ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{3i\Phi\pi}-\frac{i\alpha}{2k}e^{ik\pi}\left(e^{2ik\pi}-1\right)e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{3i\Phi\pi}-\frac{i\alpha}{2k}e^{-ik\pi}\left(e^{2ik\pi}-1\right)e^{i\Phi\pi}\right\} 
 \end{array}\right\} \left(\begin{array}{c}
 C_{L}^{+}\\
 C_{L}^{-}
@@ -6177,15 +6225,26 @@ C_{L}^{-}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\left\{ \begin{array}{cc}
-\left\{ 1\right\}  & \left\{ 1\right\} \\
-\left\{ e^{2ik\pi}-e^{2i\Phi\pi}\right\}  & \left\{ e^{-2ik\vartheta}-e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}\right\} 
-\end{array}\right\} \left(\begin{array}{c}
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(\begin{array}{c}
 C_{0}^{+}\\
 C_{0}^{-}
-\end{array}\right)=e^{i\Phi\pi}\left(e^{2ik\pi}-1\right)^{-1}\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)\left\{ \begin{array}{cc}
-\left\{ e^{-2i\Phi\pi}\left(e^{2ik\pi}-1\right)\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}e^{ik\pi}\right\}  & \left\{ e^{-2i\Phi\pi}\left(e^{2ik\pi}-1\right)\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}e^{-ik\pi}\right\} \\
-\left\{ e^{3ik\pi}-e^{ik\pi}e^{2i\Phi\pi}-\frac{i\alpha}{2k}e^{ik\pi}\left(e^{2ik\pi}-1\right)\right\}  & \left\{ e^{-ik\pi}-e^{ik\pi}e^{2i\Phi\pi}-\frac{i\alpha}{2k}e^{-ik\pi}\left(e^{2ik\pi}-1\right)\right\} 
+\end{array}\right)=\left(e^{2ik\pi}-1\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ 1\right\}  & \left\{ 1\right\} \\
+\left\{ e^{2ik\pi}-e^{2i\Phi\pi}\right\}  & \left\{ e^{-2ik\vartheta}-e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}\right\} 
+\end{array}\right\} ^{-1}*$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $*\left\{ \begin{array}{cc}
+\left\{ \left(e^{2ik\pi}-1\right)e^{-i\Phi\pi}e^{ik\pi}\right\}  & \left\{ \left(e^{2ik\pi}-1\right)e^{-i\Phi\pi}e^{-ik\pi}\right\} \\
+\left\{ e^{3ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{3i\Phi\pi}-\frac{i\alpha}{2k}e^{ik\pi}\left(e^{2ik\pi}-1\right)e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{3i\Phi\pi}-\frac{i\alpha}{2k}e^{-ik\pi}\left(e^{2ik\pi}-1\right)e^{i\Phi\pi}\right\} 
 \end{array}\right\} \left(\begin{array}{c}
 C_{L}^{+}\\
 C_{L}^{-}
@@ -6310,7 +6369,7 @@ d & -b\\
 \begin_inset Formula $\left(\begin{array}{c}
 C_{0}^{+}\\
 C_{0}^{-}
-\end{array}\right)=e^{i\Phi\pi}\left(e^{2ik\pi}-1\right)^{-1}\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)\left\{ \begin{array}{cc}
+\end{array}\right)=\left(e^{2ik\pi}-1\right)^{-1}\left\{ \begin{array}{cc}
 \left\{ 1\right\}  & \left\{ 1\right\} \\
 \left\{ e^{2ik\pi}-e^{2i\Phi\pi}\right\}  & \left\{ e^{-2ik\vartheta}-e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}\right\} 
 \end{array}\right\} ^{-1}*$
@@ -6321,8 +6380,8 @@ C_{0}^{-}
 
 \begin_layout Standard
 \begin_inset Formula $*\left\{ \begin{array}{cc}
-\left\{ e^{-2i\Phi\pi}\left(e^{2ik\pi}-1\right)\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}e^{ik\pi}\right\}  & \left\{ e^{-2i\Phi\pi}\left(e^{2ik\pi}-1\right)\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}e^{-ik\pi}\right\} \\
-\left\{ e^{3ik\pi}-e^{ik\pi}e^{2i\Phi\pi}-\frac{i\alpha}{2k}e^{ik\pi}\left(e^{2ik\pi}-1\right)\right\}  & \left\{ e^{-ik\pi}-e^{ik\pi}e^{2i\Phi\pi}-\frac{i\alpha}{2k}e^{-ik\pi}\left(e^{2ik\pi}-1\right)\right\} 
+\left\{ \left(e^{2ik\pi}-1\right)e^{-i\Phi\pi}e^{ik\pi}\right\}  & \left\{ \left(e^{2ik\pi}-1\right)e^{-i\Phi\pi}e^{-ik\pi}\right\} \\
+\left\{ e^{3ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{3i\Phi\pi}-\frac{i\alpha}{2k}e^{ik\pi}\left(e^{2ik\pi}-1\right)e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{3i\Phi\pi}-\frac{i\alpha}{2k}e^{-ik\pi}\left(e^{2ik\pi}-1\right)e^{i\Phi\pi}\right\} 
 \end{array}\right\} \left(\begin{array}{c}
 C_{L}^{+}\\
 C_{L}^{-}
@@ -6340,7 +6399,10 @@ C_{L}^{-}
 \begin_inset Formula $\left(\begin{array}{c}
 C_{0}^{+}\\
 C_{0}^{-}
-\end{array}\right)=e^{i\Phi\pi}\left(e^{2ik\pi}-1\right)^{-1}\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)\left(e^{-2ik\vartheta}-e^{2ik\pi}-e^{2i\Phi\pi}\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)\right)^{-1}*$
+\end{array}\right)=\left(e^{2ik\pi}-1\right)^{-1}\left(e^{-2ik\vartheta}-e^{2ik\pi}-e^{2i\Phi\pi}\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)\right)^{-1}\left\{ \begin{array}{cc}
+\left\{ e^{-2ik\vartheta}-e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}\right\}  & \left\{ -1\right\} \\
+\left\{ e^{2i\Phi\pi}-e^{2ik\pi}\right\}  & \left\{ 1\right\} 
+\end{array}\right\} *$
 \end_inset
 
 
@@ -6348,15 +6410,112 @@ C_{0}^{-}
 
 \begin_layout Standard
 \begin_inset Formula $*\left\{ \begin{array}{cc}
-\left\{ e^{-2ik\vartheta}-e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}\right\}  & \left\{ -1\right\} \\
-\left\{ e^{2i\Phi\pi}-e^{2ik\pi}\right\}  & \left\{ 1\right\} 
-\end{array}\right\} \left\{ \begin{array}{cc}
-\left\{ e^{-2i\Phi\pi}\left(e^{2ik\pi}-1\right)\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}e^{ik\pi}\right\}  & \left\{ e^{-2i\Phi\pi}\left(e^{2ik\pi}-1\right)\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}e^{-ik\pi}\right\} \\
-\left\{ e^{3ik\pi}-e^{ik\pi}e^{2i\Phi\pi}-\frac{i\alpha}{2k}e^{ik\pi}\left(e^{2ik\pi}-1\right)\right\}  & \left\{ e^{-ik\pi}-e^{ik\pi}e^{2i\Phi\pi}-\frac{i\alpha}{2k}e^{-ik\pi}\left(e^{2ik\pi}-1\right)\right\} 
+\left\{ \left(e^{2ik\pi}-1\right)e^{-i\Phi\pi}e^{ik\pi}\right\}  & \left\{ \left(e^{2ik\pi}-1\right)e^{-i\Phi\pi}e^{-ik\pi}\right\} \\
+\left\{ e^{3ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{3i\Phi\pi}-\frac{i\alpha}{2k}e^{ik\pi}\left(e^{2ik\pi}-1\right)e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{3i\Phi\pi}-\frac{i\alpha}{2k}e^{-ik\pi}\left(e^{2ik\pi}-1\right)e^{i\Phi\pi}\right\} 
 \end{array}\right\} \left(\begin{array}{c}
 C_{L}^{+}\\
 C_{L}^{-}
 \end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left\{ \begin{array}{cc}
+\left\{ e^{-2ik\vartheta}-e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}\right\}  & \left\{ -1\right\} \\
+\left\{ e^{2i\Phi\pi}-e^{2ik\pi}\right\}  & \left\{ 1\right\} 
+\end{array}\right\} \left\{ \begin{array}{cc}
+\left\{ \left(e^{2ik\pi}-1\right)e^{-i\Phi\pi}e^{ik\pi}\right\}  & \left\{ \left(e^{2ik\pi}-1\right)e^{-i\Phi\pi}e^{-ik\pi}\right\} \\
+\left\{ e^{3ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{3i\Phi\pi}-\frac{i\alpha}{2k}e^{ik\pi}\left(e^{2ik\pi}-1\right)e^{i\Phi\pi}\right\}  & \left\{ e^{-ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{3i\Phi\pi}-\frac{i\alpha}{2k}e^{-ik\pi}\left(e^{2ik\pi}-1\right)e^{i\Phi\pi}\right\} 
+\end{array}\right\} =A$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+12.1.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{1,1}=\left(\begin{array}{cc}
+\left\{ e^{-2ik\vartheta}-e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}\right\}  & \left\{ -1\right\} \end{array}\right)\left(\begin{array}{c}
+\left\{ \left(e^{2ik\pi}-1\right)e^{-i\Phi\pi}e^{ik\pi}\right\} \\
+\left\{ e^{3ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{3i\Phi\pi}-\frac{i\alpha}{2k}e^{ik\pi}\left(e^{2ik\pi}-1\right)e^{i\Phi\pi}\right\} 
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{1,1}=\left\{ e^{-2ik\vartheta}-e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}\right\} \left\{ \left(e^{2ik\pi}-1\right)e^{-i\Phi\pi}e^{ik\pi}\right\} +\left\{ -1\right\} \left\{ e^{3ik\pi}e^{i\Phi\pi}-e^{ik\pi}e^{3i\Phi\pi}-\frac{i\alpha}{2k}e^{ik\pi}\left(e^{2ik\pi}-1\right)e^{i\Phi\pi}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left\{ e^{-2ik\vartheta}-e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}\right\} \left\{ \left(e^{2ik\pi}-1\right)e^{-i\Phi\pi}e^{ik\pi}\right\} =$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $=\left(e^{-2ik\vartheta}-e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}\right)\left(e^{3ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $=e^{-2ik\vartheta}\left(e^{3ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)-e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}\left(e^{3ik\pi}e^{-i\Phi\pi}-e^{ik\pi}e^{-i\Phi\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $=\left(e^{-2ik\vartheta}e^{3ik\pi}e^{-i\Phi\pi}-e^{-2ik\vartheta}e^{ik\pi}e^{-i\Phi\pi}\right)-\left(e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}e^{3ik\pi}e^{-i\Phi\pi}-e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}e^{ik\pi}e^{-i\Phi\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $=\left(e^{-2ik\vartheta}e^{3ik\pi}e^{-i\Phi\pi}-e^{-2ik\vartheta}e^{ik\pi}e^{-i\Phi\pi}\right)-\left(e^{-2ik\vartheta}e^{5ik\pi}e^{i\Phi\pi}-e^{-2ik\vartheta}e^{3ik\pi}e^{i\Phi\pi}\right)=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $=e^{-2ik\vartheta}e^{3ik\pi}e^{-i\Phi\pi}-e^{-2ik\vartheta}e^{ik\pi}e^{-i\Phi\pi}-e^{-2ik\vartheta}e^{5ik\pi}e^{i\Phi\pi}+e^{-2ik\vartheta}e^{3ik\pi}e^{i\Phi\pi}=$
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 

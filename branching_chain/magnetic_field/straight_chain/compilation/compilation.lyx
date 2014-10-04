@@ -5135,6 +5135,103 @@ C_{0}^{-}
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Сравнение с матрицой, рассчитанной в Mathematica:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $S_{\vartheta}=e^{-2\pi i\Phi}\left(e^{2\pi ik}-e^{2ik\vartheta}\right)^{-1}$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{cc}
+\left\{ e^{2ik(\pi+\vartheta)}-e^{2i(\pi\Phi+k\vartheta)}\right\}  & \left\{ 1-e^{2i(\pi\Phi+k\vartheta)}\right\} \\
+\left\{ e^{2\pi i(k+\Phi)}-e^{2ik(\pi+\vartheta)}\right\}  & \left\{ e^{2\pi i(k+\Phi)}-1\right\} 
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $S_{\vartheta}=e^{-2\pi i\Phi}\left(\left(e^{2\pi ik}e^{-2ik\vartheta}-1\right)e^{2ik\vartheta}\right)^{-1}$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{cc}
+\left\{ e^{2ik(\pi+\vartheta)}-e^{2i(\pi\Phi+k\vartheta)}\right\}  & \left\{ 1-e^{2i(\pi\Phi+k\vartheta)}\right\} \\
+\left\{ e^{2\pi i(k+\Phi)}-e^{2ik(\pi+\vartheta)}\right\}  & \left\{ e^{2\pi i(k+\Phi)}-1\right\} 
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $S_{\vartheta}=e^{-2\pi i\Phi}e^{-2ik\vartheta}\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{cc}
+\left\{ e^{2ik(\pi+\vartheta)}-e^{2i(\pi\Phi+k\vartheta)}\right\}  & \left\{ 1-e^{2i(\pi\Phi+k\vartheta)}\right\} \\
+\left\{ e^{2\pi i(k+\Phi)}-e^{2ik(\pi+\vartheta)}\right\}  & \left\{ e^{2\pi i(k+\Phi)}-1\right\} 
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $S_{\vartheta}=e^{-2\pi i\Phi}\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{cc}
+\left\{ e^{2ik(\pi+\vartheta)}e^{-2ik\vartheta}-e^{2i(\pi\Phi+k\vartheta)}e^{-2ik\vartheta}\right\}  & \left\{ e^{-2ik\vartheta}-e^{2i(\pi\Phi+k\vartheta)}e^{-2ik\vartheta}\right\} \\
+\left\{ e^{2\pi i(k+\Phi)}e^{-2ik\vartheta}-e^{2ik(\pi+\vartheta)}e^{-2ik\vartheta}\right\}  & \left\{ e^{2\pi i(k+\Phi)}e^{-2ik\vartheta}-e^{-2ik\vartheta}\right\} 
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $S_{\vartheta}=e^{-2\pi i\Phi}\left(e^{2ik\left(\pi-\vartheta\right)}-1\right)^{-1}$
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{cc}
+\left\{ e^{2ik\pi}-e^{2i\pi\Phi}\right\}  & \left\{ e^{-2ik\vartheta}-e^{2i\pi\Phi}\right\} \\
+\left\{ e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}-e^{2ik\pi}\right\}  & \left\{ e^{2ik\left(\pi-\vartheta\right)}e^{2i\Phi\pi}-e^{-2ik\vartheta}\right\} 
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Проверка прошла успешно.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Распространение волновой фунции на центральное кольцо
 \end_layout

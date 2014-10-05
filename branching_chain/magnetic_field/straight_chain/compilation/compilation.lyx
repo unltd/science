@@ -6618,5 +6618,326 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Трансфер матрица для центрального кольца, полученная в Mathematica, - зависит
+ от угла изгиба (
+\begin_inset Formula $t$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $M(k,\Phi,t)=\left(2k\left(e^{2\pi ik}-1\right)\left(e^{2ik(t+\pi)}-e^{2i(kt+\pi\Phi)}+e^{2\pi i(k+\Phi)}-1\right)\right)^{-1}*$
+\end_inset
+
+
+\begin_inset Formula $*\left\{ \begin{array}{cc}
+\left\{ e^{-i\pi(k+\Phi)}\left((\alpha i-2k)e^{2\pi i(2k+\Phi)}+(4k-\alpha i)e^{2\pi i(3k+\Phi)}-\alpha ie^{2i(\pi k+\pi\Phi)}+(\alpha i-2k)e^{2i(2\pi k+\pi\Phi)}-2ke^{4\pi i(k+\Phi)}+2ke^{2i(\pi k+2\pi\Phi)}+2ke^{2\pi ik}-2ke^{4\pi ik}\right)\right\}  & \left\{ e^{\pi(-i)(k+\Phi)}\left(2k\left(e^{2\pi i(k+\Phi)}-1\right)\left(e^{2i(kt+\pi\Phi)}-e^{2\pi i(k+\Phi)}+e^{2\pi ik}-1\right)-\alpha i\left(e^{2\pi ik}-1\right)e^{2\pi i\Phi}\left(e^{2\pi ik}-e^{2ikt}\right)\right)\right\} \\
+\left\{ e^{\pi(-i)(k+\Phi)}\left(-\alpha ie^{2\pi i(2k+\Phi)}-(2k-\alpha i)e^{2\pi i(3k+\Phi)}-\alpha ie^{2i(kt+2\pi k+\pi\Phi)}+(\alpha i+2k)e^{2i(k(t+\pi)+\pi\Phi)}-2ke^{2i(k(t+\pi)+2\pi\Phi)}-2ke^{2ik(t+2\pi)}+2ke^{2ik(t+3\pi)}+2ke^{4\pi i(k+\Phi)}\right)\right\}  & \left\{ e^{\pi(-i)(k+\Phi)}\left(-(\alpha i+2k)e^{2\pi i(k+\Phi)}+\alpha ie^{2\pi i(2k+\Phi)}+(\alpha i+4k)e^{2i(kt+\pi\Phi)}-(\alpha i+2k)e^{2i(k(t+\pi)+\pi\Phi)}-2ke^{2i(k(t+\pi)+2\pi\Phi)}-2ke^{2ik(t+\pi)}+2ke^{2ik(t+2\pi)}+2ke^{4\pi i(k+\Phi)}\right)\right\} 
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{1,1}=e^{-i\pi(k+\Phi)}\left((\alpha i-2k)e^{2\pi i(2k+\Phi)}+(4k-\alpha i)e^{2\pi i(3k+\Phi)}-\alpha ie^{2i(\pi k+\pi\Phi)}+(\alpha i-2k)e^{2i(2\pi k+\pi\Phi)}-2ke^{4\pi i(k+\Phi)}+2ke^{2i(\pi k+2\pi\Phi)}+2ke^{2\pi ik}-2ke^{4\pi ik}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{1,1}=e^{-i\pi(k+\Phi)}\left(\alpha ie^{2\pi i(2k+\Phi)}-2ke^{2\pi i(2k+\Phi)}+4ke^{2\pi i(3k+\Phi)}-\alpha ie^{2\pi i(3k+\Phi)}-\alpha ie^{2i(\pi k+\pi\Phi)}+\alpha ie^{2i(2\pi k+\pi\Phi)}-2ke^{2i(2\pi k+\pi\Phi)}-2ke^{4\pi i(k+\Phi)}+2ke^{2i(\pi k+2\pi\Phi)}+2ke^{2\pi ik}-2ke^{4\pi ik}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{1,1}=e^{-i\pi(k+\Phi)}\left(\alpha ie^{2\pi i(2k+\Phi)}-\alpha ie^{2\pi i(3k+\Phi)}-\alpha ie^{2i(\pi k+\pi\Phi)}+\alpha ie^{2i(2\pi k+\pi\Phi)}-2ke^{2\pi i(2k+\Phi)}+4ke^{2\pi i(3k+\Phi)}-2ke^{2i(2\pi k+\pi\Phi)}-2ke^{4\pi i(k+\Phi)}+2ke^{2i(\pi k+2\pi\Phi)}+2ke^{2\pi ik}-2ke^{4\pi ik}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{1,1}=e^{-i\pi(k+\Phi)}\left(\alpha i\left(e^{2\pi i(2k+\Phi)}-e^{2\pi i(3k+\Phi)}-e^{2i(\pi k+\pi\Phi)}+e^{2i(2\pi k+\pi\Phi)}\right)-2ke^{2\pi i(2k+\Phi)}+4ke^{2\pi i(3k+\Phi)}-2ke^{2i(2\pi k+\pi\Phi)}-2ke^{4\pi i(k+\Phi)}+2ke^{2i(\pi k+2\pi\Phi)}+2ke^{2\pi ik}-2ke^{4\pi ik}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{1,1}=e^{-i\pi(k+\Phi)}\left(\alpha i\left(2e^{2\pi i(2k+\Phi)}-e^{2\pi i(3k+\Phi)}-e^{2i(\pi k+\pi\Phi)}\right)-2ke^{2\pi i(2k+\Phi)}+4ke^{2\pi i(3k+\Phi)}-2ke^{2i(2\pi k+\pi\Phi)}-2ke^{4\pi i(k+\Phi)}+2ke^{2i(\pi k+2\pi\Phi)}+2ke^{2\pi ik}-2ke^{4\pi ik}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{1,1}=e^{-i\pi(k+\Phi)}2ke^{2\pi ik}\left(\frac{\alpha i}{2k}\left(2e^{2\pi i(k+\Phi)}-e^{2\pi i(2k+\Phi)}-e^{2i\pi\Phi}\right)-e^{2\pi i(k+\Phi)}+2e^{2\pi i(2k+\Phi)}-e^{2i\pi(k+\Phi)}-e^{2\pi ik}e^{4\pi i\Phi}+e^{4i\pi\Phi}+1-e^{2\pi ik}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{1,1}=e^{-i\pi(k+\Phi)}2ke^{2\pi ik}\left(-\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{4\pi ik}-2e^{2\pi ik}+1\right)+2e^{2\pi i(2k+\Phi)}-2e^{2\pi i(k+\Phi)}+e^{4i\pi\Phi}-e^{2\pi ik}e^{4\pi i\Phi}+1-e^{2\pi ik}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{1,1}=e^{-i\pi(k+\Phi)}2ke^{2\pi ik}\left(-\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{2\pi ik}-1\right)^{2}+2e^{2\pi i(k+\Phi)}\left(e^{2\pi ik}-1\right)+e^{4i\pi\Phi}\left(1-e^{2\pi ik}\right)+\left(1-e^{2\pi ik}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{1,1}=e^{-i\pi(k+\Phi)}2ke^{2\pi ik}\left(e^{2\pi ik}-1\right)\left(-\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{2\pi ik}-1\right)+2e^{2\pi i(k+\Phi)}-e^{4i\pi\Phi}-1\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{1,2}=e^{\pi(-i)(k+\Phi)}\left(2k\left(e^{2\pi i(k+\Phi)}-1\right)\left(e^{2i(kt+\pi\Phi)}-e^{2\pi i(k+\Phi)}+e^{2\pi ik}-1\right)-\alpha i\left(e^{2\pi ik}-1\right)e^{2\pi i\Phi}\left(e^{2\pi ik}-e^{2ikt}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{1,2}=e^{-i\pi(k+\Phi)}2k\left(\left(e^{2\pi i(k+\Phi)}-1\right)\left(e^{2i(kt+\pi\Phi)}-e^{2\pi i(k+\Phi)}+e^{2\pi ik}-1\right)-\frac{\alpha i}{2k}\left(e^{2\pi ik}-1\right)e^{2\pi i\Phi}\left(e^{2\pi ik}-e^{2ikt}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,1}=e^{\pi(-i)(k+\Phi)}\left(-\alpha ie^{2\pi i(2k+\Phi)}-(2k-\alpha i)e^{2\pi i(3k+\Phi)}-\alpha ie^{2i(kt+2\pi k+\pi\Phi)}+(\alpha i+2k)e^{2i(k(t+\pi)+\pi\Phi)}-2ke^{2i(k(t+\pi)+2\pi\Phi)}-2ke^{2ik(t+2\pi)}+2ke^{2ik(t+3\pi)}+2ke^{4\pi i(k+\Phi)}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,1}=e^{-i\pi(k+\Phi)}\left(-\alpha ie^{2\pi i(2k+\Phi)}-2ke^{2\pi i(3k+\Phi)}+\alpha ie^{2\pi i(3k+\Phi)}-\alpha ie^{2i(kt+2\pi k+\pi\Phi)}+\alpha ie^{2i(k(t+\pi)+\pi\Phi)}+2ke^{2i(k(t+\pi)+\pi\Phi)}-2ke^{2i(k(t+\pi)+2\pi\Phi)}-2ke^{2ik(t+2\pi)}+2ke^{2ik(t+3\pi)}+2ke^{4\pi i(k+\Phi)}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,1}=e^{-i\pi(k+\Phi)}\left(-\alpha ie^{2\pi i(2k+\Phi)}+\alpha ie^{2\pi i(3k+\Phi)}-\alpha ie^{2i(kt+2\pi k+\pi\Phi)}+\alpha ie^{2i(k(t+\pi)+\pi\Phi)}-2ke^{2\pi i(3k+\Phi)}+2ke^{2i(k(t+\pi)+\pi\Phi)}-2ke^{2i(k(t+\pi)+2\pi\Phi)}-2ke^{2ik(t+2\pi)}+2ke^{2ik(t+3\pi)}+2ke^{4\pi i(k+\Phi)}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,1}=e^{-i\pi(k+\Phi)}\left(\alpha i\left(-e^{2\pi i(2k+\Phi)}+e^{2\pi i(3k+\Phi)}-e^{2i(kt+2\pi k+\pi\Phi)}+e^{2i(k(t+\pi)+\pi\Phi)}\right)-2ke^{2\pi i(3k+\Phi)}+2ke^{2i(k(t+\pi)+\pi\Phi)}-2ke^{2i(k(t+\pi)+2\pi\Phi)}-2ke^{2ik(t+2\pi)}+2ke^{2ik(t+3\pi)}+2ke^{4\pi i(k+\Phi)}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,1}=e^{-i\pi(k+\Phi)}2ke^{2\pi ik}\left(\frac{\alpha i}{2k}\left(-e^{2\pi i(k+\Phi)}+e^{2\pi i(2k+\Phi)}-e^{2i(kt+\pi k+\pi\Phi)}+e^{2i(kt+\pi\Phi)}\right)-e^{2\pi i(2k+\Phi)}+e^{2i(kt+\pi\Phi)}-e^{2i(kt+2\pi\Phi)}-e^{2ik(t+\pi)}+e^{2ik(t+2\pi)}+e^{2\pi i(k+2\Phi)}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,1}=e^{-i\pi(k+\Phi)}2ke^{2\pi ik}\left(\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(-e^{2\pi ik}+e^{4\pi ik}-e^{2i(kt+\pi k)}+e^{2ikt}\right)-e^{2\pi i(2k+\Phi)}+e^{2i(kt+\pi\Phi)}-e^{2i(kt+2\pi\Phi)}-e^{2ik(t+\pi)}+e^{2ik(t+2\pi)}+e^{2\pi i(k+2\Phi)}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,1}=e^{-i\pi(k+\Phi)}2ke^{2\pi ik}\left(\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{4\pi ik}-e^{2\pi ik}+e^{2ikt}-e^{2i(kt+\pi k)}\right)+e^{2i(kt+\pi\Phi)}-e^{2i(kt+2\pi\Phi)}-e^{2ik(t+\pi)}+e^{2ik(t+2\pi)}+e^{2\pi i(k+2\Phi)}-e^{2\pi i(2k+\Phi)}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,1}=e^{-i\pi(k+\Phi)}2ke^{2\pi ik}\left(\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{2\pi ik}\left(e^{2\pi ik}-1\right)+e^{2ikt}\left(1-e^{2i\pi k}\right)\right)+e^{2ikt}\left(e^{2i\pi\Phi}-e^{4i\pi\Phi}-e^{2ik\pi}+e^{4ik\pi}\right)+e^{2\pi i(k+\Phi)}\left(e^{2\pi i\Phi}-e^{2\pi ik}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,1}=e^{-i\pi(k+\Phi)}2ke^{2\pi ik}\left(\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{2\pi ik}-1\right)\left(e^{2\pi ik}-e^{2ikt}\right)+e^{2ikt}\left(e^{2i\pi\Phi}-e^{4i\pi\Phi}-e^{2ik\pi}+e^{4ik\pi}\right)+e^{2\pi i(k+\Phi)}\left(e^{2\pi i\Phi}-e^{2\pi ik}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,1}=e^{-i\pi(k+\Phi)}2ke^{2\pi ik}\left(\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{2\pi ik}-1\right)\left(e^{2\pi ik}-e^{2ikt}\right)+e^{2ikt}\left(e^{2i\pi\Phi}-e^{2ik\pi}+\left(e^{2ik\pi}-e^{2i\pi\Phi}\right)\left(e^{2ik\pi}+e^{2i\pi\Phi}\right)\right)+e^{2\pi i(k+\Phi)}\left(e^{2\pi i\Phi}-e^{2\pi ik}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,1}=e^{-i\pi(k+\Phi)}2ke^{2\pi ik}\left(\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{2\pi ik}-1\right)\left(e^{2\pi ik}-e^{2ikt}\right)+e^{2ikt}\left(e^{2ik\pi}-e^{2i\pi\Phi}\right)\left(e^{2ik\pi}+e^{2i\pi\Phi}-1\right)-e^{2\pi i(k+\Phi)}\left(e^{2\pi ik}-e^{2\pi i\Phi}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,1}=e^{-i\pi(k+\Phi)}2ke^{2\pi ik}\left(\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{2\pi ik}-1\right)\left(e^{2\pi ik}-e^{2ikt}\right)+\left(e^{2ik\pi}-e^{2i\pi\Phi}\right)\left(e^{2ikt}\left(e^{2ik\pi}+e^{2i\pi\Phi}-1\right)-e^{2\pi i(k+\Phi)}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,2}=e^{\pi(-i)(k+\Phi)}\left(-(\alpha i+2k)e^{2\pi i(k+\Phi)}+\alpha ie^{2\pi i(2k+\Phi)}+(\alpha i+4k)e^{2i(kt+\pi\Phi)}-(\alpha i+2k)e^{2i(k(t+\pi)+\pi\Phi)}-2ke^{2i(k(t+\pi)+2\pi\Phi)}-2ke^{2ik(t+\pi)}+2ke^{2ik(t+2\pi)}+2ke^{4\pi i(k+\Phi)}\right)$
+\end_inset
+
+
+\begin_inset Formula $m_{2,2}=e^{-i\pi(k+\Phi)}\left(-\alpha ie^{2\pi i(k+\Phi)}-2ke^{2\pi i(k+\Phi)}+\alpha ie^{2\pi i(2k+\Phi)}+\alpha ie^{2i(kt+\pi\Phi)}+4ke^{2i(kt+\pi\Phi)}-\alpha ie^{2i(k(t+\pi)+\pi\Phi)}-2ke^{2i(k(t+\pi)+\pi\Phi)}-2ke^{2i(k(t+\pi)+2\pi\Phi)}-2ke^{2ik(t+\pi)}+2ke^{2ik(t+2\pi)}+2ke^{4\pi i(k+\Phi)}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,2}=e^{-i\pi(k+\Phi)}\left(-\alpha ie^{2\pi i(k+\Phi)}+\alpha ie^{2\pi i(2k+\Phi)}+\alpha ie^{2i(kt+\pi\Phi)}-\alpha ie^{2i(k(t+\pi)+\pi\Phi)}+4ke^{2i(kt+\pi\Phi)}-2ke^{2\pi i(k+\Phi)}-2ke^{2i(k(t+\pi)+\pi\Phi)}-2ke^{2i(k(t+\pi)+2\pi\Phi)}-2ke^{2ik(t+\pi)}+2ke^{2ik(t+2\pi)}+2ke^{4\pi i(k+\Phi)}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,2}=e^{-i\pi(k+\Phi)}\left(\alpha i\left(-e^{2\pi i(k+\Phi)}+e^{2\pi i(2k+\Phi)}+e^{2i(kt+\pi\Phi)}-e^{2i(k(t+\pi)+\pi\Phi)}\right)+4ke^{2i(kt+\pi\Phi)}-2ke^{2\pi i(k+\Phi)}-2ke^{2i(k(t+\pi)+\pi\Phi)}-2ke^{2i(k(t+\pi)+2\pi\Phi)}-2ke^{2ik(t+\pi)}+2ke^{2ik(t+2\pi)}+2ke^{4\pi i(k+\Phi)}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,2}=e^{-i\pi(k+\Phi)}2k\left(\frac{\alpha i}{2k}\left(-e^{2\pi i(k+\Phi)}+e^{2\pi i(2k+\Phi)}+e^{2i(kt+\pi\Phi)}-e^{2i(k(t+\pi)+\pi\Phi)}\right)+2e^{2i(kt+\pi\Phi)}-e^{2\pi i(k+\Phi)}-e^{2i(k(t+\pi)+\pi\Phi)}-e^{2i(k(t+\pi)+2\pi\Phi)}-e^{2ik(t+\pi)}+e^{2ik(t+2\pi)}+e^{4\pi i(k+\Phi)}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,2}=e^{-i\pi(k+\Phi)}2k\left(\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(-e^{2\pi ik}+e^{4\pi ik}+e^{2ikt}-e^{2ik(t+\pi)}\right)+2e^{2i(kt+\pi\Phi)}-e^{2\pi i(k+\Phi)}-e^{2i(k(t+\pi)+\pi\Phi)}-e^{2i(k(t+\pi)+2\pi\Phi)}+e^{2ik(t+2\pi)}-e^{2ik(t+\pi)}+e^{4\pi i(k+\Phi)}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,2}=e^{-i\pi(k+\Phi)}2k\left(\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{2\pi ik}\left(e^{2\pi ik}-1\right)+e^{2ikt}\left(1-e^{2ik\pi}\right)\right)+2e^{2i(kt+\pi\Phi)}-e^{2\pi i(k+\Phi)}-e^{2i(k(t+\pi)+\pi\Phi)}-e^{2i(k(t+\pi)+2\pi\Phi)}+e^{4\pi i(k+\Phi)}+e^{2ik(t+\pi)}\left(e^{2ik\pi}-1\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,2}=e^{-i\pi(k+\Phi)}2k\left(\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{2\pi ik}-1\right)\left(e^{2\pi ik}-e^{2ikt}\right)+e^{2i\pi\Phi}\left(2e^{2ikt}-e^{2\pi ik}-e^{2ik(t+\pi)}-e^{2i(k(t+\pi)+\pi\Phi)}+e^{2\pi i(2k+\Phi)}\right)+e^{2ik(t+\pi)}\left(e^{2ik\pi}-1\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,2}=e^{-i\pi(k+\Phi)}2k\left(\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{2\pi ik}-1\right)\left(e^{2\pi ik}-e^{2ikt}\right)+e^{2i\pi\Phi}\left(2e^{2ikt}-e^{2\pi ik}-e^{2ik(t+\pi)}+e^{2\pi i(k+\Phi)}\left(e^{2\pi ik}-e^{2ikt}\right)\right)+e^{2ik(t+\pi)}\left(e^{2ik\pi}-1\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,2}=e^{-i\pi(k+\Phi)}2k\left(\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{2\pi ik}-1\right)\left(e^{2\pi ik}-e^{2ikt}\right)+e^{2i\pi\Phi}\left(e^{2ikt}-e^{2\pi ik}+e^{2ikt}-e^{2ik(t+\pi)}+e^{2\pi i(k+\Phi)}\left(e^{2\pi ik}-e^{2ikt}\right)\right)+e^{2ik(t+\pi)}\left(e^{2ik\pi}-1\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,2}=e^{-i\pi(k+\Phi)}2k\left(\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{2\pi ik}-1\right)\left(e^{2\pi ik}-e^{2ikt}\right)+e^{2i\pi\Phi}\left(e^{2ikt}-e^{2ik(t+\pi)}+\left(e^{2\pi i(k+\Phi)}-1\right)\left(e^{2\pi ik}-e^{2ikt}\right)\right)+e^{2ik(t+\pi)}\left(e^{2ik\pi}-1\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{2,2}=e^{-i\pi(k+\Phi)}2k\left(\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{2\pi ik}-1\right)\left(e^{2\pi ik}-e^{2ikt}\right)+e^{2i\pi\Phi}\left(e^{2ikt}\left(1-e^{2ik\pi}\right)+\left(e^{2\pi i(k+\Phi)}-1\right)\left(e^{2\pi ik}-e^{2ikt}\right)\right)+e^{2ik(t+\pi)}\left(e^{2ik\pi}-1\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $M(k,\Phi,t)=e^{-i\pi(k+\Phi)}\left(e^{2\pi ik}-1\right)^{-1}\left(e^{2ik(t+\pi)}-e^{2i(kt+\pi\Phi)}+e^{2\pi i(k+\Phi)}-1\right)^{-1}*$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $*\left\{ \begin{array}{cc}
+\left\{ e^{2\pi ik}\left(e^{2\pi ik}-1\right)\left(-\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{2\pi ik}-1\right)+2e^{2\pi i(k+\Phi)}-e^{4i\pi\Phi}-1\right)\right\}  & \left\{ -\frac{\alpha i}{2k}e^{2\pi i\Phi}\left(e^{2\pi ik}-1\right)\left(e^{2\pi ik}-e^{2ikt}\right)+\left(e^{2\pi i(k+\Phi)}-1\right)\left(e^{2i(kt+\pi\Phi)}-e^{2\pi i(k+\Phi)}+e^{2\pi ik}-1\right)\right\} \\
+\left\{ e^{2\pi ik}\left(\frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{2\pi ik}-1\right)\left(e^{2\pi ik}-e^{2ikt}\right)+\left(e^{2ik\pi}-e^{2i\pi\Phi}\right)\left(e^{2ikt}\left(e^{2ik\pi}+e^{2i\pi\Phi}-1\right)-e^{2\pi i(k+\Phi)}\right)\right)\right\}  & \left\{ \frac{\alpha i}{2k}e^{2i\pi\Phi}\left(e^{2\pi ik}-1\right)\left(e^{2\pi ik}-e^{2ikt}\right)+e^{2i\pi\Phi}\left(\left(e^{2\pi i(k+\Phi)}-1\right)\left(e^{2\pi ik}-e^{2ikt}\right)-e^{2ikt}\left(e^{2ik\pi}-1\right)\right)+e^{2ik(t+\pi)}\left(e^{2ik\pi}-1\right)\right\} 
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

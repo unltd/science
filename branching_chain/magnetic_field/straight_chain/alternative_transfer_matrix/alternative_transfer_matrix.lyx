@@ -653,5 +653,38 @@ m_{1,2}\\
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Трансфер-матрица центрального кольца, посчитанная в Mathematica
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(\begin{array}{cc}
+\frac{e^{i(k(\theta-\pi)+(\theta+\pi)\Phi)}\left(-1+e^{4ik\pi}\right)}{e^{2ik\pi}-e^{2ik\theta}-e^{2i\pi\Phi}+e^{2i(k(\theta+\pi)+\pi\Phi)}} & \frac{e^{i(k(\theta-\pi)+(\theta+\pi)\Phi)}\left(-1+e^{2ik(\pi-\theta)}\right)\left(-1+e^{2ik(\theta+\pi)}\right)}{\left(e^{2ik\pi}-e^{2ik\theta}-e^{2i\pi\Phi}+e^{2i(k(\theta+\pi)+\pi\Phi)}\right)k}\\
+\frac{e^{-i(\pi-\theta)(k+\Phi)}\left(-2e^{2ik\pi}k-2e^{2i\pi(k+2\Phi)}k+e^{2i\pi\Phi}(2k+i\alpha)+e^{2i\pi(2k+\Phi)}(2k-i\alpha)\right)}{2\left(e^{2ik\pi}-e^{2ik\theta}-e^{2i\pi\Phi}+e^{2i(k(\theta+\pi)+\pi\Phi)}\right)} & \frac{e^{-i(\theta+\pi)(k-\Phi)}\left(e^{2ik\pi}i\alpha+e^{2ik(2\theta+\pi)}i\alpha-e^{2ik\theta}(2k+i\alpha)+e^{2ik(\theta+2\pi)}(2k-i\alpha)\right)}{2\left(e^{2ik\pi}-e^{2ik\theta}-e^{2i\pi\Phi}+e^{2i(k(\theta+\pi)+\pi\Phi)}\right)k}
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

@@ -492,6 +492,21 @@ status open
 \end_layout
 
 \begin_layout Standard
+Выражение для 
+\begin_inset Formula $\lambda_{min}$
+\end_inset
+
+ через след трансфер-матрицы:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda_{min}=\frac{tr(M)\left(1-\sqrt{1-\frac{4}{tr(M)^{2}}}\right)}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Собственные вектора трансфер-матрицы
 \end_layout
 

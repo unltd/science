@@ -1,0 +1,1398 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     48730,       1389]
+NotebookOptionsPosition[     47095,       1328]
+NotebookOutlinePosition[     47480,       1345]
+CellTagsIndexPosition[     47437,       1342]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Psi", "[", "x_", "]"}], "=", 
+  RowBox[{
+   RowBox[{"E", "^", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"-", "I"}], "*", "\[CapitalPhi]", "*", "x"}], ")"}]}], "*", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"E", "^", 
+      RowBox[{"(", 
+       RowBox[{"I", "*", "k", "*", "x"}], ")"}]}], ",", 
+     RowBox[{"E", "^", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "I"}], "*", "k", "*", "x"}], ")"}]}]}], 
+    "}"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Phi", "[", "x_", "]"}], "=", 
+  RowBox[{
+   RowBox[{"E", "^", 
+    RowBox[{"(", 
+     RowBox[{"I", "*", "\[CapitalPhi]", "*", "x"}], ")"}]}], "*", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"E", "^", 
+      RowBox[{"(", 
+       RowBox[{"I", "*", "k", "*", "x"}], ")"}]}], ",", 
+     RowBox[{"E", "^", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "I"}], "*", "k", "*", "x"}], ")"}]}]}], 
+    "}"}]}]}]}], "Input",
+ CellChangeTimes->{{3.6344852575056257`*^9, 3.6344853373722253`*^9}, {
+  3.634485400976025*^9, 3.6344854032560253`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   SuperscriptBox["\[ExponentialE]", 
+    RowBox[{
+     RowBox[{"\[ImaginaryI]", " ", "k", " ", "x"}], "-", 
+     RowBox[{"\[ImaginaryI]", " ", "x", " ", "\[CapitalPhi]"}]}]], ",", 
+   SuperscriptBox["\[ExponentialE]", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", "\[ImaginaryI]"}], " ", "k", " ", "x"}], "-", 
+     RowBox[{"\[ImaginaryI]", " ", "x", " ", "\[CapitalPhi]"}]}]]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.6344853809270253`*^9, 3.6344854263858247`*^9, 3.6344882990425997`*^9, 
+   3.6344883614357877`*^9, 3.6344885366344004`*^9, 3.635093131643552*^9, 
+   3.635093251894788*^9, {3.635093320664954*^9, 3.6350933246486053`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   SuperscriptBox["\[ExponentialE]", 
+    RowBox[{
+     RowBox[{"\[ImaginaryI]", " ", "k", " ", "x"}], "+", 
+     RowBox[{"\[ImaginaryI]", " ", "x", " ", "\[CapitalPhi]"}]}]], ",", 
+   SuperscriptBox["\[ExponentialE]", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", "\[ImaginaryI]"}], " ", "k", " ", "x"}], "+", 
+     RowBox[{"\[ImaginaryI]", " ", "x", " ", "\[CapitalPhi]"}]}]]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.6344853809270253`*^9, 3.6344854263858247`*^9, 3.6344882990425997`*^9, 
+   3.6344883614357877`*^9, 3.6344885366344004`*^9, 3.635093131643552*^9, 
+   3.635093251894788*^9, {3.635093320664954*^9, 3.635093324651113*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"PPsi", "[", "x_", "]"}], "=", 
+  RowBox[{"k", "*", 
+   RowBox[{"E", "^", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"-", "I"}], "*", "\[CapitalPhi]", "*", "x"}], ")"}]}], "*", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"E", "^", 
+      RowBox[{"(", 
+       RowBox[{"I", "*", "k", "*", "x"}], ")"}]}], ",", 
+     RowBox[{"-", 
+      RowBox[{"E", "^", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "I"}], "*", "k", "*", "x"}], ")"}]}]}]}], 
+    "}"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"PPhi", "[", "x_", "]"}], "=", 
+  RowBox[{"k", "*", 
+   RowBox[{"E", "^", 
+    RowBox[{"(", 
+     RowBox[{"I", "*", "\[CapitalPhi]", "*", "x"}], ")"}]}], "*", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"E", "^", 
+      RowBox[{"(", 
+       RowBox[{"I", "*", "k", "*", "x"}], ")"}]}], ",", 
+     RowBox[{"-", 
+      RowBox[{"E", "^", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "I"}], "*", "k", "*", "x"}], ")"}]}]}]}], 
+    "}"}]}]}]}], "Input",
+ CellChangeTimes->{{3.634485324009425*^9, 3.634485337446225*^9}, {
+  3.634485404879425*^9, 3.6344854062632256`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{
+      RowBox[{"\[ImaginaryI]", " ", "k", " ", "x"}], "-", 
+      RowBox[{"\[ImaginaryI]", " ", "x", " ", "\[CapitalPhi]"}]}]], " ", 
+    "k"}], ",", 
+   RowBox[{
+    RowBox[{"-", 
+     SuperscriptBox["\[ExponentialE]", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "\[ImaginaryI]"}], " ", "k", " ", "x"}], "-", 
+       RowBox[{"\[ImaginaryI]", " ", "x", " ", "\[CapitalPhi]"}]}]]}], " ", 
+    "k"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.634485381264025*^9, 3.6344854264318247`*^9, 
+  3.634488299113607*^9, 3.634488361477792*^9, 3.634488536692005*^9, 
+  3.635093131691018*^9, 3.6350932519401913`*^9, 3.635093324730678*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{
+      RowBox[{"\[ImaginaryI]", " ", "k", " ", "x"}], "+", 
+      RowBox[{"\[ImaginaryI]", " ", "x", " ", "\[CapitalPhi]"}]}]], " ", 
+    "k"}], ",", 
+   RowBox[{
+    RowBox[{"-", 
+     SuperscriptBox["\[ExponentialE]", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "\[ImaginaryI]"}], " ", "k", " ", "x"}], "+", 
+       RowBox[{"\[ImaginaryI]", " ", "x", " ", "\[CapitalPhi]"}]}]]}], " ", 
+    "k"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.634485381264025*^9, 3.6344854264318247`*^9, 
+  3.634488299113607*^9, 3.634488361477792*^9, 3.634488536692005*^9, 
+  3.635093131691018*^9, 3.6350932519401913`*^9, 3.635093324732896*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"Psi", "[", "0", "]"}], ".", 
+      RowBox[{"{", 
+       RowBox[{"Cp", ",", " ", "Cm"}], "}"}]}], "\[Equal]", 
+     RowBox[{
+      RowBox[{"Phi", "[", "0", "]"}], ".", 
+      RowBox[{"{", 
+       RowBox[{"Dp", ",", "Dm"}], "}"}]}]}], "&&", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Psi", "[", "\[Pi]", "]"}], ".", 
+      RowBox[{"{", 
+       RowBox[{"Cp", ",", "Cm"}], "}"}]}], "\[Equal]", 
+     RowBox[{
+      RowBox[{"Phi", "[", "\[Pi]", "]"}], ".", 
+      RowBox[{"{", 
+       RowBox[{"Dp", ",", "Dm"}], "}"}]}]}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"Dp", ",", "Dm"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6344851690920258`*^9, 3.634485248151026*^9}, {
+  3.6344853240864253`*^9, 3.634485337502225*^9}, {3.634485387672025*^9, 
+  3.6344854234696584`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Dp", "\[Rule]", 
+     RowBox[{"-", 
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{
+          RowBox[{"-", "2"}], " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+          "\[CapitalPhi]"}]], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "Cm"}], "-", 
+          RowBox[{"Cp", " ", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]]}], 
+          "+", 
+          RowBox[{"Cm", " ", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{
+            "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+             "\[CapitalPhi]"}]]}], "+", 
+          RowBox[{"Cp", " ", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{
+            "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+             "\[CapitalPhi]"}]]}]}], ")"}]}], 
+       RowBox[{
+        RowBox[{"-", "1"}], "+", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]]}]]}]}], 
+    ",", 
+    RowBox[{"Dm", "\[Rule]", 
+     RowBox[{"Cm", "+", "Cp", "+", 
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{
+          RowBox[{"-", "2"}], " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+          "\[CapitalPhi]"}]], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "Cm"}], "-", 
+          RowBox[{"Cp", " ", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]]}], 
+          "+", 
+          RowBox[{"Cm", " ", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{
+            "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+             "\[CapitalPhi]"}]]}], "+", 
+          RowBox[{"Cp", " ", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{
+            "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+             "\[CapitalPhi]"}]]}]}], ")"}]}], 
+       RowBox[{
+        RowBox[{"-", "1"}], "+", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{
+         "2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]]}]]}]}]}], "}"}],
+   "}"}]], "Output",
+ CellChangeTimes->{3.634485346034625*^9, 3.634485381271025*^9, 
+  3.634485426481825*^9, 3.6344882991642103`*^9, 3.634488361513795*^9, 
+  3.6344885367260084`*^9, 3.635093131783136*^9, 3.635093251982888*^9, 
+  3.635093324774269*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Dp", "[", 
+   RowBox[{"Cp_", ",", " ", "Cm_"}], "]"}], "=", 
+  RowBox[{"-", 
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[ExponentialE]", 
+      RowBox[{
+       RowBox[{"-", "2"}], " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+       "\[CapitalPhi]"}]], " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "Cm"}], "-", 
+       RowBox[{"Cp", " ", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]]}], "+", 
+       RowBox[{"Cm", " ", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{
+         "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]]}], 
+       "+", 
+       RowBox[{"Cp", " ", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{
+         "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]]}]}],
+       ")"}]}], 
+    RowBox[{
+     RowBox[{"-", "1"}], "+", 
+     SuperscriptBox["\[ExponentialE]", 
+      RowBox[{
+      "2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]]}]]}]}]], "Input",
+ CellChangeTimes->{{3.6344876400423927`*^9, 3.634487657910573*^9}}],
+
+Cell[BoxData[
+ RowBox[{"-", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{
+      RowBox[{"-", "2"}], " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+      "\[CapitalPhi]"}]], " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"-", "Cm"}], "-", 
+      RowBox[{"Cp", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]]}], "+", 
+      RowBox[{"Cm", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{
+        "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]]}], 
+      "+", 
+      RowBox[{"Cp", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{
+        "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]]}]}], 
+     ")"}]}], 
+   RowBox[{
+    RowBox[{"-", "1"}], "+", 
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{
+     "2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]]}]]}]], "Output",
+ CellChangeTimes->{3.6344876593167143`*^9, 3.634488299175212*^9, 
+  3.634488361532797*^9, 3.634488536736009*^9, 3.635093131824072*^9, 
+  3.635093252032352*^9, 3.635093324820423*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Dm", "[", 
+   RowBox[{"Cp_", ",", "Cm_"}], "]"}], "=", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{
+      RowBox[{"-", "2"}], " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+      "\[CapitalPhi]"}]], " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"-", "Cm"}], "-", 
+      RowBox[{"Cp", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]]}], "+", 
+      RowBox[{"Cm", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{
+         RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}], "+", 
+         RowBox[{
+         "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]]}],
+       "+", 
+      RowBox[{"Cp", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{
+         RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}], "+", 
+         RowBox[{
+         "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+          "\[CapitalPhi]"}]}]]}]}], ")"}]}], 
+   RowBox[{
+    RowBox[{"-", "1"}], "+", 
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{
+     "2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]]}]]}]], "Input",
+ CellChangeTimes->{{3.6344876651568966`*^9, 3.63448768214258*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+   SuperscriptBox["\[ExponentialE]", 
+    RowBox[{
+     RowBox[{"-", "2"}], " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+     "\[CapitalPhi]"}]], " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"-", "Cm"}], "-", 
+     RowBox[{"Cp", " ", 
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]]}], "+", 
+     RowBox[{"Cm", " ", 
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{
+        RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}], "+", 
+        RowBox[{
+        "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]}]]}], 
+     "+", 
+     RowBox[{"Cp", " ", 
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{
+        RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}], "+", 
+        RowBox[{
+        "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+         "\[CapitalPhi]"}]}]]}]}], ")"}]}], 
+  RowBox[{
+   RowBox[{"-", "1"}], "+", 
+   SuperscriptBox["\[ExponentialE]", 
+    RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]]}]]], "Output",
+ CellChangeTimes->{3.634487683329297*^9, 3.634488299185213*^9, 
+  3.6344883615447984`*^9, 3.63448853674901*^9, 3.635093131860331*^9, 
+  3.635093252083272*^9, 3.635093324870707*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"S", "=", 
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Dp", "[", 
+        RowBox[{"1", ",", " ", "0"}], "]"}], ",", 
+       RowBox[{"Dp", "[", 
+        RowBox[{"0", ",", " ", "1"}], "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Dm", "[", 
+        RowBox[{"1", ",", " ", "0"}], "]"}], ",", 
+       RowBox[{"Dm", "[", 
+        RowBox[{"0", ",", " ", "1"}], "]"}]}], "}"}]}], "}"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.634487685943756*^9, 3.634487760416363*^9}, {
+  3.6344882889249973`*^9, 3.6344882923895407`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{
+        RowBox[{"-", "\[ImaginaryI]"}], " ", "\[Pi]", " ", "\[CapitalPhi]"}]],
+       " ", 
+      RowBox[{"Csc", "[", 
+       RowBox[{"k", " ", "\[Pi]"}], "]"}], " ", 
+      RowBox[{"Sin", "[", 
+       RowBox[{"\[Pi]", " ", 
+        RowBox[{"(", 
+         RowBox[{"k", "-", "\[CapitalPhi]"}], ")"}]}], "]"}]}], ",", 
+     RowBox[{
+      RowBox[{"-", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{
+         RowBox[{"-", "\[ImaginaryI]"}], " ", "\[Pi]", " ", 
+         RowBox[{"(", 
+          RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]]}], " ", 
+      RowBox[{"Csc", "[", 
+       RowBox[{"k", " ", "\[Pi]"}], "]"}], " ", 
+      RowBox[{"Sin", "[", 
+       RowBox[{"\[Pi]", " ", "\[CapitalPhi]"}], "]"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+        RowBox[{"(", 
+         RowBox[{"k", "-", "\[CapitalPhi]"}], ")"}]}]], " ", 
+      RowBox[{"Csc", "[", 
+       RowBox[{"k", " ", "\[Pi]"}], "]"}], " ", 
+      RowBox[{"Sin", "[", 
+       RowBox[{"\[Pi]", " ", "\[CapitalPhi]"}], "]"}]}], ",", 
+     RowBox[{
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{
+        RowBox[{"-", "\[ImaginaryI]"}], " ", "\[Pi]", " ", "\[CapitalPhi]"}]],
+       " ", 
+      RowBox[{"Csc", "[", 
+       RowBox[{"k", " ", "\[Pi]"}], "]"}], " ", 
+      RowBox[{"Sin", "[", 
+       RowBox[{"\[Pi]", " ", 
+        RowBox[{"(", 
+         RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}], "]"}]}]}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.6344877609334145`*^9, {3.6344882933286343`*^9, 3.6344882992352176`*^9}, 
+   3.6344883618326225`*^9, 3.6344885370280385`*^9, 3.635093132517971*^9, 
+   3.635093252617031*^9, 3.635093325353447*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"Delta", "-", 
+    RowBox[{
+    "coupling", " ", "at", " ", "the", " ", "contact", " ", "point", " ", 
+     "of", " ", "two", " ", "rings"}]}], "*)"}], 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.63448786203786*^9, 3.6344879078686104`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Simplify", "[", 
+  RowBox[{"Solve", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"Psi", "[", "0", "]"}], ".", 
+       RowBox[{"{", 
+        RowBox[{"Cp1", ",", "Cm1"}], "}"}]}], " ", "==", 
+      RowBox[{
+       RowBox[{"Psi", "[", "\[Pi]", "]"}], ".", 
+       RowBox[{"{", 
+        RowBox[{"Cp0", ",", "Cm0"}], "}"}]}]}], "\[IndentingNewLine]", "&&", 
+     "\[IndentingNewLine]", " ", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"PPsi", "[", "0", "]"}], ".", 
+        RowBox[{"{", 
+         RowBox[{"Cp1", ",", "Cm1"}], "}"}]}], "+", 
+       RowBox[{
+        RowBox[{"PPhi", "[", "0", "]"}], ".", "S", ".", 
+        RowBox[{"{", 
+         RowBox[{"Cp1", ",", "Cm1"}], "}"}]}]}], "==", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"PPsi", "[", "\[Pi]", "]"}], ".", 
+        RowBox[{"{", 
+         RowBox[{"Cp0", ",", "Cm0"}], "}"}]}], "+", 
+       RowBox[{
+        RowBox[{"PPhi", "[", "\[Pi]", "]"}], ".", "S", ".", 
+        RowBox[{"{", 
+         RowBox[{"Cp0", ",", "Cm0"}], "}"}]}], "-", 
+       RowBox[{"I", "*", "\[Alpha]", "*", 
+        RowBox[{
+         RowBox[{"Psi", "[", "\[Pi]", "]"}], ".", 
+         RowBox[{"{", 
+          RowBox[{"Cp0", ",", "Cm0"}], "}"}]}]}]}]}]}], ",", 
+    RowBox[{"{", 
+     RowBox[{"Cp1", ",", "Cm1"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.634487942159419*^9, 3.6344879443596387`*^9}, {
+   3.6344879880323777`*^9, 3.6344879920323763`*^9}, 3.6344885301105585`*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Cp1", "\[Rule]", 
+     RowBox[{
+      FractionBox["1", 
+       RowBox[{"2", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{
+           "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]]}],
+          ")"}], " ", "k"}]], 
+      RowBox[{
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{
+         RowBox[{"-", "\[ImaginaryI]"}], " ", "\[Pi]", " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"2", " ", "k"}], "+", "\[CapitalPhi]"}], ")"}]}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+            RowBox[{"(", 
+             RowBox[{"k", "+", 
+              RowBox[{"2", " ", "\[CapitalPhi]"}]}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"Cp0", " ", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]], 
+             " ", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"2", " ", "k"}], "-", 
+               RowBox[{"\[ImaginaryI]", " ", "\[Alpha]"}]}], ")"}]}], "-", 
+            RowBox[{"\[ImaginaryI]", " ", "Cm0", " ", "\[Alpha]"}]}], ")"}]}],
+          "+", 
+         RowBox[{"\[ImaginaryI]", " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"Cp0", " ", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]], 
+             " ", 
+             RowBox[{"(", 
+              RowBox[{"1", "-", 
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{
+                "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+                 "\[CapitalPhi]"}]], "+", 
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{
+                "4", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+                 "\[CapitalPhi]"}]], "-", 
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{"2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+                 RowBox[{"(", 
+                  RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]]}], ")"}]}], 
+            "+", 
+            RowBox[{"Cm0", " ", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"-", "1"}], "+", 
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{
+                "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+                 "\[CapitalPhi]"}]]}], ")"}], " ", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"-", "1"}], "+", 
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{"2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+                 RowBox[{"(", 
+                  RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]]}], ")"}]}]}], 
+           ")"}], " ", "k", " ", 
+          RowBox[{"Csc", "[", 
+           RowBox[{"k", " ", "\[Pi]"}], "]"}]}]}], ")"}]}]}]}], ",", 
+    RowBox[{"Cm1", "\[Rule]", 
+     RowBox[{"-", 
+      RowBox[{
+       FractionBox["1", 
+        RowBox[{"2", " ", 
+         RowBox[{"(", 
+          RowBox[{"1", "+", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{
+            "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+             "\[CapitalPhi]"}]]}], ")"}], " ", "k"}]], 
+       RowBox[{
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{
+          RowBox[{"-", "\[ImaginaryI]"}], " ", "\[Pi]", " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"2", " ", "k"}], "+", "\[CapitalPhi]"}], ")"}]}]], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", "\[ImaginaryI]"}], " ", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+             RowBox[{"(", 
+              RowBox[{"k", "+", 
+               RowBox[{"2", " ", "\[CapitalPhi]"}]}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"Cp0", " ", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]], 
+              " ", "\[Alpha]"}], "+", 
+             RowBox[{"Cm0", " ", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"-", "2"}], " ", "\[ImaginaryI]", " ", "k"}], "+", 
+                "\[Alpha]"}], ")"}]}]}], ")"}]}], "+", 
+          RowBox[{"k", " ", 
+           RowBox[{"Csc", "[", 
+            RowBox[{"k", " ", "\[Pi]"}], "]"}], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"-", "Cm0"}], " ", 
+                 SuperscriptBox["\[ExponentialE]", 
+                  RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+                   RowBox[{"(", 
+                    RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]]}], "+", 
+                RowBox[{"Cp0", " ", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   SuperscriptBox["\[ExponentialE]", 
+                    RowBox[{"3", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+                    RowBox[{"(", 
+                    RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]], "-", 
+                   SuperscriptBox["\[ExponentialE]", 
+                    RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"3", " ", "k"}], "+", "\[CapitalPhi]"}], 
+                    ")"}]}]]}], ")"}]}]}], ")"}], " ", 
+              RowBox[{"Sin", "[", 
+               RowBox[{"\[Pi]", " ", 
+                RowBox[{"(", 
+                 RowBox[{"k", "-", "\[CapitalPhi]"}], ")"}]}], "]"}]}], "+", 
+             RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"2", " ", "k"}], "+", "\[CapitalPhi]"}], ")"}]}]], 
+              " ", 
+              RowBox[{"(", 
+               RowBox[{"Cm0", "-", 
+                RowBox[{"Cm0", " ", 
+                 SuperscriptBox["\[ExponentialE]", 
+                  RowBox[{
+                  "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+                   "\[CapitalPhi]"}]]}], "+", 
+                RowBox[{"Cp0", " ", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   SuperscriptBox["\[ExponentialE]", 
+                    RowBox[{
+                    "2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]], "-", 
+                   SuperscriptBox["\[ExponentialE]", 
+                    RowBox[{
+                    "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+                    "\[CapitalPhi]"}]]}], ")"}]}]}], ")"}], " ", 
+              RowBox[{"Sin", "[", 
+               RowBox[{"\[Pi]", " ", "\[CapitalPhi]"}], "]"}]}], "-", 
+             RowBox[{"Cm0", " ", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+                RowBox[{"(", 
+                 RowBox[{"k", "+", 
+                  RowBox[{"3", " ", "\[CapitalPhi]"}]}], ")"}]}]], " ", 
+              RowBox[{"Sin", "[", 
+               RowBox[{"\[Pi]", " ", 
+                RowBox[{"(", 
+                 RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}], "]"}]}]}], 
+            ")"}]}]}], ")"}]}]}]}]}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{{3.634487980082386*^9, 3.6344879934081125`*^9}, 
+   3.63448830425772*^9, 3.634488364325872*^9, 3.634488540399974*^9, 
+   3.6350931379597063`*^9, 3.635093211469434*^9, 3.635093252681945*^9, 
+   3.635093330865554*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Cp1", "[", 
+   RowBox[{"Cp0_", ",", "Cm0_"}], "]"}], "=", 
+  RowBox[{
+   FractionBox["1", 
+    RowBox[{"2", " ", 
+     RowBox[{"(", 
+      RowBox[{"1", "+", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{
+        "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]]}], 
+      ")"}], " ", "k"}]], 
+   SuperscriptBox["\[ExponentialE]", 
+    RowBox[{
+     RowBox[{"-", "\[ImaginaryI]"}], " ", "\[Pi]", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"2", " ", "k"}], "+", "\[CapitalPhi]"}], ")"}]}]], " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+        RowBox[{"(", 
+         RowBox[{"k", "+", 
+          RowBox[{"2", " ", "\[CapitalPhi]"}]}], ")"}]}]], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"Cp0", " ", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]], " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"2", " ", "k"}], "-", 
+           RowBox[{"\[ImaginaryI]", " ", "\[Alpha]"}]}], ")"}]}], "-", 
+        RowBox[{"\[ImaginaryI]", " ", "Cm0", " ", "\[Alpha]"}]}], ")"}]}], 
+     "+", 
+     RowBox[{"\[ImaginaryI]", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"Cp0", " ", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]], " ", 
+         RowBox[{"(", 
+          RowBox[{"1", "-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{
+            "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]], 
+           "+", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{
+            "4", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]], 
+           "-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+             RowBox[{"(", 
+              RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]]}], ")"}]}], "+", 
+        RowBox[{"Cm0", " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"-", "1"}], "+", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{
+            "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+             "\[CapitalPhi]"}]]}], ")"}], " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"-", "1"}], "+", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+             RowBox[{"(", 
+              RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]]}], ")"}]}]}], 
+       ")"}], " ", "k", " ", 
+      RowBox[{"Csc", "[", 
+       RowBox[{"k", " ", "\[Pi]"}], "]"}]}]}], ")"}]}]}]], "Input",
+ CellChangeTimes->{{3.634488015044064*^9, 3.634488036122157*^9}, 
+   3.634488345348398*^9, 3.6350932229282846`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", 
+   RowBox[{"2", " ", 
+    RowBox[{"(", 
+     RowBox[{"1", "+", 
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{
+       "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]]}], 
+     ")"}], " ", "k"}]], 
+  RowBox[{
+   SuperscriptBox["\[ExponentialE]", 
+    RowBox[{
+     RowBox[{"-", "\[ImaginaryI]"}], " ", "\[Pi]", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"2", " ", "k"}], "+", "\[CapitalPhi]"}], ")"}]}]], " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+        RowBox[{"(", 
+         RowBox[{"k", "+", 
+          RowBox[{"2", " ", "\[CapitalPhi]"}]}], ")"}]}]], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"Cp0", " ", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]], " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"2", " ", "k"}], "-", 
+           RowBox[{"\[ImaginaryI]", " ", "\[Alpha]"}]}], ")"}]}], "-", 
+        RowBox[{"\[ImaginaryI]", " ", "Cm0", " ", "\[Alpha]"}]}], ")"}]}], 
+     "+", 
+     RowBox[{"\[ImaginaryI]", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"Cp0", " ", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]], " ", 
+         RowBox[{"(", 
+          RowBox[{"1", "-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{
+            "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]], 
+           "+", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{
+            "4", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]], 
+           "-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+             RowBox[{"(", 
+              RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]]}], ")"}]}], "+", 
+        RowBox[{"Cm0", " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"-", "1"}], "+", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{
+            "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+             "\[CapitalPhi]"}]]}], ")"}], " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"-", "1"}], "+", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+             RowBox[{"(", 
+              RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]]}], ")"}]}]}], 
+       ")"}], " ", "k", " ", 
+      RowBox[{"Csc", "[", 
+       RowBox[{"k", " ", "\[Pi]"}], "]"}]}]}], ")"}]}]}]], "Output",
+ CellChangeTimes->{
+  3.634488040950238*^9, 3.634488304312725*^9, 3.634488364381878*^9, 
+   3.6344885404349775`*^9, 3.635093138076549*^9, {3.6350932259258747`*^9, 
+   3.6350932527348337`*^9}, 3.635093330930503*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Cm1", "[", 
+   RowBox[{"Cp0_", ",", "Cm0_"}], "]"}], "=", 
+  RowBox[{
+   RowBox[{"-", 
+    FractionBox["1", 
+     RowBox[{"2", " ", 
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{
+         "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]]}], 
+       ")"}], " ", "k"}]]}], 
+   SuperscriptBox["\[ExponentialE]", 
+    RowBox[{
+     RowBox[{"-", "\[ImaginaryI]"}], " ", "\[Pi]", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"2", " ", "k"}], "+", "\[CapitalPhi]"}], ")"}]}]], " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", "\[ImaginaryI]"}], " ", 
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+        RowBox[{"(", 
+         RowBox[{"k", "+", 
+          RowBox[{"2", " ", "\[CapitalPhi]"}]}], ")"}]}]], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"Cp0", " ", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]], " ", 
+         "\[Alpha]"}], "+", 
+        RowBox[{"Cm0", " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"-", "2"}], " ", "\[ImaginaryI]", " ", "k"}], "+", 
+           "\[Alpha]"}], ")"}]}]}], ")"}]}], "+", 
+     RowBox[{"k", " ", 
+      RowBox[{"Csc", "[", 
+       RowBox[{"k", " ", "\[Pi]"}], "]"}], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"-", "Cm0"}], " ", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+              RowBox[{"(", 
+               RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]]}], "+", 
+           RowBox[{"Cp0", " ", 
+            RowBox[{"(", 
+             RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"3", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+                RowBox[{"(", 
+                 RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]], "-", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"3", " ", "k"}], "+", "\[CapitalPhi]"}], ")"}]}]]}],
+              ")"}]}]}], ")"}], " ", 
+         RowBox[{"Sin", "[", 
+          RowBox[{"\[Pi]", " ", 
+           RowBox[{"(", 
+            RowBox[{"k", "-", "\[CapitalPhi]"}], ")"}]}], "]"}]}], "+", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"2", " ", "k"}], "+", "\[CapitalPhi]"}], ")"}]}]], " ", 
+         RowBox[{"(", 
+          RowBox[{"Cm0", "-", 
+           RowBox[{"Cm0", " ", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{
+             "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+              "\[CapitalPhi]"}]]}], "+", 
+           RowBox[{"Cp0", " ", 
+            RowBox[{"(", 
+             RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]], 
+              "-", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+               "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+                "\[CapitalPhi]"}]]}], ")"}]}]}], ")"}], " ", 
+         RowBox[{"Sin", "[", 
+          RowBox[{"\[Pi]", " ", "\[CapitalPhi]"}], "]"}]}], "-", 
+        RowBox[{"Cm0", " ", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+           RowBox[{"(", 
+            RowBox[{"k", "+", 
+             RowBox[{"3", " ", "\[CapitalPhi]"}]}], ")"}]}]], " ", 
+         RowBox[{"Sin", "[", 
+          RowBox[{"\[Pi]", " ", 
+           RowBox[{"(", 
+            RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}], "]"}]}]}], 
+       ")"}]}]}], ")"}]}]}]], "Input",
+ CellChangeTimes->{{3.634488050457985*^9, 3.6344880580339394`*^9}, 
+   3.6344883555586014`*^9, 3.6350932425284033`*^9}],
+
+Cell[BoxData[
+ RowBox[{"-", 
+  RowBox[{
+   FractionBox["1", 
+    RowBox[{"2", " ", 
+     RowBox[{"(", 
+      RowBox[{"1", "+", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{
+        "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]]}], 
+      ")"}], " ", "k"}]], 
+   RowBox[{
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{
+      RowBox[{"-", "\[ImaginaryI]"}], " ", "\[Pi]", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"2", " ", "k"}], "+", "\[CapitalPhi]"}], ")"}]}]], " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"-", "\[ImaginaryI]"}], " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+         RowBox[{"(", 
+          RowBox[{"k", "+", 
+           RowBox[{"2", " ", "\[CapitalPhi]"}]}], ")"}]}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"Cp0", " ", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]], " ", 
+          "\[Alpha]"}], "+", 
+         RowBox[{"Cm0", " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"-", "2"}], " ", "\[ImaginaryI]", " ", "k"}], "+", 
+            "\[Alpha]"}], ")"}]}]}], ")"}]}], "+", 
+      RowBox[{"k", " ", 
+       RowBox[{"Csc", "[", 
+        RowBox[{"k", " ", "\[Pi]"}], "]"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"-", "Cm0"}], " ", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+               RowBox[{"(", 
+                RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]]}], "+", 
+            RowBox[{"Cp0", " ", 
+             RowBox[{"(", 
+              RowBox[{
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{"3", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+                 RowBox[{"(", 
+                  RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]], "-", 
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   RowBox[{"3", " ", "k"}], "+", "\[CapitalPhi]"}], 
+                  ")"}]}]]}], ")"}]}]}], ")"}], " ", 
+          RowBox[{"Sin", "[", 
+           RowBox[{"\[Pi]", " ", 
+            RowBox[{"(", 
+             RowBox[{"k", "-", "\[CapitalPhi]"}], ")"}]}], "]"}]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"2", " ", "k"}], "+", "\[CapitalPhi]"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{"Cm0", "-", 
+            RowBox[{"Cm0", " ", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{
+              "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+               "\[CapitalPhi]"}]]}], "+", 
+            RowBox[{"Cp0", " ", 
+             RowBox[{"(", 
+              RowBox[{
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]], 
+               "-", 
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{
+                "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+                 "\[CapitalPhi]"}]]}], ")"}]}]}], ")"}], " ", 
+          RowBox[{"Sin", "[", 
+           RowBox[{"\[Pi]", " ", "\[CapitalPhi]"}], "]"}]}], "-", 
+         RowBox[{"Cm0", " ", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+            RowBox[{"(", 
+             RowBox[{"k", "+", 
+              RowBox[{"3", " ", "\[CapitalPhi]"}]}], ")"}]}]], " ", 
+          RowBox[{"Sin", "[", 
+           RowBox[{"\[Pi]", " ", 
+            RowBox[{"(", 
+             RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}], "]"}]}]}], 
+        ")"}]}]}], ")"}]}]}]}]], "Output",
+ CellChangeTimes->{
+  3.634488058973033*^9, 3.634488304327727*^9, {3.6344883567877245`*^9, 
+   3.634488364393879*^9}, 3.6344885404429784`*^9, 3.6350931381232767`*^9, {
+   3.6350932438267527`*^9, 3.635093252786257*^9}, 3.635093330975836*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"M", "=", 
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Cp1", "[", 
+        RowBox[{"1", ",", " ", "0"}], "]"}], ",", 
+       RowBox[{"Cp1", "[", 
+        RowBox[{"0", ",", " ", "1"}], "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Cm1", "[", 
+        RowBox[{"1", ",", " ", "0"}], "]"}], ",", 
+       RowBox[{"Cm1", "[", 
+        RowBox[{"0", ",", " ", "1"}], "]"}]}], "}"}]}], "}"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.6344880677571087`*^9, 3.63448816876845*^9}, {
+  3.634488389872813*^9, 3.634488390616888*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     FractionBox[
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"2", " ", "\[ImaginaryI]", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{
+             "4", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]],
+             "-", 
+            RowBox[{"2", " ", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+               RowBox[{"(", 
+                RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]]}]}], ")"}], " ",
+           "k"}], "-", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{
+           "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]], 
+          " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]]}], 
+           ")"}], " ", "\[Alpha]"}]}], ")"}], " ", 
+       RowBox[{"Csc", "[", 
+        RowBox[{"k", " ", "\[Pi]"}], "]"}]}], 
+      RowBox[{"4", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]], "+", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{
+          "3", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]]}], 
+        ")"}], " ", "k"}]], ",", 
+     RowBox[{"-", 
+      FractionBox[
+       RowBox[{"\[ImaginaryI]", " ", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{
+          RowBox[{"-", "\[ImaginaryI]"}], " ", "k", " ", "\[Pi]"}]], " ", 
+        RowBox[{"Sec", "[", 
+         RowBox[{"\[Pi]", " ", "\[CapitalPhi]"}], "]"}], " ", 
+        RowBox[{"(", 
+         RowBox[{"\[Alpha]", "+", 
+          RowBox[{"4", " ", "k", " ", 
+           RowBox[{"Csc", "[", 
+            RowBox[{"k", " ", "\[Pi]"}], "]"}], " ", 
+           RowBox[{"Sin", "[", 
+            RowBox[{"\[Pi]", " ", "\[CapitalPhi]"}], "]"}], " ", 
+           RowBox[{"Sin", "[", 
+            RowBox[{"\[Pi]", " ", 
+             RowBox[{"(", 
+              RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}], "]"}]}]}], 
+         ")"}]}], 
+       RowBox[{"4", " ", "k"}]]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     FractionBox[
+      RowBox[{"\[ImaginaryI]", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", 
+         RowBox[{"(", 
+          RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]], " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Alpha]", "-", 
+         RowBox[{"4", " ", "k", " ", 
+          RowBox[{"Csc", "[", 
+           RowBox[{"k", " ", "\[Pi]"}], "]"}], " ", 
+          RowBox[{"Sin", "[", 
+           RowBox[{"\[Pi]", " ", 
+            RowBox[{"(", 
+             RowBox[{"k", "-", "\[CapitalPhi]"}], ")"}]}], "]"}], " ", 
+          RowBox[{"Sin", "[", 
+           RowBox[{"\[Pi]", " ", "\[CapitalPhi]"}], "]"}]}]}], ")"}]}], 
+      RowBox[{"2", " ", 
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{
+          "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]]}], 
+        ")"}], " ", "k"}]], ",", 
+     FractionBox[
+      RowBox[{
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{
+         RowBox[{"-", "\[ImaginaryI]"}], " ", "\[Pi]", " ", 
+         RowBox[{"(", 
+          RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"1", "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{
+              "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+               "\[CapitalPhi]"}]]}], ")"}], "2"], " ", "k"}], "+", 
+         RowBox[{"\[ImaginaryI]", " ", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{
+           "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]], 
+          " ", "\[Alpha]"}], "-", 
+         RowBox[{"\[ImaginaryI]", " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{
+              "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+               "\[CapitalPhi]"}]]}], ")"}], "2"], " ", "k", " ", 
+          RowBox[{"Cot", "[", 
+           RowBox[{"k", " ", "\[Pi]"}], "]"}]}]}], ")"}]}], 
+      RowBox[{"2", " ", 
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{
+          "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]]}], 
+        ")"}], " ", "k"}]]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.634488139863377*^9, 3.6344881696455374`*^9}, 
+   3.6344883044837427`*^9, 3.6344883663992767`*^9, 3.634488399292551*^9, 
+   3.6344885445223866`*^9, 3.6350931459408712`*^9, 3.635093260472602*^9, 
+   3.635093339021977*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TrM", "=", 
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{"Tr", "[", "M", "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6344882084081945`*^9, 3.6344882404435797`*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+   RowBox[{"Sec", "[", 
+    RowBox[{"\[Pi]", " ", "\[CapitalPhi]"}], "]"}], " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"4", " ", "k", " ", 
+      RowBox[{"Cos", "[", 
+       RowBox[{"k", " ", "\[Pi]"}], "]"}]}], "+", 
+     RowBox[{"\[Alpha]", " ", 
+      RowBox[{"Sin", "[", 
+       RowBox[{"k", " ", "\[Pi]"}], "]"}]}]}], ")"}]}], 
+  RowBox[{"2", " ", "k"}]]], "Output",
+ CellChangeTimes->{{3.634488213968546*^9, 3.63448824233877*^9}, 
+   3.634488305130807*^9, 3.6344883668183184`*^9, 3.6344885448580184`*^9, 
+   3.635093146461443*^9, 3.635093260859551*^9, 3.635093339741015*^9}]
+}, Open  ]]
+},
+WindowSize->{1440, 808},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+Magnification:>1.6 Inherited,
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (January 25, \
+2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1066, 35, 72, "Input"],
+Cell[1649, 59, 685, 16, 54, "Output"],
+Cell[2337, 77, 683, 16, 54, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3057, 98, 1134, 37, 72, "Input"],
+Cell[4194, 137, 737, 19, 54, "Output"],
+Cell[4934, 158, 737, 19, 54, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5708, 182, 895, 26, 72, "Input"],
+Cell[6606, 210, 2495, 68, 80, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9138, 283, 1121, 32, 85, "Input"],
+Cell[10262, 317, 1124, 31, 80, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11423, 353, 1269, 35, 85, "Input"],
+Cell[12695, 390, 1269, 33, 80, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14001, 428, 638, 19, 45, "Input"],
+Cell[14642, 449, 1894, 53, 89, "Output"]
+}, Open  ]],
+Cell[16551, 505, 313, 8, 72, "Input"],
+Cell[CellGroupData[{
+Cell[16889, 517, 1517, 42, 150, "Input"],
+Cell[18409, 561, 7809, 191, 260, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26255, 757, 2887, 77, 189, "Input"],
+Cell[29145, 836, 2909, 77, 117, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32091, 918, 4108, 109, 224, "Input"],
+Cell[36202, 1029, 4250, 109, 152, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40489, 1143, 639, 19, 45, "Input"],
+Cell[41131, 1164, 5093, 134, 237, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[46261, 1303, 190, 4, 45, "Input"],
+Cell[46454, 1309, 625, 16, 69, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

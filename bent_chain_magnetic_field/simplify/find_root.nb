@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    149843,       3505]
-NotebookOptionsPosition[    149006,       3472]
-NotebookOutlinePosition[    149351,       3487]
-CellTagsIndexPosition[    149308,       3484]
+NotebookDataLength[    165392,       3860]
+NotebookOptionsPosition[    164671,       3831]
+NotebookOutlinePosition[    165016,       3846]
+CellTagsIndexPosition[    164973,       3843]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -3344,7 +3344,7 @@ Cell[BoxData[
                RowBox[{"\[Pi]", " ", "\[CapitalPhi]"}]}], ")"}]}]]}], ")"}], 
          " ", 
          SuperscriptBox["k", "2"]}], ")"}]}]}], ")"}]}]}]}]], "Output",
- CellChangeTimes->{3.6366145874658794`*^9}]
+ CellChangeTimes->{3.6366145874658794`*^9, 3.6366327235894012`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3355,7 +3355,7 @@ Cell[BoxData[
   3.6366148053461847`*^9, 3.6366148079661884`*^9}}],
 
 Cell[BoxData["0.25`"], "Output",
- CellChangeTimes->{3.6366148088861895`*^9}]
+ CellChangeTimes->{3.6366148088861895`*^9, 3.636632727569407*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3368,7 +3368,7 @@ Cell[BoxData[
 
 Cell[BoxData[
  FractionBox["\[Pi]", "6"]], "Output",
- CellChangeTimes->{3.636614815516199*^9}]
+ CellChangeTimes->{3.636614815516199*^9, 3.636632729229409*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3378,96 +3378,455 @@ Cell[BoxData[
  CellChangeTimes->{3.636614821106207*^9}],
 
 Cell[BoxData["0.5`"], "Output",
- CellChangeTimes->{3.636614821486207*^9}]
-}, Open  ]],
-
-Cell[CellGroupData[{
+ CellChangeTimes->{3.636614821486207*^9, 3.6366327310394115`*^9}],
 
 Cell[BoxData[
- RowBox[{"FindMinimum", "[", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"Re", "[", 
-      RowBox[{"char", "[", 
-       RowBox[{
-       "x", ",", "\[CapitalPhi]0", ",", "\[Theta]0", ",", "\[Alpha]0"}], 
-       "]"}], "]"}], ",", 
-     RowBox[{"Im", "[", 
-      RowBox[{"char", "[", 
-       RowBox[{
-       "y", ",", "\[CapitalPhi]0", ",", "\[Theta]0", ",", "\[Alpha]0"}], 
-       "]"}], "]"}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"{", 
-      RowBox[{"x", ",", "0.4"}], "}"}], ",", 
-     RowBox[{"{", 
-      RowBox[{"y", ",", "0.4"}], "}"}]}], "}"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.636614837226229*^9, 3.6366148471562433`*^9}, {
-  3.6366149146298227`*^9, 3.6366149826937156`*^9}}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"FindMinimum", "::", "eqineq"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Constraints in \
-\[NoBreak]\\!\\({\\(Im[\\(\\(\\(\\(-\\(\\(\\(\\(\\((\\(\\(\\(\\((5.\
-551115123125784`*^-17 - \\(\\(0.7071067811865476`\\\\ \[ImaginaryI]\\)\\))\\)\
-\\)\\\\ \\(\\((\\(\\(Times[\\(\\(\[LeftSkeleton] 2 \[RightSkeleton]\\)\\)]\\)\
-\\) + \\(\\(Times[\\(\\(\[LeftSkeleton] 3 \
-\[RightSkeleton]\\)\\)]\\)\\))\\)\\)\\\\ \\(\\(Csc[\\(\\(Times[\\(\\(\
-\[LeftSkeleton] 2 \[RightSkeleton]\\)\\)]\\)\\)]\\)\\)\\)\\) - \
-\\(\\(1.414213562373095`\\\\ \\(\\((\\(\\(-1\\)\\) + \\(\\(Power[\\(\\(\
-\[LeftSkeleton] 2 \[RightSkeleton]\\)\\)]\\)\\))\\)\\)\\\\ \
-\\(\\((\\(\\(Times[\\(\\(\[LeftSkeleton] 3 \[RightSkeleton]\\)\\)]\\)\\) + \
-\\(\\(Times[\\(\\(\[LeftSkeleton] 2 \
-\[RightSkeleton]\\)\\)]\\)\\))\\)\\)\\)\\))\\)\\)\\\\ \\(\\((\\(\
-\[LeftSkeleton] 1 \[RightSkeleton]\\)\\/\\(\[LeftSkeleton] 1 \[RightSkeleton]\
-\\) + \\(\[LeftSkeleton] 1 \[RightSkeleton]\\)\\/\\(\[LeftSkeleton] 1 \
-\[RightSkeleton]\\))\\)\\)\\)\\/\\(4\\\\ y\\)\\)\\)\\)\\) - \
-\\(\\(\\((\\(\\(0.` \[VeryThinSpace]\\)\\) + \\(\\(0.35355339059327373`\\\\ \
-\[ImaginaryI]\\)\\))\\)\\)\\\\ \[ExponentialE]\\^\\(\[LeftSkeleton] 1 \
-\[RightSkeleton]\\) \\(\\(\[LeftSkeleton] 1 \[RightSkeleton]\\)\\) \\(\\((\\(\
-\[LeftSkeleton] 1 \[RightSkeleton]\\) \\(\[LeftSkeleton] 1 \
-\[RightSkeleton]\\)\\)\\)\\\\ \\(\\((\\(\\(\\((\\(\\(Times[\\(\\(\
-\[LeftSkeleton] 2 \[RightSkeleton]\\)\\)]\\)\\) + \\(\\(Times[\\(\\(\
-\[LeftSkeleton] 2 \[RightSkeleton]\\)\\)]\\)\\))\\)\\)\\\\ \\(\\((\\(\
-\[LeftSkeleton] 1 \[RightSkeleton]\\))\\)\\)\\)\\/\\(8\\\\ \\(\\(Plus[\\(\\(\
-\[LeftSkeleton] 2 \[RightSkeleton]\\)\\)]\\)\\)\\\\ \\(\\(Plus[\\(\\(\
-\[LeftSkeleton] 4 \[RightSkeleton]\\)\\)]\\)\\)\\\\ y\\^2\\) - \\(\
-\[LeftSkeleton] 1 \[RightSkeleton]\\)\\/\\(\[LeftSkeleton] 1 \[RightSkeleton]\
-\\))\\)\\)\\)\\/y\\)\\)]\\)}\\)\[NoBreak] are not all equality or inequality \
-constraints. With the exception of integer domain constraints for linear \
-programming, domain constraints or constraints with Unequal (!=) are not \
-supported. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\
-\\\", ButtonFrame->None, ButtonData:>\\\"paclet:ref/FindMinimum\\\", \
-ButtonNote -> \\\"FindMinimum::eqineq\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{{3.6366149682388887`*^9, 3.636614983495762*^9}}],
-
-Cell[BoxData[
- RowBox[{"FindMinimum", "[", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"Re", "[", 
-      RowBox[{"char", "[", 
-       RowBox[{
-       "x", ",", "\[CapitalPhi]0", ",", "\[Theta]0", ",", "\[Alpha]0"}], 
-       "]"}], "]"}], ",", 
-     RowBox[{"Im", "[", 
-      RowBox[{"char", "[", 
-       RowBox[{
-       "y", ",", "\[CapitalPhi]0", ",", "\[Theta]0", ",", "\[Alpha]0"}], 
-       "]"}], "]"}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"{", 
-      RowBox[{"x", ",", "0.4`"}], "}"}], ",", 
-     RowBox[{"{", 
-      RowBox[{"y", ",", "0.4`"}], "}"}]}], "}"}]}], "]"}]], "Output",
- CellChangeTimes->{{3.636614968239889*^9, 3.636614983524763*^9}}]
+ InterpretationBox[
+  TagBox[
+   FrameBox[GridBox[{
+      {
+       ItemBox[
+        TagBox[
+         RowBox[{
+          RowBox[{"-", 
+           FractionBox[
+            RowBox[{
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{
+               RowBox[{
+                RowBox[{"-", "\[ImaginaryI]"}], " ", "k", " ", "\[Pi]"}], "+", 
+               RowBox[{"\[ImaginaryI]", " ", "k", " ", "\[Theta]"}], "-", 
+               RowBox[{"\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}], 
+               "+", 
+               RowBox[{
+               "\[ImaginaryI]", " ", "\[Theta]", " ", "\[CapitalPhi]"}]}]], 
+             " ", 
+             SuperscriptBox[
+              RowBox[{"Csc", "[", 
+               RowBox[{"k", " ", "\[Pi]"}], "]"}], "2"]}], 
+            RowBox[{"4", " ", 
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"-", "1"}], "+", 
+                SuperscriptBox["\[ExponentialE]", 
+                 RowBox[{
+                 "2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]]}], 
+               ")"}], "2"], " ", 
+             RowBox[{"(", 
+              RowBox[{"1", "+", 
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{
+                 RowBox[{"-", "2"}], " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+                 "\[CapitalPhi]"}]]}], ")"}], " ", 
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{
+                SuperscriptBox["\[ExponentialE]", 
+                 RowBox[{
+                 "\[ImaginaryI]", " ", "\[Pi]", " ", "\[CapitalPhi]"}]], "+", 
+                SuperscriptBox["\[ExponentialE]", 
+                 RowBox[{"3", " ", 
+                  TemplateBox[{"3"},
+                   "OutputSizeLimit`Skeleton",
+                   DisplayFunction->(FrameBox[
+                    
+                    RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                    Background -> GrayLevel[0.75], 
+                    BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                    Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                    FrameStyle -> GrayLevel[0.75], RoundingRadius -> 
+                    7]& )]}]]}], ")"}], "2"], " ", 
+             RowBox[{"(", 
+              RowBox[{
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]], 
+               "-", 
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{
+                "2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Theta]"}]], "-", 
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{
+                "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+                 "\[CapitalPhi]"}]], "+", 
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{
+                 RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", 
+                  RowBox[{"(", 
+                   RowBox[{"\[Pi]", "+", "\[Theta]"}], ")"}]}], "+", 
+                 RowBox[{
+                 "2", " ", "\[ImaginaryI]", " ", "\[Pi]", " ", 
+                  "\[CapitalPhi]"}]}]]}], ")"}]}]]}], "+", 
+          FractionBox[
+           TemplateBox[{"1"},
+            "OutputSizeLimit`Skeleton",
+            DisplayFunction->(FrameBox[
+              RowBox[{"\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}],
+               Background -> GrayLevel[0.75], 
+              BaseStyle -> {
+               "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                ShowStringCharacters -> False}, BaselinePosition -> Baseline, 
+              ContentPadding -> False, FrameMargins -> 1, FrameStyle -> 
+              GrayLevel[0.75], RoundingRadius -> 7]& )], 
+           TemplateBox[{"1"},
+            "OutputSizeLimit`Skeleton",
+            DisplayFunction->(FrameBox[
+              RowBox[{"\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}],
+               Background -> GrayLevel[0.75], 
+              BaseStyle -> {
+               "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                ShowStringCharacters -> False}, BaselinePosition -> Baseline, 
+              ContentPadding -> False, FrameMargins -> 1, FrameStyle -> 
+              GrayLevel[0.75], RoundingRadius -> 7]& )]], "+", 
+          TemplateBox[{"11628"},
+           "OutputSizeLimit`Skeleton",
+           DisplayFunction->(FrameBox[
+             RowBox[{"\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+             Background -> GrayLevel[0.75], 
+             BaseStyle -> {
+              "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+               ShowStringCharacters -> False}, BaselinePosition -> Baseline, 
+             ContentPadding -> False, FrameMargins -> 1, FrameStyle -> 
+             GrayLevel[0.75], RoundingRadius -> 7]& )], "+", 
+          TemplateBox[{"1"},
+           "OutputSizeLimit`Skeleton",
+           DisplayFunction->(FrameBox[
+             RowBox[{"\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+             Background -> GrayLevel[0.75], 
+             BaseStyle -> {
+              "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+               ShowStringCharacters -> False}, BaselinePosition -> Baseline, 
+             ContentPadding -> False, FrameMargins -> 1, FrameStyle -> 
+             GrayLevel[0.75], RoundingRadius -> 7]& )], "-", 
+          FractionBox[
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"-", "2"}], " ", "\[ImaginaryI]", " ", "k", " ", 
+               "\[Pi]"}], "+", 
+              RowBox[{"2", " ", 
+               TemplateBox[{"3"},
+                "OutputSizeLimit`Skeleton",
+                DisplayFunction->(FrameBox[
+                  
+                  RowBox[{
+                   "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                  Background -> GrayLevel[0.75], 
+                  BaseStyle -> {
+                   "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                  Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                  FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )]}], 
+              "-", 
+              RowBox[{"\[ImaginaryI]", " ", 
+               RowBox[{"(", 
+                RowBox[{"\[Pi]", "-", "\[Theta]"}], ")"}], " ", 
+               RowBox[{"(", 
+                RowBox[{"k", "+", "\[CapitalPhi]"}], ")"}]}]}]], " ", 
+            SuperscriptBox["\[Alpha]", "2"], " ", 
+            SuperscriptBox[
+             RowBox[{"Csc", "[", 
+              RowBox[{"k", " ", "\[Pi]"}], "]"}], "2"], " ", 
+            SuperscriptBox[
+             RowBox[{"Sin", "[", 
+              RowBox[{"\[Pi]", " ", 
+               TemplateBox[{"1"},
+                "OutputSizeLimit`Skeleton",
+                DisplayFunction->(FrameBox[
+                  
+                  RowBox[{
+                   "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                  Background -> GrayLevel[0.75], 
+                  BaseStyle -> {
+                   "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                  Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                  FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )]}], 
+              "]"}], "2"], " ", 
+            SuperscriptBox[
+             RowBox[{"Tan", "[", 
+              RowBox[{"\[Pi]", " ", "\[CapitalPhi]"}], "]"}], "2"]}], 
+           RowBox[{"4", " ", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "1"}], "+", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]]}],
+              ")"}], " ", 
+            RowBox[{"(", 
+             RowBox[{"1", "+", 
+              TemplateBox[{"1"},
+               "OutputSizeLimit`Skeleton",
+               DisplayFunction->(FrameBox[
+                 
+                 RowBox[{
+                  "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                 Background -> GrayLevel[0.75], 
+                 BaseStyle -> {
+                  "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                   ShowStringCharacters -> False}, BaselinePosition -> 
+                 Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                 FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )]}], 
+             ")"}], " ", 
+            RowBox[{"(", 
+             RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"2", " ", "\[ImaginaryI]", " ", "k", " ", "\[Pi]"}]], 
+              "-", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"2", " ", "\[ImaginaryI]", 
+                TemplateBox[{"1"},
+                 "OutputSizeLimit`Skeleton",
+                 DisplayFunction->(FrameBox[
+                   
+                   RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                   Background -> GrayLevel[0.75], 
+                   BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                   Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                   FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )], 
+                TemplateBox[{"1"},
+                 "OutputSizeLimit`Skeleton",
+                 DisplayFunction->(FrameBox[
+                   
+                   RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                   Background -> GrayLevel[0.75], 
+                   BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                   Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                   FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )], 
+                " ", "\[Theta]"}]], "-", 
+              TemplateBox[{"1"},
+               "OutputSizeLimit`Skeleton",
+               DisplayFunction->(FrameBox[
+                 
+                 RowBox[{
+                  "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                 Background -> GrayLevel[0.75], 
+                 BaseStyle -> {
+                  "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                   ShowStringCharacters -> False}, BaselinePosition -> 
+                 Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                 FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )], "+", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                TemplateBox[{"1"},
+                 "OutputSizeLimit`Skeleton",
+                 DisplayFunction->(FrameBox[
+                   
+                   RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                   Background -> GrayLevel[0.75], 
+                   BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                   Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                   FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )], 
+                "+", 
+                TemplateBox[{"1"},
+                 "OutputSizeLimit`Skeleton",
+                 DisplayFunction->(FrameBox[
+                   
+                   RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                   Background -> GrayLevel[0.75], 
+                   BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                   Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                   FrameStyle -> GrayLevel[0.75], RoundingRadius -> 
+                   7]& )]}]]}], ")"}], " ", 
+            SuperscriptBox["k", "2"]}]]}],
+         Short[#, 5]& ],
+        BaseStyle->{Deployed -> False},
+        StripOnInput->False]},
+      {GridBox[{
+         {
+          TagBox[
+           TooltipBox[
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource[
+                "FEStrings", "sizeBriefExplanation"], StandardForm],
+               ImageSizeCache->{65., {3., 9.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarCategory",
+             StripOnInput->False],
+            StyleBox[
+             DynamicBox[
+              ToBoxes[
+               FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"], 
+               StandardForm]], DynamicUpdating -> True, StripOnInput -> 
+             False]],
+           Annotation[#, 
+            Style[
+             Dynamic[
+              FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"]], 
+             DynamicUpdating -> True], "Tooltip"]& ], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
+                StandardForm],
+               ImageSizeCache->{52., {1., 9.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            Identity, 35, 21472454448962701193, 5/2],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
+                StandardForm],
+               ImageSizeCache->{62., {1., 9.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            Identity, 35, 21472454448962701193, 5 2],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
+                StandardForm],
+               ImageSizeCache->{44., {1., 9.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            Identity, 35, 21472454448962701193, Infinity],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
+                StandardForm],
+               ImageSizeCache->{78., {1., 9.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           ButtonFunction:>FrontEndExecute[{
+              FrontEnd`SetOptions[
+              FrontEnd`$FrontEnd, 
+               FrontEnd`PreferencesSettings -> {"Page" -> "Evaluation"}], 
+              FrontEnd`FrontEndToken["PreferencesDialog"]}],
+           Evaluator->None,
+           Method->"Preemptive"]}
+        },
+        AutoDelete->False,
+        FrameStyle->GrayLevel[0.85],
+        GridBoxDividers->{"Columns" -> {False, {True}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{2}}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{
+      "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+       "RowsIndexed" -> {}},
+     GridBoxDividers->{
+      "Columns" -> {{False}}, "ColumnsIndexed" -> {}, "Rows" -> {{False}}, 
+       "RowsIndexed" -> {}},
+     GridBoxItemSize->{
+      "Columns" -> {{Automatic}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+       "RowsIndexed" -> {}},
+     GridBoxSpacings->{"Columns" -> {
+         Offset[0.27999999999999997`], {
+          Offset[0.5599999999999999]}, 
+         Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+         Offset[0.2], 
+         Offset[1.2], {
+          Offset[0.4]}, 
+         Offset[0.2]}, "RowsIndexed" -> {}}],
+    Background->RGBColor[0.9657, 0.9753, 0.9802],
+    FrameMargins->{{12, 12}, {0, 15}},
+    FrameStyle->GrayLevel[0.85],
+    RoundingRadius->5,
+    StripOnInput->False],
+   Deploy,
+   DefaultBaseStyle->"Deploy"],
+  Out[35]]], "Output",
+ CellChangeTimes->{3.636633102659932*^9}]
 }, Open  ]]
 },
 WindowSize->{944, 1102},
@@ -3488,28 +3847,23 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 72074, 1673, 1907, "Input"],
-Cell[72657, 1697, 71681, 1649, 1617, "Output"]
+Cell[72657, 1697, 71705, 1649, 1617, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[144375, 3351, 186, 3, 31, "Input"],
-Cell[144564, 3356, 76, 1, 31, "Output"]
+Cell[144399, 3351, 186, 3, 31, "Input"],
+Cell[144588, 3356, 98, 1, 31, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[144677, 3362, 147, 4, 31, "Input"],
-Cell[144827, 3368, 94, 2, 44, "Output"]
+Cell[144723, 3362, 147, 4, 31, "Input"],
+Cell[144873, 3368, 116, 2, 44, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[144958, 3375, 101, 2, 31, "Input"],
-Cell[145062, 3379, 73, 1, 31, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[145172, 3385, 736, 22, 31, "Input"],
-Cell[145911, 3409, 2392, 37, 154, "Message"],
-Cell[148306, 3448, 684, 21, 31, "Output"]
+Cell[145026, 3375, 101, 2, 31, "Input"],
+Cell[145130, 3379, 97, 1, 31, "Output"],
+Cell[145230, 3382, 19425, 446, 151, "Output"]
 }, Open  ]]
 }
 ]
 *)
 
 (* End of internal cache information *)
-
